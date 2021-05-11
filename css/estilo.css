@@ -336,6 +336,14 @@ section article {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+  nav li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
 }
 
 @media all and (min-width: 992px) {
@@ -419,6 +427,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -439,6 +450,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -459,6 +473,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -479,6 +496,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -499,6 +519,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -519,6 +542,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -539,6 +565,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -559,6 +588,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -579,6 +611,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -599,6 +634,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -619,6 +657,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;
@@ -639,6 +680,9 @@ section article {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   text-shadow: 6px 6px 4px #00205c;
   width: 28rem;

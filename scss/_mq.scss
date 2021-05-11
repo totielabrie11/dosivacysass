@@ -22,6 +22,11 @@
         }
  
     }
+
+nav li  {
+    display: flex;
+    justify-content: right;
+    }
 }
 
 @media all and (min-width:992px){
