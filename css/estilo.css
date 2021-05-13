@@ -96,6 +96,7 @@ div.form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 10px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -722,6 +723,7 @@ section article {
 div.catalogo__image--tamaño {
   width: 26.5rem;
   height: 22rem;
+  background-color: blue;
 }
 
 .catalogo__repuesto1 {
