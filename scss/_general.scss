@@ -36,7 +36,7 @@ main
     {
     color: white;
     section {
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin-bottom: 10px;
     a {
        text-decoration: none; 
@@ -51,6 +51,7 @@ h1 {
 h2 {
     width: 100%;
     margin-left: 12px;
+    margin-top: 10px;
     font-family: 'B612', sans-serif;
     text-shadow: 2px 2px 4px black;
     font-size: 40px;
