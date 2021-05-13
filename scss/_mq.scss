@@ -57,12 +57,13 @@ nav li  {
         margin-right: none;
         margin-left: 1.8px;
     }
-    
-    
-    
+
     h2 {
         display: flex;
         justify-content: center;
+    }
+    div #bomba {
+        width: 80%;
     }
 }
 @media all and (max-width:796px){

@@ -392,6 +392,9 @@ section article {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  div #bomba {
+    width: 80%;
+  }
 }
 
 @media all and (max-width: 796px) {
