@@ -61,9 +61,13 @@ nav li  {
     h2 {
         display: flex;
         justify-content: center;
+        margin-top: 25px;
     }
     div #bomba {
-        width: 75%;
+        width: 80%;
+    }
+    section article.tarjetaproducto {
+        margin-top: 20px;
     }
 }
 @media all and (max-width:796px){

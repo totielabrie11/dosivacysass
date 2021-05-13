@@ -391,9 +391,13 @@ section article {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 25px;
   }
   div #bomba {
-    width: 75%;
+    width: 80%;
+  }
+  section article.tarjetaproducto {
+    margin-top: 20px;
   }
 }
 
