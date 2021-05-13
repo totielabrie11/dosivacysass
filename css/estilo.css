@@ -352,6 +352,9 @@ section article {
     margin-bottom: 20px;
     margin-top: 20px;
   }
+  div.carousel {
+    display: none;
+  }
   nav li {
     display: -webkit-box;
     display: -ms-flexbox;
