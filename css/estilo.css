@@ -139,6 +139,7 @@ nav {
       justify-content: space-around;
   font-size: 20px;
   text-transform: uppercase;
+  background-color: #dbdae4;
 }
 
 nav ul {
@@ -157,6 +158,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+  font-size: 22px;
 }
 
 .logotipo {
@@ -219,7 +221,7 @@ h3 {
 
 #search__input {
   border: 0;
-  background-color: #86d0dd;
+  background-color: #4deb3f;
   color: black;
   outline: none;
 }
@@ -373,7 +375,9 @@ section article {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    background-color: #dff775;
+    background: #020024;
+    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, rgba(137, 82, 231, 0.611082)), color-stop(12%, #30e2dd), color-stop(100%, rgba(108, 240, 218, 0.367384)), to(#9dc4cc));
+    background: linear-gradient(90deg, #020024 0%, rgba(137, 82, 231, 0.611082) 0%, #30e2dd 12%, rgba(108, 240, 218, 0.367384) 100%, #9dc4cc 100%);
   }
 }
 
