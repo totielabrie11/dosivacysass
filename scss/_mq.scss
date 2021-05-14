@@ -25,16 +25,18 @@
             margin-top: 20px;
     } 
     h2 {
-        margin-top: 30px;
+        margin-top: 15px;
     }
     div.carousel {
         display: none;
     }
     
 
-nav li  {
+nav li {
+    width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content:flex-end;
+    align-items: stretch;
     background-color: rgb(223, 247, 117);
     }
 }

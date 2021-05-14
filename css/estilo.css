@@ -357,18 +357,22 @@ section article {
     margin-top: 20px;
   }
   h2 {
-    margin-top: 30px;
+    margin-top: 15px;
   }
   div.carousel {
     display: none;
   }
   nav li {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     background-color: #dff775;
   }
 }
