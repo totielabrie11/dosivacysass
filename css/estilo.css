@@ -205,6 +205,7 @@ h3 {
   font-family: 'B612', sans-serif;
   text-shadow: 2px 2px 4px black;
   color: #72c5f5;
+  height: 100%;
 }
 
 #tarjeta__historia {
@@ -358,8 +359,9 @@ section article {
   section article.tarjetaproducto {
     margin-top: 20px;
   }
-  h2 {
-    margin-top: 15px;
+  h3 {
+    margin-top: 20px;
+    text-align: center;
   }
   div.carousel {
     display: none;
