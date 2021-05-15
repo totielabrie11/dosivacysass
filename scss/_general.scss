@@ -154,3 +154,56 @@ section article {
     background: rgb(203,223,237);
     background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(99,227,235,1) 50%, rgba(82,221,244,1) 82%, rgba(69,85,252,1) 100%);
 }
+/* estilos modal */
+.modal__position {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .lbl-modal{
+        color: black;
+        background: #fff;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #btn-modal {
+        display: none;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background:rgba(0,0,0,0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        }
+#btn-modal:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+        
+        .contenedor {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px;
+            transition: all 500ms ease;
+            position: relative;
+           
+            header {
+                padding: 10px;
+                background: #db8046;
+            }
+        label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            }
+        }
+    }
