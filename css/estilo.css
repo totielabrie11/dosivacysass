@@ -375,9 +375,6 @@ section article {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    background: #020024;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, rgba(137, 82, 231, 0.611082)), color-stop(12%, #30e2dd), color-stop(100%, rgba(108, 240, 218, 0.367384)), to(#9dc4cc));
-    background: linear-gradient(90deg, #020024 0%, rgba(137, 82, 231, 0.611082) 0%, #30e2dd 12%, rgba(108, 240, 218, 0.367384) 100%, #9dc4cc 100%);
   }
 }
 
@@ -737,7 +734,6 @@ section article {
 div.catalogo__image--tamaño {
   width: 26.5rem;
   height: 22rem;
-  background-color: blue;
 }
 
 .catalogo__repuesto1 {
