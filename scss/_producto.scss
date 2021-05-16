@@ -28,8 +28,7 @@ div.catalogo__image--tamaño {
         text-align: center;
     }
 }
-article.catalogo
-    {
+article.catalogo {
     div{
         transition: all 1.5s;
     }
@@ -38,9 +37,11 @@ section.catalogo {
     margin-right: 10px;
     margin-left: 1%;
     justify-content: space-between;
+    a.btn.btn-primary {
+        margin-top: 10px;
+    }
 
-.contenido__desplegable , div.texto__desplegable, .modal__position, .modal, .contenedor, .contenido 
-    {
+/* anular cualquier tipo de animacion   {
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -o-transition: none !important;
@@ -48,9 +49,9 @@ section.catalogo {
     transition: none !important;
     transform: none !important;
     margin-top: 20px;
-}
+} */
 
-div {
+div#ani{
     transition: all 2s;
     &:hover {
     transform: rotate(0deg) translate(10px, 2px) scale(1.04)    
@@ -100,7 +101,7 @@ div {
 /* estilos modal */
 .modal__position {
     width: 100%;
-    height: 100vh;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -111,6 +112,10 @@ div {
         border-radius: 4px;
         cursor: pointer;
     }
+    #btn-modal:checked ~ .modal__position {
+        height: 100%;
+    }
+
     #btn-modal {
         display: none;
     }
@@ -119,7 +124,7 @@ div {
         top: 0;
         left: 0;
         background:rgba(0,0,0,0.5);
-        transition: all 500ms ease;
+        transition: all 1s ease;
         opacity: 0;
         visibility: hidden;
         }
