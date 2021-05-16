@@ -941,6 +941,11 @@ section.catalogo__repuesto div:hover {
 
 .modal__position .lbl-modal {
   color: black;
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
   background: #ecea61;
   padding: 10px 15px;
   border-radius: 4px;
