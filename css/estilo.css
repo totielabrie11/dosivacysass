@@ -222,7 +222,7 @@ h3 {
 
 #search__input {
   border: 0;
-  background-color: #4deb3f;
+  background: #ecea61;
   color: black;
   outline: none;
 }
@@ -239,17 +239,19 @@ h3 {
 .tarjetaproducto
 .card-title {
   font-size: 1.5rem;
-  color: blue;
+  color: #818194;
+  font-style: italic;
   text-align: center;
 }
 
-.card-text {
-  color: grey;
-}
-
-.card-body
-p {
+.card-body p {
+  font-family: "B612";
   font-size: 20px;
+  background: #c3e2e4;
+  padding: 10px;
+  color: black;
+  text-align: justify;
+  border-radius: 5px;
 }
 
 .fondobomba {
@@ -268,9 +270,9 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #002421;
-  background: -webkit-gradient(linear, left top, right top, from(#002421), color-stop(27%, #18c787), to(#00d4ff));
-  background: linear-gradient(90deg, #002421 0%, #18c787 27%, #00d4ff 100%);
+  background: #cbdfed;
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
+  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
   height: 200px;
   -ms-flex-line-pack: center;
       align-content: center;
