@@ -863,10 +863,10 @@ section.catalogo a.btn.btn-primary {
 }
 
 section.catalogo li a.btn-gas {
+  margin-top: 10px;
   font-size: 13px;
   text-transform: uppercase;
   border-radius: 5px;
-  background-color: #8ae791;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
