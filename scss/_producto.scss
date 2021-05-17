@@ -40,6 +40,16 @@ section.catalogo {
     a.btn.btn-primary {
         margin-top: 10px;
     }
+    
+    li a.btn-gas {
+        font-size: 13px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color: rgb(138, 231, 145);
+        display: flex;
+        align-items: center;
+        height: 45px;
+    }
 
 /* anular cualquier tipo de animacion   {
     -webkit-transition: none !important;

@@ -862,6 +862,20 @@ section.catalogo a.btn.btn-primary {
   margin-top: 10px;
 }
 
+section.catalogo li a.btn-gas {
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #8ae791;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+}
+
 section.catalogo div#ani {
   -webkit-transition: all 2s;
   transition: all 2s;
