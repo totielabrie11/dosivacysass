@@ -1002,4 +1002,22 @@ section.catalogo__repuesto div:hover {
   font-size: 20px;
   cursor: pointer;
 }
+
+div.caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #32edff;
+  background: -webkit-gradient(linear, left top, right top, from(#32edff), color-stop(13%, #3afff3), to(#0e6c7e));
+  background: linear-gradient(90deg, #32edff 0%, #3afff3 13%, #0e6c7e 100%);
+  width: 50%;
+  margin-left: 10rem;
+  border-radius: 10px;
+  height: 35rem;
+  position: absolute;
+  padding: 10px;
+}
 /*# sourceMappingURL=estilo.css.map */
