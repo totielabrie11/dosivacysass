@@ -259,6 +259,19 @@ h3 {
   border-radius: 25px;
 }
 
+.dale__like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.dale__like li {
+  list-style: none;
+}
+
 .fondobomba {
   display: -webkit-box;
   display: -ms-flexbox;

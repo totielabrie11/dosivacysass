@@ -115,6 +115,13 @@ h2 {
         margin-bottom: 10px;
         border-radius: 25px;
     }
+.dale__like {
+    display: flex;
+    justify-content: flex-end;
+    li {
+        list-style:none;         
+    }
+}
 
 .fondobomba  {
     display: flex;
