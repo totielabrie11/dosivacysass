@@ -108,9 +108,13 @@ h2 {
             background: rgb(195, 226, 228);
             padding: 10px;
             color: black;   
-            text-align: justify;
-            border-radius: 5px ;
+            text-align: center;
+            border-radius: 5px;
         }
+    .tarjetaproducto__posicionamiento {
+        margin-bottom: 10px;
+        border-radius: 25px;
+    }
 
 .fondobomba  {
     display: flex;
