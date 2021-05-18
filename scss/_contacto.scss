@@ -23,20 +23,20 @@ section div.banner__cliente {
     display: flex;
     width: 100%;
     margin-right: 10%;
- 
+    align-items: center;
+    margin: auto;
     .catalogo__image--position {
         display: flex;
-        width: 50%;
-        height: 8rem;
-        margin-top: 3rem;
         justify-content: space-between;
-        background-color: rgb(221, 213, 213);
+        
 
     .catalgo__image--tamaño {
         width: 7rem;
         height: 7rem;
-        
         margin-right: 10px;
+        background-color: rgb(221, 213, 213);
+        border-radius: 15px;
+        cursor: pointer;  
         }
     }
 }

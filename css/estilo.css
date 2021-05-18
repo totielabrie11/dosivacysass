@@ -71,25 +71,28 @@ section div.banner__cliente {
   display: flex;
   width: 100%;
   margin-right: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
 .catalogo__image .catalogo__image--position {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
-  height: 8rem;
-  margin-top: 3rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #ddd5d5;
 }
 
 .catalogo__image .catalogo__image--position .catalgo__image--tamaño {
   width: 7rem;
   height: 7rem;
   margin-right: 10px;
+  background-color: #ddd5d5;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 div.form {
