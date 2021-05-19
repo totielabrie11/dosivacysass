@@ -99,17 +99,47 @@ section div.banner__cliente {
   width: 10rem;
   height: 10rem;
   margin-right: 10px;
+  margin-top: 10px;
   background-color: #ddd5d5;
   border-radius: 15px;
-  cursor: pointer;
 }
 
 .catalogo__image .catalogo__image--position .catalgo__image--tamaño figure {
-  background-color: black;
   position: relative;
-  width: 9rem;
-  height: 9rem;
+  width: 10rem;
+  height: 10rem;
   overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 103, 123, 0.7);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h3 {
+  font-size: 15px;
+}
+
+#fig__sombra #fig__sombra--contenido {
+  pointer-events: visible;
 }
 
 div.form {
