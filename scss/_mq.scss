@@ -76,6 +76,19 @@ nav li {
     section article.tarjetaproducto {
         margin-top: 20px;
     }
+    div #image--tamaño--mq { 
+        width: 7rem;
+        height: 7rem;
+        background-color: hotpink;
+        figure {
+            margin-top: 5px;
+            width: 7rem;
+            height: 7rem;
+            h3 , spam {
+            font-size: 10px;
+            }
+        }
+    }
 }
 @media all and (max-width:796px){
     .banner__cliente--image {
