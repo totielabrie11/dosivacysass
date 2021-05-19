@@ -38,6 +38,7 @@ section div.banner__cliente {
         height: 10rem;
         margin-right: 10px;
         margin-top: 10px;
+        border-radius: 15px;
         background-color: rgb(221, 213, 213);
           
         figure {
@@ -62,9 +63,11 @@ section div.banner__cliente {
                     transition: all 500ms ease-out;
                     opacity: 0;
                     visibility: hidden;
-                        h3 {
+                        h3 , p {
                             font-size: 15px;
+                            display: block;
                         }
+                        
                     }
                 }
             }

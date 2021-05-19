@@ -100,6 +100,7 @@ section div.banner__cliente {
   height: 10rem;
   margin-right: 10px;
   margin-top: 10px;
+  border-radius: 15px;
   background-color: #ddd5d5;
 }
 
@@ -133,8 +134,9 @@ section div.banner__cliente {
   visibility: hidden;
 }
 
-.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h3 {
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h3, .catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa p {
   font-size: 15px;
+  display: block;
 }
 
 #fig__sombra:hover > .capa {
