@@ -29,14 +29,24 @@ section div.banner__cliente {
         display: flex;
         justify-content: space-between;
         
-
-    .catalgo__image--tamaño {
-        width: 7rem;
-        height: 7rem;
+// este contenedor ademas de definir el tamaño maximo que ocupara la img. va a ser el contenedor para hacer el efecto hover y texto
+    .catalgo__image--tamaño { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+        height: 10rem;
         margin-right: 10px;
         background-color: rgb(221, 213, 213);
         border-radius: 15px;
         cursor: pointer;  
+        figure {
+            background-color: black;
+            position: relative;
+            width: 9rem;
+            height: 9rem;
+            overflow: hidden;
+            }
         }
     }
 }
