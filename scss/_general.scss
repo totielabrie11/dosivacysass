@@ -39,7 +39,7 @@ main
     color: white;
     section {
     margin-bottom: 10px;
-    align-items: flex-start;
+    
     a {
        text-decoration: none; 
         } 
@@ -70,17 +70,18 @@ h2 {
 
 .tarjeta__empresa {
     display: flex;
-    justify-content: space-between;
-    background: none;  
-    margin: auto; 
+    justify-content: center;
+    background: none; 
+    margin: auto;
 }
 #tarjeta__historia1, #tarjeta__historia2  {
-    width: 39rem;
+    width: 40rem;
     color: rgb(36, 141, 226);
     text-align:justify;
 }
 #tarjeta__historia1 {
     margin-left: 4.8rem;
+    
 }
 #tarjeta__historia2 {
     margin-right: 4.6rem;
