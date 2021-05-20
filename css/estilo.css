@@ -1081,7 +1081,43 @@ section.catalogo__repuesto div:hover {
   height: 100%;
 }
 
-.modal__position #btn-modal {
+.modal__position #btn-modal1:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal2:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal3:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal4:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal5:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal6:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal7:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal8:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal9:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal, .modal__position #btn-modal1, .modal__position #btn-modal2, .modal__position #btn-modal3, .modal__position #btn-modal4, .modal__position #btn-modal5, .modal__position #btn-modal6, .modal__position #btn-modal7, .modal__position #btn-modal18, .modal__position #btn-modal9 {
   display: none;
 }
 
@@ -1101,11 +1137,56 @@ section.catalogo__repuesto div:hover {
   visibility: visible;
 }
 
+.modal__position #btn-modal1:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal2:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal3:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal4:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal5:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal6:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal7:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal8:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal9:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
 .modal__position .contenedor {
   width: 400px;
   height: 300px;
   margin: auto;
-  background: #fff;
+  background: #ecea61;
   -webkit-box-shadow: 1px 7px 25px;
           box-shadow: 1px 7px 25px;
   -webkit-transition: all 500ms ease;
