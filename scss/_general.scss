@@ -132,6 +132,15 @@ h3 {
     background: linear-gradient(90deg, rgba(187,255,249,0.4794117476091999) 3%, rgba(0,34,245,0.49061622940191707) 18%, rgba(0,212,255,0.45420166357558645) 100%); 
     }
 
+div.navegacion {
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    .tamaño__img--navegacion {
+        width: 10rem;
+        height: 10rem;
+    }
+}    
 footer {
     display: flex;
     background: rgb(203,223,237);

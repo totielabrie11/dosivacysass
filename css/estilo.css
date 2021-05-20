@@ -357,6 +357,21 @@ h3 {
   background: linear-gradient(90deg, rgba(187, 255, 249, 0.479412) 3%, rgba(0, 34, 245, 0.490616) 18%, rgba(0, 212, 255, 0.454202) 100%);
 }
 
+div.navegacion {
+  background: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.navegacion .tamaño__img--navegacion {
+  width: 10rem;
+  height: 10rem;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
