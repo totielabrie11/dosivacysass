@@ -1,0 +1,241 @@
+@for $i from 1 through 12 {  
+    .catalogo__producto#{$i}  { 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        text-shadow: 6px 6px 4px rgb(0, 32, 92);
+        width: 28rem; 
+        height: 100%; 
+        margin-top: 10px;
+        background-color: grey; 
+        text-align: center;
+    }
+}
+div.catalogo__image--tamaño {    
+    width: 26.5rem;
+    height: 22rem; 
+}
+
+@for $i from 1 through 12 {  
+    .catalogo__repuesto#{$i}  { 
+        
+        width: 15rem; 
+        height: 15rem;
+        margin-top: 10px;
+        background-color: grey; 
+        text-align: center;
+    }
+}
+article.catalogo {
+    div{
+        transition: all 1.5s;
+    }
+    }
+section.catalogo {
+    margin-right: 10px;
+    margin-left: 1%;
+    justify-content: space-between;
+    a.btn.btn-primary {
+        margin-top: 10px;
+    }
+    
+    li a.btn-gas {
+        margin-top: 10px;
+        font-size: 13px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+    }
+
+/* anular cualquier tipo de animacion   {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    transform: none !important;
+    margin-top: 20px;
+} */
+
+div#ani{
+    transition: all 2s;
+    &:hover {
+    transform: rotate(0deg) translate(10px, 2px) scale(1.04)    
+        }
+    }       
+        .catalogo--promocion { /* BEM producto en promocion */
+            background-color: rgb(0, 255, 76);
+            color: black;
+            transition: all 2.3s;
+            &:hover {
+            transform: rotate(0) translate(-2rem, 3rem) scale(1.5)
+    
+        }
+    }
+        .catalogo--sinstock { /* BEM cuando no hay stock */
+            background-color:  orangered;
+            color: black;
+            transition: all 1.5s;
+            &:hover {
+                opacity: 0.5;
+                transform: rotate(20deg) translate(0) scale(0.8)
+            
+        }
+    }
+}
+
+section.catalogo__repuesto {
+    margin-right: 10px;
+    margin-left: 1%;
+    justify-content: space-between;
+
+div {
+    transition: all 1.5s;
+    &:hover {
+    transform: rotate(0deg) translate(25px, 4px) scale(1.05)
+    }    
+    }   
+}
+
+.texto__desplegable {
+    display: flex;
+    text-align: justify;
+    color: black;
+    text-shadow: none;
+    .texto__desplegable--container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* estilos modal */
+.modal__position {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    .lbl-modal{
+        color: black;
+        width: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        color:grey;
+        background: rgb(236, 234, 97);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    #btn-modal:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal1:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal2:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal3:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal4:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal5:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal6:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal7:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal8:checked ~ .modal__position {
+        height: 100%;
+    }
+    #btn-modal9:checked ~ .modal__position {
+        height: 100%;
+    }
+    
+    #btn-modal, #btn-modal1, #btn-modal2, #btn-modal3, #btn-modal4, #btn-modal5, #btn-modal6, #btn-modal7, #btn-modal8, #btn-modal9 {
+        display: none;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background:rgba(0,0,0,0.5);
+        transition: all 1s ease;
+        opacity: 0;
+        visibility: hidden;
+        }
+#btn-modal:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal1:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal2:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal3:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal4:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal5:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal6:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal7:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal8:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+#btn-modal9:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+     
+.contenedor {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background: rgb(236, 234, 97);
+    box-shadow: 1px 7px 25px;
+    transition: all 500ms ease;
+    position: relative;
+           
+    header {
+        padding: 10px;
+        background: #db8046;
+        }
+    label {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        }
+    }
+}
+
+

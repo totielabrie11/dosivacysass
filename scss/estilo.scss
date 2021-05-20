@@ -1,0 +1,21 @@
+@import "contacto";
+@import "general";
+@import "mq";
+@import "producto";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');
+
+
+div.caja {
+    display: flex;
+    justify-content: center;
+    background: rgb(50,237,255);
+    background: linear-gradient(90deg, rgba(50,237,255,1) 0%, rgba(58,255,243,1) 13%, rgba(14,108,126,1) 100%);  
+    width: 50%;
+    margin-left: 10rem;
+    border-radius: 10px;
+    height: 35rem;
+    position: absolute;
+    padding: 10px;
+}

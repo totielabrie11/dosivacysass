@@ -1,0 +1,179 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ }
+ html {
+    font-size: 15px;
+    body {
+    background-image: url(../img/washing-hands.jpg);
+    color:white;
+    }
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: rgb(219, 218, 228);
+    ul {
+        display: flex;
+        justify-content: space-between;  
+    li {
+        list-style:none;
+        margin-right: 3%;
+        a {
+            text-decoration: none;
+            font-size: 22px;
+}}}}
+
+.logotipo {
+    display: flex;
+    justify-content: center;
+}
+
+main  
+    {
+    color: white;
+    section {
+    margin-bottom: 10px;
+    align-items: flex-start;
+    a {
+       text-decoration: none; 
+        } 
+    }
+}
+h1 {
+    color: white;
+    margin-left: 10px;
+    display: none;
+}
+h2 {
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: 'B612', sans-serif;
+    text-shadow: 2px 2px 4px black;
+    font-size: 40px;
+    color: rgb(114, 197, 245);
+    }
+    h3 {
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: 'B612', sans-serif;
+    text-shadow: 2px 2px 4px black;
+    color: rgb(114, 197, 245);
+    height: 100%;       
+}
+
+.tarjeta__empresa {
+    display: flex;
+    justify-content: space-between;
+    background: none;  
+    margin: auto; 
+}
+#tarjeta__historia1, #tarjeta__historia2  {
+    width: 39rem;
+    color: rgb(36, 141, 226);
+    text-align:justify;
+}
+#tarjeta__historia1 {
+    margin-left: 4.8rem;
+}
+#tarjeta__historia2 {
+    margin-right: 4.6rem;
+}
+/* Estilos Navbar */
+#search__contenedor {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#search__input {
+    border: 0;
+    background: rgb(236, 234, 97);
+    color: black;
+    outline: none;
+}
+#search__button {
+    color: grey;
+}
+#form__login {
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+.tarjetaproducto 
+    .card-title {
+        font-size: 1.5rem;
+        color: rgb(129, 129, 148);
+        font-style: italic;
+        text-align: center;
+        }
+        .card-body p {
+            font-family: "B612";
+            font-size: 20px;
+            background: rgb(195, 226, 228);
+            padding: 10px;
+            color: black;   
+            text-align: center;
+            border-radius: 5px;
+        }
+    .tarjetaproducto__posicionamiento {
+        margin-bottom: 10px;
+        border-radius: 25px;
+    }
+.dale__like {
+    display: flex;
+    justify-content: flex-end;
+    li {
+        list-style:none;         
+    }
+}
+
+.fondobomba  {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(187,255,249);
+    background: linear-gradient(90deg, rgba(187,255,249,0.4794117476091999) 3%, rgba(0,34,245,0.49061622940191707) 18%, rgba(0,212,255,0.45420166357558645) 100%); 
+    }
+
+footer {
+    display: flex;
+    background: rgb(203,223,237);
+    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
+    height: 200px;
+    align-content: center;
+    justify-content: space-between;
+    
+    span {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 4rem;
+        font-family: 'Lobster Two', cursive;
+        font-size: 1.6rem;
+        color: rgb(255, 252, 74);
+        text-shadow: 4px 4px 2px black;
+    }
+    div.footer__line {
+        width: 100%;
+        height: 8px;
+        background-color: black;
+    }
+    
+    div.footer__image {
+        width: 3rem;
+        height: 3rem;
+        
+        }
+    .footer__row{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+section article {
+    background: rgb(203,223,237);
+    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(99,227,235,1) 50%, rgba(82,221,244,1) 82%, rgba(69,85,252,1) 100%);
+}
