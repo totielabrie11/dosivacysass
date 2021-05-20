@@ -499,14 +499,14 @@ section article {
     margin-top: 20px;
   }
   div #image--tamaño--mq {
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
     background-color: hotpink;
   }
   div #image--tamaño--mq figure {
     margin-top: 5px;
-    width: 7rem;
-    height: 7rem;
+    width: 5rem;
+    height: 5rem;
   }
   div #image--tamaño--mq figure h3, div #image--tamaño--mq figure spam {
     font-size: 10px;
