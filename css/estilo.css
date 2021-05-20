@@ -285,17 +285,9 @@ h3 {
 }
 
 #tarjeta__historia1, #tarjeta__historia2 {
-  width: 40rem;
+  width: 43rem;
   color: #248de2;
   text-align: justify;
-}
-
-#tarjeta__historia1 {
-  margin-left: 4.8rem;
-}
-
-#tarjeta__historia2 {
-  margin-right: 4.6rem;
 }
 
 /* Estilos Navbar */
@@ -563,14 +555,15 @@ section article {
   .banner__cliente--image {
     margin-top: 10px;
   }
-}
-
-.tarjeta__empresa {
-  width: 100%;
-}
-
-#tarjeta__historia1, #tarjeta__historia2 {
-  margin: auto;
+  .tarjeta__empresa {
+    width: 100%;
+  }
+  #tarjeta__historia1, #tarjeta__historia2 {
+    margin: auto;
+  }
+  #tarjeta__historia2 {
+    margin-top: 10px;
+  }
 }
 
 @media all and (max-width: 576px) {
