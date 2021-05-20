@@ -118,7 +118,13 @@ nav li {
         margin-top: 10px;
         }
     }
-
+    .tarjeta__empresa {
+        width: 100%;
+        
+    }
+    #tarjeta__historia1, #tarjeta__historia2 {
+        margin: auto;
+    }
 @media all and (max-width:576px) {
 article.catalogo__producto1, div.catalogo__producto2, div.catalogo__producto3, div.catalogo__producto4, div.catalogo__producto5, div.catalogo__producto6, div.catalogo__producto7, div.catalogo__producto8, div.catalogo__producto9, div.catalogo__producto10, div.catalogo__producto11, div.catalogo__producto12 {
     height: auto;

@@ -39,6 +39,7 @@ main
     color: white;
     section {
     margin-bottom: 10px;
+    align-items: flex-start;
     a {
        text-decoration: none; 
         } 
@@ -67,14 +68,23 @@ h2 {
     height: 100%;       
 }
 
-
-#tarjeta__historia {
+.tarjeta__empresa {
+    display: flex;
+    justify-content: space-between;
+    background: none;  
+    margin: auto; 
+}
+#tarjeta__historia1, #tarjeta__historia2  {
     width: 39rem;
     color: rgb(36, 141, 226);
     text-align:justify;
 }
-
-
+#tarjeta__historia1 {
+    margin-left: 4.8rem;
+}
+#tarjeta__historia2 {
+    margin-right: 4.6rem;
+}
 /* Estilos Navbar */
 #search__contenedor {
     margin-right: 2%;
