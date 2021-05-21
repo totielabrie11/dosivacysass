@@ -235,6 +235,7 @@ nav ul li a {
 }
 
 main {
+  max-width: 100%;
   color: white;
 }
 
