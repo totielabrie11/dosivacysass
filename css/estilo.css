@@ -359,18 +359,20 @@ h3 {
 }
 
 div.navegacion {
-  background: grey;
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
+  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: auto;
 }
 
 div.navegacion .tamaño__img--navegacion {
-  width: 10rem;
-  height: 10rem;
+  width: 10%;
+  height: 10%;
 }
 
 footer {

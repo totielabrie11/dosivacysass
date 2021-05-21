@@ -133,12 +133,13 @@ h3 {
     }
 
 div.navegacion {
-    background: grey;
+    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
     display: flex;
     justify-content: space-between;
+    height: auto;
     .tamaño__img--navegacion {
-        width: 10rem;
-        height: 10rem;
+        width: 10%;
+        height: 10%;
     }
 }    
 footer {
