@@ -649,13 +649,13 @@ section article {
 
 @media all and (max-width: 496px) {
   li .novedad__image {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     margin-right: 30px;
   }
   #video__gerente {
-    width: 22rem;
-    height: 12rem;
+    width: 18rem;
+    height: 10rem;
   }
 }
 
