@@ -100,3 +100,19 @@ div.form {
         font-style: italic;
     }
 }
+li .novedad__image {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 30px;
+}
+.texto__desplegable {
+    display: flex;
+    text-align: justify;
+    color: black;
+    text-shadow: none;
+    .texto__desplegable--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

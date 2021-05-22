@@ -179,6 +179,34 @@ div.form label {
   font-style: italic;
 }
 
+li .novedad__image {
+  width: 15rem;
+  height: 15rem;
+  margin-right: 30px;
+}
+
+.texto__desplegable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: black;
+  text-shadow: none;
+}
+
+.texto__desplegable .texto__desplegable--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -190,11 +218,13 @@ html {
   font-size: 15px;
   max-width: 100% !important;
   overflow-x: hidden !important;
-  /* descubrí este reseteo para que no se vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
+  /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
 }
 
 html body {
-  background-image: url(../img/washing-hands.jpg);
+  background: #cbdfed;
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
+  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
   color: white;
   overflow: hidden;
 }
@@ -262,16 +292,18 @@ h2 {
   margin-left: 12px;
   margin-top: 10px;
   font-family: 'B612', sans-serif;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 5px 6px 2px black;
   font-size: 40px;
   color: #72c5f5;
+  color: white;
 }
 
 h3 {
-  margin-left: 12px;
+  margin-left: 25px;
   font-family: 'B612', sans-serif;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 3px 3px 2px black;
   color: #72c5f5;
+  color: white;
   height: 100%;
 }
 
@@ -501,6 +533,13 @@ section article {
   }
 }
 
+@media all and (max-width: 816px) {
+  #video__gerente {
+    width: 36rem;
+    height: 20rem;
+  }
+}
+
 @media all and (max-width: 576px) {
   * {
     -webkit-transition: none !important;
@@ -543,6 +582,29 @@ section article {
   }
 }
 
+@media all and (max-width: 1200px) {
+  div#tarjeta__historia {
+    width: 100%;
+  }
+  .banner__cliente--image {
+    margin-top: 10px;
+  }
+  .tarjeta__empresa {
+    width: 100%;
+  }
+  #tarjeta__historia1, #tarjeta__historia2 {
+    margin: auto;
+  }
+  #tarjeta__historia2 {
+    margin-top: 10px;
+  }
+  li .novedad__image {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 30px;
+  }
+}
+
 @media all and (max-width: 796px) {
   .banner__cliente--image {
     width: 100%;
@@ -565,23 +627,10 @@ section article {
     width: 100%;
     height: auto;
   }
-}
-
-@media all and (max-width: 1200px) {
-  div#tarjeta__historia {
-    width: 100%;
-  }
-  .banner__cliente--image {
-    margin-top: 10px;
-  }
-  .tarjeta__empresa {
-    width: 100%;
-  }
-  #tarjeta__historia1, #tarjeta__historia2 {
-    margin: auto;
-  }
-  #tarjeta__historia2 {
-    margin-top: 10px;
+  li .novedad__image {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 30px;
   }
 }
 
@@ -591,6 +640,10 @@ section article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  #video__gerente {
+    width: 24rem;
+    height: 13rem;
   }
 }
 
@@ -1064,28 +1117,6 @@ section.catalogo__repuesto div {
 section.catalogo__repuesto div:hover {
   -webkit-transform: rotate(0deg) translate(25px, 4px) scale(1.05);
           transform: rotate(0deg) translate(25px, 4px) scale(1.05);
-}
-
-.texto__desplegable {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: justify;
-  color: black;
-  text-shadow: none;
-}
-
-.texto__desplegable .texto__desplegable--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 /* estilos modal */

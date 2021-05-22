@@ -101,17 +101,7 @@ div {
     }   
 }
 
-.texto__desplegable {
-    display: flex;
-    text-align: justify;
-    color: black;
-    text-shadow: none;
-    .texto__desplegable--container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 /* estilos modal */
 .modal__position {
     width: 100%;
