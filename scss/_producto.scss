@@ -19,7 +19,6 @@ div.catalogo__image--tamaño {
 }
 
 .galeria__image--contenedor {
-    cursor: pointer;
     width: 15rem; 
     height: 15rem;
     margin-top: 10px;
@@ -71,6 +70,22 @@ div.catalogo__image--tamaño {
         }    
         }   
     }
+    .posisionameinto--btn--image {
+        position: relative;
+    }
+
+    .lbl-modal--gimage {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0);
+        border-radius: 15px;
+        cursor: pointer;
+        position:absolute;
+
+        }
+
 article.catalogo {
     div{
         transition: all 1.5s;
