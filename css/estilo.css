@@ -193,6 +193,7 @@ html {
 html body {
   background-image: url(../img/washing-hands.jpg);
   color: white;
+  overflow-x: hidden;
 }
 
 nav {
