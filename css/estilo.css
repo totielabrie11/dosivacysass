@@ -943,100 +943,130 @@ div.catalogo__image--tamaño {
   height: 22rem;
 }
 
-.catalogo__repuesto1 {
+.galeria__image1 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto2 {
+.galeria__image2 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto3 {
+.galeria__image3 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto4 {
+.galeria__image4 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto5 {
+.galeria__image5 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto6 {
+.galeria__image6 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto7 {
+.galeria__image7 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto8 {
+.galeria__image8 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto9 {
+.galeria__image9 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto10 {
+.galeria__image10 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto11 {
+.galeria__image11 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
 }
 
-.catalogo__repuesto12 {
+.galeria__image12 {
   width: 15rem;
   height: 15rem;
   margin-top: 10px;
   background-color: grey;
-  text-align: center;
+}
+
+.galeria__image13 {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 10px;
+  background-color: grey;
+}
+
+.galeria__image14 {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 10px;
+  background-color: grey;
+}
+
+.galeria__image15 {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 10px;
+  background-color: grey;
+}
+
+.galeria__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.galeria__image figure {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.galeria__image figure:hover {
+  -webkit-transform: rotate(0deg) translate(0px, 0px) scale(1.15);
+          transform: rotate(0deg) translate(0px, 0px) scale(1.15);
 }
 
 article.catalogo div {
@@ -1104,7 +1134,7 @@ section.catalogo .catalogo--promocion:hover {
 
 section.catalogo .catalogo--sinstock {
   /* BEM cuando no hay stock */
-  background-color: orangered;
+  background-color: yellow;
   color: black;
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
@@ -1112,26 +1142,8 @@ section.catalogo .catalogo--sinstock {
 
 section.catalogo .catalogo--sinstock:hover {
   opacity: 0.5;
-  -webkit-transform: rotate(20deg) translate(0) scale(0.8);
-          transform: rotate(20deg) translate(0) scale(0.8);
-}
-
-section.catalogo__repuesto {
-  margin-right: 10px;
-  margin-left: 1%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-section.catalogo__repuesto div {
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-section.catalogo__repuesto div:hover {
-  -webkit-transform: rotate(0deg) translate(25px, 4px) scale(1.05);
-          transform: rotate(0deg) translate(25px, 4px) scale(1.05);
+  -webkit-transform: rotate(10deg) translate(0) scale(0.8);
+          transform: rotate(10deg) translate(0) scale(0.8);
 }
 
 /* estilos modal */
