@@ -103,7 +103,7 @@ h3 {
     margin-top: 40px;
 }
 
-.tarjetaproducto 
+.tarjetaproducto {
     .card-title {
         font-size: 1.5rem;
         color: rgb(129, 129, 148);
@@ -128,7 +128,9 @@ h3 {
     justify-content: flex-end;
     li {
         list-style:none;     
+        }
     }
+    margin-bottom: 30px;
 }
 
 .fondobomba  {

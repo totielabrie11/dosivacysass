@@ -346,15 +346,18 @@ h3 {
   margin-top: 40px;
 }
 
-.tarjetaproducto
-.card-title {
+.tarjetaproducto {
+  margin-bottom: 30px;
+}
+
+.tarjetaproducto .card-title {
   font-size: 1.5rem;
   color: #818194;
   font-style: italic;
   text-align: center;
 }
 
-.card-body p {
+.tarjetaproducto .card-body p {
   font-family: "B612";
   font-size: 20px;
   background: #c3e2e4;
@@ -364,12 +367,12 @@ h3 {
   border-radius: 5px;
 }
 
-.tarjetaproducto__posicionamiento {
+.tarjetaproducto .tarjetaproducto__posicionamiento {
   margin-bottom: 10px;
   border-radius: 25px;
 }
 
-.dale__like {
+.tarjetaproducto .dale__like {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +381,7 @@ h3 {
           justify-content: flex-end;
 }
 
-.dale__like li {
+.tarjetaproducto .dale__like li {
   list-style: none;
 }
 
