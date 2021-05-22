@@ -188,12 +188,15 @@ div.form label {
 
 html {
   font-size: 15px;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  /* descubrí este reseteo para que no se vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
 }
 
 html body {
   background-image: url(../img/washing-hands.jpg);
   color: white;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 nav {
