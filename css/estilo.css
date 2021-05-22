@@ -647,6 +647,18 @@ section article {
   }
 }
 
+@media all and (max-width: 496px) {
+  li .novedad__image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 30px;
+  }
+  #video__gerente {
+    width: 22rem;
+    height: 12rem;
+  }
+}
+
 .catalogo__producto1 {
   display: -webkit-box;
   display: -ms-flexbox;
