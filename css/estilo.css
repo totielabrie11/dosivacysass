@@ -1079,6 +1079,16 @@ label.lbl-modal--gimage {
   text-align: center;
 }
 
+.modal__galeria .contenedor__modal .contenido-img {
+  width: 100%;
+  height: auto;
+  background: chartreuse;
+}
+
+.modal__galeria .contenedor__modal .contenido-img img {
+  width: 100%;
+}
+
 article.catalogo div {
   -webkit-transition: all 1.5s;
   transition: all 1.5s;

@@ -121,8 +121,15 @@ label.lbl-modal--gimage {
             color: #fff;
             font-size: 20px;
             text-align: center;
-        }     
-                
+            }
+        .contenido-img {
+            width: 100%;
+            height: auto;
+            background: chartreuse;
+            img {
+                width: 100%;
+            }             
+        }
     }
 }
 
