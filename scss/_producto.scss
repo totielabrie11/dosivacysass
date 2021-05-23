@@ -39,7 +39,7 @@ div.catalogo__image--tamaño {
         height: 15rem;
         border-radius: 15px;
         overflow:hidden;
-        box-shadow: 5px 10px 20px rgba(255, 255, 255, 0.548);
+        box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
         img {
             transition: all 1s ease-out;
         }
@@ -70,27 +70,66 @@ div.catalogo__image--tamaño {
         }    
         }   
     }
-    .posisionameinto--btn--image {
-        position: relative;
+    
+.modal__position--gimg {
+    position: relative;
     }
 
-    .lbl-modal--gimage {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0);
-        border-radius: 15px;
-        cursor: pointer;
-        position:absolute;
-
+.lbl-modal--gimage {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    position:absolute;
         }
+.modal__foto--position {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+    .contenedor--foto {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        background: rgb(236, 234, 97);
+        box-shadow: 1px 7px 25px;
+        transition: all 500ms ease;
+        position: relative;
+                   
+        header {
+            padding: 10px;
+            background: rgb(236, 234, 97);
+    }
+        label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background:rgba(0,0,0,0.5);
+        transition: all 1s ease;
+        opacity: 0;
+        visibility: hidden;
+        }
+}
+        
+
 
 article.catalogo {
     div{
         transition: all 1.5s;
     }
-    }
+}
 section.catalogo {
     margin-right: 10px;
     margin-left: 1%;
