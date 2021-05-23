@@ -30,12 +30,12 @@ div.catalogo__image--tamaño {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    z-index: -1;
+    
 
 
 
     figure {
-        z-index: -1;
+        z-index: 0;
         position: relative;
         width: 15rem;
         height: 15rem;
@@ -72,8 +72,10 @@ div.catalogo__image--tamaño {
         }    
         }   
     }
-    
-.lbl-modal--gimage {
+input#btn-modal-img {
+    display: none;
+}   
+label.lbl-modal--gimage {
     position: absolute;
     top: 0;
     width: 100%;
@@ -94,6 +96,7 @@ div.catalogo__image--tamaño {
     justify-content: center;
     align-items: center;
     transition: all 500ms ease;
+    z-index: 1;
     .contenedor__modal {
         width: 80%;
         height: auto;
@@ -108,22 +111,13 @@ div.catalogo__image--tamaño {
             color: #fff;
             text-align: center;
             }
-        label {
-                position: absolute;
-                width: 30px;
-                top: 6px;
-                right: 20px;
-                font-size: 20px;
-                background: rgb(0, 0, 0);
-                border-radius: 100%;
-                text-align: center;
-                cursor: pointer;
+     
 
                 
         }
     }
 
-}
+
 
         
 
