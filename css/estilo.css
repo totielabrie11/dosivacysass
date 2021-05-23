@@ -1067,6 +1067,18 @@ label.lbl-modal--gimage {
   text-align: center;
 }
 
+.modal__galeria .contenedor__modal label {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  border-radius: 100%;
+  background: #000;
+  width: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
 article.catalogo div {
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
