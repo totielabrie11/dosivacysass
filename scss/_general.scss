@@ -46,6 +46,24 @@ nav {
     width: 50%;
     }
 }
+/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
+#search__contenedor {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#search__input {
+    border: 0;
+    background: rgb(236, 234, 97);
+    color: black;
+    outline: none;
+}
+#search__button {
+    color: grey;
+}
+#form__login {
+    margin-right: 15%;
+    margin-top: 40px;
+}
 
 .logotipo {
     display: flex;
@@ -87,6 +105,8 @@ h3 {
     height: 100%;       
 }
 
+
+
 .tarjeta__empresa {
     display: flex;
     justify-content: center;
@@ -98,26 +118,8 @@ h3 {
     color: rgb(36, 141, 226);
     text-align:justify;
 }
-/* Estilos Navbar */
-#search__contenedor {
-    margin-right: 2%;
-    margin-left: 2%;
-}
-#search__input {
-    border: 0;
-    background: rgb(236, 234, 97);
-    color: black;
-    outline: none;
-}
-#search__button {
-    color: grey;
-}
-#form__login {
-    margin-right: 15%;
-    margin-top: 40px;
-}
 
-.tarjetaproducto {
+.tarjetaproducto { /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
     .card-title {
         font-size: 1.5rem;
         color: rgb(129, 129, 148);
@@ -154,7 +156,7 @@ h3 {
     background: linear-gradient(90deg, rgba(187,255,249,0.4794117476091999) 3%, rgba(0,34,245,0.49061622940191707) 18%, rgba(0,212,255,0.45420166357558645) 100%); 
     }
 
-div.navegacion {
+div.navegacion { /* esta relacionado con las flechas de navegacion que están arriba del footer */
     background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
     display: flex;
     justify-content: space-between;
@@ -198,7 +200,7 @@ footer {
         justify-content: space-around;
     }
 }
-section article {
+section article { /* todos los articulos "article" que estén dentro de un section, recibiran este fondo por defecto */
     background: rgb(203,223,237);
     background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(99,227,235,1) 50%, rgba(82,221,244,1) 82%, rgba(69,85,252,1) 100%);
 }

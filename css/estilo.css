@@ -281,6 +281,28 @@ nav ul li a {
   width: 50%;
 }
 
+/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
+#search__contenedor {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#search__input {
+  border: 0;
+  background: #ecea61;
+  color: black;
+  outline: none;
+}
+
+#search__button {
+  color: grey;
+}
+
+#form__login {
+  margin-right: 15%;
+  margin-top: 40px;
+}
+
 .logotipo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,29 +368,8 @@ h3 {
   text-align: justify;
 }
 
-/* Estilos Navbar */
-#search__contenedor {
-  margin-right: 2%;
-  margin-left: 2%;
-}
-
-#search__input {
-  border: 0;
-  background: #ecea61;
-  color: black;
-  outline: none;
-}
-
-#search__button {
-  color: grey;
-}
-
-#form__login {
-  margin-right: 15%;
-  margin-top: 40px;
-}
-
 .tarjetaproducto {
+  /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
   margin-bottom: 30px;
 }
 
@@ -420,6 +421,7 @@ h3 {
 }
 
 div.navegacion {
+  /* esta relacionado con las flechas de navegacion que están arriba del footer */
   background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
   background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
   display: -webkit-box;
@@ -486,6 +488,7 @@ footer .footer__row {
 }
 
 section article {
+  /* todos los articulos "article" que estén dentro de un section, recibiran este fondo por defecto */
   background: #cbdfed;
   background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(50%, #63e3eb), color-stop(82%, #52ddf4), to(#4555fc));
   background: linear-gradient(90deg, #cbdfed 0%, #63e3eb 50%, #52ddf4 82%, #4555fc 100%);
