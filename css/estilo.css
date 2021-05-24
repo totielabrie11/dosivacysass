@@ -966,10 +966,9 @@ div.catalogo__image--tamaño {
 }
 
 .galeria__image figure {
-  z-index: 0;
   position: relative;
   width: 15rem;
-  height: 15rem;
+  height: 10rem;
   border-radius: 15px;
   overflow: hidden;
   -webkit-box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
@@ -987,29 +986,11 @@ div.catalogo__image--tamaño {
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background: rgba(43, 60, 92, 0.486);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  background: rgba(0, 1, 2, 0.61);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
-}
-
-.galeria__image #fig__sombra--img:hover > .capa1 {
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-  opacity: 1;
-  visibility: visible;
-}
-
-.galeria__image figure {
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.galeria__image figure:hover {
-  -webkit-transform: rotate(0deg) translate(0px, 0px) scale(1.15);
-          transform: rotate(0deg) translate(0px, 0px) scale(1.15);
-  background-color: rgba(0, 0, 0, 0.678);
 }
 
 input#btn-modal-img {
@@ -1047,7 +1028,6 @@ label.lbl-modal--image {
   transition: all 500ms ease;
   visibility: hidden;
   opacity: 0;
-  z-index: 1;
 }
 
 .modal__galeria .contenedor__modal {
@@ -1098,6 +1078,20 @@ label.lbl-modal--image {
   z-index: 1;
 }
 
+#fig__sombra--img:hover > .capa1 {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* figure {
+    transition: all 1.5s;
+    &:hover {
+    transform: rotate(0deg) translate(0px, 0px) scale(1.15);
+    background-color: rgba(0, 0, 0, 0.678);
+    }    
+}    */
 article.catalogo div {
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
@@ -1116,7 +1110,6 @@ section.catalogo {
     -ms-transition: none !important;
     transition: none !important;
     transform: none !important;
-    margin-top: 20px;
 } */
 }
 
