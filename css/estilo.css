@@ -660,8 +660,15 @@ section article {
     width: 18rem;
     height: 10rem;
   }
-  .galeria__image1 {
+  .galeria__image figure#fig__sombra--img {
     width: 100%;
+    height: 20%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -947,8 +954,6 @@ div.catalogo__image--tamaño {
 }
 
 .galeria__image--contenedor {
-  width: 15rem;
-  height: 15rem;
   margin-top: 10px;
   border-radius: 15px;
   background-color: grey;
