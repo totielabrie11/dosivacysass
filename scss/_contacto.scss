@@ -34,15 +34,15 @@ section div.banner__cliente {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
         border-radius: 15px;
         background-color: rgb(221, 213, 213);
           
         figure {
             position: relative;
-            width: 10rem;
-            height: 10rem;
+            width: 12rem;
+            height: 12rem;
             overflow: hidden;
             border-radius: 10px;
                 img {
@@ -63,11 +63,13 @@ section div.banner__cliente {
                     text-align: inherit;
                         h3 {
                             position: absolute;
-                            font-size: 15px;}
+                            left:15px;
+                            font-size: 15px;
+                            }
                         spam {
                             position: relative;
                             display: flex;
-                            top:3rem;
+                            top:6rem;
                             font-family: 'B612', sans-serif;
                             text-align: center;
                             color: black;

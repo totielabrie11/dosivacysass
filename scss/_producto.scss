@@ -279,25 +279,7 @@ div#ani{  /* todo lo que esté dentro de un div con el id "ani" va a tener este 
     transform: rotate(0deg) translate(10px, 2px) scale(1.04)    
         }
     }       
-        .catalogo--promocion { /* BEM producto en promocion */
-            background-color: rgb(0, 255, 76);
-            color: black;
-            transition: all 2.3s;
-            &:hover {
-            transform: rotate(0) translate(-2rem, 3rem) scale(1.5)
-    
-        }
-    }
-        .catalogo--sinstock { /* BEM cuando no hay stock */
-            background-color: yellow;
-            color: black;
-            transition: all 1.5s;
-            &:hover {
-                opacity: 0.5;
-                transform: rotate(10deg) translate(0) scale(0.8)
-            
-        }
-    }
+ 
 }
 
 

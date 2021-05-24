@@ -97,7 +97,8 @@ h2 {
     color: white;
     }
 h3 {
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
     font-family: 'B612', sans-serif;
     text-shadow: 3px 3px 2px black;
     color: rgb(114, 197, 245);
@@ -138,6 +139,7 @@ h3 {
     .tarjetaproducto__posicionamiento {
         margin-bottom: 10px;
         border-radius: 25px;
+        margin-bottom: 30px;
     }
 .dale__like {
     display: flex;
@@ -146,7 +148,7 @@ h3 {
         list-style:none;     
         }
     }
-    margin-bottom: 30px;
+    
 }
 
 .fondobomba  {
