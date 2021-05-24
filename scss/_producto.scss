@@ -75,7 +75,7 @@ div.catalogo__image--tamaño {
 input#btn-modal-img {
     display: none;
 }   
-label.lbl-modal--gimage {
+label.lbl-modal--image {
     position: absolute;
     top: 0;
     width: 100%;
@@ -96,6 +96,8 @@ label.lbl-modal--gimage {
     justify-content: center;
     align-items: center;
     transition: all 500ms ease;
+    visibility: hidden;
+    opacity: 0;
     z-index: 1;
     .contenedor__modal {
         width: 80%;
@@ -121,6 +123,7 @@ label.lbl-modal--gimage {
             color: #fff;
             font-size: 20px;
             text-align: center;
+            cursor: pointer;
             }
         .contenido-img {
             width: 100%;
@@ -132,7 +135,11 @@ label.lbl-modal--gimage {
         }
     }
 }
-
+#btn-modal-img:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
 
 
         
