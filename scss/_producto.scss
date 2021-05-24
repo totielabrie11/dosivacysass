@@ -31,9 +31,6 @@ div.catalogo__image--tamaño {
     flex-wrap: wrap;
     justify-content: space-between;
     
-
-
-
     figure {
         position: relative;
         width: 15rem;
@@ -41,6 +38,8 @@ div.catalogo__image--tamaño {
         border-radius: 15px;
         overflow:hidden;
         box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
+        display: flex;
+        align-items: center;
         img {
             transition: all 1s ease-out;
         }
@@ -59,7 +58,7 @@ div.catalogo__image--tamaño {
     
 } 
 
-input#btn-modal-img {
+input#btn-modal-img, #btn-modal-img1, #btn-modal-img2, #btn-modal-img3, #btn-modal-img4, #btn-modal-img5, #btn-modal-img6, #btn-modal-img7, #btn-modal-img8, #btn-modal-img9, #btn-modal-img10, #btn-modal-img11, #btn-modal-img12, #btn-modal-img13, #btn-modal-img14, #btn-modal-img15, #btn-modal-img16, #btn-modal-img17, #btn-modal-img18, #btn-modal-img19, #btn-modal-img20 {
     display: none;
 }   
 label.lbl-modal--image {
@@ -128,25 +127,120 @@ label.lbl-modal--image {
         }
     }
 }
-#btn-modal-img:checked ~ .modal__galeria {
+#btn-modal-img:checked ~ .modal__galeria {     /* me hubiera gustado resolverlo con otra sintaxis, prove con parentesis con , con ; y nada me funcionó. Finalmente opto por repetir la funcion por la cantidad de veces que lo necesito (esto se reptie en el modal que contiene cada tarjeta de producto) */
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img1:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img2:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img3:checked ~ .modal__galeria {   
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img4:checked ~ .modal__galeria {    
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img5:checked ~ .modal__galeria {    
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img6:checked ~ .modal__galeria {    
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img7:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img8:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img9:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img10:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img11:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img12:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img13:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img14:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img15:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img16:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img17:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img18:checked ~ .modal__galeria {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+#btn-modal-img19:checked ~ .modal__galeria {
     opacity: 1;
     visibility: visible;
     z-index: 1;
 }
 
-#fig__sombra--img:hover > .capa1 {
+#fig__sombra--img:hover > .capa1 {  /* esto muestra el efecto o la transicion de la capa oculta al pasar el mosue por la foto que vamos a seleccinar */
         transition: all 1s ease-out;
         opacity: 1;
         visibility: visible;
     }
 
-/* figure {
+figure {        
     transition: all 1.5s;
     &:hover {
-    transform: rotate(0deg) translate(0px, 0px) scale(1.15);
+    /* transform:  scale(1.20); tuve que anular el efecto con escalamiento por que me rompe el modal y se volvia loca la pagina.*/
     background-color: rgba(0, 0, 0, 0.678);
     }    
-}    */
+} 
 
 
 article.catalogo {
@@ -181,7 +275,7 @@ section.catalogo {
     transform: none !important;
 } */
 
-div#ani{
+div#ani{  /* todo lo que esté dentro de un div con el id "ani" va a tener este pequeño efecto */
     transition: all 2s;
     &:hover {
     transform: rotate(0deg) translate(10px, 2px) scale(1.04)    
@@ -211,7 +305,7 @@ div#ani{
 
 
 
-/* estilos modal */
+/* estilos modal (de todos mis catalgos de producto)*/
 .modal__position {
     width: 100%;
     height: 10%;
@@ -230,7 +324,7 @@ div#ani{
         border-radius: 4px;
         cursor: pointer;
     }
-    #btn-modal:checked ~ .modal__position {
+    #btn-modal:checked ~ .modal__position { /* se repite el problema de sintaxis expuesto arriba en la galeria de fotos */
         height: 100%;
     }
     #btn-modal1:checked ~ .modal__position {
