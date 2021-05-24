@@ -103,7 +103,7 @@ label.lbl-modal--image {
         label  {
             position: absolute;
             right: 15px;
-            top: 8px;
+            top: 7px;
             border-radius: 100%;
             background: #000;
             width: 30px;
@@ -111,6 +111,12 @@ label.lbl-modal--image {
             font-size: 20px;
             text-align: center;
             cursor: pointer;
+            box-shadow: 4px 4px 0px (rgb(0, 0, 0)); 
+            transition: all 0.5s ease;
+            &:hover {
+                transform: rotate(0deg) translate(4px, 4px) scale(1);
+                box-shadow: 0px 0px 0px
+                       } 
             }
         .contenido-img {
             width: 100%;
@@ -127,8 +133,6 @@ label.lbl-modal--image {
     visibility: visible;
     z-index: 1;
 }
-
-
 
 #fig__sombra--img:hover > .capa1 {
         transition: all 1s ease-out;
