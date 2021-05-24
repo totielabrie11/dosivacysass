@@ -546,12 +546,16 @@ section article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* para que no me tire elementos desplegables hacia el costado */
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    /* mi navegacion mobiel pasa a estar a la derecha "mas facil para moverse con una sola mano" */
+    /* justify-content: flex-end; al cambiar el eje horizontal por eje vertical esta propiedad ya no me empuja los elementos hacia la derecha sino que los empuja hacia abajo donde no tienen mas lugar, por eso arriba uso la propiedad align-items: flex end, "eje vertical" ;*/
   }
   #search__input {
     min-width: 73%;
@@ -579,17 +583,14 @@ section article {
 }
 
 @media all and (max-width: 576px) {
-  * {
-    -webkit-transition: none !important;
-    transition: none !important;
-    -webkit-transform: none !important;
-            transform: none !important;
-  }
-  div.catalogo__repuesto1, div.catalogo__repuesto2, div.catalogo__repuesto3, div.catalogo__repuesto4, div.catalogo__repuesto5, div.catalogo__repuesto6, div.catalogo__repuesto7, div.catalogo__repuesto8, div.catalogo__repuesto9, div.catalogo__repuesto10, div.catalogo__repuesto11, div.catalogo__repuesto12 {
-    width: 35rem;
-    margin-right: none;
-    margin-left: 1.8px;
-  }
+  /* * {  Durante todo mi proyecto, o gran parte de las hrs que llevo en él. Desactive todas las animaciones en tamaño mobile pequeño como el mío. Pensé que no tenia sentido que estén presentes. Luego mis animaciones estuvieron mejor y me animo a dejarlas presentes en la entrega final.
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+        transform: none !important;
+       } */
   h2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -653,6 +654,7 @@ section article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    /* Entiendo que existen herramientas mas poderosas para hacer esta sintaxis mas ordenada, por ahora se me escapa  */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

@@ -36,8 +36,10 @@ div.carousel {
 nav li {
     width: 100%;
     display: flex;
-    justify-content:flex-end;
-    align-items: stretch;
+    flex-direction: column; /* para que no me tire elementos desplegables hacia el costado */
+    align-items: flex-end; /* mi navegacion mobiel pasa a estar a la derecha "mas facil para moverse con una sola mano" */
+    /* justify-content: flex-end; al cambiar el eje horizontal por eje vertical esta propiedad ya no me empuja los elementos hacia la derecha sino que los empuja hacia abajo donde no tienen mas lugar, por eso arriba uso la propiedad align-items: flex end, "eje vertical" ;*/ 
+
 
     }
 #search__input {
@@ -64,21 +66,15 @@ nav li {
     }
 }
 @media all and (max-width:576px){
-    * {
+    /* * {  Durante todo mi proyecto, o gran parte de las hrs que llevo en él. Desactive todas las animaciones en tamaño mobile pequeño como el mío. Pensé que no tenia sentido que estén presentes. Luego mis animaciones estuvieron mejor y me animo a dejarlas presentes en la entrega final.
         -webkit-transition: none !important;
         -moz-transition: none !important;
         -o-transition: none !important;
         -ms-transition: none !important;
         transition: none !important;
         transform: none !important;
-       }
+       } */
     
-       
-    div.catalogo__repuesto1, div.catalogo__repuesto2, div.catalogo__repuesto3, div.catalogo__repuesto4, div.catalogo__repuesto5, div.catalogo__repuesto6, div.catalogo__repuesto7, div.catalogo__repuesto8, div.catalogo__repuesto9, div.catalogo__repuesto10, div.catalogo__repuesto11, div.catalogo__repuesto12 { 
-        width: 35rem;
-        margin-right: none;
-        margin-left: 1.8px;
-    }
 
     h2 {
         display: flex;
@@ -138,7 +134,7 @@ nav li {
         margin-top: 10px;
     }
     article.catalogo__producto1, article.catalogo__producto2, article.catalogo__producto3, article.catalogo__producto4, article.catalogo__producto5, article.catalogo__producto6, article.catalogo__producto7, article.catalogo__producto8, article.catalogo__producto9, article.catalogo__producto10, article.catalogo__producto11, article.catalogo__producto12 {
-        display: flex;
+        display: flex;/* Entiendo que existen herramientas mas poderosas para hacer esta sintaxis mas ordenada, por ahora se me escapa  */
         flex-direction: column;
         justify-content:inherit;
         margin-right: none;
