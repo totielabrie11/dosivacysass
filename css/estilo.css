@@ -233,9 +233,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-size: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-transform: uppercase;
   background-color: #dbdae4;
 }
@@ -244,9 +244,6 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 nav ul li {
@@ -257,6 +254,31 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 22px;
+  margin-right: 10px;
+}
+
+#search__contenedor {
+  /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+#search__contenedor #search__button {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#search__contenedor #search__input {
+  text-align: inherit;
+  width: 50%;
 }
 
 .logotipo {
@@ -490,7 +512,7 @@ section article {
   margin-bottom: 10px;
 }
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
   footer {
     width: 100%;
     height: 22rem;
@@ -528,9 +550,19 @@ section article {
         -ms-flex-align: stretch;
             align-items: stretch;
   }
+  #search__input {
+    min-width: 73%;
+    margin-left: 20%;
+    margin: auto;
+    background: #87fbff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media all and (min-width: 992px) {
+  /* mismo breakpoint que la mq anterior pero ahora a partir de este tamaño no se mostrara el elemento  (linea divisoria en footer) */
   footer div.footer__line {
     display: none;
   }

@@ -5,42 +5,51 @@
     }
 }
 
-@media all and (max-width:992px){
-    footer {
-        width: 100%;
-        height: 22rem;
+@media all and (max-width:991px){
+footer {
+    width: 100%;
+    height: 22rem;
     span {
         margin-top:3rem;
         font-size: 2.5rem;
         display: none;
-        }
+    }
     div.footer__image {
-        width: 4rem;
-        height: 4rem;
-        margin-bottom: 20px;
-        margin-top: 20px;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
         }
     }
-    section article.tarjetaproducto {
-            margin-top: 20px;
+
+section article.tarjetaproducto {
+    margin-top: 20px;
     } 
-    h3 {
-        margin-top: 20px;
-        text-align: center;
+h3 {
+    margin-top: 20px;
+    text-align: center;
     }
-    div.carousel {
-        display: none;
+div.carousel {
+    display: none;
     }
     
-
 nav li {
     width: 100%;
     display: flex;
     justify-content:flex-end;
     align-items: stretch;
+
+    }
+#search__input {
+        min-width: 73%;
+        margin-left: 20%;
+        margin: auto;
+        background: rgb(135, 251, 255);
+        align-items: center;
     }
 }
-@media all and (min-width:992px){
+
+@media all and (min-width:992px){ /* mismo breakpoint que la mq anterior pero ahora a partir de este tamaño no se mostrara el elemento  (linea divisoria en footer) */
     footer {
     div.footer__line {
         display: none;
@@ -121,7 +130,6 @@ nav li {
         height: 10rem;
         margin-right: 30px;
     }
-    
 }
 @media all and (max-width:796px){
     .banner__cliente--image {

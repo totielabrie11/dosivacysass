@@ -18,20 +18,34 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
-    font-size: 20px;
+    justify-content: space-between;
     text-transform:uppercase;
     background-color: rgb(219, 218, 228);
     ul {
         display: flex;
-        justify-content: space-between;  
-    li {
-        list-style:none;
-        margin-right: 3%;
-        a {
-            text-decoration: none;
-            font-size: 22px;
+        li {
+            list-style:none;
+            margin-right: 3%;
+            a {
+                text-decoration: none;
+                font-size: 22px;
+                margin-right: 10px;
 }}}}
+
+#search__contenedor { /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;   
+    #search__button {
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    }
+    #search__input {
+    text-align:inherit;
+    width: 50%;
+    }
+}
 
 .logotipo {
     display: flex;
