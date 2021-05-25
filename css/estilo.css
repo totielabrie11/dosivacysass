@@ -719,18 +719,21 @@ section article {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     width: 40%;
+    /* el modal no giraba por que antes debía de encogerse , rotar y luego crecer */
     -webkit-transition: all 200ms;
     transition: all 200ms;
     min-width: 120%;
-    /* fuerzo a la imagen a que se estire. va a su contenedor ya que la img lleva el 100% del peso del padre */
+    /* fuerzo a la imagen a que se estire, en realidad a su contenedor ya que la img lleva el 100% del peso del padre */
     height: auto;
   }
   .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img {
     width: 100%;
+    /* como el contenedor modal crece con la propiedad min-width - el contenedor hijo que le asigna tamaño al img crece siguiendo la suerte del padre */
     height: auto;
   }
   .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img img {
     min-width: 100%;
+    /* el img no tiene mas remedio que crecer ante este evento */
   }
 }
 
