@@ -717,6 +717,9 @@ section article {
   .galeria__image figure#fig__sombra--img .contenedor__modal:hover {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+    width: 40%;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
     width: 100%;
   }
 }

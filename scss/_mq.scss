@@ -179,7 +179,9 @@ article.catalogo__producto1, div.catalogo__producto2, div.catalogo__producto3, d
             transition: all 500ms ease;
                 &:hover {
                 transform: rotate(90deg);
-                width:100%;
+                width:40%;
+                transition: all 200ms;
+                width: 100%;
             }
         }
     }
