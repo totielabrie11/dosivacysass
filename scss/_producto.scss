@@ -91,6 +91,10 @@ label.lbl-modal--image {
         box-shadow: 2px 7px 25px rgba(255,255,255,0.6);
         transition: all 500ms ease;
         position: relative;
+        &:hover {
+            transform: rotate(90deg);
+            width:100%;
+        }
         header {
             padding: 10px;
             background: #db5046;
@@ -118,7 +122,6 @@ label.lbl-modal--image {
         .contenido-img {
             width: 100%;
             height: auto;
-            background: chartreuse;
             img {
                 width: 100%;
             }             

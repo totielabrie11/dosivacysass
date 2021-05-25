@@ -175,6 +175,12 @@ article.catalogo__producto1, div.catalogo__producto2, div.catalogo__producto3, d
         height: 20%;
         justify-content: center;
         align-items: center;
-        
+        .contenedor__modal {
+            transition: all 500ms ease;
+                &:hover {
+                transform: rotate(90deg);
+                width:100%;
+            }
+        }
     }
 }
