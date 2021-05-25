@@ -1102,12 +1102,6 @@ label.lbl-modal--image {
   position: relative;
 }
 
-.modal__galeria .contenedor__modal:hover {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  width: 100%;
-}
-
 .modal__galeria .contenedor__modal header {
   padding: 10px;
   background: #db5046;
