@@ -715,12 +715,22 @@ section article {
     transition: all 500ms ease;
   }
   .galeria__image figure#fig__sombra--img .contenedor__modal:hover {
+    /* La intencion en esta mq, era que cuando abria la foto en mi dispositivo mobile. la foto modal que tenia un width 80% era mas pequeña que mi cajita de vista previa. Pero si al hacer click la imagen se girase, sería muy util, aunque de todas formas siempre tienes la opcion de girar el telefono y pasar al breakpint siguiente donde esto no ocurre.  */
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     width: 40%;
     -webkit-transition: all 200ms;
     transition: all 200ms;
+    min-width: 120%;
+    /* fuerzo a la imagen a que se estire. va a su contenedor ya que la img lleva el 100% del peso del padre */
+    height: auto;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img {
     width: 100%;
+    height: auto;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img img {
+    min-width: 100%;
   }
 }
 
