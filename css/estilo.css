@@ -580,6 +580,13 @@ section article {
         -ms-flex-align: center;
             align-items: center;
   }
+  div#banner__aireacion--position {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200%;
+  }
 }
 
 @media all and (min-width: 992px) {

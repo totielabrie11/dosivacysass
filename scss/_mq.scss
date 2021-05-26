@@ -41,7 +41,6 @@ nav li {
     align-items: flex-end; /* mi navegacion mobiel pasa a estar a la derecha "mas facil para moverse con una sola mano" */
     /* justify-content: flex-end; al cambiar el eje horizontal por eje vertical esta propiedad ya no me empuja los elementos hacia la derecha sino que los empuja hacia abajo donde no tienen mas lugar, por eso arriba uso la propiedad align-items: flex end, "eje vertical" ;*/ 
 
-
     }
 #search__input {
         min-width: 73%;
@@ -49,6 +48,11 @@ nav li {
         margin: auto;
         background: rgb(135, 251, 255);
         align-items: center;
+    }
+    div#banner__aireacion--position {
+        flex-direction: column;
+        width: 200%;
+    
     }
 }
 
