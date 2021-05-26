@@ -80,32 +80,33 @@ main {
        text-decoration: none; 
         } 
     }
-}
-h1 {
-    color: white;
-    margin-left: 10px;
-    display: none;
-}
-h2 {
-    width: 100%;
-    margin-left: 12px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    text-shadow: 5px 6px 2px black;
-    font-size: 40px;
-    color: rgb(114, 197, 245);
-    color: white;
-    }
-h3 {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    text-shadow: 3px 3px 2px black;
-    color: rgb(114, 197, 245);
-    color: white;
-    height: 100%;       
-}
 
+    h1 {
+        color: white;
+        margin-left: 10px;
+        display: none;
+    }
+        
+    h2 {
+        width: 100%;
+        margin-left: 12px;
+        margin-top: 10px;
+        font-family: 'B612', sans-serif;
+        text-shadow: 5px 6px 2px black;
+        font-size: 40px;
+        color: rgb(114, 197, 245);
+        color: white;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-family: 'B612', sans-serif;
+        text-shadow: 3px 3px 2px black;
+        color: rgb(114, 197, 245);
+        color: white;
+        height: 100%;       
+    }
+}
 
 
 .tarjeta__empresa {
@@ -121,7 +122,7 @@ h3 {
 }
 
 .tarjetaproducto { /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
-    .card-title {
+    .card-title { 
         font-size: 1.5rem;
         color: rgb(129, 129, 148);
         font-style: italic;
@@ -137,8 +138,6 @@ h3 {
             border-radius: 5px;
         }
     .tarjetaproducto__posicionamiento {
-        margin-bottom: 10px;
-        border-radius: 25px;
         margin-bottom: 30px;
     }
 .dale__like {
@@ -148,7 +147,6 @@ h3 {
         list-style:none;     
         }
     }
-    
 }
 
 .fondobomba  {

@@ -132,9 +132,10 @@ section div.banner__cliente {
   text-align: inherit;
 }
 
-.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h3 {
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h5 {
   position: absolute;
-  left: 15px;
+  top: 50px;
+  left: 5px;
   font-size: 15px;
 }
 
@@ -143,10 +144,10 @@ section div.banner__cliente {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  top: 6rem;
+  top: 15rem;
   font-family: 'B612', sans-serif;
   text-align: center;
-  color: black;
+  color: #dad735;
   font-size: 15px;
 }
 
@@ -155,6 +156,18 @@ section div.banner__cliente {
   transition: all 500ms ease-out;
   opacity: 1;
   visibility: visible;
+}
+
+#fig__sombra:hover > .capa h5 {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  top: 5px;
+}
+
+#fig__sombra:hover > .capa spam {
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  top: 5rem;
 }
 
 div.form {
@@ -326,13 +339,13 @@ main section a {
   text-decoration: none;
 }
 
-h1 {
+main h1 {
   color: white;
   margin-left: 10px;
   display: none;
 }
 
-h2 {
+main h2 {
   width: 100%;
   margin-left: 12px;
   margin-top: 10px;
@@ -343,7 +356,7 @@ h2 {
   color: white;
 }
 
-h3 {
+main h3 {
   margin-left: 10px;
   margin-top: 10px;
   font-family: 'B612', sans-serif;
@@ -392,8 +405,6 @@ h3 {
 }
 
 .tarjetaproducto .tarjetaproducto__posicionamiento {
-  margin-bottom: 10px;
-  border-radius: 25px;
   margin-bottom: 30px;
 }
 
@@ -619,8 +630,11 @@ section article {
     width: 5rem;
     height: 5rem;
   }
-  div #image--tamaño--mq figure h3, div #image--tamaño--mq figure spam {
+  div #image--tamaño--mq figure h5 {
     font-size: 10px;
+  }
+  div #image--tamaño--mq figure spam {
+    display: none;
   }
 }
 

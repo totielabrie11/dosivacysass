@@ -61,18 +61,20 @@ section div.banner__cliente {
                     opacity: 0;
                     visibility: hidden;
                     text-align: inherit;
-                        h3 {
+                        h5 {
                             position: absolute;
-                            left:15px;
+                            top: 50px;
+                            left:5px;
                             font-size: 15px;
-                            }
+                            
+                        }
                         spam {
                             position: relative;
                             display: flex;
-                            top:6rem;
+                            top:15rem;
                             font-family: 'B612', sans-serif;
                             text-align: center;
-                            color: black;
+                            color: rgb(218, 215, 53);
                             font-size: 15px;
                         } 
                     }
@@ -84,6 +86,14 @@ section div.banner__cliente {
     transition: all 500ms ease-out;
     opacity: 1;
     visibility: visible;
+    h5 {
+        transition: all 1s ease-out;
+        top: 5px;
+    }
+    spam {
+        transition: all 1.5s ease-out;
+        top: 5rem;
+    }
 
 }
 
