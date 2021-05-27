@@ -489,10 +489,9 @@ footer .burbujatexto {
   width: calc(calc((100% / 10) + 210px));
   height: 100px;
   padding: 10px;
+  color: grey;
   background-color: #ecea61;
   border-radius: 15px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
 }
 
 footer .burbujatexto .triangulo {
@@ -508,10 +507,28 @@ footer .burbujatexto .triangulo {
   border-bottom: 25px solid transparent;
 }
 
-footer .burbujatexto #btn-bubble:checked ~ .burbujatexto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+footer #cerrarburbuja {
+  position: absolute;
+  width: 24px;
+  bottom: 11.5rem;
+  right: 3.5rem;
+  color: black;
+  font-size: 15px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 4px 4px 0px white;
+          box-shadow: 4px 4px 0px white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+footer #cerrarburbuja:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
 }
 
 footer .capa__personita {
@@ -520,8 +537,12 @@ footer .capa__personita {
   position: fixed;
   right: -15px;
   bottom: 0;
-  background: rgba(0, 0, 0, 0);
+  background: 0, 0, 0, 0;
   cursor: pointer;
+}
+
+footer #btn-modal-img {
+  display: none;
 }
 
 footer h6 {

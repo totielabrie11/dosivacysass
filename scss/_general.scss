@@ -191,11 +191,9 @@ footer {
         width: calc(calc((100% / 10) + 210px));
         height: 100px;
         padding: 10px;
+        color:grey;
         background-color:rgb(236, 234, 97);
         border-radius: 15px;
-        transition: all 500ms ease;
-
-        
         
         .triangulo {
         position: relative;
@@ -208,10 +206,24 @@ footer {
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent; 
         }
-
-        #btn-bubble:checked ~ .burbujatexto {
-            display: flex;
-        }
+    }
+    #cerrarburbuja {
+        position: absolute;
+        width: 24px;
+        bottom: 11.5rem;
+        right: 3.5rem;
+        color: black;
+        font-size: 15px;
+        border-radius: 50%;
+        background:#fff;
+        text-align: center;
+        box-shadow: 4px 4px 0px (rgb(255,255, 255));
+        cursor: pointer;
+        transition: all 0.5s ease;
+        &:hover {
+            transform: rotate(0deg) translate(4px, 4px) scale(1);
+            box-shadow: 0px 0px 0px
+                   } 
     }
     .capa__personita {
         width:calc(calc((100% / 40) + 45px));
@@ -219,10 +231,12 @@ footer {
         position:fixed;
         right: -15px;
         bottom: 0;  
-        background:rgba(0,0,0,0.0);
+        background:(0,0,0,0.0);
         cursor: pointer;
     }
-    
+    #btn-modal-img {
+        display: none;
+    }
     h6{
         display: flex;
     }
