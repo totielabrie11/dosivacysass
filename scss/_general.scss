@@ -180,7 +180,6 @@ footer {
         position:fixed;
         right: -15px;
         bottom: 0;
-        cursor: pointer;
     }
     .burbujatexto {
         position: fixed;
@@ -194,8 +193,11 @@ footer {
         padding: 10px;
         background-color:rgb(236, 234, 97);
         border-radius: 15px;
-    }
-    .triangulo {
+        transition: all 500ms ease;
+
+        
+        
+        .triangulo {
         position: relative;
         bottom: -3.5rem;
         right: -10px;
@@ -205,7 +207,22 @@ footer {
         border-left: 50px solid #ecea61;
         border-top: 25px solid transparent;
         border-bottom: 25px solid transparent; 
-   }
+        }
+
+        #btn-bubble:checked ~ .burbujatexto {
+            display: flex;
+        }
+    }
+    .capa__personita {
+        width:calc(calc((100% / 40) + 45px));
+        height: 5rem;
+        position:fixed;
+        right: -15px;
+        bottom: 0;  
+        background:rgba(0,0,0,0.0);
+        cursor: pointer;
+    }
+    
     h6{
         display: flex;
     }

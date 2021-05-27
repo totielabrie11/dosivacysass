@@ -473,7 +473,6 @@ footer .personita {
   position: fixed;
   right: -15px;
   bottom: 0;
-  cursor: pointer;
 }
 
 footer .burbujatexto {
@@ -492,9 +491,11 @@ footer .burbujatexto {
   padding: 10px;
   background-color: #ecea61;
   border-radius: 15px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
-footer .triangulo {
+footer .burbujatexto .triangulo {
   position: relative;
   bottom: -3.5rem;
   right: -10px;
@@ -505,6 +506,22 @@ footer .triangulo {
   border-left: 50px solid #ecea61;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
+}
+
+footer .burbujatexto #btn-bubble:checked ~ .burbujatexto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .capa__personita {
+  width: calc(calc((100% / 40) + 45px));
+  height: 5rem;
+  position: fixed;
+  right: -15px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 footer h6 {
@@ -1137,7 +1154,7 @@ div.catalogo__image--tamaño {
   visibility: hidden;
 }
 
-input#btn-modal-img, #btn-modal-img1, #btn-modal-img2, #btn-modal-img3, #btn-modal-img4, #btn-modal-img5, #btn-modal-img6, #btn-modal-img7, #btn-modal-img8, #btn-modal-img9, #btn-modal-img10, #btn-modal-img11, #btn-modal-img12, #btn-modal-img13, #btn-modal-img14, #btn-modal-img15, #btn-modal-img16, #btn-modal-img17, #btn-modal-img18, #btn-modal-img19, #btn-modal-img20 {
+input#btn-modal-, #btn-modal-img1, #btn-modal-img2, #btn-modal-img3, #btn-modal-img4, #btn-modal-img5, #btn-modal-img6, #btn-modal-img7, #btn-modal-img8, #btn-modal-img9, #btn-modal-img10, #btn-modal-img11, #btn-modal-img12, #btn-modal-img13, #btn-modal-img14, #btn-modal-img15, #btn-modal-img16, #btn-modal-img17, #btn-modal-img18, #btn-modal-img19, #btn-modal-img20 {
   display: none;
 }
 
