@@ -458,12 +458,59 @@ footer {
   background: #cbdfed;
   background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
   background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
-  height: 200px;
+  height: 140px;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
+}
+
+footer .personita {
+  width: calc(calc((100% / 40) + 60px));
+  /* no encontraba la forma de hacer que mi elemento que pesa un determinado "%" , no desapareciera de mi pantalla en tamaño mobile hasta que me encontré con esta funcion "calc" que me encantó */
+  position: fixed;
+  right: -15px;
+  bottom: 0;
+  cursor: pointer;
+}
+
+footer .burbujatexto {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 2rem;
+  bottom: 7rem;
+  width: calc(calc((100% / 10) + 210px));
+  height: 100px;
+  padding: 10px;
+  background-color: #ecea61;
+  border-radius: 15px;
+}
+
+footer .triangulo {
+  position: relative;
+  bottom: -3.5rem;
+  right: -10px;
+  width: 0px;
+  height: 0px;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  border-left: 50px solid #ecea61;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+footer h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 footer span {
@@ -474,11 +521,11 @@ footer span {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 20px;
   font-family: 'Lobster Two', cursive;
   font-size: 1.6rem;
-  color: #fffc4a;
-  text-shadow: 4px 4px 2px black;
+  color: #09f5f5;
+  text-shadow: 4px 4px 6px black;
 }
 
 footer div.footer__line {
