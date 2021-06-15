@@ -129,7 +129,8 @@ let tipoDeVacio = " ";
 let caudal = 0;
 let contraPresion = 0;
 let tipoDeAccionamiento = " ";
-let resultadoDeTuBusqueda = " ";
+let linea = " ";
+let modelo = " ";
 
 
 tipoDeProceso = prompt("Hola " + nombre + " Que tipo de proceso vas a realizar 1) Dosificación    2) Vacio  tambien puedes escribir 3) chau para salir") 
@@ -189,8 +190,16 @@ function selectorVacio(){
 function selectorDosificador(){
     if (contraPresion <= 10 && caudal >=16 && caudal <=600 && tipoDeAccionamiento == "electrica") {
         alert("Usted ha seleccionado una bomba de la linea DDI 30 o superior")
-    }else if (contraPresion <= 10 && caudal >=0.15 && caudal <=30 && tipoDeAccionamiento == "electrica") {
-        alert("Usted ha seleccionado una bomba linea Milenio 015 a Milenio 05010 / Puede también utilizar DDI 10 con (divisor de caudal))")
+        linea = "DDI"; modelo = "DDI 30"
+    }else if (contraPresion <= 10 && caudal >=0.15 && caudal <=1.5 && tipoDeAccionamiento == "electrica") {
+        alert("Usted ha seIleccionado una bomba linea Milenio 1510");
+        linea = "Milenio"; modelo = "01510"
+    }else if (contraPresion <= 10 && caudal >=0.30 && caudal <=3 && tipoDeAccionamiento == "electrica") {
+        alert("Usted ha seIleccionado una bomba linea Milenio 3010");
+        linea = "Milenio"; modelo = "Milenio 03010"
+    }else if (contraPresion <= 10 && caudal >=0.50 && caudal <=5 && tipoDeAccionamiento == "electrica") {
+        alert("Usted ha seIleccionado una bomba linea Milenio 5010");
+        linea = "Milenio"; modelo = "Milenio 05010"
     }else if (contraPresion <= 10 && caudal >=600 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba de la linea DDI DUPLEX")
     }else if (contraPresion > 10 && contraPresion <=50 && caudal <=80 && tipoDeAccionamiento == "electrica"){
@@ -202,4 +211,19 @@ function selectorDosificador(){
     }else{
         alert("No tenemos producto que se encuentre dentro de los parametros seleccionados")
     }
+    capturar()
 } 
+
+function capturar(){
+    function Proceso(nombre, linea, modelo){
+        this.nombre=nombre;
+        this.linea=linea;
+        this.modelo=modelo;
+    }
+    let nombreCapturar = tipoDeProceso;
+    console.log(nombreCapturar);
+    let lineaCapturar = linea;
+    console.log(lineaCapturar);
+    let modeloCapturar = modelo;
+    console.log(modeloCapturar);
+}
