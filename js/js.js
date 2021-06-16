@@ -171,12 +171,12 @@ console.log(tipoDeProceso);
         selectorDosificador();
     }
 
-console.log(desplazamiento)
+/* console.log(desplazamiento)
 console.log(tipoDeVacio)
 console.log(caudal)
 console.log(contraPresion)
 console.log(tipoDeAccionamiento)
-
+ */
 function selectorVacio(){
     if (desplazamiento <= 400 && tipoDeVacio == "alto vacio"){
         alert("Usted ha seleccionado una bomba de vacio de baño por aceite")
@@ -185,27 +185,54 @@ function selectorVacio(){
     }else {
         alert("su busqueda no encuadra en ningún material que podamos ofrecer")
     }
+    capturar()
 }
 
 function selectorDosificador(){
-    if (contraPresion <= 10 && caudal >=16 && caudal <=600 && tipoDeAccionamiento == "electrica") {
-        alert("Usted ha seleccionado una bomba de la linea DDI 30 o superior")
-        linea = "DDI"; modelo = "DDI 30"
+    if (contraPresion <= 10 && caudal >=16 && caudal <=30 && tipoDeAccionamiento == "electrica") {
+        alert("Usted ha seleccionado una bomba de la linea DDI 30 o superior");
+        linea = "DDI"; modelo = "30";
+    }else if (contraPresion <= 10 && caudal >=30 && caudal <=60 && tipoDeAccionamiento == "electrica") {
+            alert("Usted ha seleccionado una bomba de la linea DDI 60 o superior");
+            linea = "DDI"; modelo = "60";
+    }else if (contraPresion <= 10 && caudal >=60 && caudal <=80 && tipoDeAccionamiento == "electrica") {
+            alert("Usted ha seleccionado una bomba de la linea DDI 80 o superior");
+            linea = "DDI"; modelo = "80";
+    }else if (contraPresion <= 10 && caudal >=80 && caudal <=150 && tipoDeAccionamiento == "electrica") {
+            alert("Usted ha seleccionado una bomba de la linea DDI 150 o superior");
+            linea = "DDI"; modelo = "150";
+    }else if (contraPresion <= 10 && caudal >=150 && caudal <=300 && tipoDeAccionamiento == "electrica") {
+            alert("Usted ha seleccionado una bomba de la linea DDI 300 o superior");
+            linea = "DDI"; modelo = "300"; 
+    }else if (contraPresion <= 10 && caudal >=300 && caudal <=600 && tipoDeAccionamiento == "electrica") {
+            alert("Usted ha seleccionado una bomba de la linea DDI 600 o superior");
+            linea = "DDI"; modelo = "600"; 
+    }else if (contraPresion <= 10 && caudal >=600 && caudal <=1200 && tipoDeAccionamiento == "electrica"){
+        alert("Usted ha seleccionado una bomba de la linea DDI DUPLEX");
+        linea = "DDI"; modelo = "DUPLEX";              
     }else if (contraPresion <= 10 && caudal >=0.15 && caudal <=1.5 && tipoDeAccionamiento == "electrica") {
         alert("Usted ha seIleccionado una bomba linea Milenio 1510");
-        linea = "Milenio"; modelo = "01510"
+        linea = "Milenio"; modelo = "01510";
     }else if (contraPresion <= 10 && caudal >=0.30 && caudal <=3 && tipoDeAccionamiento == "electrica") {
         alert("Usted ha seIleccionado una bomba linea Milenio 3010");
-        linea = "Milenio"; modelo = "Milenio 03010"
+        linea = "Milenio"; modelo = "Milenio 03010";
     }else if (contraPresion <= 10 && caudal >=0.50 && caudal <=5 && tipoDeAccionamiento == "electrica") {
         alert("Usted ha seIleccionado una bomba linea Milenio 5010");
-        linea = "Milenio"; modelo = "Milenio 05010"
-    }else if (contraPresion <= 10 && caudal >=600 && tipoDeAccionamiento == "electrica"){
-        alert("Usted ha seleccionado una bomba de la linea DDI DUPLEX")
-    }else if (contraPresion > 10 && contraPresion <=50 && caudal <=80 && tipoDeAccionamiento == "electrica"){
+        linea = "Milenio"; modelo = "Milenio 05010";
+    }else if (contraPresion > 10 && contraPresion <=50 && caudal <=0.30 && tipoDeAccionamiento == "electrica") {
         alert("Usted ha seleccionado una bomba linea DECI de alta presión")
+        linea = "DECI"; modelo = "7/25";
+    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=0.66 && tipoDeAccionamiento == "electrica"){
+        alert("Usted ha seleccionado una bomba linea DECI de alta presión");
+        linea = "DECI"; modelo = "10/25";
+    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=1.85 && tipoDeAccionamiento == "electrica"){
+        alert("Usted ha seleccionado una bomba linea DECI de alta presión");
+        linea = "DECI"; modelo = "10/70";
+    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=0.66 && tipoDeAccionamiento == "electrica"){
+        alert("Usted ha seleccionado una bomba linea DECI de alta presión");
+        linea = "DECI"; modelo = "15/70";
     }else if (contraPresion > 50 && contraPresion <=200 && caudal <=20 && tipoDeAccionamiento == "electrica"){
-        alert("Usted ha seleccionado una bomba DE de alta presion ")
+        alert("Usted ha seleccionado una bomba DE de alta presion ");
     }else if (contraPresion > 200 && contraPresion <=800 && caudal <=20 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba DEAP de alta presion ")
     }else{
@@ -221,9 +248,13 @@ function capturar(){
         this.modelo=modelo;
     }
     let nombreCapturar = tipoDeProceso;
-    console.log(nombreCapturar);
+    console.log(nombreCapturar)
     let lineaCapturar = linea;
-    console.log(lineaCapturar);
+    console.log(lineaCapturar)
     let modeloCapturar = modelo;
     console.log(modeloCapturar);
+
+    var nuevaOperacion = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
+    console.log(nuevaOperacion);
+    
 }
