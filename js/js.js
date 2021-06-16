@@ -256,5 +256,9 @@ function capturar(){
 
     var nuevaOperacion = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
     console.log(nuevaOperacion);
-    
+    agregar();
+}
+let baseDeDatos = [];
+function agregar(){
+    console.log("capturado");
 }
