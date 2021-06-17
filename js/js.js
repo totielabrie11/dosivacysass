@@ -179,9 +179,11 @@ console.log(tipoDeAccionamiento)
  */
 function selectorVacio(){
     if (desplazamiento <= 400 && tipoDeVacio == "alto vacio"){
-        alert("Usted ha seleccionado una bomba de vacio de baño por aceite")
+        alert("Usted ha seleccionado una bomba de vacio de baño por aceite");
+        linea = "DVRII"; modelo = "4A";
     }else if (desplazamiento >= 400 && tipoDeVacio == "residual"){
-        alert("Usted ha seleccionado una bomba de vacio de anillo liquido o sello por agua")
+        alert("Usted ha seleccionado una bomba de vacio de anillo liquido o sello por agua");
+        linea = "DSHC"; modelo = "400";
     }else {
         alert("su busqueda no encuadra en ningún material que podamos ofrecer")
     }
@@ -254,11 +256,16 @@ function capturar(){
     let modeloCapturar = modelo;
     console.log(modeloCapturar);
 
-    var nuevaOperacion = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
-    console.log(nuevaOperacion);
+    var contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
+    console.log(contador);
     agregar();
 }
-let baseDeDatos = [];
+    let baseDeDatos = ["nombre", "linea", "modelo"];
+    console.log(baseDeDatos);
+
 function agregar(){
-    console.log("capturado");
+    baseDeDatos.push(contador);
 }
+    
+    
+   
