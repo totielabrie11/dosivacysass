@@ -242,7 +242,7 @@ function selectorDosificador(){
     }
     capturar()
 } 
-
+agregar();
 function capturar(){
     function Proceso(nombre, linea, modelo){
         this.nombre=nombre;
@@ -256,12 +256,14 @@ function capturar(){
     let modeloCapturar = modelo;
     console.log(modeloCapturar);
 
-    var contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
-    console.log(contador);
-    agregar();
-}
-    let baseDeDatos = ["nombre", "linea", "modelo"];
+    contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
+    console.log(contador);  
+
+    baseDeDatos = [];
     console.log(baseDeDatos);
+
+}
+
 
 function agregar(){
     baseDeDatos.push(contador);
