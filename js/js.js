@@ -119,26 +119,24 @@ function capturar(){
         this.nombre=nombre;
         this.linea=linea;
         this.modelo=modelo;
-    
+    }
     let nombreCapturar = tipoDeProceso;
     console.log(nombreCapturar)
     let lineaCapturar = linea;
     console.log(lineaCapturar)
     let modeloCapturar = modelo;
     console.log(modeloCapturar);
-    }
+    
     contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar);
     console.log(contador);  
-
+    
     baseDeDatos = [];
     console.log(baseDeDatos);
-
 }
-
 
 function agregar(){
     baseDeDatos.push(contador);
-    //document.getElementByid("tabla").innerHTML += "<tbody><td>"+contador.nombre+"</td><td>"+contador.linea+"</td><td>"+contador.modelo+"</td></tbody>"
+    document.getElementById("tabla").innerHTML+= '<tbody><td>'+contador.nombre+'</td><td>'+contador.linea+'</td><td>'+contador.modelo+'</td></tbody>';
 }
-    
+
    
