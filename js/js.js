@@ -17,6 +17,7 @@ function capturar(){
         this.nombre=nombre;
         this.linea=linea;
         this.modelo=modelo;
+        precio= precio * 1.21;  
         this.precio=precio;
     }
     let nombreCapturar = tipoDeProceso;
@@ -34,6 +35,10 @@ function capturar(){
     baseDeDatos = [];
     console.log(baseDeDatos);
 }
+//funcion para calcular el iva del precio
+function multiplicar() {
+    precio * 1.21
+}//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente. 
 //funcion para pushear mis objetos a un array
 function agregar(){
     baseDeDatos.push(contador);
@@ -144,13 +149,11 @@ console.log(tipoDeProceso);
         caudal = Number(prompt("que caudal lts/h necesita en su dosificacion (ingrese numero mayor a 0 y menor a 1200"));
         contraPresion = Number(prompt("ingrese la contrapresion kg/cm2 que existe en el punto de inyeccion, mayor al 0 y menor a 800"));
         selectorDosificador();
-    }
+    } 
 
-for (let i = 0; i < baseDeDatos.length; i++) {
-    let precio = [i](multiplicar())
-    console.log(precio)
-}
-function multiplicar() {
-    (precio) * (1.21)
-}
 agregar();
+
+/* for (i = 0; i <= baseDeDatos.precio; i++) {
+multiplicar()[i];
+console.log(baseDeDatos.precio);
+} */
