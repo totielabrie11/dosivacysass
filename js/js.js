@@ -98,13 +98,13 @@ function selectorDosificador(){
     }else if (contraPresion > 10 && contraPresion <=200 && caudal <=1.85 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba linea DECI de alta presión");
         linea = "DECI"; modelo = "10/70"; precio = 2300;
-    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=0.66 && tipoDeAccionamiento == "electrica"){
+    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=3 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba linea DECI de alta presión");
         linea = "DECI"; modelo = "15/70"; precio = 2400;
-    }else if (contraPresion > 50 && contraPresion <=200 && caudal >=2 && caudal <=20 && tipoDeAccionamiento == "electrica"){
+    }else if (contraPresion > 10 && contraPresion <=200 && caudal >=10 && caudal <=25 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba DE de alta presion ");
         linea = "DE"; modelo = "20/70"; precio = 2900;
-    }else if (contraPresion > 100 && contraPresion <=800 && caudal <=20 && tipoDeAccionamiento == "electrica"){
+    }else if (contraPresion > 200 && contraPresion <=800 && caudal <=25 && tipoDeAccionamiento == "electrica"){
         alert("Usted ha seleccionado una bomba DEAP de alta presion ");
         linea = "DEAP"; modelo = "100/800"; precio = 3500;
     }else{
