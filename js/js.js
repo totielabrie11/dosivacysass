@@ -10,41 +10,47 @@ let linea = " ";
 let modelo = " ";
 let precio = 0;
 
-//MIS FUNCIONES
-//funcion constructora -> para caputrar los datos de la seleccion
-function capturar(){
-    function Proceso(nombre, linea, modelo, precio){
-        this.nombre=(nombre.toUpperCase());
-        this.linea=linea;
-        this.modelo=modelo;
-        precio= precio * 1.21;  
-        this.precio=precio;
-    }
-    let nombreCapturar = tipoDeProceso;
-    console.log(nombreCapturar)
-    let lineaCapturar = linea;
-    console.log(lineaCapturar)
-    let modeloCapturar = modelo;
-    console.log(modeloCapturar);
-    let precioCapturar = precio;
-    console.log(precioCapturar);
 
-    contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar, precioCapturar);
-    console.log(contador);  
+tipoDeProceso = prompt("Hola " + nombre + " Que tipo de proceso vas a realizar 1) Dosificación    2) Vacio  tambien puedes escribir 3) chau para salir") 
+console.log(tipoDeProceso);
+
+    switch (tipoDeProceso) {
+        case "dosificacion":
+            alert("Perfecto " + nombre + " bienvenido al selector inteligente para bombas de dosificación");
+            tipoDeProceso = "dosificacion"
+            console.log(tipoDeProceso)
+            break;
+        
+        case "vacio":
+            alert("Perfecto " + nombre + " bienvenido al selector inteligente para bombas de vacio");
+            tipoDeProceso = "vacio"
+            console.log(tipoDeProceso)
+            break;
+
+        case "chau":
+            alert("Hasta luego " + nombre);
+            break;
+        
+        default: 
+            alert("Lo lamento " + nombre + " no has ingresado datos correctos, solo acepto dosificacion o vacio");
+        
+        
+    }// Lamentablmente el While no me funciono. O ingresas los datos validos o te saca y tenes que recargar. */
+
+    if (tipoDeProceso == "vacio"){
+        tipoDeVacio = prompt("Que tipo de vacio necesita alcanzar   1) alto vacio   2) residual");
+        desplazamiento = Number(prompt("que desplazamiento necesita obtener (ingrese numero mayor a 0 menor a 8000"));
+        selectorVacio();
     
-    baseDeDatos = [];
-    console.log(baseDeDatos);
-}
-//funcion para calcular el iva del precio
-function multiplicar() {
-    precio * 1.21
-}//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente.
+    }else if(tipoDeProceso == "dosificacion"){
+        tipoDeAccionamiento = prompt("Que tipo de accionamiento es la bomba   1) electrica   2) neumatica ")
+        caudal = Number(prompt("que caudal lts/h necesita en su dosificacion (ingrese numero mayor a 0 y menor a 1200"));
+        contraPresion = Number(prompt("ingrese la contrapresion kg/cm2 que existe en el punto de inyeccion, mayor al 0 y menor a 800"));
+        selectorDosificador();
+    } 
 
-//funcion para pushear mis objetos a un array
-function agregar(){
-    baseDeDatos.push(contador);
-    document.getElementById("tabla").innerHTML+= '<tbody class="text-warning"><td>'+contador.nombre+'</td><td>'+contador.linea+'</td><td>'+contador.modelo+'</td><td>'+contador.precio+'</td></tbody>';
-}
+agregar();
+
 //funcion slectora para cuando entra en vacio
 function selectorVacio(){
     if (desplazamiento <= 400 && tipoDeVacio == "alto vacio"){
@@ -58,6 +64,7 @@ function selectorVacio(){
     }
     capturar()
 }
+
 //funcion selectora para cuando entra en dosificacion
 function selectorDosificador(){
     if (contraPresion <= 10 && caudal >=16 && caudal <=30 && tipoDeAccionamiento == "electrica") {
@@ -114,47 +121,3 @@ function selectorDosificador(){
     capturar()
 } 
 
-tipoDeProceso = prompt("Hola " + nombre + " Que tipo de proceso vas a realizar 1) Dosificación    2) Vacio  tambien puedes escribir 3) chau para salir") 
-console.log(tipoDeProceso);
-
-    switch (tipoDeProceso) {
-        case "dosificacion":
-            alert("Perfecto " + nombre + " bienvenido al selector inteligente para bombas de dosificación");
-            tipoDeProceso = "dosificacion"
-            console.log(tipoDeProceso)
-            break;
-        
-        case "vacio":
-            alert("Perfecto " + nombre + " bienvenido al selector inteligente para bombas de vacio");
-            tipoDeProceso = "vacio"
-            console.log(tipoDeProceso)
-            break;
-
-        case "chau":
-            alert("Hasta luego " + nombre);
-            break;
-        
-        default: 
-            alert("Lo lamento " + nombre + " no has ingresado datos correctos, solo acepto dosificacion o vacio");
-        
-        
-    }// Lamentablmente el While no me funciono. O ingresas los datos validos o te saca y tenes que recargar. */
-
-    if (tipoDeProceso == "vacio"){
-        tipoDeVacio = prompt("Que tipo de vacio necesita alcanzar   1) alto vacio   2) residual");
-        desplazamiento = Number(prompt("que desplazamiento necesita obtener (ingrese numero mayor a 0 menor a 8000"));
-        selectorVacio();
-    
-    }else if(tipoDeProceso == "dosificacion"){
-        tipoDeAccionamiento = prompt("Que tipo de accionamiento es la bomba   1) electrica   2) neumatica ")
-        caudal = Number(prompt("que caudal lts/h necesita en su dosificacion (ingrese numero mayor a 0 y menor a 1200"));
-        contraPresion = Number(prompt("ingrese la contrapresion kg/cm2 que existe en el punto de inyeccion, mayor al 0 y menor a 800"));
-        selectorDosificador();
-    } 
-
-agregar();
-
-/* for (i = 0; i <= baseDeDatos.precio; i++) {
-multiplicar()[i];
-console.log(baseDeDatos.precio);
-} */
