@@ -35,7 +35,7 @@ console.log(tipoDeProceso);
             alert("Lo lamento " + nombre + " no has ingresado datos correctos, solo acepto dosificacion o vacio");
         
         
-    }// Lamentablmente el While no me funciono. O ingresas los datos validos o te saca y tenes que recargar. */
+    }
 
     if (tipoDeProceso == "vacio"){
         tipoDeVacio = prompt("Que tipo de vacio necesita alcanzar   1) alto vacio   2) residual");
@@ -120,4 +120,3 @@ function selectorDosificador(){
     }
     capturar()
 } 
-

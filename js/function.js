@@ -33,5 +33,19 @@ function multiplicar() {
     precio * 1.21
 }//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente.
 
+//funcion para agregar elementos al local storage
+/* function guardarLocalStorage(){
+    let usuario = {
+        nombre: "Carlos",
+        apellido: "Martínez",
+        edad: 31,
+        otrosdatos: {
+            email: "martinezcarlosmanuel.1@gmail.com",    
+            pais: "argentina",
+        }
+    }
+    let usuario ="charly";
+    localStorage.setItem("nombre", nombre);
+} */
 
 
