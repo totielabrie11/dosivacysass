@@ -14,7 +14,7 @@ let precio = 0;
 //funcion constructora -> para caputrar los datos de la seleccion
 function capturar(){
     function Proceso(nombre, linea, modelo, precio){
-        this.nombre=nombre;
+        this.nombre=(nombre.toUpperCase());
         this.linea=linea;
         this.modelo=modelo;
         precio= precio * 1.21;  
@@ -38,11 +38,12 @@ function capturar(){
 //funcion para calcular el iva del precio
 function multiplicar() {
     precio * 1.21
-}//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente. 
+}//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente.
+
 //funcion para pushear mis objetos a un array
 function agregar(){
     baseDeDatos.push(contador);
-    document.getElementById("tabla").innerHTML+= '<tbody><td>'+contador.nombre+'</td><td>'+contador.linea+'</td><td>'+contador.modelo+'</td></tbody>';
+    document.getElementById("tabla").innerHTML+= '<tbody class="text-warning"><td>'+contador.nombre+'</td><td>'+contador.linea+'</td><td>'+contador.modelo+'</td><td>'+contador.precio+'</td></tbody>';
 }
 //funcion slectora para cuando entra en vacio
 function selectorVacio(){
