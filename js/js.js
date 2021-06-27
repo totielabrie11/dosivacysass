@@ -1,14 +1,15 @@
 let nombre = prompt("ingrese su nombre");
-let tipoDeProceso = " ";
-let mensaje = " ";
+let tipoDeProceso = "";
 let desplazamiento = 0;
-let tipoDeVacio = " ";
+let tipoDeVacio = "";
 let caudal = 0;
 let contraPresion = 0;
-let tipoDeAccionamiento = " ";
-let linea = " ";
-let modelo = " ";
+let tipoDeAccionamiento = "";
+let linea = "";
+let modelo = "";
 let precio = 0;
+const listaSelector = document.getElementById('listaSelector') //👌
+const formularioUser = document.querySelector('#formularioUser')
 
 
 tipoDeProceso = prompt("Hola " + nombre + " Que tipo de proceso vas a realizar 1) Dosificación    2) Vacio  tambien puedes escribir 3) chau para salir") 
@@ -49,7 +50,6 @@ console.log(tipoDeProceso);
         selectorDosificador();
     } 
 
-agregar();
 
 //funcion slectora para cuando entra en vacio
 function selectorVacio(){
@@ -62,7 +62,6 @@ function selectorVacio(){
     }else {
         alert("su busqueda no encuadra en ningún material que podamos ofrecer")
     }
-    capturar()
 }
 
 //funcion selectora para cuando entra en dosificacion
@@ -118,5 +117,4 @@ function selectorDosificador(){
     }else{
         alert("No tenemos producto que se encuentre dentro de los parametros seleccionados")
     }
-    capturar()
-} 
+}

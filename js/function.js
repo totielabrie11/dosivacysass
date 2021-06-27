@@ -1,51 +1,73 @@
 //funcion constructora -> para caputrar los datos de la seleccion
 function capturar(){
-    function Proceso(nombre, linea, modelo, precio){
+    function Selection(nombre, linea, modelo, precio){
         this.nombre=(nombre.toUpperCase());
         this.linea=linea;
         this.modelo=modelo;
         precio= precio * 1.21;  
         this.precio=precio;
-    }
+    } //👌
     let nombreCapturar = tipoDeProceso;
-    console.log(nombreCapturar)
     let lineaCapturar = linea;
-    console.log(lineaCapturar)
     let modeloCapturar = modelo;
-    console.log(modeloCapturar);
-    let precioCapturar = precio;
-    console.log(precioCapturar);
+    let precioCapturar = precio;  
 
-    contador = new Proceso(nombreCapturar, lineaCapturar, modeloCapturar, precioCapturar);
-    console.log(contador);  
+    contador = new Selection(nombreCapturar, lineaCapturar, modeloCapturar, precioCapturar); //👌
+     
+    arraySelection = [];
+    arraySelection.push(contador);
+    console.log(arraySelection);  //👌
+}
+
+const GuardarLS = () => { //esto ya me funciona 👌
+
+    localStorage.setItem('selection', JSON.stringify(arraySelection));
     
-    baseDeDatos = [];
-    console.log(baseDeDatos);
-}
-//funcion para pushear mis objetos a un array y presentarlos en pantalla
-function agregar(){
-    baseDeDatos.push(contador);
-    document.getElementById("tabla").innerHTML+= '<tbody class="text-warning"><td>'+contador.nombre+'</td><td>'+contador.linea+'</td><td>'+contador.modelo+'</td><td>'+contador.precio+'</td></tbody>';
+    PintarDom();
 }
 
-//funcion para calcular el iva del precio
-function multiplicar() {
-    precio * 1.21
-}//no logre ejecutar la funcion dentro de mi constructor de objetos. ingreso la cuenta manualmente.
-
-//funcion para agregar elementos al local storage
-/* function guardarLocalStorage(){
-    let usuario = {
-        nombre: "Carlos",
-        apellido: "Martínez",
-        edad: 31,
-        otrosdatos: {
-            email: "martinezcarlosmanuel.1@gmail.com",    
-            pais: "argentina",
+/* const EliminarLS = (nombre) => {  todavia no estoy listo para esto 🙌
+    let indexArray;
+    arraySelection.forEach((elemento, index) => {
+        if(elemento.nombre === nombre){
+            indexArray = index;   
         }
-    }
-    let usuario ="charly";
-    localStorage.setItem("nombre", nombre);
+    });
+    
+    arraySelection.splice(indexArray,1);
+    GuardarLS();
 } */
 
+const PintarDom = () => {
+    
+    listaSelector.innerHTML = '';
 
+    arraySelection = JSON.parse(localStorage.getItem('selection'));
+    console.log(arraySelection);// no importa el null por que entra igual
+
+    if(arraySelection === null){
+        arraySelection = [];
+    }else {
+        arraySelection.forEach(element => {
+
+        
+            listaSelector.innerHTML += `<tbody id="listaSelector" class="text-warning"><td>'${contador.nombre}'</td><td>'${contador.linea}'</td><td>'${contador.modelo}'</td><td>'${contador.precio}'</td><td><i class="material-icons me-5" >delete</i><i class="material-icons">favorite</i></td></tbody>`;
+
+
+        });
+    }
+}
+
+//Eventos del DOM
+formularioUser.addEventListener('submit', (e)=> {
+    console.log(formularioUser.submit)
+
+    e.preventDefault();
+
+    capturar();
+
+    GuardarLS();
+
+    PintarDom();
+});
+document.addEventListener('DOMContentLoaded', PintarDom);
