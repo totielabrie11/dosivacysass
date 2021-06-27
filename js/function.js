@@ -51,7 +51,7 @@ const PintarDom = () => {
         arraySelection.forEach(element => {
 
         
-            listaSelector.innerHTML += `<tbody id="listaSelector" class="text-warning"><td>'${contador.nombre}'</td><td>'${contador.linea}'</td><td>'${contador.modelo}'</td><td>'${contador.precio}'</td><td><i class="material-icons me-5" >delete</i><i class="material-icons">favorite</i></td></tbody>`;
+            listaSelector.innerHTML += `<tbody id="listaSelector" class="text-warning"><td>${contador.nombre}</td><td>${contador.linea}</td><td>${contador.modelo}</td><td><i class="material-icons">attach_money</i>${contador.precio}</td><td><i class="material-icons me-5" >delete</i><i class="material-icons">favorite</i></td></tbody>`;
 
 
         });

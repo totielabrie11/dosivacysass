@@ -236,9 +236,9 @@ html {
 }
 
 html body {
-  background: #cbdfed;
-  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
-  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
+  background: #7d8083;
+  background: -webkit-gradient(linear, left top, right top, from(#afb7bd), color-stop(76%, #a8a9ad), to(#b0b1bd));
+  background: linear-gradient(90deg, #afb7bd 0%, #a8a9ad 76%, #b0b1bd 100%);
   color: white;
   overflow: hidden;
 }
@@ -587,7 +587,7 @@ footer .footer__row {
 
 section article {
   /* todos los articulos "article" que estén dentro de un section, recibiran este fondo por defecto */
-  background: #cbdfed;
+  background: #dfecf5;
   background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(50%, #63e3eb), color-stop(82%, #52ddf4), to(#4555fc));
   background: linear-gradient(90deg, #cbdfed 0%, #63e3eb 50%, #52ddf4 82%, #4555fc 100%);
 }
