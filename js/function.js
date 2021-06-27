@@ -43,7 +43,7 @@ const PintarDom = () => {
     listaSelector.innerHTML = '';
 
     arraySelection = JSON.parse(localStorage.getItem('selection'));
-    console.log(arraySelection);// no importa el null por que entra igual
+    console.log(arraySelection);// no importa el null por que entra igual con el if;
 
     if(arraySelection === null){
         arraySelection = [];
@@ -59,6 +59,9 @@ const PintarDom = () => {
 }
 
 //Eventos del DOM
+
+//En este momento puedo cargar todas mis funciones en orden, queda mucho mas prolijo, se ve el orden de ejecución. a la espera del submit;
+
 formularioUser.addEventListener('submit', (e)=> {
     console.log(formularioUser.submit)
 
@@ -71,3 +74,7 @@ formularioUser.addEventListener('submit', (e)=> {
     PintarDom();
 });
 document.addEventListener('DOMContentLoaded', PintarDom);
+
+//creo que el promt me está recargando la pagina o hay algun motivo que no pude depurar de por que no se almacenen mas eventos en mi local storage.
+
+//si bien el resultado del simulador es el mismo. ahora lo que se imprime en pantalla es tomado del local storage. Me gustaría que al darle F5 o actualizar , se pueda seguir visualizando. Creo que la respuesta está en los form y en los value.
