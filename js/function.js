@@ -23,7 +23,6 @@ const GuardarLS = () => { //esto ya me funciona 👌
 
     localStorage.setItem('selection', JSON.stringify(arraySelection));
     
-    PintarDom();
 }
 
 /* const EliminarLS = (nombre) => {  todavia no estoy listo para esto 🙌

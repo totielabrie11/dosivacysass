@@ -9,7 +9,8 @@ let linea = "";
 let modelo = "";
 let precio = 0;
 const listaSelector = document.getElementById('listaSelector') //👌
-const formularioUser = document.querySelector('#formularioUser')
+const formularioUser = document.querySelector('#formularioUser')//
+console.log(formularioUser);
 
 
 tipoDeProceso = prompt("Hola " + nombre + " Que tipo de proceso vas a realizar 1) Dosificación    2) Vacio  tambien puedes escribir 3) chau para salir") 
