@@ -53,8 +53,8 @@ const PintarDom = () => {
 
             if (linea === null){
 
-                listaSelector.innerHTML += `<div class="alert alert-danger" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>`;
-
+               tabla.innerHTML += `<div class="alert alert-danger float-end" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>`;
+                
             }
 
         });

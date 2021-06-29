@@ -339,13 +339,13 @@ main section a {
   text-decoration: none;
 }
 
-main h1 {
+h1 {
   color: white;
   margin-left: 10px;
   display: none;
 }
 
-main h2 {
+h2 {
   width: 100%;
   margin-left: 12px;
   margin-top: 10px;
@@ -356,7 +356,7 @@ main h2 {
   color: white;
 }
 
-main h3 {
+h3 {
   margin-left: 10px;
   margin-top: 10px;
   font-family: 'B612', sans-serif;
@@ -364,6 +364,15 @@ main h3 {
   color: #72c5f5;
   color: white;
   height: 100%;
+}
+
+.solucionador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tarjeta__empresa {
@@ -586,7 +595,6 @@ footer .footer__row {
 }
 
 section article {
-  /* todos los articulos "article" que estén dentro de un section, recibiran este fondo por defecto */
   background: #dfecf5;
   background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(50%, #63e3eb), color-stop(82%, #52ddf4), to(#4555fc));
   background: linear-gradient(90deg, #cbdfed 0%, #63e3eb 50%, #52ddf4 82%, #4555fc 100%);
