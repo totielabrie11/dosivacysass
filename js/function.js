@@ -6,26 +6,26 @@ function capturar(){
         this.modelo=modelo;
         precio= precio * 1.21;  
         this.precio=precio;
-    } //👌
+    } 
     let nombreCapturar = tipoDeProceso;
     let lineaCapturar = linea;
     let modeloCapturar = modelo;
     let precioCapturar = precio;  
 
-    contador = new Selection(nombreCapturar, lineaCapturar, modeloCapturar, precioCapturar); //👌
+    contador = new Selection(nombreCapturar, lineaCapturar, modeloCapturar, precioCapturar); 
      
     arraySelection = [];
     arraySelection.push(contador);
-    console.log(arraySelection);  //👌
+    console.log(arraySelection); 
 }
 
-const GuardarLS = () => { //esto ya me funciona 👌
+const GuardarLS = () => {
 
     localStorage.setItem('selection', JSON.stringify(arraySelection));
     
 }
 
-/* const EliminarLS = (nombre) => {  todavia no estoy listo para esto 🙌
+/* const EliminarLS = (nombre) => {  todavia no estoy listo para esto 
     let indexArray;
     arraySelection.forEach((elemento, index) => {
         if(elemento.nombre === nombre){
@@ -49,9 +49,13 @@ const PintarDom = () => {
     }else {
         arraySelection.forEach(element => {
 
-        
-            listaSelector.innerHTML += `<tbody id="listaSelector" class="text-warning"><td>${contador.nombre}</td><td>${contador.linea}</td><td>${contador.modelo}</td><td><i class="material-icons">attach_money</i>${contador.precio}</td><td><i class="material-icons me-5" >delete</i><i class="material-icons">favorite</i></td></tbody>`;
+            listaSelector.innerHTML += `<tbody id="listaSelector" class="text-warning alert-danger"><td>${contador.nombre}</td><td>${contador.linea}</td><td>${contador.modelo}</td><td><i class="material-icons">attach_money</i>${contador.precio}</td><td><i class="material-icons me-5" >delete</i><i class="material-icons">favorite</i></td></tbody>`;
 
+            if (linea === null){
+
+                listaSelector.innerHTML += `<div class="alert alert-danger" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>`;
+
+            }
 
         });
     }
@@ -65,7 +69,7 @@ formularioUser.addEventListener('submit', (e)=> {
 
     e.preventDefault();
 
-    capturar()
+    capturar();
     
     GuardarLS();
 
@@ -73,7 +77,3 @@ formularioUser.addEventListener('submit', (e)=> {
 
 });
 document.addEventListener('DOMContentLoaded', PintarDom);
-
-//creo que el promt me está recargando la pagina o hay algun motivo que no pude depurar de por que no se almacenen mas eventos en mi local storage.
-
-//si bien el resultado del simulador es el mismo. ahora lo que se imprime en pantalla es tomado del local storage. Me gustaría que al darle F5 o actualizar , se pueda seguir visualizando. Creo que la respuesta está en los form y en los value.
