@@ -1,19 +1,37 @@
-let nombre = document.querySelector('#nombreUS').value;
-console.log(nombre)
-let tipoDeProceso = document.querySelector('#tipoDeProcesos').value; 
-console.log(tipoDeProceso)
-let desplazamiento = document.querySelector('#desplazamiento').value;
-console.log(desplazamiento)
-let caudal = document.querySelector('#caudal').value;
-console.log(caudal)
-let contraPresion = document.querySelector('#contrapresion').value; 
-console.log(contraPresion)
-let linea = "";
-let modelo = "";
+let linea = '';
+let modelo = '';
 let precio = 0;
+let tipoDeProceso = '';
+let desplazamiento = '';
+
 const listaSelector = document.getElementById('listaSelector') 
 const formularioUser = document.querySelector('#formularioUser')
 
+let inputValues = {
+
+    nombreUS: '',
+    proceso: '',
+    desplazamiento: '',
+    caudal: '',
+    contrapresion: '',
+
+}
+
+const handleForm = e => {
+    e.preventDefault();
+
+    if (
+        inputValues.nombreUS.trim() === '' ||
+        inputValues.proceso.trim() === '' ||
+        inputValues.desplazamiento.trim() === '' ||
+        inputValues.caudal.trim() === '' ||
+        inputValues.contrapresion.trim() === '' ||
+    ) {console.log('Todos los campos deben ser completados');
+    return; //recuerden que este return lo ponemos para evitar que la funcion siga ejecutandose
+  }
+
+
+};
 
 switch (tipoDeProceso) {
     
