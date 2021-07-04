@@ -2,15 +2,18 @@ let linea = '';
 let modelo = '';
 let precio = 0;
 let tipoDeProceso = '';
-let desplazamiento = '';
+let desplazamiento = 0;
+let caudal = 0;
+let contrapresion = 0;
+
+const arrayDeConsultas = [];
 
 let inputValues = {
 
-    nombreUS: '',
     proceso: '',
-    desplazamiento: '',
-    caudal: '',
-    contrapresion: '',
+    desplazamiento: Number(),
+    caudal: Number(),
+    contrapresion: Number()
 
 }
 
@@ -18,7 +21,6 @@ const handleForm = e => {
     e.preventDefault();
 
     if (
-        inputValues.nombreUS.trim() === '' ||
         inputValues.proceso.trim() === '' ||
         inputValues.desplazamiento.trim() === '' ||
         inputValues.caudal.trim() === '' ||
@@ -28,8 +30,8 @@ const handleForm = e => {
     return; //recuerden que este return lo ponemos para evitar que la funcion siga ejecutandose
   }
 
-  arrayDeUsuarios.push(inputValues);
-  console.log('Despues de pushear los datos: ', arrayDeUsuarios);
+  arrayDeConsultas.push(inputValues);
+  console.log('Despues de pushear los datos: ', arrayDeConsultas);
 };
 
 const handleInput = e => {
@@ -38,6 +40,8 @@ const handleInput = e => {
     console.log('Soy el input donde estas escribiendo: ', e.target);
     console.log('Soy el atributo value de ese input: ', e.target.value);
     console.log('Soy el atributo name de ese input: ', e.target.name);
+
+    
   
     inputValues = {
       ...inputValues, //esos ... se llama spread operator, googlear! Va a devolver una copia del objeto, dejo comentado como se veria el objeto si no tuviera eso
@@ -47,9 +51,12 @@ const handleInput = e => {
     // inputValues = {
     //   [e.target.name]: e.target.value
     // }
-  
     console.log(inputValues);
-  };
+    let tipoDeProceso = inputValues.proceso;
+    let desplazamiento = inputValues.desplazamiento;
+    console.log(desplazamiento);
+    
+};
 
 //llamamos el formulario
 const form = document.querySelector('form');
