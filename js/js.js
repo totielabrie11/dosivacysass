@@ -4,9 +4,6 @@ let precio = 0;
 let tipoDeProceso = '';
 let desplazamiento = '';
 
-const listaSelector = document.getElementById('listaSelector') 
-const formularioUser = document.querySelector('#formularioUser')
-
 let inputValues = {
 
     nombreUS: '',
@@ -25,13 +22,48 @@ const handleForm = e => {
         inputValues.proceso.trim() === '' ||
         inputValues.desplazamiento.trim() === '' ||
         inputValues.caudal.trim() === '' ||
-        inputValues.contrapresion.trim() === '' ||
-    ) {console.log('Todos los campos deben ser completados');
+        inputValues.contrapresion.trim() === ''
+    ) {
+    console.log('Todos los campos deben ser completados');
     return; //recuerden que este return lo ponemos para evitar que la funcion siga ejecutandose
   }
 
-
+  arrayDeUsuarios.push(inputValues);
+  console.log('Despues de pushear los datos: ', arrayDeUsuarios);
 };
+
+const handleInput = e => {
+    //Aqui viene lo "complejo", necesitamos hacer este formulario dinamico, como hacemos eso? capturando el e.target.name del elemento y buscar que coincida con alguna propiedad del objeto inputValues, es por eso que es importante que los nombres de las propiedades del objeto sean las mismas que la de los names en el html. Por ejemplo e.target.name del segundo input sera apellido, este entrara en el objeto y buscara una propiedad que sea igual, si la consigue le agregara el e.target.value que le pasamos
+  
+    console.log('Soy el input donde estas escribiendo: ', e.target);
+    console.log('Soy el atributo value de ese input: ', e.target.value);
+    console.log('Soy el atributo name de ese input: ', e.target.name);
+  
+    inputValues = {
+      ...inputValues, //esos ... se llama spread operator, googlear! Va a devolver una copia del objeto, dejo comentado como se veria el objeto si no tuviera eso
+      [e.target.name]: e.target.value
+    };
+  
+    // inputValues = {
+    //   [e.target.name]: e.target.value
+    // }
+  
+    console.log(inputValues);
+  };
+
+//llamamos el formulario
+const form = document.querySelector('form');
+
+//Llamamos a los inputs
+const inputs = document.querySelectorAll('.input');
+console.log(inputs)
+
+//hacemos el evento submit del form que va a ejecutar la funcion sendForm
+form.addEventListener('submit', handleForm);
+
+//hacemos el evento para capturar los values del input, pero como los inputs lo llamamos con un querySelectorAll tenemos que hacer una iteracion primero
+inputs.forEach(input => input.addEventListener('input', handleInput));
+
 
 switch (tipoDeProceso) {
     

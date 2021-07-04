@@ -15,11 +15,11 @@
         <form>
             <div class="mb-3">
                 <label for="nombreUS" class="form-label">Nombre</label>
-                <input type="text" id="nombreUS" name="nombreUs" class="form-control" placeholder="ingrese su nombre">
+                <input type="text" name="nombreUs" class="form-control input" placeholder="ingrese su nombre">
             </div>
             <div class="mb-3">
                 <label for="tipoDeProcesos" class="form-label">Seleccione el tipo de proceso</label>
-                <select id="tipoDeProcesos" nombre="proceso" class="form-select">
+                <select   class="form-select input" name="proceso" value=''>
                     <option>Elige una opcion</option>
 	                <optgroup label="vacio" value=vacio>
 		                <option value=altovacio>Alto Vacio</option>
@@ -35,15 +35,19 @@
             </div>
             <div class="mb-3">
                 <label for="desplazamiento">Ingrese el valor de desplazamiento para la opcion vacio</label><br>
-                <input type="number" name="desplazamiento" id="desplazamiento" value="0">
+                <input type="number" name="desplazamiento" class="input" value="0">
             </div>
             <div class="mb-3">
                 <label for="caudal">Ingrese el valor de Caudales a Dosificar para el caso de dosificacion</label><br>
-                <input type="number" name="caudal" id="caudal" value="0">
+                <input type="number" name="caudal" class="input" value="0">
             </div>
             <div class="mb-3">
                 <label for="contrapresion">Ingrese el valor de la contrapresion existenten en el punto de inyeccion</label><br>
-                <input type="number" name="contrapresion" id="contrapresion" value="0">
+                <input type="number" name="contrapresion" class="input" value="0">
+            </div>
+            <div>
+                <input type="button" value="Cargar Busqueda" onclick="location.reload()"/>
+                <input type="submit">
             </div>
         </form>
     </div>
@@ -73,10 +77,9 @@
                     </td>
                 </tbody>
             </table>
-            <form id="formularioUser">
-                <input type="button" value="Cargar Busqueda" onclick="location.reload()"/>
-                <input type="submit">
-            </form>
+            
+            
+            
         </div>
         <script src="../js/js.js"></script>
     <script src="../js/function.js"></script>
