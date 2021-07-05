@@ -2,7 +2,6 @@ let linea = '';
 let modelo = '';
 let precio = 0;
 tipoDeProceso = '';
-console.log(tipoDeProceso);
 let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
@@ -33,7 +32,13 @@ const handleForm = e => {
 
   arrayDeConsultas.push(inputValues);
   console.log('Despues de pushear los datos: ', arrayDeConsultas);
+
+  e.preventDefault();
+  capturar();
+  GuardarLS();
+  PintarDom();
 };
+
 
 const handleInput = e => {
     //Aqui viene lo "complejo", necesitamos hacer este formulario dinamico, como hacemos eso? capturando el e.target.name del elemento y buscar que coincida con alguna propiedad del objeto inputValues, es por eso que es importante que los nombres de las propiedades del objeto sean las mismas que la de los names en el html. Por ejemplo e.target.name del segundo input sera apellido, este entrara en el objeto y buscara una propiedad que sea igual, si la consigue le agregara el e.target.value que le pasamos
@@ -59,7 +64,7 @@ const handleInput = e => {
     caudal = Number(inputValues.caudal);
     contrapresion = Number(inputValues.contrapresion);
     
-    switch (tipoDeProceso) {
+    switch (tipoDeProceso) { /* como la variable que determina el proceso a seguir, se declara dentro de la funcion. Tuve que pegar todo el switch dentro de la funcion. Me gustaría poder arreglar esto en futuras entregas */
         case 'residual':
             
             selectorVacioR();
@@ -98,7 +103,6 @@ const handleInput = e => {
         
         default: 
             document.innerHTML + `NO HAY RESULTADOS PARA SU BUSQUEDA`;
-    
     }
     
     
@@ -114,12 +118,9 @@ console.log(inputs)
 //hacemos el evento submit del form que va a ejecutar la funcion sendForm
 form.addEventListener('submit', handleForm);
 
+
 //hacemos el evento para capturar los values del input, pero como los inputs lo llamamos con un querySelectorAll tenemos que hacer una iteracion primero
 inputs.forEach(input => input.addEventListener('input', handleInput));
-
-
-
-console.log(tipoDeProceso);
 
 
 function selectorVacioA(){
@@ -142,7 +143,7 @@ function selectorVacioA(){
     }else {
         linea = null;
     }
-    console.log('llegue hasta selector de alto vacio')
+    console.log('llegue hasta selector de alto vacio');
 }
 
 function selectorVacioR(){
@@ -184,7 +185,6 @@ function selectorVacioR(){
     console.log('llegue hasta selector de residual')
 }
 
-
 function selectorVacioLaboratorio(){
     if (desplazamiento >= 100 && desplazamiento <= 150){
     
@@ -199,72 +199,79 @@ function selectorVacioLaboratorio(){
     console.log('llegue hasta selector de alto vacio para laboratorio')
 }
 
-//funcion selectora para cuando entra en dosificacion
 function selectorDosificadorElectrico(){
-    if (contraPresion <= 10 && caudal >=16 && caudal <=30) {
+    if (contrapresion <= 10 && caudal >=16 && caudal <=30) {
         
         linea = "DDI"; modelo = "30"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=30 && caudal <=60) {
+    }else if (contrapresion <= 10 && caudal >=30 && caudal <=60) {
             
             linea = "DDI"; modelo = "60"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=60 && caudal <=80) {
+    }else if (contrapresion <= 10 && caudal >=60 && caudal <=80) {
            
             linea = "DDI"; modelo = "80"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=80 && caudal <=150) {
+    }else if (contrapresion <= 10 && caudal >=80 && caudal <=150) {
             
             linea = "DDI"; modelo = "150"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=150 && caudal <=300) {
+    }else if (contrapresion <= 10 && caudal >=150 && caudal <=300) {
            
             linea = "DDI"; modelo = "300"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=300 && caudal <=600) {
+    }else if (contrapresion <= 10 && caudal >=300 && caudal <=600) {
       
             linea = "DDI"; modelo = "600"; precio = 1250;
 
-    }else if (contraPresion <= 10 && caudal >=600 && caudal <=1200){
+    }else if (contrapresion <= 10 && caudal >=600 && caudal <=1200){
         
         linea = "DDI"; modelo = "DUPLEX"; precio = 1950;  
 
-    }else if (contraPresion <= 10 && caudal >=0.15 && caudal <=1.5) {
+    }else if (contrapresion <= 10 && caudal >=0.15 && caudal <=1.5) {
         
         linea = "Milenio"; modelo = "01510"; precio = 320;
 
-    }else if (contraPresion <= 10 && caudal >=0.30 && caudal <=3) {
+    }else if (contrapresion <= 10 && caudal >=0.30 && caudal <=3) {
     
         linea = "Milenio"; modelo = "Milenio 03010"; precio = 320;
 
-    }else if (contraPresion <= 10 && caudal >=0.50 && caudal <=5) {
+    }else if (contrapresion <= 10 && caudal >=0.50 && caudal <=5) {
  
         linea = "Milenio"; modelo = "Milenio 05010"; precio = 320;
 
-    }else if (contraPresion > 10 && contraPresion <=50 && caudal <=0.30) {
+    }else if (contrapresion > 10 && contrapresion <=50 && caudal <=0.30) {
 
         linea = "DECI"; modelo = "7/25"; precio = 2200;
 
-    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=0.66){
+    }else if (contrapresion > 10 && contrapresion <=200 && caudal <=0.66){
         
         linea = "DECI"; modelo = "10/25"; precio = 2200;
 
-    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=1.85){
+    }else if (contrapresion > 10 && contrapresion <=200 && caudal <=1.85){
         
         linea = "DECI"; modelo = "10/70"; precio = 2300;
 
-    }else if (contraPresion > 10 && contraPresion <=200 && caudal <=3){
+    }else if (contrapresion > 10 && contrapresion <=200 && caudal <=3){
         
         linea = "DECI"; modelo = "15/70"; precio = 2400;
 
-    }else if (contraPresion > 10 && contraPresion <=200 && caudal >=10 && caudal <=25){
+    }else if (contrapresion > 10 && contrapresion <=200 && caudal >=10 && caudal <=25){
        
         linea = "DE"; modelo = "20/70"; precio = 2900;
-    }else if (contraPresion > 200 && contraPresion <=800 && caudal <=25){
+    }else if (contrapresion > 200 && contrapresion <=800 && caudal <=25){
     
         linea = "DEAP"; modelo = "100/800"; precio = 3500;
     }else{
         linea = null;
     }
     console.log('llegue hasta selector de bombas electricas');
+}
+
+function selectorDosificadorNeumatico(){
+    console.log('llegue hasta selector de bombas neumaticas')
+}
+
+function selectorDosificadorSolar(){
+    console.log('llegue hasta selector de bombas solares')
 }

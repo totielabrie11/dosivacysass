@@ -65,15 +65,13 @@ const PintarDom = () => {
 
 //En este momento puedo cargar todas mis funciones en orden, queda mucho mas prolijo, se ve el orden de ejecución. a la espera del submit;
 
-/* formularioUser.addEventListener('submit', (e)=> {
+form.addEventListener('submit', (e)=> {
 
     e.preventDefault();
-
-    capturar();
     
     GuardarLS();
 
     PintarDom();
 
 });
-document.addEventListener('DOMContentLoaded', PintarDom); */
+document.addEventListener('DOMContentLoaded', PintarDom);
