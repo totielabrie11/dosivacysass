@@ -107,7 +107,6 @@ const handleInput = e => {
     
     
 };
-console.log(tipoDeProceso);
 //llamamos el formulario
 const form = document.querySelector('form');
 

@@ -25,8 +25,10 @@ const GuardarLS = () => {
     
 }
 
-/* const EliminarLS = (nombre) => {  todavia no estoy listo para esto 
-    let indexArray;
+const EliminarLS = (consulta) => { 
+
+    console.log(consulta);
+    /* let indexArray;
     arraySelection.forEach((elemento, index) => {
         if(elemento.nombre === nombre){
             indexArray = index;   
@@ -34,8 +36,8 @@ const GuardarLS = () => {
     });
     
     arraySelection.splice(indexArray,1);
-    GuardarLS();
-} */
+    GuardarLS(); */
+}
 
 const PintarDom = () => {
     
@@ -74,4 +76,22 @@ form.addEventListener('submit', (e)=> {
     PintarDom();
 
 });
+
 document.addEventListener('DOMContentLoaded', PintarDom);
+
+listaSelector.addEventListener('click', (e) => {
+
+    e.preventDefault();
+    
+    console.log(e.target.innerHTML);
+
+    if (e.target.innerHTML === 'delete' || e.target.innerHTML === 'favorite'){
+        
+        if(e.target.innerHTML === 'delete'){
+            EliminarLS(e.path[2].childNodes[4].innerHTML);
+        }
+    }if(e.target.innerHTML === 'favorite'){
+
+    }
+});
+    
