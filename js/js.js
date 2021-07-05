@@ -1,7 +1,8 @@
 let linea = '';
 let modelo = '';
 let precio = 0;
-let tipoDeProceso = '';
+tipoDeProceso = '';
+console.log(tipoDeProceso);
 let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
@@ -52,12 +53,57 @@ const handleInput = e => {
     //   [e.target.name]: e.target.value
     // }
     console.log(inputValues);
-    let tipoDeProceso = inputValues.proceso;
-    let desplazamiento = inputValues.desplazamiento;
-    console.log(desplazamiento);
+    tipoDeProceso = inputValues.proceso;
+    console.log(tipoDeProceso);
+    desplazamiento = Number(inputValues.desplazamiento);
+    caudal = Number(inputValues.caudal);
+    contrapresion = Number(inputValues.contrapresion);
+    
+    switch (tipoDeProceso) {
+        case 'residual':
+            
+            selectorVacioR();
+            
+            break;
+    
+        case 'altovacio':
+            
+            selectorVacioA();
+            
+            break;
+        
+        case "laboratorio":
+            
+            selectorVacioLaboratorio();            
+    
+            break;
+    
+        case 'electrica':
+    
+            selectorDosificadorElectrico();
+            
+            break;
+    
+        case 'neumatica':
+    
+            selectorDosificadorNeumatico();
+                
+            break;
+    
+        case 'solar':
+    
+            selectorDosificadorSolar();
+                
+            break;
+        
+        default: 
+            document.innerHTML + `NO HAY RESULTADOS PARA SU BUSQUEDA`;
+    
+    }
+    
     
 };
-
+console.log(tipoDeProceso);
 //llamamos el formulario
 const form = document.querySelector('form');
 
@@ -72,54 +118,6 @@ form.addEventListener('submit', handleForm);
 inputs.forEach(input => input.addEventListener('input', handleInput));
 
 
-switch (tipoDeProceso) {
-    
-    case 'residual':
-        
-        selectorVacioR();
-        
-        break;
-
-    case 'altovacio':
-        
-        selectorVacioA();
-        
-        break;
-    
-    case "laboratorio":
-        
-        selectorVacioLaboratorio();            
-
-        break;
-
-    case 'electrica':
-
-        selectorDosificadorElectrico();
-        
-        break;
-
-    case 'electrica':
-
-        selectorDosificadorElectrico();
-            
-        break;
-
-    case 'neumatica':
-
-        selectorDosificadorNeumatico();
-            
-        break;
-
-    case 'solar':
-
-        selectorDosificadorSolar();
-            
-        break;
-    
-    default: 
-        document.innerHTML + `NO HAY RESULTADOS PARA SU BUSQUEDA`;
-
-}
 
 console.log(tipoDeProceso);
 
@@ -144,6 +142,7 @@ function selectorVacioA(){
     }else {
         linea = null;
     }
+    console.log('llegue hasta selector de alto vacio')
 }
 
 function selectorVacioR(){
@@ -182,6 +181,7 @@ function selectorVacioR(){
     }else {
         linea = null;
     }
+    console.log('llegue hasta selector de residual')
 }
 
 
@@ -196,7 +196,7 @@ function selectorVacioLaboratorio(){
     }else {
         linea = null;
     }
-    
+    console.log('llegue hasta selector de alto vacio para laboratorio')
 }
 
 //funcion selectora para cuando entra en dosificacion
@@ -266,5 +266,5 @@ function selectorDosificadorElectrico(){
     }else{
         linea = null;
     }
-   
+    console.log('llegue hasta selector de bombas electricas');
 }
