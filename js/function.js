@@ -58,7 +58,7 @@ const PintarDom = () => {
       return;
     } else
       arraySelection.forEach((element) => {
-        resultadoSelector.innerHTML += `<div id="resultadoSelector" class="text-dark lista__tabla"><ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><span class="material-icons w-50">attach_money</span>'${contador.precio}'</li><li> <i class="material-icons" >delete</i></li><li><i class="material-icons">favorite</i></li></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;"><div><h4>CARACTERISTICAS</h4><ol><li>hola</li><li>chau</li><li></li></ol></div><div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`;
+        resultadoSelector.innerHTML += `<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><span class="material-icons w-50">attach_money</span>'${contador.precio}'</li><li> <i class="material-icons" >delete</i></li><li><i class="material-icons">favorite</i></li></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;"><div><h4>CARACTERISTICAS</h4><ol><li>hola</li><li>chau</li><li></li></ol></div><div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`;
       });
   }
 };
