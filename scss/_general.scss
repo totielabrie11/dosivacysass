@@ -32,6 +32,18 @@ nav {
                 margin-right: 10px;
 }}}}
 
+div.lista__tabla {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style:none;
+            a {
+                text-decoration: none;
+            }    
+        }
+    }
+}
 #search__contenedor { /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
     justify-content: flex-end;
     align-items: center;

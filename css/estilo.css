@@ -271,6 +271,23 @@ nav ul li a {
   margin-right: 10px;
 }
 
+div.lista__tabla ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.lista__tabla ul li {
+  list-style: none;
+}
+
+div.lista__tabla ul li a {
+  text-decoration: none;
+}
+
 #search__contenedor {
   /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
   -webkit-box-pack: end;

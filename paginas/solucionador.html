@@ -10,12 +10,22 @@
     <title>DOSIVAC/SOLUCIONADOR</title>
 </head>
 <body id="solucionador__body">
-    <h2 class="solucionador">HERRAMIENTA DE BUSQUEDA</h2>
-    <div class ="container w-50">
-        <form>
+    <div class="w-100 float">
+        <h3 class="solucionador float-start ms-4">SELECCIONADOR DE PRODUCTO / CARRITO</h3>
+        <div class="float-end">
+            <input type="search" class="float-start mt-2">
+            <i class="material-icons p-2 float-right">
+                shopping_cart
+            </i>
+        </div>
+    </div>
+    <br><br><br><br>
+<div>
+    <div class ="row">
+        <form class="col-3 ms-4">
             <div class="mb-3">
-                <label for="nombreUS" class="form-label">Nombre</label>
-                <input type="text" name="nombreUs" class="form-control" placeholder="ingrese su nombre">
+                    <label for="nombreUS" class="form-label">Nombre</label>
+                    <input type="text" name="nombreUs" class="form-control" placeholder="ingrese su nombre">
             </div>
             <div class="mb-3">
                 <label for="tipoDeProcesos" class="form-label">Seleccione el tipo de proceso</label>
@@ -50,34 +60,57 @@
                 <input type="submit" class="btn btn-dark">
             </div>
         </form>
-    </div>
+        <div class="col-8 mt-4 ms-5 p-1">
+            <div class="alert alert-success" role="alert">
+                <table class="table" id="tabla">
+                    <div class="lista__tabla">
+                        <ul>
+                            <li>Tipo de Proceso</li>
+                            <li>Nombre</li>
+                            <li>Modelo</li>
+                            <li>Precio</li>
+                            <li>Eliminar/Favorito</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div id="resultadoSelector" class="text-dark lista__tabla">
+                        <ul>
+                            <li>'${contador.nombre}'</li>
+                            <li>'${contador.linea}'</li>
+                            <li>'${contador.modelo}'</li>
+                            <li>
+                                <span class="material-icons w-50">
+                                attach_money
+                                </span>
+                                '${contador.precio}'
+                            </li>
+                            <li> <i class="material-icons" >delete</i></li>
+                            <li><i class="material-icons">favorite</i></li>
+                        </ul>
+                
+                        <hr>
+                        <section class="d-flex justify-content-between" style="height: 20rem;">
+                            <div>
+                                <h4>CARACTERISTICAS</h4>
+                                    <ol>
+                                        <li>hola</li>
+                                        <li>chau</li>
+                                        <li></li>
+                                    </ol>
+                            </div>
+                            <div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div>
+                            <div>
+                                <h4 class="text-center">DISEÑO</h4>
+                                <div class="d-flex justify-content-center">
+                                    <img src="../img/bombas/DSHC BRIDA-removebg-preview.png" width="60%" alt="">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </table>    
+            </div>
 
-        <div class="container">
-            <table class="table" id="tabla">
-                <thead class="thead-inverse">
-                    <tr>
-                        <th>Tipo de Proceso</th>
-                        <th>Nombre</th>
-                        <th>Modelo</th>
-                        <th>Precio</th>
-                        <th>Eliminar/Fav</th>
-                    </tr>
-                </thead>
-                <tbody id="listaSelector" class="text-warning">
-                    <td>'${contador.nombre}'</td>
-                    <td>'${contador.linea}'</td>
-                    <td>'${contador.modelo}'</td>
-                    <td>
-                        <span class="material-icons-outlined w-50">
-                        attach_money
-                        </span>'${contador.precio}'
-                    </td>
-                    <td><i class="material-icons me-5" >delete</i>
-                        <i class="material-icons">favorite</i>
-                    </td>
-                </tbody>
-            </table>
-        </div>
+    
         <script src="../js/js.js"></script>
     <script src="../js/function.js"></script>
     
