@@ -409,5 +409,49 @@ div#ani{  /* todo lo que esté dentro de un div con el id "ani" va a tener este 
         }
     }
 }
-
-
+/* seccion que va a definir estilos para mi carrito de compras */
+.lista__tabla {
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style:none;
+        }
+    }
+}
+.carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.contenedor__img__carrito {
+    width: 20%;
+    height: 150px;
+}
+.precio__total {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+.btn__borrarCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    cursor: pointer;
+}
+.btn__confirmarCarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(115, 255, 0);
+    cursor: pointer;
+}
