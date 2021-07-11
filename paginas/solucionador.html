@@ -63,7 +63,7 @@
         <div class="col-8 mt-4 ms-5 p-1">
             <div class="alert alert-success" role="alert">
                 <table class="table" id="tabla">
-                    <div class="lista__tabla">
+                    <div class="lista__tabla text-dark">
                         <ul>
                             <li>Tipo de Proceso</li>
                             <li>Nombre</li>
@@ -73,13 +73,13 @@
                         </ul>
                     </div>
                     <hr>
-                    <div id="resultadoSelector" class="text-dark lista__tabla agregar__carrito">
+                    <div id="resultadoSelector" class="text-dark lista__tabla contenedor__selector">
                         <ul>
                             <li>'${contador.nombre}'</li>
                             <li>'${contador.linea}'</li>
                             <li>'${contador.modelo}'</li>
-                            <li> <i class="material-icons" >delete</i></li>
-                            <li><i class="material-icons">add_shopping_cart</i></li>
+                            <li> <i class="material-icons" id="deleteSelector">delete</i></li>
+                            <li><i class="material-icons" id="agregarCarrito">add_shopping_cart</i></li>
                         </ul>
                 
                         <hr>
@@ -109,7 +109,7 @@
                     </div>
                 </table>    
             </div>
-            <section class="carrito alert alert-warning">
+            <section class="carrito alert alert-warning text-dark">
                 <div>
                     <div>Producto</div>
                     <div>EMD PLUS</div>

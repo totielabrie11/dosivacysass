@@ -1,1 +1,4 @@
-const agregarCarritoButtoms = document.querySelectorAll('.agregar__carrito');
+const agregarCarritoButtom = document.querySelector('#agregarCarrito');
+agregarCarritoButtom.array.forEach(agregarCarrito => {
+    agregarCarrito.addEventListener('click', () => console.log('click'))
+});
