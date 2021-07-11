@@ -120,24 +120,29 @@ function selectorVacioA() {
     linea = "DVRII";
     modelo = "1A";
     precio = 175;
+    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 1A hasta 60LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS</li><li>AIRE ACONDICIONADO HOGARENO</li></ol></div>';
   } else if (desplazamiento <= 130) {
     linea = "DVRII";
     modelo = "2A";
     precio = 260;
+    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 2A hasta 120LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS DE GRAN VOLUMEN</li><li>AIRE ACONDICIONADO HOGARENOS HASTA 5000</li></ol></div>';
   } else if (desplazamiento <= 170) {
     linea = "DVRII";
     modelo = "3A";
     precio = 260;
+    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 3A hasta 170LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
   } else if (desplazamiento <= 280) {
     linea = "DVRII";
     modelo = "4A";
     precio = 380;
+    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 4A hasta 272LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>APTA PARA TAREAS DE MANTENIMIENTO EN INDUSTRIA</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
   } else {
     linea = null;
   }
   console.log("llegue hasta selector de alto vacio");
   img =
     '<img src="../img/bombas/DVR2-removebg-preview.png" width="60%" alt="">';
+  
 }
 
 function selectorVacioR() {

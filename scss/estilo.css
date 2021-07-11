@@ -1,0 +1,1639 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap");
+.contacto__1 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__2 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__3 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__4 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__5 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__6 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__7 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+.contacto__8 {
+  color: white;
+  margin-right: 18px;
+  width: 100%;
+}
+
+section div.banner__cliente {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background: #bbfff9;
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%, rgba(187, 255, 249, 0.479412)), color-stop(57%, rgba(0, 245, 16, 0.490616)), to(rgba(0, 212, 255, 0.454202)));
+  background: linear-gradient(90deg, rgba(187, 255, 249, 0.479412) 3%, rgba(0, 245, 16, 0.490616) 57%, rgba(0, 212, 255, 0.454202) 100%);
+  margin-left: 10px;
+}
+
+.banner__cliente--image {
+  width: 17.4rem;
+  height: 8rem;
+}
+
+.catalogo__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.catalogo__image .catalogo__image--position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 15px;
+  background-color: #ddd5d5;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 103, 123, 0.7);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: inherit;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa h5 {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  font-size: 15px;
+}
+
+.catalogo__image .catalogo__image--position .catalgo__image--tamaño figure .capa spam {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 15rem;
+  font-family: 'B612', sans-serif;
+  text-align: center;
+  color: #dad735;
+  font-size: 15px;
+}
+
+#fig__sombra:hover > .capa {
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+#fig__sombra:hover > .capa h5 {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  top: 5px;
+}
+
+#fig__sombra:hover > .capa spam {
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  top: 5rem;
+}
+
+div.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ddd5d5;
+  font-size: 1rem;
+}
+
+div.form label {
+  color: rgba(172, 9, 123, 0.486);
+  margin-top: 5px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+li .novedad__image {
+  width: 15rem;
+  height: 15rem;
+  margin-right: 30px;
+}
+
+.texto__desplegable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  color: black;
+  text-shadow: none;
+}
+
+.texto__desplegable .texto__desplegable--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
+}
+
+html body {
+  background: #7d8083;
+  background: -webkit-gradient(linear, left top, right top, from(#afb7bd), color-stop(76%, #a8a9ad), to(#b0b1bd));
+  background: linear-gradient(90deg, #afb7bd 0%, #a8a9ad 76%, #b0b1bd 100%);
+  color: white;
+  overflow: hidden;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  background-color: #dbdae4;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 3%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+#search__contenedor {
+  /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+#search__contenedor #search__button {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+#search__contenedor #search__input {
+  text-align: inherit;
+  width: 50%;
+}
+
+/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
+#search__contenedor {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#search__input {
+  border: 0;
+  background: #ecea61;
+  color: black;
+  outline: none;
+}
+
+#search__button {
+  color: grey;
+}
+
+#form__login {
+  margin-right: 15%;
+  margin-top: 40px;
+}
+
+.logotipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  max-width: 100%;
+  color: white;
+}
+
+main section {
+  margin-bottom: 10px;
+}
+
+main section a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+  display: none;
+}
+
+h2 {
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 10px;
+  font-family: 'B612', sans-serif;
+  text-shadow: 5px 6px 2px black;
+  font-size: 40px;
+  color: #72c5f5;
+  color: white;
+}
+
+h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'B612', sans-serif;
+  text-shadow: 3px 3px 2px black;
+  color: #72c5f5;
+  color: white;
+  height: 100%;
+}
+
+.solucionador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tarjeta__empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: none;
+  margin: auto;
+}
+
+#tarjeta__historia1, #tarjeta__historia2 {
+  width: 43rem;
+  color: #248de2;
+  text-align: justify;
+}
+
+.tarjetaproducto {
+  /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
+}
+
+.tarjetaproducto .card-title {
+  font-size: 1.5rem;
+  color: #818194;
+  font-style: italic;
+  text-align: center;
+}
+
+.tarjetaproducto .card-body p {
+  font-family: "B612";
+  font-size: 20px;
+  background: #c3e2e4;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.tarjetaproducto .tarjetaproducto__posicionamiento {
+  margin-bottom: 30px;
+}
+
+.tarjetaproducto .dale__like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.tarjetaproducto .dale__like li {
+  list-style: none;
+}
+
+.fondobomba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #bbfff9;
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%, rgba(187, 255, 249, 0.479412)), color-stop(18%, rgba(0, 34, 245, 0.490616)), to(rgba(0, 212, 255, 0.454202)));
+  background: linear-gradient(90deg, rgba(187, 255, 249, 0.479412) 3%, rgba(0, 34, 245, 0.490616) 18%, rgba(0, 212, 255, 0.454202) 100%);
+}
+
+div.navegacion {
+  /* esta relacionado con las flechas de navegacion que están arriba del footer */
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
+  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+}
+
+div.navegacion .tamaño__img--navegacion {
+  width: 10%;
+  height: 10%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #cbdfed;
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
+  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
+  height: 140px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+footer .personita {
+  width: calc(calc((100% / 40) + 60px));
+  /* no encontraba la forma de hacer que mi elemento que pesa un determinado "%" , no desapareciera de mi pantalla en tamaño mobile hasta que me encontré con esta funcion "calc" que me encantó */
+  position: fixed;
+  right: -15px;
+  bottom: 0;
+}
+
+footer .burbujatexto {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 2rem;
+  bottom: 7rem;
+  width: calc(calc((100% / 10) + 210px));
+  height: 100px;
+  padding: 10px;
+  color: grey;
+  background-color: #ecea61;
+  border-radius: 15px;
+}
+
+footer .burbujatexto .triangulo {
+  position: relative;
+  bottom: -3.5rem;
+  right: -10px;
+  width: 0px;
+  height: 0px;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  border-left: 50px solid #ecea61;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+footer #cerrarburbuja {
+  position: absolute;
+  width: 24px;
+  bottom: 11.5rem;
+  right: 3.5rem;
+  color: black;
+  font-size: 15px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  -webkit-box-shadow: 4px 4px 0px white;
+          box-shadow: 4px 4px 0px white;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+footer #cerrarburbuja:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
+}
+
+footer .capa__personita {
+  width: calc(calc((100% / 40) + 45px));
+  height: 5rem;
+  position: fixed;
+  right: -15px;
+  bottom: 0;
+  background: 0, 0, 0, 0;
+  cursor: pointer;
+}
+
+footer #btn-modal-img {
+  display: none;
+}
+
+footer h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.6rem;
+  color: #09f5f5;
+  text-shadow: 4px 4px 6px black;
+}
+
+footer div.footer__line {
+  width: 100%;
+  height: 8px;
+  background-color: black;
+}
+
+footer div.footer__image {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer .footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section article {
+  background: #dfecf5;
+  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(50%, #63e3eb), color-stop(82%, #52ddf4), to(#4555fc));
+  background: linear-gradient(90deg, #cbdfed 0%, #63e3eb 50%, #52ddf4 82%, #4555fc 100%);
+}
+
+.footer__image--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer__image--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer__image--3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 991px) {
+  footer {
+    width: 100%;
+    height: 22rem;
+  }
+  footer span {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    display: none;
+  }
+  footer div.footer__image {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  section article.tarjetaproducto {
+    margin-top: 20px;
+  }
+  h3 {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  div.carousel {
+    display: none;
+  }
+  nav li {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    /* para que no me tire elementos desplegables hacia el costado */
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    /* mi navegacion mobiel pasa a estar a la derecha "mas facil para moverse con una sola mano" */
+    /* justify-content: flex-end; al cambiar el eje horizontal por eje vertical esta propiedad ya no me empuja los elementos hacia la derecha sino que los empuja hacia abajo donde no tienen mas lugar, por eso arriba uso la propiedad align-items: flex end, "eje vertical" ;*/
+  }
+  #search__input {
+    min-width: 73%;
+    margin-left: 20%;
+    margin: auto;
+    background: #87fbff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div#banner__aireacion--position {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  /* mismo breakpoint que la mq anterior pero ahora a partir de este tamaño no se mostrara el elemento  (linea divisoria en footer) */
+  footer div.footer__line {
+    display: none;
+  }
+}
+
+@media all and (max-width: 816px) {
+  #video__gerente {
+    width: 36rem;
+    height: 20rem;
+  }
+}
+
+@media all and (max-width: 576px) {
+  /* * {  Durante todo mi proyecto, o gran parte de las hrs que llevo en él. Desactive todas las animaciones en tamaño mobile pequeño como el mío. Pensé que no tenia sentido que estén presentes. Luego mis animaciones estuvieron mejor y me animo a dejarlas presentes en la entrega final.
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+        transform: none !important;
+       } */
+  h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+  div #bomba {
+    width: 80%;
+  }
+  section article.tarjetaproducto {
+    margin-top: 20px;
+  }
+  div #image--tamaño--mq {
+    width: 5rem;
+    height: 5rem;
+    background-color: hotpink;
+  }
+  div #image--tamaño--mq figure {
+    margin-top: 5px;
+    width: 5rem;
+    height: 5rem;
+  }
+  div #image--tamaño--mq figure h5 {
+    font-size: 10px;
+  }
+  div #image--tamaño--mq figure spam {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  div#tarjeta__historia {
+    width: 100%;
+  }
+  .banner__cliente--image {
+    margin-top: 10px;
+  }
+  .tarjeta__empresa {
+    width: 100%;
+  }
+  #tarjeta__historia1, #tarjeta__historia2 {
+    margin: auto;
+  }
+  #tarjeta__historia2 {
+    margin-top: 10px;
+  }
+  li .novedad__image {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 30px;
+  }
+}
+
+@media all and (max-width: 796px) {
+  .banner__cliente--image {
+    width: 100%;
+    height: 14rem;
+    margin-top: 10px;
+  }
+  article.catalogo__producto1, article.catalogo__producto2, article.catalogo__producto3, article.catalogo__producto4, article.catalogo__producto5, article.catalogo__producto6, article.catalogo__producto7, article.catalogo__producto8, article.catalogo__producto9, article.catalogo__producto10, article.catalogo__producto11, article.catalogo__producto12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* Entiendo que existen herramientas mas poderosas para hacer esta sintaxis mas ordenada, por ahora se me escapa  */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: inherit;
+        -ms-flex-pack: inherit;
+            justify-content: inherit;
+    margin-right: none;
+    margin-left: 1.8px;
+    width: 100%;
+    height: auto;
+  }
+  li .novedad__image {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 30px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  article.catalogo__producto1, div.catalogo__producto2, div.catalogo__producto3, div.catalogo__producto4, div.catalogo__producto5, div.catalogo__producto6, div.catalogo__producto7, div.catalogo__producto8, div.catalogo__producto9, div.catalogo__producto10, div.catalogo__producto11, div.catalogo__producto12 {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #video__gerente {
+    width: 24rem;
+    height: 13rem;
+  }
+}
+
+@media all and (max-width: 496px) {
+  li .novedad__image {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 30px;
+  }
+  #video__gerente {
+    width: 18rem;
+    height: 10rem;
+  }
+  .galeria__image figure#fig__sombra--img {
+    width: 100%;
+    height: 20%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal {
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal:hover {
+    /* La intencion en esta mq, era que cuando abria la foto en mi dispositivo mobile. la foto modal que tenia un width 80% era mas pequeña que mi cajita de vista previa. Pero si al hacer click la imagen se girase, sería muy util, aunque de todas formas siempre tienes la opcion de girar el telefono y pasar al breakpint siguiente donde esto no ocurre.  */
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    width: 40%;
+    /* el modal no giraba por que antes debía de encogerse , rotar y luego crecer */
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+    min-width: 120%;
+    /* fuerzo a la imagen a que se estire, en realidad a su contenedor ya que la img lleva el 100% del peso del padre */
+    height: auto;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img {
+    width: 100%;
+    /* como el contenedor modal crece con la propiedad min-width - el contenedor hijo que le asigna tamaño al img crece siguiendo la suerte del padre */
+    height: auto;
+  }
+  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img img {
+    min-width: 100%;
+    /* el img no tiene mas remedio que crecer ante este evento */
+  }
+}
+
+.catalogo__producto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+.catalogo__producto12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-shadow: 6px 6px 4px #00205c;
+  width: 28rem;
+  height: 100%;
+  margin-top: 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+div.catalogo__image--tamaño {
+  width: 26.5rem;
+  height: 22rem;
+}
+
+.galeria__image--contenedor {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: grey;
+}
+
+.galeria__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.galeria__image figure {
+  position: relative;
+  width: 15rem;
+  height: 10rem;
+  border-radius: 15px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
+          box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.galeria__image figure img {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.galeria__image figure .capa1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 1, 2, 0.61);
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+input#btn-modal-, #btn-modal-img1, #btn-modal-img2, #btn-modal-img3, #btn-modal-img4, #btn-modal-img5, #btn-modal-img6, #btn-modal-img7, #btn-modal-img8, #btn-modal-img9, #btn-modal-img10, #btn-modal-img11, #btn-modal-img12, #btn-modal-img13, #btn-modal-img14, #btn-modal-img15, #btn-modal-img16, #btn-modal-img17, #btn-modal-img18, #btn-modal-img19, #btn-modal-img20 {
+  display: none;
+}
+
+label.lbl-modal--image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.modal__galeria {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal__galeria .contenedor__modal {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  background: #fff;
+  -webkit-box-shadow: 2px 7px 25px rgba(255, 255, 255, 0.6);
+          box-shadow: 2px 7px 25px rgba(255, 255, 255, 0.6);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  position: relative;
+}
+
+.modal__galeria .contenedor__modal header {
+  padding: 10px;
+  background: #db5046;
+  color: #fff;
+  text-align: center;
+}
+
+.modal__galeria .contenedor__modal label {
+  position: absolute;
+  right: 15px;
+  top: 7px;
+  border-radius: 100%;
+  background: #000;
+  width: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 0px black;
+          box-shadow: 4px 4px 0px black;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.modal__galeria .contenedor__modal label:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
+}
+
+.modal__galeria .contenedor__modal .contenido-img {
+  width: 100%;
+  height: auto;
+}
+
+.modal__galeria .contenedor__modal .contenido-img img {
+  width: 100%;
+}
+
+#btn-modal-img:checked ~ .modal__galeria {
+  /* me hubiera gustado resolverlo con otra sintaxis, prove con parentesis con , con ; y nada me funcionó. Finalmente opto por repetir la funcion por la cantidad de veces que lo necesito (esto se reptie en el modal que contiene cada tarjeta de producto) */
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img1:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img2:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img3:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img4:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img5:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img6:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img7:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img8:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img9:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img10:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img11:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img12:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img13:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img14:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img15:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img16:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img17:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img18:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#btn-modal-img19:checked ~ .modal__galeria {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+#fig__sombra--img:hover > .capa1 {
+  /* esto muestra el efecto o la transicion de la capa oculta al pasar el mosue por la foto que vamos a seleccinar */
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  opacity: 1;
+  visibility: visible;
+}
+
+figure {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+figure:hover {
+  /* transform:  scale(1.20); tuve que anular el efecto con escalamiento por que me rompe el modal y se volvia loca la pagina.*/
+  background-color: rgba(0, 0, 0, 0.678);
+}
+
+article.catalogo div {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+section.catalogo {
+  margin-right: 10px;
+  margin-left: 1%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /* anular cualquier tipo de animacion   {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    transform: none !important;
+} */
+}
+
+section.catalogo a.btn.btn-primary {
+  margin-top: 10px;
+}
+
+section.catalogo li a.btn-gas {
+  margin-top: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+}
+
+section.catalogo div#ani {
+  /* todo lo que esté dentro de un div con el id "ani" va a tener este pequeño efecto */
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+section.catalogo div#ani:hover {
+  -webkit-transform: rotate(0deg) translate(10px, 2px) scale(1.04);
+          transform: rotate(0deg) translate(10px, 2px) scale(1.04);
+}
+
+/* estilos modal (de todos mis catalgos de producto)*/
+.modal__position {
+  width: 100%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.modal__position .lbl-modal {
+  color: black;
+  width: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: grey;
+  background: #ecea61;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal__position #btn-modal:checked ~ .modal__position {
+  /* se repite el problema de sintaxis expuesto arriba en la galeria de fotos */
+  height: 100%;
+}
+
+.modal__position #btn-modal1:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal2:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal3:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal4:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal5:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal6:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal7:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal8:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal9:checked ~ .modal__position {
+  height: 100%;
+}
+
+.modal__position #btn-modal, .modal__position #btn-modal1, .modal__position #btn-modal2, .modal__position #btn-modal3, .modal__position #btn-modal4, .modal__position #btn-modal5, .modal__position #btn-modal6, .modal__position #btn-modal7, .modal__position #btn-modal8, .modal__position #btn-modal9 {
+  display: none;
+}
+
+.modal__position .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal__position #btn-modal:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal1:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal2:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal3:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal4:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal5:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal6:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal7:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal8:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position #btn-modal9:checked ~ .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__position .contenedor {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background: #ecea61;
+  -webkit-box-shadow: 1px 7px 25px;
+          box-shadow: 1px 7px 25px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  position: relative;
+}
+
+.modal__position .contenedor header {
+  padding: 10px;
+  background: #ecea61;
+}
+
+.modal__position .contenedor label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Mensaje del desarrollador:
+
+En primer lugar quiero destacar los conceptos enseñados con claridad que permitieron tener 
+la base para explorar y poder aplicar las soluciones a las distintas dificultades. Es importante por que, 
+si esto no hubiera sucedido. Entonces simplemente esto no hubiera ocurrido ni mi proyecto tampoco. 
+Quiero agradecer el acompañamento del tutor que supo guíar y resolver a la par, parte de estas dificultades. 
+Y tomarse el trabajo de oficiar de profe y explicar el por que estaba sucendiendo tal complicación. Insisto en 
+que como primer trabajo de desarrollo web y desarrollando algo por primera vez. Si no se hubiera explicado 
+con exhaustiva claridada jamas hubiera podido llegar a realizar esta entrega. Gracias Profe Leo y gracias Tutor Agustín!
+
+Por último quiero compartir con Ustedes, mi felicidad de poder comenzar a dedicarme a lo que más amo en la vida.
+"la computacion" . Hobbie que compartí con mi viejo de joven y que todos me decian. "eso es solo para inteligentes"
+"jamas vas a aprender lenguajes, y entre otras cosas" Se que falta mucho por aprender. Me doy cuenta que no puedo 
+llevar adelante el nivel de soluciones que pretendo con CSS, pero debo dar gracias de saber que estoy bien encaminado 
+por las bestias que me supieron enseñar.
+gracias!. Carlos Manuel Martínez */
+/*# sourceMappingURL=estilo.css.map */
