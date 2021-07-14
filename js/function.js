@@ -30,8 +30,12 @@ function capturar() {
   console.log(arraySelection);
 }
 
+const GuardarLSS = () => {
+  localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
+};
+
 const GuardarLS = () => {
-  localStorage.setItem("selection", JSON.stringify(arraySelection));
+  localStorage.setItem("resultado", JSON.stringify(arraySelection));
 };
 
 /* const EliminarLS = (consulta) => {
@@ -51,9 +55,9 @@ const PintarDom = () => {
   resultadoSelector.innerHTML = "";
 
   arraySelection = JSON.parse(localStorage.getItem("selection"));
-  console.log(arraySelection); // no importa el null por que entra igual con el if;
+  console.log(arrayDeConsultas); // no importa el null por que entra igual con el if;
 
-  if (arraySelection === null) {
+  if (arrayDeConsultas === null) {
     arraySelection = [];
   } else {
     if (linea === null) {
@@ -75,18 +79,21 @@ const PintarDom = () => {
   GuardarLS();
 }); */
 
-document.addEventListener("DOMContentLoaded", PintarDom);
+
+
+///////////////////////////////////////////////////////////////////////
+//funcion de escuchar y disparar eventos DOM antes de jQuery
+/////////////////////////////////////////////////////////////////////
+/* document.addEventListener("DOMContentLoaded", PintarDom);
 
 resultadoSelector.addEventListener("click", (e) => {
   e.preventDefault();
 
   console.log(e.target.innerHTML);
 
-  if (e.target.innerHTML === "delete" || e.target.innerHTML === "favorite") {
-    if (e.target.innerHTML === "delete") {
-      EliminarLS(e.path[2].childNodes[4].innerHTML);
-    }
-  }
-  if (e.target.innerHTML === "favorite") {
-  }
-});
+}); */
+////////////////////////////////////////////////////////////////////
+//funcion de escuchar y disparar eventos DOM con jQuery
+///////////////////////////////////////////////////////////////////
+$(document).on("DOMContentLoaded", PintarDom);
+

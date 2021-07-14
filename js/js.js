@@ -33,11 +33,15 @@ const handleForm = (e) => {
   arrayDeConsultas.push(inputValues);
   console.log("Despues de pushear los datos: ", arrayDeConsultas);
 
-  e.preventDefault();
+  
+
   capturar();
+  GuardarLSS();
   GuardarLS();
   PintarDom();
 };
+
+
 
 const handleInput = (e) => {
   //Aqui viene lo "complejo", necesitamos hacer este formulario dinamico, como hacemos eso? capturando el e.target.name del elemento y buscar que coincida con alguna propiedad del objeto inputValues, es por eso que es importante que los nombres de las propiedades del objeto sean las mismas que la de los names en el html. Por ejemplo e.target.name del segundo input sera apellido, este entrara en el objeto y buscara una propiedad que sea igual, si la consigue le agregara el e.target.value que le pasamos
