@@ -6,8 +6,9 @@ tipoDeProceso = "";
 let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
-
+//let arrayCarrito = [];
 const arrayDeConsultas = [];
+let arraySelection = [];
 
 let inputValues = {
   proceso: "",
@@ -36,8 +37,8 @@ const handleForm = (e) => {
   
 
   capturar();
-  GuardarLSS();
-  GuardarLS();
+  GuardarLSvalues();
+  GuardarLSmatch();
   PintarDom();
 };
 
@@ -154,6 +155,7 @@ function selectorVacioR() {
     linea = "DSHC";
     modelo = "400";
     precio = 693;
+    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 400 hasta 400LTS</li><li>380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PEQUENO PULMON DE VACIO</li><li>ESTRUSORAS DE UNA BOCA</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 800) {
     linea = "DSHC";
     modelo = "800";

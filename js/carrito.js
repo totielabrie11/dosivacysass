@@ -16,13 +16,25 @@ agregarBorrarSelButtom.forEach(agregarCarrito => {
 $(document).ready(function(){
 
     $('#agregarCarrito').click(function () {
-        alert("me estas agregando al carrito")
+        //me pasaba que al intentar igualar mi arraySelection al arrayCarrito, como este todavia no habia sido ejecutada la funcion, el arrayCarrito tomaba el valor "nada", lo pude solucionar con el metodo .ready() que le paso a esta funcion. todo con jQuery
+        agregarCarrito();
+
     });
     
     $('#borrarSelector').dblclick(function () {
-        alert("me estas eliminando del carrito")
+        
+        location.reload();
+
     });
 
 })
 
+
+function agregarCarrito() {
+    
+    let [...arrayCarrito] = arraySelection;
+    console.log("🚀 ~ file: carrito.js ~ line 32 ~ arrayCarrito", arrayCarrito)
+    
+    //falta terminar la logica de programacion, y que se renderice mi HTML en la nueva section de la class "carrito"  
+}
 

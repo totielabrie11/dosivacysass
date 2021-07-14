@@ -28,13 +28,14 @@ function capturar() {
   arraySelection = [];
   arraySelection.push(contador);
   console.log(arraySelection);
+  
 }
 
-const GuardarLSS = () => {
+const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
 };
 
-const GuardarLS = () => {
+const GuardarLSmatch = () => {
   localStorage.setItem("resultado", JSON.stringify(arraySelection));
 };
 
