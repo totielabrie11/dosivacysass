@@ -55,7 +55,7 @@ const GuardarLSmatch = () => {
 const PintarDom = () => {
   resultadoSelector.innerHTML = "";
 
-  arraySelection = JSON.parse(localStorage.getItem("selection"));
+  arraySelection = JSON.parse(localStorage.getItem("resultado"));
   console.log(arrayDeConsultas); // no importa el null por que entra igual con el if;
 
   if (arrayDeConsultas === null) {
@@ -93,6 +93,8 @@ resultadoSelector.addEventListener("click", (e) => {
   console.log(e.target.innerHTML);
 
 }); */
+
+
 ////////////////////////////////////////////////////////////////////
 //funcion de escuchar y disparar eventos DOM con jQuery
 ///////////////////////////////////////////////////////////////////

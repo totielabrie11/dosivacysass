@@ -23,7 +23,10 @@ $(document).ready(function(){
     
     $('#borrarSelector').dblclick(function () {
         
-        location.reload();
+        //location.reload(); //forma equivocada de hacerlo
+
+        arraySelection = []; //vacio el array
+        resultadoSelector.innerHTML = "";  //renderizo de forma siemple 
 
     });
 

@@ -7,7 +7,7 @@ let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
 //let arrayCarrito = [];
-const arrayDeConsultas = [];
+let arrayDeConsultas = [];
 let arraySelection = [];
 
 let inputValues = {
