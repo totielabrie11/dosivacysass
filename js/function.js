@@ -66,7 +66,7 @@ const PintarDom = () => {
       return;
     } else
       arraySelection.forEach((element) => {
-        resultadoSelector.innerHTML += `<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><span class="material-icons">attach_money</span>'${contador.precio}'</li><li> <i class="material-icons" >delete</i></li><li><i class="material-icons">add_shopping_cart</i></li></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${contador.caracter}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`;
+        resultadoSelector.innerHTML += `<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><i class="material-icons">attach_money</i>'${contador.precio}'</li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${contador.caracter}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`;
       });
   }
 };

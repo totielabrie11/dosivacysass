@@ -6,7 +6,7 @@ tipoDeProceso = "";
 let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
-//let arrayCarrito = [];
+arrayCarrito = [];
 let arrayDeConsultas = [];
 let arraySelection = [];
 

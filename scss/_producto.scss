@@ -416,6 +416,9 @@ div#ani{  /* todo lo que esté dentro de un div con el id "ani" va a tener este 
         justify-content: space-between;
         li {
             list-style:none;
+        i {
+            cursor: pointer;    
+            }
         }
     }
 }
