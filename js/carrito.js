@@ -12,6 +12,9 @@ agregarBorrarSelButtom.forEach(agregarCarrito => {
  */
 
 //METODO PARA LLEGAR HASTA EL EVENTO CLICK DE MIS BOTONES CON JQ  Y ademas le estoy pasando una funcion HERMOSO
+
+
+
 $(document).ready(function(){
 
     $('#agregarCarrito').click(function () {
@@ -28,10 +31,10 @@ $(document).ready(function(){
       
         resultadoSelector.innerHTML = "";  //borro el campo del resultado de mi busqueda 
 
-        arrayCarrito.innerHTML = ""; //no me borra esta parte del carrito
+        mostrarCarrito.innerHTML = ""; //no me borra esta parte del carrito
 
         Storage.clear();
-
+    
     });
 
 })
@@ -41,6 +44,7 @@ function agregarCarrito() {
     [...arrayCarrito] = JSON.parse(localStorage.getItem("resultado"));
 
     console.log("🚀 ~ file: carrito.js ~ line 32 ~ arrayCarrito", arrayCarrito);                                        
+    
 
     if (arrayCarrito.length === 0) { 
     
@@ -48,8 +52,8 @@ function agregarCarrito() {
     
     } else {
         arrayCarrito.forEach((element) => {
-            mostrarCarrito.innerHTML = 
-            `<section id="mostrarCarrito" class="carrito alert alert-warning text-dark"><div><div>${contador.linea}  ${contador.modelo}</div></div><div class="contenedor__img__carrito">${contador.img}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div></section>`
+            mostrarCarrito.innerHTML += 
+            `<div>${contador.linea}  ${contador.modelo}</div><div class="contenedor__img__carrito">${contador.img}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`
         })
     }
 };

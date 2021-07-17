@@ -6,9 +6,10 @@ tipoDeProceso = "";
 let desplazamiento = 0;
 let caudal = 0;
 let contrapresion = 0;
-arrayCarrito = [];
+let arrayCarrito = [];
 let arrayDeConsultas = [];
 let arraySelection = [];
+let mostrarCarrito = document.querySelector('#mostrarCarrito');
 
 let inputValues = {
   proceso: "",
