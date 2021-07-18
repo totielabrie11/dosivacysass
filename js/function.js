@@ -31,6 +31,8 @@ function capturar() {
   
 }
 
+
+
 const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
 };
@@ -62,11 +64,11 @@ const PintarDom = () => {
     arraySelection = [];
   } else {
     if (linea === null) {
-      tabla.innerHTML += `<div class="alert alert-danger float-end" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>`;
+      $('table').fadeIn(2000).fadeToggle(5000).html('<div class="alert alert-danger float-left" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>');
       return;
     } else
       arraySelection.forEach((element) => {
-        resultadoSelector.innerHTML += `<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><i class="material-icons">attach_money</i>'${contador.precio}'</li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${contador.caracter}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`;
+        $('#resultadoSelector').slideToggle().slideDown(3000).html(`<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><i class="material-icons">attach_money</i>'${contador.precio}'</li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${contador.caracter}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`);
       });
   }
 };

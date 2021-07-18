@@ -35,8 +35,6 @@ const handleForm = (e) => {
   arrayDeConsultas.push(inputValues);
   console.log("Despues de pushear los datos: ", arrayDeConsultas);
 
-  
-
   capturar();
   GuardarLSvalues();
   GuardarLSmatch();
