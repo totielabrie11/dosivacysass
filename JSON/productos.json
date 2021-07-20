@@ -5,7 +5,8 @@
         "modelo": "10",
         "precio": "1200",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA PEQUEÑA</li><li>DOSIFICA HASTA 10LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D10"
     },
     {
         "proceso": "dosificacion",
@@ -13,7 +14,8 @@
         "modelo": "30",
         "precio": "1200",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA PEQUEÑA</li><li>DOSIFICA HASTA 30LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D30"
     },
     {
         "proceso": "dosificacion",
@@ -21,7 +23,8 @@
         "modelo": "60",
         "precio": "1200",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA PEQUEÑA</li><li>DOSIFICA HASTA 60LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D60"
     },
     {
         "proceso": "dosificacion",
@@ -29,7 +32,8 @@
         "modelo": "80",
         "precio": "1200",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA PEQUEÑA</li><li>DOSIFICA HASTA 80LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D80"
     },
     {
         "proceso": "dosificacion",
@@ -37,7 +41,8 @@
         "modelo": "150",
         "precio": "1400",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA MEDIANA</li><li>DOSIFICA HASTA 150LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL<li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D150"
     },
     {
         "proceso": "dosificacion",
@@ -45,7 +50,8 @@
         "modelo": "300",
         "precio": "1400",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA MEDIANA</li><li>DOSIFICA HASTA 300LTS/H</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D300"
     },
     {
         "proceso": "dosificacion",
@@ -53,7 +59,8 @@
         "modelo": "600",
         "precio": "1400",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA MEDIANA</li><li>DOSIFICA HASTA 10LTS</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D600"
     },
     {
         "proceso": "dosificacion",
@@ -61,7 +68,8 @@
         "modelo": "150 Duplex",
         "precio": "1600",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA GRAN PORTE</li><li>DOSIFICA HASTA 10LTS</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D150DU"
     },
     {
         "proceso": "dosificacion",
@@ -69,7 +77,8 @@
         "modelo": "300 Duplex",
         "precio": "1600",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA GRAN PORTE</li><li>DOSIFICA HASTA 10LTS</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "foto": "img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D300DU"
     },
     {
         "proceso": "dosificacion",
@@ -77,7 +86,8 @@
         "modelo": "600 Duplex",
         "precio": "1600",
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DDI LINEA GRAN PORTE</li><li>DOSIFICA HASTA 10LTS</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS EN CONDICION INDUSTRIAL</li><li>CABEZAL INTERCAMBIABLE (VIENE POR DEFECTO EN PP)</li><li>CONSULTAR POR OTROS CABEZALES DE ALTA COMPATIBILIDAD QUIMICA</li><li>CONSULTAR POR CABEZALES EN INOX</li></ol></div>",
-        "src": "../img/bombas/DDI-removebg-preview.png" 
+        "foto": "<img src='../img/bombas/DDI-removebg-preview.png' width='80%'>",
+        "id": "D600DU"
     }
 
 ]
