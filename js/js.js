@@ -16,6 +16,7 @@ const GuardarLSvalues = () => {
 const GuardarLSmatch = () => {
   localStorage.setItem("resultado", JSON.stringify(arraySelection));
 };
+let buscarProducto = "";
 
 let inputValues = {
   proceso: "",

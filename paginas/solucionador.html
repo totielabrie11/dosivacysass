@@ -10,11 +10,13 @@
     <title>DOSIVAC/SOLUCIONADOR</title>
 </head>
 <body id="solucionador__body">
-    <div class="w-100 float">
+    <div class="w-100">
         <h3 class="solucionador float-start ms-4">SELECCIONADOR DE PRODUCTO / CARRITO</h3>
-        <div class="float-end">
-            <input type="search" class="float-start mt-2">
-            <i class="material-icons p-2 float-right">
+        <div class="d-flex justify-content-end">
+            <input type="search" id="search" class="float-start mt-2 p-1">
+            <input type="button" id="btn-search"  value="Buscar" class="btn btn-dark mt-2 ms-2">
+            
+            <i class="material-icons p-2">
                 shopping_cart
             </i>
         </div>
@@ -56,7 +58,7 @@
                 <input type="number" name="contrapresion" class="input" value="0">
             </div>
             <div>
-                <input type="button" class="btn btn-danger"value="Borrar Busqueda" onclick="location.reload()"/>
+                <input type="button" class="btn btn-danger" value="Borrar Busqueda" onclick="location.reload()"/>
                 <input type="submit" class="btn btn-dark">
             </div>
         </form>
