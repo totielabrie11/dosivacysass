@@ -59,3 +59,28 @@ function agregarCarrito() {
         })
     }
 };
+
+// INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
+$.ajax({
+    method: 'GET',
+    url: '../json/productos.json'
+}).done((productosJSON)=> {
+    crearCards(productosJSON);
+}).fail((error)=> {
+    console.log(error);//reemplazar por un sweet modal
+}).always(()=> {
+    console.log('transferencia de datos JSON terminada');
+});
+
+
+function crearCards(productosJSON){
+    console.log(productosJSON);
+
+
+    
+    const algo = $(productosJSON).each( function(index, producto) {
+        $('#resultadoSelector').html(`<ul><li>'${producto.nombre}'</li><li>'${producto.linea}'</li><li>'${producto.modelo}'</li><li><i class="material-icons">attach_money</i>'${producto.precio}'</li><li></li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${producto.caracteristicas}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${producto.src}'</div></div></section></div>`
+        );
+    })
+    
+};

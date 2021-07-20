@@ -10,6 +10,12 @@ let arrayCarrito = [];
 let arrayDeConsultas = [];
 let arraySelection = [];
 let mostrarCarrito = document.querySelector('#mostrarCarrito');
+const GuardarLSvalues = () => {
+  localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
+};
+const GuardarLSmatch = () => {
+  localStorage.setItem("resultado", JSON.stringify(arraySelection));
+};
 
 let inputValues = {
   proceso: "",
@@ -124,22 +130,22 @@ function selectorVacioA() {
     linea = "DVRII";
     modelo = "1A";
     precio = 175;
-    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 1A hasta 60LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS</li><li>AIRE ACONDICIONADO HOGARENO</li></ol></div>';
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 1A hasta 60LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS</li><li>AIRE ACONDICIONADO HOGARENO</li></ol></div>';
   } else if (desplazamiento <= 130) {
     linea = "DVRII";
     modelo = "2A";
     precio = 260;
-    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 2A hasta 120LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS DE GRAN VOLUMEN</li><li>AIRE ACONDICIONADO HOGARENOS HASTA 5000</li></ol></div>';
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 2A hasta 120LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION</li><li>HELADERAS HOGARENAS DE GRAN VOLUMEN</li><li>AIRE ACONDICIONADO HOGARENOS HASTA 5000</li></ol></div>';
   } else if (desplazamiento <= 170) {
     linea = "DVRII";
     modelo = "3A";
     precio = 260;
-    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 3A hasta 170LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 3A hasta 170LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
   } else if (desplazamiento <= 280) {
     linea = "DVRII";
     modelo = "4A";
     precio = 380;
-    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 4A hasta 272LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>APTA PARA TAREAS DE MANTENIMIENTO EN INDUSTRIA</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DVRII</li><li>MODELO 4A hasta 272LTS</li><li>220v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRABAJOS DE REFRIGERACION PESADOS</li><li>APTA PARA TAREAS DE MANTENIMIENTO EN INDUSTRIA</li><li>CAMARAS FRIGORIFICAS</li><li>AIRE ACONDICIONADO PISO TECHO</li><li>EQUIPOS CENTRALIZADOS</li></ol></div>';
   } else {
     linea = null;
   }
@@ -154,35 +160,42 @@ function selectorVacioR() {
     linea = "DSHC";
     modelo = "400";
     precio = 693;
-    caracter = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 400 hasta 400LTS</li><li>380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PEQUENO PULMON DE VACIO</li><li>ESTRUSORAS DE UNA BOCA</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 400 hasta 400LTS/M</li><li>TENSION 380v</li><li>MOTOR DE 1HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PEQUENO PULMON DE VACIO</li><li>ESTRUSORAS DE 1 BOCA</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 800) {
     linea = "DSHC";
     modelo = "800";
     precio = 990;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 800 hasta 800LTS/M</li><li>TENSION 380v</li><li>MOTOR DE 2HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PEQUENO PULMON DE VACIO</li><li>ESTRUSORAS DE HASTA 2 BOCAS</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 1250) {
     linea = "DSHC";
     modelo = "1250";
     precio = 1420;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 1250 hasta 1250LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 4HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PULMON DE VACIO MEDIANO</li><li>ESTRUSORAS DE 4 BOCAS</li><li>ELIMINAR MEDIANAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 1810) {
     linea = "DSHC";
     modelo = "1810";
     precio = 990;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 1810 hasta 1810LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 5.5HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>PEQUENO PULMON DE VACIO</li><li>ESTRUSORAS DE UNA BOCA</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 2500) {
     linea = "DSHC";
     modelo = "2500";
     precio = 2574;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 2500 hasta 2500LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 5.5HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES</li><li>GRAN PULMON DE VACIO</li><li>ESTRUSORAS DE HASTA 20 BOCAS</li><li>ELIMINAR PEQUENAS CANTIDAD DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 3000) {
     linea = "DSHC";
     modelo = "3000";
     precio = 3049;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 3000 hasta 3000LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 7.5HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES DE GRAN TAMAÑO</li><li>GRAN PULMON DE VACIO</li><li>ESTRUSORAS DE HASTA 30 BOCAS</li><li>ELIMINAR GRANDES CANTIDADES DE VAPORES</li></ol></div>';
   } else if (desplazamiento <= 4500) {
     linea = "DSHC";
     modelo = "4500";
     precio = 4139;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 4500 de hasta 4500LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 10HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES DE GRAN TAMAÑO</li><li>GRAN PULMON DE VACIO</li><li>ESTRUSORAS DE HASTA 45 BOCAS</li><li>ELIMINAR INMENSAS CANTIDADES DE VAPORES DE UN PROCESO INDUSTRIAL</li></ol></div>';
   } else if (desplazamiento <= 6300) {
     linea = "DSHC";
     modelo = "6300";
     precio = 6765;
+    caracteristicas = '<div><h4>CARACTERISTICAS</h4><ol><li>LINEA DSHC</li><li>MODELO 6300 hasta 6300LTS/H</li><li>TENSION 380v</li><li>MOTOR DE 15HP</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA PROCESOS INDUSTRIALES DE GRAN PORTE</li><li>GRAN PULMON DE VACIO</li><li>ESTRUSORAS DE HASTA 63 BOCAS</li><li>ELIMINAR INMENSAS CANTIDADES DE VAPORES DE UN PROCESO INDUSTRIAL</li></ol></div>';
   } else {
     linea = null;
   }
