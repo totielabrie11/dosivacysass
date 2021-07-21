@@ -75,18 +75,26 @@ $.ajax({
 
 function recorrerJSON(productosJSON){
     
-    let algo = $(productosJSON).each( function(index, producto) {
+    $(productosJSON).each( function(index, producto) {
+
+        //const { proceso, linea, modelo, precio, caracteristicas } = productosBusqueda;
+        //NO PUEDO ACCEDER A ESTOS ELEMENTOS
+    
         $('#resultadoSelector').append(`<ul><li>${producto.proceso}</li><li>${producto.linea}</li><li>${producto.modelo}</li><li><i class="material-icons">attach_money</i>${producto.precio}</li><li></li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">${producto.caracteristicas}<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">${producto.foto}</div></div></section></div>`
         );
 
-        find()
+    });
+    $('#btn-search').click(function (e) {
 
-        $('#search').val(); 
-        console.log("🚀 ~ file: carrito.js ~ line 85 ~ algo ~ $('#search').val()", $('#search').val())
+        e.preventDefault();
+      
+        var inputs = $('input');
+      
+        const valorBusqueda = $(inputs).val();
+        const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
+
+        const resultadoBusqueda = ObjetJson.filter();
+        
+    });
     
-    
-    })
-
-
-
 };
