@@ -59,26 +59,6 @@ function agregarCarrito() {
         })
     }
 };
-/* function agregarCarritoJson() {                     
-
-    if (resultadoBusqueda.length === 0) { 
-    console.log("🚀 ~ file: carrito.js ~ line 64 ~ agregarCarritoJson ~ resultadoBusqueda.length", resultadoBusqueda.length)
-    
-        $('#mostrarCarrito').slideDown(4000).slideToggle(4000).html('Debe seleccionar al menos un producto para poder mostrar el carrito');
-    
-    } else {
-        let htmlRender = "";
-
-        htmlRender +=
-            `
-        <div>${linea}  ${modelo}</div><div class="contenedor__img__carrito"></div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>
-            `;
-
-            arrayCarrito.forEach((element) => {
-            $('#mostrarCarrito').append(htmlRender);
-        })
-    }
-}; */
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
 $.ajax({
@@ -165,5 +145,5 @@ function renderizarJSON(productosJSON){
         renderizarJSON(resultadoBusqueda);
     
     });
-}
 
+}
