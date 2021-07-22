@@ -29,21 +29,21 @@ $(document).ready(function(){
 
         arrayCarrito = []; //vacio el array
       
-        resultadoSelector.innerHTML = "";  //borro el campo del resultado de mi busqueda 
+        resultadoSelector.innerHTML = "";  //limpiar el campo del selector de producto
 
-        mostrarCarrito.innerHTML = ""; //no me borra esta parte del carrito
+        mostrarCarrito.innerHTML = ""; //limpiar el campo del carrito de compras
 
         Storage.clear();
     
     });
+    
 
 })
 
+
 function agregarCarrito() {
     
-    [...arrayCarrito] = JSON.parse(localStorage.getItem("resultado"));
-
-    console.log("🚀 ~ file: carrito.js ~ line 32 ~ arrayCarrito", arrayCarrito);                                        
+    [...arrayCarrito] = JSON.parse(localStorage.getItem("resultado"));                                        
 
     if (arrayCarrito.length === 0) { 
     
@@ -59,27 +59,55 @@ function agregarCarrito() {
         })
     }
 };
+/* function agregarCarritoJson() {                     
+
+    if (resultadoBusqueda.length === 0) { 
+    console.log("🚀 ~ file: carrito.js ~ line 64 ~ agregarCarritoJson ~ resultadoBusqueda.length", resultadoBusqueda.length)
+    
+        $('#mostrarCarrito').slideDown(4000).slideToggle(4000).html('Debe seleccionar al menos un producto para poder mostrar el carrito');
+    
+    } else {
+        let htmlRender = "";
+
+        htmlRender +=
+            `
+        <div>${linea}  ${modelo}</div><div class="contenedor__img__carrito"></div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>
+            `;
+
+            arrayCarrito.forEach((element) => {
+            $('#mostrarCarrito').append(htmlRender);
+        })
+    }
+}; */
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
 $.ajax({
+
     method: 'GET',
     url: '../json/productos.json'
+    
 }).done((productosJSON)=> {
+
     renderizarJSON(productosJSON);
+    
 }).fail((error)=> {
+
     console.log(error);//reemplazar por un sweet modal
+
 }).always(()=> {
+
     console.log('transferencia de datos JSON terminada');
-});
+
+})
+
 
 
 function renderizarJSON(productosJSON){
     
-    //resultadoSelectore.innerHTML = "";
     productosJSON.forEach(producto => {
-    console.log("🚀 ~ file: carrito.js ~ line 80 ~ recorrerJSON ~ productosJSON", productosJSON)
 
-        const { proceso, linea, modelo, caracteristicas } = producto;
+        const { proceso, linea, modelo, caracteristicas, foto, precio} = producto;
+
     
         $('#resultadoSelector').append(
             `
@@ -102,24 +130,40 @@ function renderizarJSON(productosJSON){
                 </div>
             </section>
             <hr>  
-        </div>`
+        </div>
+            `
         );
+        
+    
+       //let htmlRender = "";
+       if (resultadoBusqueda.length >= 1) {       
 
+       $('#mostrarCarrito').append(
+
+        `<div>${linea}  ${modelo}</div><div class="contenedor__img__carrito">${foto}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>${precio}</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`);
+
+        }
+    
     });
+
+    //No pude inlucír este evento dentro de los eventos click de jQuery , por que no encontré la forma de definir productosJSON como una variable global que traigo con ajax. solo me funciona dentro del ambito de la funcion.
+
+    $('#btn-search').click(function (e) {
+
+        e.preventDefault();
+          
+        var inputs = $('input');
+          
+        const valorBusqueda = $(inputs).val();
+        const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
+        
+        resultadoBusqueda = productosJSON.filter(producto => producto.modelo.toLowerCase().includes(valorBusquedaFilter));
+        console.log("🚀 ~ file: carrito.js ~ line 102 ~ resultadoBusqueda", resultadoBusqueda)
+            
+        resultadoSelector.innerHTML = ""
     
-};
-$('#btn-search').click(function (e) {
-
-    e.preventDefault();
-  
-    var inputs = $('input');
-  
-    const valorBusqueda = $(inputs).val();
-    const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
-
-    const resultadoBusqueda = productosJSON.filter(producto => producto.linea.toLowerCase().includes(valorBusquedaFilter));
-    console.log("🚀 ~ file: carrito.js ~ line 102 ~ resultadoBusqueda", resultadoBusqueda)
-
-    renderizarJSON(resultadoBusqueda);
+        renderizarJSON(resultadoBusqueda);
     
-});
+    });
+}
+

@@ -9,6 +9,7 @@ let contrapresion = 0;
 let arrayCarrito = [];
 let arrayDeConsultas = [];
 let arraySelection = [];
+let resultadoBusqueda = [];
 let mostrarCarrito = document.querySelector('#mostrarCarrito');
 const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
