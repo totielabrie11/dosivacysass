@@ -36,7 +36,6 @@ $(document).ready(function(){
         Storage.clear();
     
     });
-    
 
 })
 
@@ -52,11 +51,14 @@ function agregarCarrito() {
     } else {
         let htmlRender = "";
 
-        htmlRender += `<div>${contador.linea}  ${contador.modelo}</div><div class="contenedor__img__carrito">${contador.img}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`;
+        htmlRender += `<div>${contador.linea}  ${contador.modelo}</div><div class="contenedor__img__carrito">${contador.img}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito">
+        <span onclick="deleteItemCarrito(event) id="btn-delete">
+        X
+        </span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`;
 
         arrayCarrito.forEach((element) => {
             $('#mostrarCarrito').append(htmlRender);
-        })
+        });
     }
 };
 
@@ -86,7 +88,7 @@ function renderizarJSON(productosJSON){
     
     productosJSON.forEach(producto => {
 
-        const { proceso, linea, modelo, caracteristicas, foto, precio} = producto;
+        const { proceso, linea, modelo, caracteristicas, foto, precio, id} = producto;
 
     
         $('#resultadoSelector').append(
@@ -116,19 +118,54 @@ function renderizarJSON(productosJSON){
         
     
        //let htmlRender = "";
-       if (resultadoBusqueda.length >= 1) {       
+       if (resultadoBusqueda1.length >= 1 || resultadoBusqueda2.length >= 1) {       
 
        $('#mostrarCarrito').append(
 
-        `<div>${linea}  ${modelo}</div><div class="contenedor__img__carrito">${foto}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito"><span>X</span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>${precio}</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`);
-
+            `
+        <div>${linea}  ${modelo}</div>
+        <div class="contenedor__img__carrito">${foto}</div>
+            <div>
+                Cantidad
+            </div>
+            <div>
+                <input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> 
+            </div>
+        </div>
+        <div> 
+            <div class="btn__borrarCarrito" value="borrar" onclick="deleteItemCarrito(${id})">
+                <div>X</div>
+            </div>
+        </div>
+        <div>
+            <div class="btn__confirmarCarrito" value="agregar" onclick="deleteItemCarrito(${id})">
+                <span>OK</span>
+            </div>
+        </div>
+        <div>Precio</div>
+        <div>${precio}</div>
+        </div>
+        <div class="precio__total">TOTAL DE TU COMPRA</div>
+            `);
         }
     
     });
+    
+    deleteItemCarrito = (id) => {
+        
+        console.log(id);
+    
+    };
+    agregarItemCarrito = (id) => {
+        
+        console.log(id);
+        
+    };
+    
 
     //No pude inlucír este evento dentro de los eventos click de jQuery , por que no encontré la forma de definir productosJSON como una variable global que traigo con ajax. solo me funciona dentro del ambito de la funcion.
 
-    $('#btn-search').click(function (e) {
+    $('#btnSearch').click(function (e) {
 
         e.preventDefault();
           
@@ -137,13 +174,16 @@ function renderizarJSON(productosJSON){
         const valorBusqueda = $(inputs).val();
         const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
         
-        resultadoBusqueda = productosJSON.filter(producto => producto.modelo.toLowerCase().includes(valorBusquedaFilter));
-        console.log("🚀 ~ file: carrito.js ~ line 102 ~ resultadoBusqueda", resultadoBusqueda)
-            
+        resultadoBusqueda1 = productosJSON.filter(producto => producto.modelo.toLowerCase().includes(valorBusquedaFilter));
+        
+        resultadoBusqueda2 = productosJSON.filter(producto => producto.proceso.toLowerCase().includes(valorBusquedaFilter));
+
         resultadoSelector.innerHTML = ""
     
-        renderizarJSON(resultadoBusqueda);
-    
+        renderizarJSON(resultadoBusqueda1);
+        renderizarJSON(resultadoBusqueda2);
+
+        $('#btnSearch').reset(input[1])    
     });
 
-}
+};

@@ -9,7 +9,8 @@ let contrapresion = 0;
 let arrayCarrito = [];
 let arrayDeConsultas = [];
 let arraySelection = [];
-let resultadoBusqueda = [];
+let resultadoBusqueda1 = [];
+let resultadoBusqueda2 = [];
 let mostrarCarrito = document.querySelector('#mostrarCarrito');
 const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
@@ -119,7 +120,6 @@ console.log(inputs);
 
 //lamamos al alert donde pintaremos nuestra busqueda
 const alertDom = document.querySelector("#resultadoSelector");
-console.log(alertDom);
 
 //hacemos el evento submit del form que va a ejecutar la funcion sendForm
 form.addEventListener("submit", handleForm);
