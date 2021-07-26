@@ -16,8 +16,8 @@ agregarBorrarSelButtom.forEach(agregarCarrito => {
 $(document).ready(function () {
   $("#agregarCarrito").click(function () {
     //me pasaba que al intentar igualar mi arraySelection al arrayCarrito, como este todavia no habia sido ejecutada la funcion, el arrayCarrito tomaba el valor "nada", lo pude solucionar con el metodo .ready() que le paso a esta funcion. todo con jQuery
-    //agregarCarritoBusqueda();
-    //agregarCarrito();
+
+    agregarTodoCarrito();
   });
 
   $("#borrarSelector").dblclick(function () {
@@ -32,30 +32,6 @@ $(document).ready(function () {
     //mostrarCarrito.innerHTML = ""; //limpiar el campo del carrito de compras
   });
 });
-
-/* function agregarCarrito() {
-  [...arrayCarrito] = JSON.parse(localStorage.getItem("resultado"));
-
-  if (arrayCarrito.length === 0) {
-    $("#mostrarCarrito")
-      .slideDown(4000)
-      .slideToggle(4000)
-      .html(
-        "Debe seleccionar al menos un producto para poder mostrar el carrito"
-      );
-  } else {
-    let htmlRender = "";
-
-    htmlRender += `<div>${contador.linea}  ${contador.modelo}</div><div class="contenedor__img__carrito">${contador.img}</div><div><div>Cantidad</div><div><input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> </div></div><div class="btn__borrarCarrito">
-        <span onclick="deleteItemCarrito(event) id="btn-delete">
-        X
-        </span></div><div class="btn__confirmarCarrito"><span>OK</span></div><div><div>Precio</div><div>$25000</div></div><div class="precio__total">TOTAL DE TU COMPRA</div>`;
-
-    arrayCarrito.forEach((element) => {
-      $("#mostrarCarrito").append(htmlRender);
-    });
-  }
-} */
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
 $.ajax({
@@ -150,38 +126,6 @@ function renderizarJSON(productosJSON) {
         </div>
             `
     );
-
-    let htmlRender = "";
-
-    /*  if (resultadoBusqueda1.length >= 1 || resultadoBusqueda2.length >= 1) {
-      $("#mostrarCarrito").append(
-        `
-        <div>${linea}  ${modelo}</div>
-        <div class="contenedor__img__carrito">${foto}</div>
-            <div>
-                Cantidad
-            </div>
-            <div>
-                <input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> 
-            </div>
-        </div>
-        <div> 
-            <div class="btn__borrarCarrito" value="borrar" onclick="deleteItemCarrito(${id})">
-                <div>X</div>
-            </div>
-        </div>
-        <div>
-            <div class="btn__confirmarCarrito" value="agregar" onclick="deleteItemCarrito(${id})">
-                <span>OK</span>
-            </div>
-        </div>
-        <div>Precio</div>
-        <div>${precio}</div>
-        </div>
-        <div class="precio__total">TOTAL DE TU COMPRA</div>
-            `
-      );
-    } */
   });
 
   deleteItemCarrito = (id) => {

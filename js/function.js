@@ -70,29 +70,5 @@ const PintarDom = () => {
       });
   }
 };
-//Eventos del DOM
 
-//En este momento puedo cargar todas mis funciones en orden, queda mucho mas prolijo, se ve el orden de ejecución. a la espera del submit;
-
-/* form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  GuardarLS();
-}); */
-
-///////////////////////////////////////////////////////////////////////
-//funcion de escuchar y disparar eventos DOM antes de jQuery
-/////////////////////////////////////////////////////////////////////
-/* document.addEventListener("DOMContentLoaded", PintarDom);
-
-resultadoSelector.addEventListener("click", (e) => {
-  e.preventDefault();
-
-  console.log(e.target.innerHTML);
-
-}); */
-
-////////////////////////////////////////////////////////////////////
-//funcion de escuchar y disparar eventos DOM con jQuery
-///////////////////////////////////////////////////////////////////
 $(document).on("DOMContentLoaded", PintarDom);
