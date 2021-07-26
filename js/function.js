@@ -1,36 +1,33 @@
 //funcion constructora -> para caputrar los datos de la seleccion
 function capturar() {
-  function Selection(nombre, linea, modelo, precio, img, caracteristicas) {
+  function Selection(nombre, linea, modelo, precio, foto, caracteristicas) {
     this.nombre = nombre.toUpperCase();
     this.linea = linea;
     this.modelo = modelo;
     precio = precio;
     this.precio = precio;
-    this.img = img;
+    this.foto = foto;
     this.caracteristicas = caracteristicas;
   }
   let nombreCapturar = tipoDeProceso;
   let lineaCapturar = linea;
   let modeloCapturar = modelo;
   let precioCapturar = precio;
-  let imgCapturar = img;
+  let fotoCapturar = foto;
   let caracteristicasCapturar = caracteristicas;
 
-  contador = new Selection(
+  resultado = new Selection(
     nombreCapturar,
     lineaCapturar,
     modeloCapturar,
     precioCapturar,
-    imgCapturar,
+    fotoCapturar,
     caracteristicasCapturar
   );
 
   arraySelection = [];
-  arraySelection.push(contador);
-  
+  arraySelection.push(resultado);
 }
-
-
 
 /* const EliminarLS = (consulta) => {
   console.log(consulta);
@@ -55,11 +52,21 @@ const PintarDom = () => {
     arraySelection = [];
   } else {
     if (linea === null) {
-      $('table').fadeIn(2000).fadeToggle(5000).html('<div class="alert alert-danger float-left" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>');
+      $("table")
+        .fadeIn(2000)
+        .fadeToggle(5000)
+        .html(
+          '<div class="alert alert-danger float-left" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>'
+        );
       return;
     } else
       arraySelection.forEach((element) => {
-        $('#resultadoSelector').slideToggle().slideDown(2500).html(`<ul><li>'${contador.nombre}'</li><li>'${contador.linea}'</li><li>'${contador.modelo}'</li><li><i class="material-icons">attach_money</i>'${contador.precio}'</li><li></li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${contador.caracteristicas}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${contador.img}'</div></div></section></div>`);
+        $("#resultadoSelector")
+          .slideToggle()
+          .slideDown(2500)
+          .html(
+            `<ul><li>'${resultado.nombre}'</li><li>'${resultado.linea}'</li><li>'${resultado.modelo}'</li><li><i class="material-icons">attach_money</i>'${resultado.precio}'</li><li></li><i class="material-icons">favorite</i></ul><hr><section class="d-flex justify-content-between" style="height: 20rem;">'${resultado.caracteristicas}'<div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div><div><h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">'${resultado.foto}'</div></div></section></div>`
+          );
       });
   }
 };
@@ -85,9 +92,7 @@ resultadoSelector.addEventListener("click", (e) => {
 
 }); */
 
-
 ////////////////////////////////////////////////////////////////////
 //funcion de escuchar y disparar eventos DOM con jQuery
 ///////////////////////////////////////////////////////////////////
 $(document).on("DOMContentLoaded", PintarDom);
-
