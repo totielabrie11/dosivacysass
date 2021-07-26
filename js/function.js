@@ -60,7 +60,7 @@ const PintarDom = () => {
         );
       return;
     } else
-      arraySelection.forEach((element) => {
+      arraySelection.forEach((resultado) => {
         $("#resultadoSelector")
           .slideToggle()
           .slideDown(2500)

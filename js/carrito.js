@@ -66,8 +66,17 @@ function agregarTodoCarrito() {
     renderTodoMiCarrito.forEach((resultado) => {
       $("#mostrarCarrito").append(
         `
-        <div>${resultado.linea}  ${resultado.modelo}</div>
-        <div class="contenedor__img__carrito">${resultado.foto}</div>
+        <div class="carrito container alert alert-warning text-dark rounded">
+        <div>
+            <h4>${resultado.linea}</h4>
+        </div>
+        <div>
+            <h4>${resultado.modelo}</h4>
+        </div>
+        <div class="contenedor__img__carrito">
+            ${resultado.foto}
+        </div>
+        <div>
             <div>
                 Cantidad
             </div>
@@ -88,7 +97,7 @@ function agregarTodoCarrito() {
         <div>Precio</div>
         <div>${resultado.precio}</div>
         </div>
-        <div class="precio__total">TOTAL DE TU COMPRA</div>
+    </div>
             `
       );
     });
@@ -109,7 +118,7 @@ function renderizarJSON(productosJSON) {
                 <li>${proceso}</li>
                 <li>${linea}</li>
                 <li>${modelo}</li>
-                <li><i class="material-icons">attach_money</i>${producto.precio}</li>
+                <li><i class="material-icons">attach_money</i>${precio}</li>
                 <li></li>
                 <i class="material-icons">favorite</i>
             </ul>
