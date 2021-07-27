@@ -8,8 +8,8 @@
     max-width: 100% !important;
     overflow-x: hidden !important; /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body {
-    background: rgb(125, 128, 131);
-    background: linear-gradient(90deg, rgb(175, 183, 189) 0%, rgb(168, 169, 173) 76%, rgba(176,177,189,1) 100%);
+        background: rgb(203,223,237);
+        background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
     color:white;
     overflow: hidden;
     }
@@ -198,7 +198,13 @@ footer {
         color:grey;
         background-color:rgb(236, 234, 97);
         border-radius: 15px;
-        
+        a {
+        text-decoration: none;
+            p {
+                color: grey;
+            }
+
+        }
         .triangulo {
         position: relative;
         bottom: -3.5rem;

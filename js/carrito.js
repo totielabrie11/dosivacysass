@@ -31,6 +31,10 @@ $(document).ready(function () {
 
     //mostrarCarrito.innerHTML = ""; //limpiar el campo del carrito de compras
   });
+  $("#ocultarForm").click(function () {
+    $("form").addClass("ocultar__form").toggle();
+    
+  });
 });
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
@@ -128,7 +132,7 @@ function renderizarJSON(productosJSON) {
                 <div style="border-left:1px solid rgba(105, 103, 103, 0.322)">
                 </div>
                 <div>
-                    <h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">${producto.foto}
+                    <h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">${foto}
                 </div>
             </section>
             <hr>  
@@ -138,13 +142,11 @@ function renderizarJSON(productosJSON) {
   });
 
   deleteItemCarrito = (id) => {
-    console.log(id);
+    console.log(resultado.id);
   };
   agregarItemCarrito = (id) => {
-    console.log(id);
-  };
-
-  //No pude inlucír este evento dentro de los eventos click de jQuery , por que no encontré la forma de definir productosJSON como una variable global que traigo con ajax. solo me funciona dentro del ambito de la funcion.
+    console.log(resultado.id);
+  }; // Rube no puedo traer el ID me lo ve pero con un error , me dice "id tal" not defined
 
   $("#btnSearch").click(function (e) {
     e.preventDefault();
