@@ -33,6 +33,8 @@ $(document).ready(function () {
   });
   $("#ocultarForm").click(function () {
     $("form").addClass("ocultar__form").toggle();
+    $("#resultadoSelector").attr('class', 'd-flex flex-nowrap');
+    $("#textoCaracteristica").addClass('tamañoLetraCaracteristica').toggle();
     
   });
 });
@@ -102,13 +104,14 @@ function agregarTodoCarrito() {
         <div>${resultado.precio}</div>
         </div>
     </div>
+    </div>
             `
       );
     });
   }
 }
 
-agregarTodoCarrito();
+//agregarTodoCarrito();
 
 function renderizarJSON(productosJSON) {
   productosJSON.forEach((producto) => {
@@ -117,27 +120,47 @@ function renderizarJSON(productosJSON) {
 
     $("#resultadoSelector").append(
       `
-        <div class="mt-4">
-            <ul>
-                <li>${proceso}</li>
-                <li>${linea}</li>
-                <li>${modelo}</li>
-                <li><i class="material-icons">attach_money</i>${precio}</li>
-                <li></li>
-                <i class="material-icons">favorite</i>
-            </ul>
-            <hr>
-            <section class="d-flex justify-content-between" style="height: 20rem;">
-                ${caracteristicas}
-                <div style="border-left:1px solid rgba(105, 103, 103, 0.322)">
-                </div>
-                <div>
-                    <h4 class="text-center">DISEÑO</h4><div class="d-flex justify-content-center">${foto}
-                </div>
-            </section>
-            <hr>  
-        </div>
-            `
+      <div class="mt-3 p-1 text-dark">
+      <div id="errorBusqueda" class="alert alert-success" role="alert">
+          <table class="table" id="tabla">
+              <div class="lista__tabla text-dark">
+                  <ul>
+                      <li>Tipo de Proceso</li>
+                      <li>Linea</li>
+                      <li>Modelo</li>
+                      <li>Precio</li>
+                      <li><i class="material-icons" id="borrarSelector">delete</i></li>
+                      <li><i class="material-icons" id="agregarCarrito">add_shopping_cart</i></li>
+                  </ul>
+              </div>
+              <hr>
+                  <ul>
+                      <li>${proceso}</li>
+                      <li>${linea}</li>
+                      <li>${modelo}</li>
+                      <li>${precio}</li>
+                      <li></li>
+                      <li></li>
+                  </ul>
+                  
+                  <hr>
+                  <section class="d-flex justify-content-between" style="height: 20rem;">
+                      <div class="text-dark">
+                          <h5 id="textoCaracteristica">${caracteristicas}</h5>
+                      </div>     
+                      <div style="border-left:1px solid rgba(105, 103, 103, 0.322)"></div>
+                      <div>
+                          <h5 class="text-center">DISEÑO</h5>
+                          <div class="d-flex justify-content-center">
+                              ${foto}
+                          </div>
+                      </div>
+                  </section>
+              </div>
+          </table>    
+      </div>
+  </div>
+      `
     );
   });
 
