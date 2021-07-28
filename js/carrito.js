@@ -91,12 +91,12 @@ function agregarTodoCarrito() {
             </div>
         </div>
         <div> 
-            <div class="btn__borrarCarrito" value="borrar" onclick="deleteItemCarrito(${resultado.id})">
+            <div class="btn__borrarCarrito" value="borrar" onclick="deleteItemCarrito('${resultado.id}')">
                 <div>X</div>
             </div>
         </div>
         <div>
-            <div class="btn__confirmarCarrito" value="agregar" onclick="deleteItemCarrito(${resultado.id})">
+            <div class="btn__confirmarCarrito" value="agregar" onclick="deleteItemCarrito('${resultado.id}')">
                 <span>OK</span>
             </div>
         </div>
@@ -164,13 +164,6 @@ function renderizarJSON(productosJSON) {
     );
   });
 
-  deleteItemCarrito = (id) => {
-    console.log(resultado.id);
-  };
-  agregarItemCarrito = (id) => {
-    console.log(resultado.id);
-  }; // Rube no puedo traer el ID me lo ve pero con un error , me dice "id tal" not defined
-
   $("#btnSearch").click(function (e) {
     e.preventDefault();
 
@@ -206,3 +199,10 @@ function renderizarJSON(productosJSON) {
     $("#btnSearch").reset(input[1]);
   });
 }
+//fuera de la funcion
+function deleteItemCarrito(id){
+  console.log(id);
+};
+function agregarItemCarrito(id){
+  console.log(id);
+}; 
