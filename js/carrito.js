@@ -54,23 +54,37 @@ $.ajax({
     console.log("transferencia de datos JSON terminada");
   });
 
+function deleteItemCarrito(id){
+
+  console.log('antes de eliminar de mi carrito: ', renderTodoMiCarrito);
+  const borrarDelCarrito = renderTodoMiCarrito.filter(busqueda => busqueda.id !== id);
+  [...renderTodoMiCarrito] = borrarDelCarrito
+  console.log('despues de eliminar mi carrito: ',[...renderTodoMiCarrito]);
+  
+  console.log(id)
+  $(document).ready(function () {
+    $(".btn__borrarCarrito").click(function () {
+      
+      agregarTodoCarrito();
+  
+    });
+  
+});
+}
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
 renderCarritoDeMiSeleccion = JSON.parse(localStorage.getItem("resultado"));
 
 let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
   renderCarritoDeMiSeleccion
 );
-console.log(
-  "🚀 ~ file: carrito.js ~ line 81 ~ ...renderTodoMiCarrito",
-  ...renderTodoMiCarrito
-);
+
 
 function agregarTodoCarrito() {
   if (renderTodoMiCarrito === null) {
     renderTodoMiCarrito = [];
   } else {
     renderTodoMiCarrito.forEach((resultado) => {
-      $("#mostrarCarrito").append(
+      $("#mostrarCarrito").prepend(
         `
         <div class="carrito container alert alert-warning text-dark rounded">
         <div>
@@ -199,10 +213,7 @@ function renderizarJSON(productosJSON) {
     $("#btnSearch").reset(input[1]);
   });
 }
-//fuera de la funcion
-function deleteItemCarrito(id){
-  console.log(id);
-};
+
 function agregarItemCarrito(id){
   console.log(id);
 }; 

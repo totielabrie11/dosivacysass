@@ -1,6 +1,6 @@
 //funcion constructora -> para caputrar los datos de la seleccion
 function capturar() {
-  function Selection(nombre, linea, modelo, precio, foto, caracteristicas) {
+  function Selection(nombre, linea, modelo, precio, foto, caracteristicas, id) {
     this.nombre = nombre.toUpperCase();
     this.linea = linea;
     this.modelo = modelo;
@@ -8,6 +8,7 @@ function capturar() {
     this.precio = precio;
     this.foto = foto;
     this.caracteristicas = caracteristicas;
+    this.id = id
   }
   let nombreCapturar = tipoDeProceso;
   let lineaCapturar = linea;
@@ -15,6 +16,7 @@ function capturar() {
   let precioCapturar = precio;
   let fotoCapturar = foto;
   let caracteristicasCapturar = caracteristicas;
+  let idCapturar = id;
 
   resultado = new Selection(
     nombreCapturar,
@@ -22,7 +24,8 @@ function capturar() {
     modeloCapturar,
     precioCapturar,
     fotoCapturar,
-    caracteristicasCapturar
+    caracteristicasCapturar,
+    idCapturar
   );
 
   arraySelection = [];
