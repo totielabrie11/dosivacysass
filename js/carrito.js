@@ -67,17 +67,15 @@ function deleteItemCarrito(id){
       JSON.stringify([...renderTodoMiCarrito])
       
     );
-  };
-  const GuardarLSFilterSelector = () => {
     localStorage.setItem(
       "resultado",
-      JSON.stringify([...renderTodoMiCarrito])
+      JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)]) //esto me costo horrores y lo saque por que tenía un ejemplo similar mas arriba. 
       
     );
   };
   
   GuardarLSFilter();
-  GuardarLSFilterSelector();
+ 
 };
 
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
