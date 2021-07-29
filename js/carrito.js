@@ -17,7 +17,7 @@ $(document).ready(function () {
   $("#agregarCarrito").click(function () {
     //me pasaba que al intentar igualar mi arraySelection al arrayCarrito, como este todavia no habia sido ejecutada la funcion, el arrayCarrito tomaba el valor "nada", lo pude solucionar con el metodo .ready() que le paso a esta funcion. todo con jQuery
 
-    agregarTodoCarrito();
+    console.log('estoy aqui')
   });
 
   $("#borrarSelector").dblclick(function () {
@@ -49,7 +49,7 @@ $.ajax({
   method: "GET",
   url: "../json/productos.json",
 })
-  .done((productosJSON) => {
+.done((productosJSON) => {
     renderizarJSON(productosJSON);
   })
   .fail((error) => {
@@ -58,6 +58,18 @@ $.ajax({
   .always(() => {
     console.log("transferencia de datos JSON terminada");
   });
+
+
+function agregarAlCarrito(id){
+  let productosJSON 
+
+ // const agregarAlCarrito = productosJSON.filter(busqueda => busqueda.id === id);
+  //console.log("🚀 ~ file: carrito.js ~ line 66 ~ agregarAlCarrito ~ agregarAlCarrito", agregarAlCarrito)
+  
+
+}
+  console.log("🚀 ~ file: carrito.js ~ line 71 ~ agregarAlCarrito ~ productosJSON", productosJSON)
+
 
 function deleteItemCarrito(id){
 
@@ -156,7 +168,7 @@ function renderizarJSON(productosJSON) {
                       <li>Modelo</li>
                       <li>Precio</li>
                       <li><i class="material-icons" id="borrarSelector">delete</i></li>
-                      <li><i class="material-icons" id="agregarCarrito">add_shopping_cart</i></li>
+                      <li><i class="material-icons" onclick="agregarAlCarrito('${id}')" id="agregarCarrito">add_shopping_cart</i></li>
                   </ul>
               </div>
               <hr>
