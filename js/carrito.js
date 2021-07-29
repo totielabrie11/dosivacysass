@@ -61,16 +61,25 @@ function deleteItemCarrito(id){
   [...renderTodoMiCarrito] = borrarDelCarrito
   console.log('despues de eliminar mi carrito: ',[...renderTodoMiCarrito]);
   
-  console.log(id)
-  $(document).ready(function () {
-    $(".btn__borrarCarrito").click(function () {
+  const GuardarLSFilter = () => {
+    localStorage.setItem(
+      "busquedaCarrito",
+      JSON.stringify([...renderTodoMiCarrito])
       
-      agregarTodoCarrito();
+    );
+  };
+  const GuardarLSFilterSelector = () => {
+    localStorage.setItem(
+      "resultado",
+      JSON.stringify([...renderTodoMiCarrito])
+      
+    );
+  };
   
-    });
-  
-});
-}
+  GuardarLSFilter();
+  GuardarLSFilterSelector();
+};
+
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
 renderCarritoDeMiSeleccion = JSON.parse(localStorage.getItem("resultado"));
 
@@ -78,8 +87,8 @@ let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
   renderCarritoDeMiSeleccion
 );
 
+$(document).ready(function () {
 
-function agregarTodoCarrito() {
   if (renderTodoMiCarrito === null) {
     renderTodoMiCarrito = [];
   } else {
@@ -123,7 +132,8 @@ function agregarTodoCarrito() {
       );
     });
   }
-}
+})
+
 
 //agregarTodoCarrito();
 
