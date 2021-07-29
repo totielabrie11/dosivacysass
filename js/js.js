@@ -12,7 +12,8 @@ let arraySelection = [];
 let resultadoBusqueda1 = [];
 let resultadoBusqueda2 = [];
 let resultadoBusquedaLCS = [];
-let mostrarCarrito = document.querySelector("#mostrarCarrito");
+let mostrarCarrito = document.querySelector("#mostrarCarritoSuperior");
+let carritoIcon = document.querySelector("#carritoIcon");
 const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
 };

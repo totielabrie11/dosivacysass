@@ -37,6 +37,11 @@ $(document).ready(function () {
     $("#textoCaracteristica").addClass('tamañoLetraCaracteristica').toggle();
     
   });
+  $("#carritoIcon").on( "click", function() {
+    
+    $('#mostrarCarrito').toggle(); 
+
+  });
 });
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
@@ -72,6 +77,7 @@ function deleteItemCarrito(id){
       JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)]) //esto me costo horrores y lo saque por que tenía un ejemplo similar mas arriba. 
       
     );
+    location.reload();
   };
   
   GuardarLSFilter();
@@ -91,7 +97,7 @@ $(document).ready(function () {
     renderTodoMiCarrito = [];
   } else {
     renderTodoMiCarrito.forEach((resultado) => {
-      $("#mostrarCarrito").prepend(
+      $(".carrito__superior").append(
         `
         <div class="carrito container alert alert-warning text-dark rounded">
         <div>
@@ -105,9 +111,7 @@ $(document).ready(function () {
         </div>
         <div>
             <div>
-                Cantidad
-            </div>
-            <div>
+                <span>Cantidad</span>
                 <input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> 
             </div>
         </div>
