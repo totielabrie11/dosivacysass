@@ -57,8 +57,10 @@ $.ajax({
 
 function agregarAlCarrito(id){
 
-  const filterDeproducto = renderTodoMiCarrito.filter(id => id === id);
-  console.log(filterDeproducto)
+  updateTotalPrice()
+
+  /* const filterDeproducto = renderTodoMiCarrito.filter(id => id === id);
+  console.log(filterDeproducto) */
 
   //Rube este array "renderTodoMiCarrito" es la concatenación de mis busquedas, pero no de todo lo que se está renderizando en mi html . dedique mucho tiempo a llevar mis busquedas al carrito y no logré hacer que al darle click se valla al carrito.
 //entonces intento traer un array con el render de todos mis productos y eso está en la linea 151
@@ -250,3 +252,18 @@ function renderizarJSON(productosJSON) {
 function agregarItemCarrito(id){
   console.log(id);
 }; 
+
+function updateTotalPrice(){
+
+  console.log(renderTodoMiCarrito)
+  
+  precioDeProducto = [1, 5, 8]
+  
+  let total = 5
+  
+  $("#compraTotal").append(' ', total)
+  console.log('estoy aqui')
+  
+
+}
+
