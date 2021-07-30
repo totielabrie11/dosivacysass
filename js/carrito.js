@@ -16,15 +16,13 @@ agregarBorrarSelButtom.forEach(agregarCarrito => {
 $(document).ready(function () {
 
   $("#borrarSelector").dblclick(function () {
-    // funciona haciendo doble click
-
-    //location.reload(); //forma equivocada de hacerlo
-
+    
     arrayCarrito = []; //vacio el array
 
     resultadoSelector.innerHTML = ""; //limpiar el campo del selector de producto
 
     //mostrarCarrito.innerHTML = ""; //limpiar el campo del carrito de compras
+    
   });
   $("#ocultarForm").click(function () {
     $("form").addClass("ocultar__form").toggle();
@@ -255,15 +253,25 @@ function agregarItemCarrito(id){
 
 function updateTotalPrice(){
 
-  console.log(renderTodoMiCarrito)
+  renderTodoMiCarrito.forEach((precio) => {
   
-  precioDeProducto = [1, 5, 8]
-  
-  let total = 5
-  
-  $("#compraTotal").append(' ', total)
-  console.log('estoy aqui')
-  
+    const [...sumaPrecios] = [precio.precio]
+    
+    console.log([...sumaPrecios])
+    //var arreglo = [3 , 5, 9, 13] // mi array que traigo de precio.precio entró un array por cada iteracion y no lo puedo concatenar para hacer la suma correcta
+    suma = 0
+
+    for (let i = 0; i < sumaPrecios.length; i++)
+     {
+      
+      suma += sumaPrecios[i];
+      
+    }
+    console.log(suma)
+    
+  });
+
+ $("#compraTotal").append(' ', suma)
 
 }
 
