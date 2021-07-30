@@ -57,8 +57,8 @@ $.ajax({
 
 function agregarAlCarrito(id){
 
-  const agregarAlCarrito = productosJSON.psuh(producto => producto.id === id);
-  console.log("🚀 ~ file: carrito.js ~ line 61 ~ agregarAlCarrito ~ agregarAlCarrito", agregarAlCarrito)
+  const filterDeproducto = renderTodoMiCarrito.filter(id => id === id);
+  console.log(filterDeproducto)
 
 }
 
@@ -140,15 +140,18 @@ $(document).ready(function () {
   }
 })
 
-
 //agregarTodoCarrito();
 
 function renderizarJSON(productosJSON) {
   productosJSON.forEach((producto) => {
     const { proceso, linea, modelo, caracteristicas, foto, precio, id } =
     producto;
-    producto.precio = Number(producto.precio);
-
+    //producto.precio = Number(producto.precio);
+    
+    //let arregloDeClavesYValores = Object.entries(producto);
+    //const filterAlArrayDeProdcutos = arregloDeClavesYValores.filter(busqueda => id === id)
+    
+    
     $("#resultadoSelector").append(
       `
       <div class="mt-3 p-1 text-dark">
@@ -193,17 +196,6 @@ function renderizarJSON(productosJSON) {
   </div>
       `
     );
-    crearArrayDeProducto() //rube no puedo reutilizar estos datos del render para agregar al carrito haciendo click en la funcion de la linea 58
-    function crearArrayDeProducto() {
-      let [...arrayDeProductos] = [producto]
-      console.log("🚀 ~ file: carrito.js ~ line 198 ~ arrayDeProducto ~ ...arrayDeProductos", ...arrayDeProductos)
-      
-      /* localStorage.setItem(
-        "listaProductos",
-        JSON.stringify([...arrayDeProductos])
-      ); */
-
-    }
     
     
   });
