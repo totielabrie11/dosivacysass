@@ -1641,15 +1641,19 @@ section.catalogo div#ani:hover {
 
 .carrito__superior {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 40px;
   right: 0;
   width: 800px;
-  height: 600px;
+  height: auto;
+  min-height: 200px;
   background-color: #f0f0f0;
   z-index: 1;
-  overflow: scroll;
   border-radius: 10px;
+}
+
+#btn-compraTotal {
+  background-color: #00c3ff;
 }
 
 /* seccion que va a definir estilos para mi carrito de compras */
@@ -1668,6 +1672,11 @@ section.catalogo div#ani:hover {
 
 .lista__tabla ul li i {
   cursor: pointer;
+}
+
+#carritoIcon {
+  cursor: pointer;
+  font-size: 40px;
 }
 
 .carrito {

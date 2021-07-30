@@ -14,11 +14,6 @@ agregarBorrarSelButtom.forEach(agregarCarrito => {
 //METODO PARA LLEGAR HASTA EL EVENTO CLICK DE MIS BOTONES CON JQ  Y ademas le estoy pasando una funcion HERMOSO
 
 $(document).ready(function () {
-  $("#agregarCarrito").click(function () {
-    //me pasaba que al intentar igualar mi arraySelection al arrayCarrito, como este todavia no habia sido ejecutada la funcion, el arrayCarrito tomaba el valor "nada", lo pude solucionar con el metodo .ready() que le paso a esta funcion. todo con jQuery
-
-    console.log('estoy aqui')
-  });
 
   $("#borrarSelector").dblclick(function () {
     // funciona haciendo doble click
@@ -61,14 +56,11 @@ $.ajax({
 
 
 function agregarAlCarrito(id){
-  let productosJSON 
 
- // const agregarAlCarrito = productosJSON.filter(busqueda => busqueda.id === id);
-  //console.log("🚀 ~ file: carrito.js ~ line 66 ~ agregarAlCarrito ~ agregarAlCarrito", agregarAlCarrito)
-  
+  const agregarAlCarrito = productosJSON.psuh(producto => producto.id === id);
+  console.log("🚀 ~ file: carrito.js ~ line 61 ~ agregarAlCarrito ~ agregarAlCarrito", agregarAlCarrito)
 
 }
-  console.log("🚀 ~ file: carrito.js ~ line 71 ~ agregarAlCarrito ~ productosJSON", productosJSON)
 
 
 function deleteItemCarrito(id){
@@ -109,7 +101,7 @@ $(document).ready(function () {
     renderTodoMiCarrito = [];
   } else {
     renderTodoMiCarrito.forEach((resultado) => {
-      $(".carrito__superior").append(
+      $("#mostrarContenidoCarrito").append(
         `
         <div class="carrito container alert alert-warning text-dark rounded">
         <div>
@@ -154,7 +146,8 @@ $(document).ready(function () {
 function renderizarJSON(productosJSON) {
   productosJSON.forEach((producto) => {
     const { proceso, linea, modelo, caracteristicas, foto, precio, id } =
-      producto;
+    producto;
+    producto.precio = Number(producto.precio);
 
     $("#resultadoSelector").append(
       `
@@ -200,6 +193,19 @@ function renderizarJSON(productosJSON) {
   </div>
       `
     );
+    crearArrayDeProducto() //rube no puedo reutilizar estos datos del render para agregar al carrito haciendo click en la funcion de la linea 58
+    function crearArrayDeProducto() {
+      let [...arrayDeProductos] = [producto]
+      console.log("🚀 ~ file: carrito.js ~ line 198 ~ arrayDeProducto ~ ...arrayDeProductos", ...arrayDeProductos)
+      
+      /* localStorage.setItem(
+        "listaProductos",
+        JSON.stringify([...arrayDeProductos])
+      ); */
+
+    }
+    
+    
   });
 
   $("#btnSearch").click(function (e) {
