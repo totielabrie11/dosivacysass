@@ -60,6 +60,10 @@ function agregarAlCarrito(id){
   const filterDeproducto = renderTodoMiCarrito.filter(id => id === id);
   console.log(filterDeproducto)
 
+  //Rube este array "renderTodoMiCarrito" es la concatenación de mis busquedas, pero no de todo lo que se está renderizando en mi html . dedique mucho tiempo a llevar mis busquedas al carrito y no logré hacer que al darle click se valla al carrito.
+//entonces intento traer un array con el render de todos mis productos y eso está en la linea 151
+
+
 }
 
 
@@ -146,8 +150,15 @@ function renderizarJSON(productosJSON) {
   productosJSON.forEach((producto) => {
     const { proceso, linea, modelo, caracteristicas, foto, precio, id } =
     producto;
-    //producto.precio = Number(producto.precio);
+    producto.precio = Number(producto.precio); 
     
+    //aca intento llevar al local Storage mi array de productos que se está renderizando y tiene parseado el precio para intetnar hacer cuentas luego.
+
+    console.log([producto]) //producto antes de entrar al LCS
+    
+    localStorage.setItem("listaDeProductosRender",JSON.stringify([producto]));
+    // aca Rube me da 1 solo lenght
+
     //let arregloDeClavesYValores = Object.entries(producto);
     //const filterAlArrayDeProdcutos = arregloDeClavesYValores.filter(busqueda => id === id)
     
