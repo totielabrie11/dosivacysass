@@ -271,7 +271,7 @@ function updateTotalPrice(){
     
   });
 
- $("#compraTotal").append(' ', suma)
+ $("#compraTotal").html(' Total de la compra:  $' +  suma);
 
 }
 
