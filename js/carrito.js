@@ -65,7 +65,9 @@ function agregarAlCarrito(id){
 
 
 }
-
+$(window).ready(function () {
+  updateTotalPrice()
+});
 
 function deleteItemCarrito(id){
 
@@ -89,7 +91,7 @@ function deleteItemCarrito(id){
   };
   
   GuardarLSFilter();
- 
+  updateTotalPrice();
 };
 
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
@@ -124,12 +126,12 @@ $(document).ready(function () {
             </div>
         </div>
         <div> 
-            <div class="btn__borrarCarrito" value="borrar" onclick="deleteItemCarrito('${resultado.id}')">
+            <div class="btn__borrarCarrito text-w" value="borrar" onclick="deleteItemCarrito('${resultado.id}')">
                 <div>X</div>
             </div>
         </div>
         <div>
-            <div class="btn__confirmarCarrito" value="agregar" onclick="deleteItemCarrito('${resultado.id}')">
+            <div class="btn__confirmarCarrito btn-success" value="agregar" onclick="deleteItemCarrito('${resultado.id}')">
                 <span>OK</span>
             </div>
         </div>
@@ -166,7 +168,7 @@ function renderizarJSON(productosJSON) {
     $("#resultadoSelector").append(
       `
       <div class="mt-3 p-1 text-dark">
-      <div id="errorBusqueda" class="alert alert-success" role="alert">
+      <div id="errorBusqueda" class="alert alert-dark" role="alert">
           <table class="table" id="tabla">
               <div class="lista__tabla text-dark">
                   <ul>
@@ -250,28 +252,17 @@ function renderizarJSON(productosJSON) {
 function agregarItemCarrito(id){
   console.log(id);
 }; 
+renderTodoMiCarrito
 
 function updateTotalPrice(){
 
-  renderTodoMiCarrito.forEach((precio) => {
-  
-    const [...sumaPrecios] = [precio.precio]
-    
-    console.log([...sumaPrecios])
-    //var arreglo = [3 , 5, 9, 13] // mi array que traigo de precio.precio entró un array por cada iteracion y no lo puedo concatenar para hacer la suma correcta
-    suma = 0
+let total = 0;
+renderTodoMiCarrito.forEach(producto => {
+    total += producto.precio
+});
+console.log(total);
 
-    for (let i = 0; i < sumaPrecios.length; i++)
-     {
-      
-      suma += sumaPrecios[i];
-      
-    }
-    console.log(suma)
-    
-  });
-
- $("#compraTotal").html(' Total de la compra:  $' +  suma);
+ $("#compraTotal").html(' Total de la compra:  $' +  total);
 
 }
 

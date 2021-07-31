@@ -19,10 +19,6 @@
     z-index: 1;
     border-radius: 10px;
 }
-#btn-compraTotal {
-    background-color: rgb(0, 195, 255);
-}
-
 /* seccion que va a definir estilos para mi carrito de compras */
 .lista__tabla {
     ul {
@@ -50,7 +46,7 @@
     h4 {
         font-size:14px ;
     }
-    background-color: rgb(255, 255, 98);
+    background-color: rgb(134, 141, 140);
 }
 .contenedor__img__carrito {
     display: flex;
@@ -69,7 +65,8 @@
     border-radius: 3px;
     width: 30px;
     height: 30px;
-    background-color: orange;
+    background-color: rgb(252, 65, 65);
+    color: white;    
     cursor: pointer;
 }
 .btn__confirmarCarrito{
@@ -79,6 +76,5 @@
     border-radius: 3px;
     width: 30px;
     height: 30px;
-    background-color: rgb(115, 255, 0);
     cursor: pointer;
 }
