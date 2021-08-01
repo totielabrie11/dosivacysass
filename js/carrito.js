@@ -44,6 +44,7 @@ $.ajax({
 })
 .done((productosJSON) => {
     renderizarJSON(productosJSON);
+    crearArrayDeProductosJSON(productosJSON)
   })
   .fail((error) => {
     console.log(error); //reemplazar por un sweet modal
@@ -55,14 +56,11 @@ $.ajax({
 
 function agregarAlCarrito(id){
 
+  console.log(id)
+  const obtenerProductoById = arrayDeprueba.filter(busqueda => busqueda.id === id);
+  console.log(obtenerProductoById)
+  
   updateTotalPrice()
-
-  /* const filterDeproducto = renderTodoMiCarrito.filter(id => id === id);
-  console.log(filterDeproducto) */
-
-  //Rube este array "renderTodoMiCarrito" es la concatenación de mis busquedas, pero no de todo lo que se está renderizando en mi html . dedique mucho tiempo a llevar mis busquedas al carrito y no logré hacer que al darle click se valla al carrito.
-//entonces intento traer un array con el render de todos mis productos y eso está en la linea 151
-
 
 }
 $(window).ready(function () {
@@ -146,8 +144,13 @@ $(document).ready(function () {
   }
 })
 
-//agregarTodoCarrito();
-
+function crearArrayDeProductosJSON(productosJSON) {
+ arrayDeprueba = [...productosJSON]
+  
+  
+}
+/////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////RENDERIZA TODOS MIS ELEMENTOS JSON//////////////////////////////
 function renderizarJSON(productosJSON) {
   productosJSON.forEach((producto) => {
     const { proceso, linea, modelo, caracteristicas, foto, precio, id } =
@@ -156,7 +159,7 @@ function renderizarJSON(productosJSON) {
     
     //aca intento llevar al local Storage mi array de productos que se está renderizando y tiene parseado el precio para intetnar hacer cuentas luego.
 
-    console.log([producto]) //producto antes de entrar al LCS
+    //console.log([producto]) //producto antes de entrar al LCS
     
     localStorage.setItem("listaDeProductosRender",JSON.stringify([producto]));
     // aca Rube me da 1 solo lenght
