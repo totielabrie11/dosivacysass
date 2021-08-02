@@ -35,7 +35,81 @@ $(document).ready(function () {
     $('#mostrarCarrito').toggle(); 
 
   });
+  $("#btnComprar").click(function () {
+    console.log(precio)
+   Swal.fire({
+    title: 'Gracias por tu compra',
+    text: 'El pago se ha registrado con exito',
+    // html:
+    icon: 'success',
+    confirmButtonText: 'CONFIRMAR',
+    footer: 'Le enviamos el recibo por email',
+    // width:
+    // padding:
+    // background:
+    // grow:
+    // backdrop:
+    timer: '5500',
+    timerProgressBar: 'true'
+    // toast:
+    // position:
+    // allowOutsideClick:
+    // allowEscapeKey:
+    // allowEnterKey:
+    // stopKeydownPropagation:
+  
+    // input:
+    // inputPlaceholder:
+    // inputValue:
+    // inputOptions:
+    
+    //  customClass:
+    // 	container:
+    // 	popup:
+    // 	header:
+    // 	title:
+    // 	closeButton:
+    // 	icon:
+    // 	image:
+    // 	content:
+    // 	input:
+    // 	actions:
+    // 	confirmButton:
+    // 	cancelButton:
+    // 	footer:	
+  
+    // showConfirmButton:
+    // confirmButtonColor:
+    // confirmButtonAriaLabel:
+  
+    // showCancelButton:
+    // cancelButtonText:
+    // cancelButtonColor:
+    // cancelButtonAriaLabel:
+    
+    // buttonsStyling:
+    // showCloseButton:
+    // closeButtonAriaLabel:
+  
+  
+    // imageUrl:
+    // imageWidth:
+    // imageHeight:
+    // imageAlt:
+
+    
+  });
+  localStorage.removeItem('busquedaCarrito');
+  localStorage.removeItem('productoById');
+  localStorage.removeItem('resultado');
+
+  window.setTimeout(recargar, 5700);
+  });
 });
+
+function recargar() {
+  location.reload()
+}
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
 $.ajax({
@@ -102,7 +176,9 @@ function deleteItemCarrito(id){
 
 renderCarritoDeMiProductoById = JSON.parse(localStorage.getItem("productoById"));
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
+if (renderCarritoDeMiBusqueda === null) {renderCarritoDeMiBusqueda = []}
 renderCarritoDeMiSeleccion = JSON.parse(localStorage.getItem("resultado"));
+if (renderCarritoDeMiSeleccion === null) {renderCarritoDeMiSeleccion = []};
 
 let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
   renderCarritoDeMiSeleccion).concat(renderCarritoDeMiProductoById);
@@ -253,11 +329,12 @@ function updateTotalPrice(){
 
 let total = 0;
 renderTodoMiCarrito.forEach(producto => {
+    if (producto === null) {producto = []};  
     total += producto.precio
 });
 console.log(total);
 
  $("#compraTotal").html(' Total de la compra:  $' +  total);
 
-}
+};
 
