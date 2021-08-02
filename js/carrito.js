@@ -57,10 +57,13 @@ $.ajax({
 function agregarAlCarrito(id){
 
   console.log(id)
-  const obtenerProductoById = arrayDeprueba.filter(busqueda => busqueda.id === id);
+  const obtenerProductoById = arrayDeProductoById.filter(busqueda => busqueda.id === id); // aquí me traía dos resultados, por que mis productos id están presentes en JSON y en JS mi creador primario de objetos.product. entonces con index[0], le pido que me traiga solo el primer resultado.
   console.log(obtenerProductoById)
   
+  localStorage.setItem("productoById", JSON.stringify(obtenerProductoById));
+
   updateTotalPrice()
+  location.reload() 
 
 }
 $(window).ready(function () {
@@ -85,6 +88,11 @@ function deleteItemCarrito(id){
       JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)]) //esto me costo horrores y lo saque por que tenía un ejemplo similar mas arriba. 
       
     );
+    localStorage.setItem(
+      "productoById",
+      JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)])
+
+    );
     location.reload();
   };
   
@@ -92,12 +100,12 @@ function deleteItemCarrito(id){
   updateTotalPrice();
 };
 
+renderCarritoDeMiProductoById = JSON.parse(localStorage.getItem("productoById"));
 renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
 renderCarritoDeMiSeleccion = JSON.parse(localStorage.getItem("resultado"));
 
 let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
-  renderCarritoDeMiSeleccion
-);
+  renderCarritoDeMiSeleccion).concat(renderCarritoDeMiProductoById);
 
 $(document).ready(function () {
 
@@ -145,7 +153,7 @@ $(document).ready(function () {
 })
 
 function crearArrayDeProductosJSON(productosJSON) {
- arrayDeprueba = [...productosJSON]
+ arrayDeProductoById = [...productosJSON]
   
   
 }
@@ -156,17 +164,6 @@ function renderizarJSON(productosJSON) {
     const { proceso, linea, modelo, caracteristicas, foto, precio, id } =
     producto;
     producto.precio = Number(producto.precio); 
-    
-    //aca intento llevar al local Storage mi array de productos que se está renderizando y tiene parseado el precio para intetnar hacer cuentas luego.
-
-    //console.log([producto]) //producto antes de entrar al LCS
-    
-    localStorage.setItem("listaDeProductosRender",JSON.stringify([producto]));
-    // aca Rube me da 1 solo lenght
-
-    //let arregloDeClavesYValores = Object.entries(producto);
-    //const filterAlArrayDeProdcutos = arregloDeClavesYValores.filter(busqueda => id === id)
-    
     
     $("#resultadoSelector").append(
       `
@@ -251,11 +248,6 @@ function renderizarJSON(productosJSON) {
     $("#btnSearch").reset(input[1]);
   });
 }
-
-function agregarItemCarrito(id){
-  console.log(id);
-}; 
-renderTodoMiCarrito
 
 function updateTotalPrice(){
 

@@ -79,7 +79,7 @@ const PintarDom = () => {
                                 <li>Modelo</li>
                                 <li>Precio</li>
                                 <li><i class="material-icons" id="borrarSelector">delete</i></li>
-                                <li><i class="material-icons" id="agregarCarrito">add_shopping_cart</i></li>
+                                <li><i class="material-icons" onclick="agregarAlCarrito('${id}')" id="agregarCarrito">add_shopping_cart</i></li>
                             </ul>
                         </div>
                         <hr>
