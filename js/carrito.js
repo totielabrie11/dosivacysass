@@ -183,6 +183,11 @@ if (renderCarritoDeMiSeleccion === null) {renderCarritoDeMiSeleccion = []};
 let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
   renderCarritoDeMiSeleccion).concat(renderCarritoDeMiProductoById);
 
+const carritoFiltrado = [renderTodoMiCarrito.find(id => id === id)];
+
+[renderTodoMiCarrito] = [carritoFiltrado]
+
+
 $(document).ready(function () {
 
   if (renderTodoMiCarrito === null) {
@@ -329,10 +334,11 @@ function updateTotalPrice(){
 
 let total = 0;
 renderTodoMiCarrito.forEach(producto => {
-    if (producto === null) {producto = []};  
+    if (producto === undefined || producto === null) {producto = []};  
     total += producto.precio
-});
-console.log(total);
+  });
+  total = Number.isNaN(total) 
+  if (true){total = 0} 
 
  $("#compraTotal").html(' Total de la compra:  $' +  total);
 
