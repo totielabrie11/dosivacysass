@@ -336,10 +336,11 @@ let total = 0;
 renderTodoMiCarrito.forEach(producto => {
     if (producto === undefined || producto === null) {producto = []};  
     total += producto.precio
-  });
+  ;
   total = Number.isNaN(total) 
-  if (true){total = 0} 
-
+  if (true){total = producto.precio} 
+  if (total === undefined){total = 0} // tuve que usar este metodo isNaN, ya que no lo tomaba como condicional, lo pase a undefined y ahi si entró la condicional. 
+})
  $("#compraTotal").html(' Total de la compra:  $' +  total);
 
 };

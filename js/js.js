@@ -13,7 +13,6 @@ let resultadoBusqueda1 = [];
 let resultadoBusqueda2 = [];
 let resultadoBusquedaLCS = [];
 soyUnProductoParaAgregar = [];
-let mostrarCarrito = document.querySelector("#mostrarCarritoSuperior");
 let carritoIcon = document.querySelector("#carritoIcon");
 const GuardarLSvalues = () => {
   localStorage.setItem("selection", JSON.stringify(arrayDeConsultas));
