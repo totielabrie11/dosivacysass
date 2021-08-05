@@ -35,12 +35,84 @@ $(document).ready(function () {
     $('#mostrarCarrito').toggle(); 
 
   });
+  total =[]
   $("#btnComprar").click(function () {
-    console.log(precio)
-   Swal.fire({
+   
+    let montoTotal = document.querySelector("#compraTotal").textContent.replace('Total de la compra:', '')
+  
+    montoTotal = Number(montoTotal.substring(4))
+    
+    if (montoTotal === 0) {
+      Swal.fire({
+        title: 'Tu compra no ha sido procesada',
+        text: 'Debes ingresar al menos un producto al carrito',
+        //html:
+        icon: 'error',
+        confirmButtonText: 'CONFIRMAR',
+        footer: 'Ingrese un producto y vuelva a intentar',
+        // width:
+        // padding:
+        // background:
+        // grow:
+        // backdrop:
+        timer: '5500',
+        timerProgressBar: 'true'
+        // toast:
+        // position:
+        // allowOutsideClick:
+        // allowEscapeKey:
+        // allowEnterKey:
+        // stopKeydownPropagation:
+      
+        // input:
+        // inputPlaceholder:
+        // inputValue:
+        // inputOptions:
+        
+        //  customClass:
+        // 	container:
+        // 	popup:
+        // 	header:
+        // 	title:
+        // 	closeButton:
+        // 	icon:
+        // 	image:
+        // 	content:
+        // 	input:
+        // 	actions:
+        // 	confirmButton:
+        // 	cancelButton:
+        // 	footer:	
+      
+        // showConfirmButton:
+        // confirmButtonColor:
+        // confirmButtonAriaLabel:
+      
+        // showCancelButton:
+        // cancelButtonText:
+        // cancelButtonColor:
+        // cancelButtonAriaLabel:
+        
+        // buttonsStyling:
+        // showCloseButton:
+        // closeButtonAriaLabel:
+      
+      
+        // imageUrl:
+        // imageWidth:
+        // imageHeight:
+        // imageAlt:
+    
+        
+      });
+    console.log('estoy aquí: no tengo compras en mi carrito')
+    return
+    }
+    
+    Swal.fire({
     title: 'Gracias por tu compra',
     text: 'El pago se ha registrado con exito',
-    // html:
+    //html:
     icon: 'success',
     confirmButtonText: 'CONFIRMAR',
     footer: 'Le enviamos el recibo por email',
@@ -97,15 +169,19 @@ $(document).ready(function () {
     // imageHeight:
     // imageAlt:
 
-    
   });
-  localStorage.removeItem('busquedaCarrito');
-  localStorage.removeItem('productoById');
-  localStorage.removeItem('resultado');
+  console.log('estoy aquí: tengo al menos una compra en mi carrito')
+  
+     localStorage.removeItem('busquedaCarrito');
+     localStorage.removeItem('carrito');
+     localStorage.removeItem('resultado');
+   
+     window.setTimeout(recargar, 5700);
+  });
 
-  window.setTimeout(recargar, 5700);
-  });
 });
+  
+
 
 function recargar() {
   location.reload()
@@ -126,112 +202,94 @@ $.ajax({
   .always(() => {
     console.log("transferencia de datos JSON terminada");
   });
-
-
-function agregarAlCarrito(id){
-
-  console.log(id)
-  const obtenerProductoById = arrayDeProductoById.filter(busqueda => busqueda.id === id); // aquí me traía dos resultados, por que mis productos id están presentes en JSON y en JS mi creador primario de objetos.product. entonces con index[0], le pido que me traiga solo el primer resultado.
-  console.log(obtenerProductoById)
   
-  localStorage.setItem("productoById", JSON.stringify(obtenerProductoById));
+  let carrito = [];
+const agregarAlCarrito = id => {
+    //buscar producto en DB
+    const product = arrayDeProductoById.find(prod => prod.id === id); //Buscar si existe en el cart
+    const isInCart = carrito.find(prod => prod.id === id);
+  
+    if (isInCart) {
+      carrito[carrito.findIndex(prod => prod.id === id)].cantidad += 1;
+      carrito = [...carrito];
+      return;
+    }
+    product.cantidad = 1;
+    carrito.push(product);
 
-  updateTotalPrice()
-  location.reload() 
+    console.log('agregando producto al carrito: ', carrito )
+    localStorage.setItem("carrito", JSON.stringify(carrito));
 
-}
-$(window).ready(function () {
-  updateTotalPrice()
+    guardarLSCarrito()
+    renderCarrito();
+    updateTotalPrice();
+};
+  
+const borrarDelCarrito = id => {
+    const deleteProduct = carrito.filter(prod => prod.id !== id);
+    carrito = [...deleteProduct];
+
+    console.log('eliminando producto del carrito: ', carrito )
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+
+    guardarLSCarrito();
+    renderCarrito();
+    updateTotalPrice();
+};
+  
+
+$(window).ready(function () {// hermoso este descubrimiento
+  renderCarrito();
+  updateTotalPrice();
 });
 
-function deleteItemCarrito(id){
-
-  console.log('antes de eliminar de mi carrito: ', renderTodoMiCarrito);
-  const borrarDelCarrito = renderTodoMiCarrito.filter(busqueda => busqueda.id !== id);
-  [...renderTodoMiCarrito] = borrarDelCarrito
-  console.log('despues de eliminar mi carrito: ',[...renderTodoMiCarrito]);
-  
-  const GuardarLSFilter = () => {
-    localStorage.setItem(
-      "busquedaCarrito",
-      JSON.stringify([...renderTodoMiCarrito])
-      
-    );
-    localStorage.setItem(
-      "resultado",
-      JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)]) //esto me costo horrores y lo saque por que tenía un ejemplo similar mas arriba. 
-      
-    );
-    localStorage.setItem(
-      "productoById",
-      JSON.stringify([...renderTodoMiCarrito.filter(busqueda => busqueda.id === id)])
-
-    );
-    location.reload();
-  };
-  
-  GuardarLSFilter();
-  updateTotalPrice();
-};
-
-renderCarritoDeMiProductoById = JSON.parse(localStorage.getItem("productoById"));
-renderCarritoDeMiBusqueda = JSON.parse(localStorage.getItem("busquedaCarrito"));
-if (renderCarritoDeMiBusqueda === null) {renderCarritoDeMiBusqueda = []}
-renderCarritoDeMiSeleccion = JSON.parse(localStorage.getItem("resultado"));
-if (renderCarritoDeMiSeleccion === null) {renderCarritoDeMiSeleccion = []};
-
-let [...renderTodoMiCarrito] = renderCarritoDeMiBusqueda.concat(
-  renderCarritoDeMiSeleccion).concat(renderCarritoDeMiProductoById);
-
-const carritoFiltrado = [renderTodoMiCarrito.find(id => id === id)];
-
-[renderTodoMiCarrito] = [carritoFiltrado]
+function guardarLSCarrito(){ 
+[...renderTodoMiCarrito] = JSON.parse(localStorage.getItem("carrito"));
+}
 
 
-$(document).ready(function () {
-
-  if (renderTodoMiCarrito === null) {
-    renderTodoMiCarrito = [];
-  } else {
+const renderCarrito = () => {
+    let [...renderTodoMiCarrito] = JSON.parse(localStorage.getItem("carrito"));
+    console.log([...renderTodoMiCarrito]); 
+    $("#mostrarContenidoCarrito").html('')
+    let html = '';
     renderTodoMiCarrito.forEach((resultado) => {
-      $("#mostrarContenidoCarrito").append(
-        `
-        <div class="carrito container alert alert-warning text-dark rounded">
-        <div>
-            <h4>${resultado.linea}</h4>
-        </div>
-        <div>
-            <h4>${resultado.modelo}</h4>
-        </div>
-        <div class="contenedor__img__carrito">
-            ${resultado.foto}
-        </div>
-        <div>
+        html =  `
+            <div class="carrito container alert alert-warning text-dark rounded">
             <div>
-                <span>Cantidad</span>
-                <input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> 
+                <h4>${resultado.linea}</h4>
+            </div>
+            <div>
+                <h4>${resultado.modelo}</h4>
+            </div>
+            <div class="contenedor__img__carrito">
+                ${resultado.foto}
+            </div>
+            <div>
+                <div>
+                    <span>Cantidad</span>
+                    <input type="text" placeholder="1" id="cantidadCarrito" class="w-25"> 
+                </div>
+            </div>
+            <div> 
+                <div class="btn__borrarCarrito text-w" value="borrar" onclick="borrarDelCarrito('${resultado.id}')">
+                    <div>X</div>
+                </div>
+            </div>
+            <div>
+                <div class="btn__confirmarCarrito btn-success" value="agregar" onclick="deleteItemCarrito('${resultado.id}')">
+                    <span>OK</span>
+                </div>
+            </div>
+            <div>Precio</div>
+            <div>${resultado.precio}</div>
             </div>
         </div>
-        <div> 
-            <div class="btn__borrarCarrito text-w" value="borrar" onclick="deleteItemCarrito('${resultado.id}')">
-                <div>X</div>
-            </div>
         </div>
-        <div>
-            <div class="btn__confirmarCarrito btn-success" value="agregar" onclick="deleteItemCarrito('${resultado.id}')">
-                <span>OK</span>
-            </div>
-        </div>
-        <div>Precio</div>
-        <div>${resultado.precio}</div>
-        </div>
-    </div>
-    </div>
-            `
-      );
+      `;
+      $("#mostrarContenidoCarrito").append(html)
     });
-  }
-})
+}
 
 function crearArrayDeProductosJSON(productosJSON) {
  arrayDeProductoById = [...productosJSON]
@@ -257,7 +315,7 @@ function renderizarJSON(productosJSON) {
                       <li>Linea</li>
                       <li>Modelo</li>
                       <li>Precio</li>
-                      <li><i class="material-icons" id="borrarSelector">delete</i></li>
+                      <li><i class="material-icons" onclick="borrarDelCarrito('${id}')" id="borrarSelector">delete</i></li>
                       <li><i class="material-icons" onclick="agregarAlCarrito('${id}')" id="agregarCarrito">add_shopping_cart</i></li>
                   </ul>
               </div>
@@ -326,22 +384,24 @@ function renderizarJSON(productosJSON) {
     };
     GuardarLSBusqueda();
 
-    $("#btnSearch").reset(input[1]);
+    //$("#btnSearch").reset(input[0]);
   });
 }
 
 function updateTotalPrice(){
+  [...renderTodoMiCarrito] = JSON.parse(localStorage.getItem("carrito"));
 
-let total = 0;
-renderTodoMiCarrito.forEach(producto => {
-    if (producto === undefined || producto === null) {producto = []};  
-    total += producto.precio
+  let total = 0;
+  renderTodoMiCarrito.forEach(producto => {
+      
+    total += producto.precio 
+    
   ;
-  total = Number.isNaN(total) 
-  if (true){total = producto.precio} 
-  if (total === undefined){total = 0} // tuve que usar este metodo isNaN, ya que no lo tomaba como condicional, lo pase a undefined y ahi si entró la condicional. 
 })
- $("#compraTotal").html(' Total de la compra:  $' +  total);
+$("#compraTotal").html(' Total de la compra:  $' +  total);
 
 };
 
+/* total = Number.isNaN(total) 
+if (true){total = producto.precio} 
+if (total === undefined){total = 0} // tuve que usar este metodo isNaN, ya que no lo tomaba como condicional, lo pase a undefined y ahi si entró la condicional.  */
