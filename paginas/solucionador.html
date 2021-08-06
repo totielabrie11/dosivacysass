@@ -13,7 +13,7 @@
     <div class="w-100">
         <h3 class="solucionador float-start ms-4">SELECCIONADOR DE PRODUCTO / CARRITO</h3>
         <div class="d-flex justify-content-end">
-            <input type="search" id="search" class="input float-start mt-2 p-1">
+            <input type="search" id="search limpiar" placeholder="buscar producto" class="input float-start mt-2 p-1">
             <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2 ms-2">
             
             <i class="material-icons p-2" id="carritoIcon">
@@ -27,14 +27,17 @@
             <input type="button" class="btn btn-success w-25 float-start" id="ocultarForm" value="OCULTAR SELECTOR" >
             <a href="../index.html"><input type="button" class="btn btn-dark w-25 float-end me-5" value="VOLVER A LA PAGINA PRINCIPAL" ></a>
         </div>
-        <form class="formularioSelector col-3 mb-2 ms-2 fs-5">
+        <div class="anuncio">
+
+        </div>
+        <form class="formularioSelector col-3 mb-2 ms-2 fs-5 text-dark">
            
             <div class="mb-3">
                     <label for="nombreUS" class="form-label">Nombre</label>
                     <input type="text" name="nombreUs" class="form-control" placeholder="ingrese su nombre">
             </div>
             <div class="mb-3">
-                <label for="tipoDeProcesos" class="form-label">Seleccione el tipo de proceso</label>
+                <label for="tipoDeProcesos" class="form-label">Seleccione el tipo producto</label>
                 <select   class="form-select input" name="proceso" value=''>
                     <option>Elige una opcion</option>
 	                <optgroup label="vacio" value=vacio>
@@ -50,15 +53,15 @@
                 </select>
             </div>
             <div class="mb-3">
-                <label for="desplazamiento">Ingrese el valor de desplazamiento para la opcion vacio</label><br>
+                <label for="desplazamiento">Para VACIO ingrese el "CAUDAL"</label><br>
                 <input type="number" name="desplazamiento" class="input" value="0">
             </div>
             <div class="mb-3">
-                <label for="caudal">Ingrese el valor de Caudales a Dosificar para el caso de dosificacion</label><br>
+                <label for="caudal">Para DOSIFICACION ingrese el "CAUDAL"</label><br>
                 <input type="number" name="caudal" class="input" value="0">
             </div>
             <div class="mb-3">
-                <label for="contrapresion">Ingrese el valor de la contrapresion existenten en el punto de inyeccion</label><br>
+                <label for="contrapresion">Para DOSIFICACION: Cual es la contrapresion en el punto de inyeccion</label><br>
                 <input type="number" name="contrapresion" class="input" value="0">
             </div>
             <div>
@@ -92,8 +95,8 @@
             
                     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
                 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-            <script src="../js/js.js"></script>
-        <script src="../js/function.js"></script>
+            <script src="../js/db.js"></script>
+        <script src="../js/buscador.js"></script>
     <script src="../js/carrito.js"></script>
 </body>
 </html>

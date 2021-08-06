@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('#mostrarCarrito').toggle(); 
 
   });
-  total =[]
+  
   $("#btnComprar").click(function () {
    
     let montoTotal = document.querySelector("#compraTotal").textContent.replace('Total de la compra:', '')
@@ -46,64 +46,11 @@ $(document).ready(function () {
       Swal.fire({
         title: 'Tu compra no ha sido procesada',
         text: 'Debes ingresar al menos un producto al carrito',
-        //html:
         icon: 'error',
         confirmButtonText: 'CONFIRMAR',
         footer: 'Ingrese un producto y vuelva a intentar',
-        // width:
-        // padding:
-        // background:
-        // grow:
-        // backdrop:
         timer: '5500',
         timerProgressBar: 'true'
-        // toast:
-        // position:
-        // allowOutsideClick:
-        // allowEscapeKey:
-        // allowEnterKey:
-        // stopKeydownPropagation:
-      
-        // input:
-        // inputPlaceholder:
-        // inputValue:
-        // inputOptions:
-        
-        //  customClass:
-        // 	container:
-        // 	popup:
-        // 	header:
-        // 	title:
-        // 	closeButton:
-        // 	icon:
-        // 	image:
-        // 	content:
-        // 	input:
-        // 	actions:
-        // 	confirmButton:
-        // 	cancelButton:
-        // 	footer:	
-      
-        // showConfirmButton:
-        // confirmButtonColor:
-        // confirmButtonAriaLabel:
-      
-        // showCancelButton:
-        // cancelButtonText:
-        // cancelButtonColor:
-        // cancelButtonAriaLabel:
-        
-        // buttonsStyling:
-        // showCloseButton:
-        // closeButtonAriaLabel:
-      
-      
-        // imageUrl:
-        // imageWidth:
-        // imageHeight:
-        // imageAlt:
-    
-        
       });
     console.log('estoy aquí: no tengo compras en mi carrito')
     return
@@ -112,63 +59,12 @@ $(document).ready(function () {
     Swal.fire({
     title: 'Gracias por tu compra',
     text: 'El pago se ha registrado con exito',
-    //html:
+    html: `<h4>El pago total de la compra es de:  <br><br>$ ${montoTotal} </h4>`,
     icon: 'success',
     confirmButtonText: 'CONFIRMAR',
     footer: 'Le enviamos el recibo por email',
-    // width:
-    // padding:
-    // background:
-    // grow:
-    // backdrop:
     timer: '5500',
     timerProgressBar: 'true'
-    // toast:
-    // position:
-    // allowOutsideClick:
-    // allowEscapeKey:
-    // allowEnterKey:
-    // stopKeydownPropagation:
-  
-    // input:
-    // inputPlaceholder:
-    // inputValue:
-    // inputOptions:
-    
-    //  customClass:
-    // 	container:
-    // 	popup:
-    // 	header:
-    // 	title:
-    // 	closeButton:
-    // 	icon:
-    // 	image:
-    // 	content:
-    // 	input:
-    // 	actions:
-    // 	confirmButton:
-    // 	cancelButton:
-    // 	footer:	
-  
-    // showConfirmButton:
-    // confirmButtonColor:
-    // confirmButtonAriaLabel:
-  
-    // showCancelButton:
-    // cancelButtonText:
-    // cancelButtonColor:
-    // cancelButtonAriaLabel:
-    
-    // buttonsStyling:
-    // showCloseButton:
-    // closeButtonAriaLabel:
-  
-  
-    // imageUrl:
-    // imageWidth:
-    // imageHeight:
-    // imageAlt:
-
   });
   console.log('estoy aquí: tengo al menos una compra en mi carrito')
   
@@ -181,10 +77,8 @@ $(document).ready(function () {
 
 });
   
-
-
 function recargar() {
-  location.reload()
+  location.reload() // antes la usaba todo el tiempo para hacer correr mi app
 }
 
 // INVOCO MI ARCHIVO JSON CON AJAX A TRAVES DEL METODO GET
@@ -355,7 +249,7 @@ function renderizarJSON(productosJSON) {
   $("#btnSearch").click(function (e) {
     e.preventDefault();
 
-    var inputs = $("input");
+    let inputs = $("input");
 
     const valorBusqueda = $(inputs).val();
     const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
@@ -384,7 +278,8 @@ function renderizarJSON(productosJSON) {
     };
     GuardarLSBusqueda();
 
-    //$("#btnSearch").reset(input[0]);
+    let input = $("#search").val() 
+    $("#search").reset(input);
   });
 }
 

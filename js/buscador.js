@@ -32,19 +32,6 @@ function capturar() {
   arraySelection.push(resultado);
 }
 
-/* const EliminarLS = (consulta) => {
-  console.log(consulta);
-  let indexArray;
-    arraySelection.forEach((elemento, index) => {
-        if(elemento.nombre === nombre){
-            indexArray = index;   
-        }
-    });
-    
-    arraySelection.splice(indexArray,1);
-    GuardarLS();
-}; */
-
 const PintarDom = () => {
   resultadoSelector.innerHTML = "";
 
@@ -55,11 +42,11 @@ const PintarDom = () => {
     arraySelection = [];
   } else {
     if (linea === null) {
-      $("table")
-        .fadeIn(2000)
-        .fadeToggle(5000)
+      $("#resultadoSelector")
+        .fadeIn()
+        .fadeToggle(7000)
         .html(
-          '<div class="alert alert-danger float-left" role="alert">SU BUSQUEDA NO HA ENCONTRADO RESULTADO</div>'
+          '<div class="alert alert-danger float-left mt-4" role="alert">SU BUSQUEDA NO OBTIENE RESULTADO, DEBIDO A QUE LOS PARAMETROS "CAUDAL" SON DEMASIADO ALTOS</div>'
         );
       return;
     } else
@@ -78,8 +65,8 @@ const PintarDom = () => {
                                 <li>Linea</li>
                                 <li>Modelo</li>
                                 <li>Precio</li>
-                                <li><i class="material-icons" id="borrarSelector">delete</i></li>
-                                <li><i class="material-icons" onclick="agregarAlCarrito('${id}')" id="agregarCarrito">add_shopping_cart</i></li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </div>
                         <hr>
@@ -113,5 +100,5 @@ const PintarDom = () => {
           );
       });
   };
-
-$(document).on("DOMContentLoaded", PintarDom)}
+ }
+//$(document).on("DOMContentLoaded", PintarDom)};

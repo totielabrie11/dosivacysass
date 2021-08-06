@@ -1,3 +1,4 @@
+let total = []
 let linea = "";
 let modelo = "";
 let precio = 0;
@@ -40,8 +41,8 @@ const handleForm = (e) => {
     inputValues.caudal.trim() === "" ||
     inputValues.contrapresion.trim() === ""
   ) {
-    console.log("Todos los campos deben ser completados");
-    return; //recuerden que este return lo ponemos para evitar que la funcion siga ejecutandose
+    $('.anuncio').fadeToggle(7000).html("<div class='alert alert-dark w-25 ms-2'><h4>Debe completar todos los campos para realizar la busqueda<h4></div>")
+
   }
 
   arrayDeConsultas.push(inputValues);
@@ -106,10 +107,7 @@ const handleInput = (e) => {
     case "solar":
       selectorDosificadorSolar();
 
-      break;
-
-    default:
-      document.innerHTML + `NO HAY RESULTADOS PARA SU BUSQUEDA`;
+      break; 
   }
 };
 //llamamos el formulario
