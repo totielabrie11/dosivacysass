@@ -259,5 +259,14 @@
         "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DS</li><li>DS 60 HASTA 1800LTS/M</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRANSPORTE DE AIRE DE POCO VOLUMEN</li><li></li><li></li></ol></div>",
         "foto": "<img src='../img/bombas/DS-removebg-preview.png' width='70%'>",
         "id": "DS150"
+    },
+    {
+        "proceso": "aireacion tratamiento de agua soplador",
+        "linea": "DS",
+        "modelo": "150",
+        "precio": "3000",
+        "caracteristicas": "<div><h4>CARACTERISTICAS</h4><ol><li>DS</li><li>DS 60 HASTA 1800LTS/M</li><li>TENSION 380v</li></ol><h4>DESEMPENO</h4><ol><li>APTA PARA TRANSPORTE DE AIRE DE POCO VOLUMEN</li><li></li><li></li></ol></div>",
+        "foto": "<img src='../img/bombas/DS-removebg-preview.png' width='70%'>",
+        "id": "DS150"
     }
 ]
