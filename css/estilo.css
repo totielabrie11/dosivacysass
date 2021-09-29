@@ -1670,7 +1670,13 @@ section.catalogo div#ani:hover {
 
 #carritoIcon {
   cursor: pointer;
-  font-size: 40px;
+  font-size: 35px;
+}
+
+#notifyIcon {
+  cursor: pointer;
+  font-size: 35px;
+  color: red;
 }
 
 .carrito {
