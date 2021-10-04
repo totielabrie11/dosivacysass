@@ -5,7 +5,9 @@ $.ajax({
 })
 .done((notify) => {
     nuevoEventToLCS(notify);
-    notificacionesJSON(notify);
+    //notificacionesJSON(notify);
+    notifyDetector(notify);
+    
     
   })
   .fail((error) => {
@@ -23,74 +25,65 @@ const notificacionesJSON = (notify) => {
   );
 };
 
-let arrayDeNotificaciones = []
+let arrayDeNotificaciones = [];
 
 function nuevoEventToLCS(){
 
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
-  console.log("🚀 ~ file: notify.js ~ line 33 ~ notifyDetector ~ notifyLCS", notifyLCS)
+  
  
   if (notifyLCS === null) {
       notifyLCS = []
     
       console.log('se reseteo el LCS')
-      notifyDetector(notifyLCS)
+      
     }
   else {
     console.log('desarrollar la logica para el usuario que tiene antecedente en LCS')
-    notifyDetector(notifyLCS)
+    
 
   }
   
 } 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ////////////funcion crear la logica para enterarme de nuevas notificaciones y actualizar///////
-updateNotify()
-function updateNotify(notifyLCS){
+
+function notifyDetector(notify){
+
+  const notificationLCS = notifyLCS
+  console.log("🚀 ~ file: notify.js ~ line 55 ~ notifyDetector ~ notificationLCS", notificationLCS)
+
+  const notificationDBS = notify
+  console.log("🚀 ~ file: notify.js ~ line 58 ~ notifyDetector ~ notificationDBS", notificationDBS)
+  
+  let result = notificationDBS.every(function (element) {
+    return notificationLCS.includes(element);
+  });
+
+  let [...laSumaDeNotify] = notifyLCS.concat(notify);
+  console.log("🚀 ~ file: notify.js ~ line 64 ~ result ~ result", result)
+
+  //const notificacionesNoVistas = notificationDBS.filter((element)=> !notificationLCS.includes(element))
+
+  let notificacionesNoVistas = notificationDBS.filter(function(element) {
+    return !notificationLCS.includes(element);
+  });
+
+  console.log(notificacionesNoVistas)
 
   
-  console.log(arrayDeNotificaciones)
+  
+    if(arrayDeNotificaciones === notifyLCS){
+      console.log('no tengo nuevas notificaciones')
+    }else{
+      
+      console.log('tengo nuevas notificaciones')
+    
+      //notify()
+    
+    }
 
 }
-
- /*  let arrayDeNotificaciones = notifyLCS.find(not => not.titulo !== titulo); //Buscar si existe en el cart
-  const isInCart = carrito.find(prod => prod.id === id);
-
-  if (isInCart) {
-    carrito[carrito.findIndex(prod => prod.id === id)].cantidad += 1;
-    carrito = [...carrito];
-    return;
-  }
-  product.cantidad = 1;
-  carrito.push(product);
-
-  console.log('agregando producto al carrito: ', carrito )
-  localStorage.setItem("carrito", JSON.stringify(carrito));
-
-  guardarLSCarrito()
-  renderCarrito();
-  updateTotalPrice();
-}; */
-
-/////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////
-function notifyDetector(notifyLCS){
-
-  
-  console.log(notifyLCS)
-
- 
-  if(arrayDeNotificaciones === notifyLCS){
-    console.log('no tengo nuevas notificaciones')
-  }else{
-    
-    console.log('tengo nuevas notificaciones')
-
-    notify()
-
-  }
-  
-} 
 
 
 function notify(){
