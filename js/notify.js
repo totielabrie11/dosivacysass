@@ -2,20 +2,17 @@
 $.ajax({
   method: "GET",
   url: "../json/notify.json",
-})
-.done((notify) => {
+}).done((notify) => {
+    
     nuevoEventToLCS(notify);
-    //notificacionesJSON(notify);
+    notificacionesJSON(notify);
     notifyDetector(notify);
     
-    
-  })
-  .fail((error) => {
+}).fail((error) => {
     console.log("carga de notify no fue exitosa"); //reemplazar por un sweet modal
-  })
-  .always(() => {
+}).always(() => {
     console.log("carga de datos notify.JSON terminada");
-  });
+});
 
 
 const notificacionesJSON = (notify) => {
@@ -40,7 +37,6 @@ function nuevoEventToLCS(){
     }
   else {
     console.log('desarrollar la logica para el usuario que tiene antecedente en LCS')
-    
 
   }
   
@@ -51,29 +47,24 @@ function nuevoEventToLCS(){
 function notifyDetector(notify){
 
   const notificationLCS = notifyLCS
-  console.log("🚀 ~ file: notify.js ~ line 55 ~ notifyDetector ~ notificationLCS", notificationLCS)
+  console.log("cantidad de notifications en el localStorage", notificationLCS)
 
   const notificationDBS = notify
-  console.log("🚀 ~ file: notify.js ~ line 58 ~ notifyDetector ~ notificationDBS", notificationDBS)
+  console.log("cantidad de notifications en el dataBase", notificationDBS)
+
+  /* let [...laSumaDeNotify] = notifyLCS.concat(notify);
+  console.log("concatenación de arrays que no fue necesaria para la solucion", laSumaDeNotify) */
   
-  let result = notificationDBS.every(function (element) {
-    return notificationLCS.includes(element);
-  });
 
-  let [...laSumaDeNotify] = notifyLCS.concat(notify);
-  console.log("🚀 ~ file: notify.js ~ line 64 ~ result ~ result", result)
+  const indexArr1 = notificationLCS.map((el)=> el.id)
+  const arrayDeNotificaciones = notificationDBS.filter((el)=> !indexArr1.includes(el.id))
+  console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
 
-  //const notificacionesNoVistas = notificationDBS.filter((element)=> !notificationLCS.includes(element))
-
-  let notificacionesNoVistas = notificationDBS.filter(function(element) {
-    return !notificationLCS.includes(element);
-  });
-
-  console.log(notificacionesNoVistas)
-
+ 
+    
   
   
-    if(arrayDeNotificaciones === notifyLCS){
+    if(notificationLCS === notificationDBS){
       console.log('no tengo nuevas notificaciones')
     }else{
       

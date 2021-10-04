@@ -14,11 +14,11 @@
     "id": "2"
  },
  {
-    "titulo": "Inaguracion Redes Sociales",
-    "tema": "Redes Sociales",
-    "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-    "img": "<img src='img/notify/redes-sociales.png>",
-    "id": "3"
+   "titulo": "Inaguracion Redes Sociales",
+   "tema": "Redes Sociales",
+   "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+   "img": "<img src='img/notify/redes-sociales.png>",
+   "id": "3"
  },
  {
    "titulo": "Risueño",
@@ -28,10 +28,52 @@
    "id": "4"
  },
  {
-   "titulo": "Carlitos Daniel, enseña a programar",
+  "titulo": "Carlitos Daniel, enseña a programar",
+  "tema": "Redes Sociales",
+  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+  "img": "<img src='img/notify/redes-sociales.png>",
+  "id": "5"
+ },
+ {
+  "titulo": "Carlitos manuel, enseña a desprogramar",
+  "tema": "Redes Sociales",
+  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+  "img": "<img src='img/notify/redes-sociales.png>",
+  "id": "6"
+ },
+ {
+   "titulo": "Leonardo es el mejor de la oficina de ventas",
    "tema": "Redes Sociales",
    "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
    "img": "<img src='img/notify/redes-sociales.png>",
-   "id": "5"
- }
+   "id": "7"
+ },
+ {
+   "titulo": "lechon en fabrica",
+   "tema": "Redes Sociales",
+   "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+   "img": "<img src='img/notify/redes-sociales.png>",
+   "id": "8"
+ },
+ {
+  "titulo": "almejas en fabrica",
+  "tema": "Redes Sociales",
+  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+  "img": "<img src='img/notify/redes-sociales.png>",
+  "id": "9"
+},
+{
+  "titulo": "ensalada en fabrica",
+  "tema": "Redes Sociales",
+  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+  "img": "<img src='img/notify/redes-sociales.png>",
+  "id": "10"
+},
+{
+  "titulo": "joe satriani",
+  "tema": "Redes Sociales",
+  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
+  "img": "<img src='img/notify/redes-sociales.png>",
+  "id": "11"
+}
 ]
