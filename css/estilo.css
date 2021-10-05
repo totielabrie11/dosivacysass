@@ -1679,6 +1679,27 @@ section.catalogo div#ani:hover {
   color: red;
 }
 
+.notifyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 12%;
+  position: relative;
+}
+
+.notifyCuantity {
+  position: absolute;
+  bottom: 0px;
+  left: -10px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  border-radius: 50%;
+  color: black;
+}
+
 .carrito {
   display: -webkit-box;
   display: -ms-flexbox;

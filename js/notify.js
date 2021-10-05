@@ -5,7 +5,7 @@ $.ajax({
 }).done((notify) => {
     
     nuevoEventToLCS(notify);
-    notificacionesJSON(notify);
+    //notificacionesJSON(notify);
     notifyDetector(notify);
     
 }).fail((error) => {
