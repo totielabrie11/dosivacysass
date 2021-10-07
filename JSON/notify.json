@@ -7,45 +7,17 @@
     "id": "1"
  },
  {
-    "titulo": "Vivo Ingeniero Oriana 2",
-    "tema": "vacio en procesos de refrigeracion segunda parte",
-    "descripcion": "vuelve el ingeniero Oriana con sus charlas y nuevos tips para que tu bomba dure mucho mas tiempo. No te pierdas esta segunda parte",
-    "img": "<img src='img/notify/charla ref1.png>",
-    "id": "2"
- },
- {
-   "titulo": "Inaguracion Redes Sociales",
-   "tema": "Redes Sociales",
-   "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-   "img": "<img src='img/notify/redes-sociales.png>",
-   "id": "3"
- },
- {
-   "titulo": "Risueño",
-   "tema": "Redes Sociales",
-   "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-   "img": "<img src='img/notify/redes-sociales.png>",
-   "id": "4"
- },
- {
-  "titulo": "Carlitos Daniel, enseña a programar",
-  "tema": "Redes Sociales",
-  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-  "img": "<img src='img/notify/redes-sociales.png>",
-  "id": "5"
- },
- {
-  "titulo": "Carlitos manuel, enseña a desprogramar",
-  "tema": "Redes Sociales",
-  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-  "img": "<img src='img/notify/redes-sociales.png>",
-  "id": "6"
- },
- {
-  "titulo": "Carlitos manuel, enseña a desprogramar",
-  "tema": "Redes Sociales",
-  "descripcion": "Dosivac da comienzo a una nueva era en politicas de comunicación inagurando sus redes sociales facebook y instragram",
-  "img": "<img src='img/notify/redes-sociales.png>",
-  "id": "7"
- }
+  "titulo": "Vivo Ingeniero Orianas",
+  "tema": "vacio en procesos de refrigeracion",
+  "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+  "img": "<img src='img/notify/charla ref.png>",
+  "id": "1"
+},
+{
+  "titulo": "Vivo Ingeniero Orianass",
+  "tema": "vacio en procesos de refrigeracion",
+  "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+  "img": "<img src='img/notify/charla ref.png>",
+  "id": "1"
+}
 ]

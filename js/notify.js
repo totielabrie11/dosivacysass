@@ -5,7 +5,6 @@ $.ajax({
 }).done((notify) => {
     
     nuevoEventToLCS(notify);
-    //notificacionesJSON(notify);
     notifyDetector(notify);
     
 }).fail((error) => {
@@ -15,17 +14,29 @@ $.ajax({
 });
 
 
-const notificacionesJSON = (notify) => {
-  localStorage.setItem(
-    "notify",
-    JSON.stringify([...notify])
-  );
-};
 
 let arrayDeNotificaciones = [];
 
-function nuevoEventToLCS(){
+function nuevoEventToLCS(notify){
 
+  const guardarLCS = (notify) => {
+    localStorage.setItem(
+      "notify",
+      JSON.stringify([...notify])
+    );
+  };
+
+  console.log(notify)
+  const btnCampanita = document.getElementById("notifyIcon");
+  btnCampanita.addEventListener("click", function(){
+
+    guardarLCS(notify);
+    location.reload();
+
+  });
+  
+  
+  
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
   
  
@@ -40,7 +51,9 @@ function nuevoEventToLCS(){
 
   }
   
-} 
+  
+  
+}
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ////////////funcion crear la logica para enterarme de nuevas notificaciones y actualizar///////
 
@@ -56,28 +69,41 @@ function notifyDetector(notify){
   console.log("concatenación de arrays que no fue necesaria para la solucion", laSumaDeNotify) */
   
 
-  const indexArr1 = notificationLCS.map((el)=> el.id)
-  const arrayDeNotificaciones = notificationDBS.filter((el)=> !indexArr1.includes(el.id))
+  const indexArr1 = notificationLCS.map((el)=> el.titulo)
+  const arrayDeNotificaciones = notificationDBS.filter((el)=> !indexArr1.includes(el.titulo))
   console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
 
  
-    
+  let arrOne = notificationDBS.map((titulo)=> titulo.titulo)
+  let arrTwo = notificationLCS.map((titulo)=> titulo.titulo)
+
+  let result = arrOne.every(function (element) {
+
+    return arrTwo.includes(element);
+
+  });
+
+  console.log(result);
   
   
-    if(notificationLCS === notificationDBS){
+    if(result){
       console.log('no tengo nuevas notificaciones')
+      renderNoTengoNotification()
     }else{
       
       console.log('tengo nuevas notificaciones')
     
-      //notify()
+      notifyWebNotification()
+      renderNotifyCuantity(arrayDeNotificaciones)
     
     }
 
-}
+  }
+  
 
+  
 
-function notify(){
+function notifyWebNotification(){
   //verificar que el navegador soporte notificaciones
 
   if (!("Notification" in window)) {
@@ -106,5 +132,20 @@ function notify(){
 
 }
 
+///////////////////////////////////RENDER///////////////////////////////////////
+function renderNoTengoNotification() {
+    
+  $('.notifyCuantityContainer').html("")
+  
 
+}
+
+function renderNotifyCuantity(arrayDeNotificaciones) {
+
+  
+  const notifyCuantity = [...arrayDeNotificaciones].length
+  
+  $('.notifyCuantity').html(`<h6 id="notifyCuantity" class="text-center"> ${notifyCuantity}</h6>`)
+  
+}
 
