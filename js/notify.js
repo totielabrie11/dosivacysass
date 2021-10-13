@@ -4,6 +4,7 @@ $.ajax({
   url: "../json/notify.json",
 }).done((notify) => {
     
+    renderNotifyList(notify)
     nuevoEventToLCS(notify);
     notifyDetector(notify);
     
@@ -12,7 +13,6 @@ $.ajax({
 }).always(() => {
     console.log("carga de datos notify.JSON terminada");
 });
-
 
 
 let arrayDeNotificaciones = [];
@@ -26,7 +26,6 @@ function nuevoEventToLCS(notify){
     );
   };
 
-  console.log(notify)
   const btnCampanita = document.getElementById("notifyIcon");
   btnCampanita.addEventListener("click", function(){
 
@@ -34,7 +33,7 @@ function nuevoEventToLCS(notify){
     location.reload();
 
   });
-  
+   
   
   
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
@@ -50,8 +49,6 @@ function nuevoEventToLCS(notify){
     console.log('desarrollar la logica para el usuario que tiene antecedente en LCS')
 
   }
-  
-  
   
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -86,19 +83,19 @@ function notifyDetector(notify){
   console.log(result);
   
   
-    if(result){
-      console.log('no tengo nuevas notificaciones')
-      renderNoTengoNotification()
-    }else{
+  if(result){
+    console.log('no tengo nuevas notificaciones')
+    renderNoTengoNotification()
+  }else{
       
-      console.log('tengo nuevas notificaciones')
+    console.log('tengo nuevas notificaciones')
     
-      notifyWebNotification()
-      renderNotifyCuantity(arrayDeNotificaciones)
+    notifyWebNotification()
+    renderNotifyCuantity(arrayDeNotificaciones)
     
-    }
-
   }
+
+}
   
 
   
@@ -149,3 +146,58 @@ function renderNotifyCuantity(arrayDeNotificaciones) {
   
 }
 
+$("#pruebaporid").click( function(){
+
+  console.log("acá pasa algo")
+
+})
+
+function renderNotifyList(notify) {
+  
+  notifyLista = notify
+  notify.forEach((elemento) => {
+    const { titulo, tema, descripcion, img, id } =
+    elemento;
+     
+    
+    $("#renderTodasLasNotify").append(
+      `
+      <div class="card col-3">
+      <div class="card-image"></div>
+      <div class="card-text">
+        <span class="date">4 days ago</span>
+        <h2>Post One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+      </div>
+      <div class="btnNotifyVisto">
+        <button class="btn btn-success" onclick="deleteNotify(notifyLista)">VISTO</button>
+      </div>
+      <div class="card-stats">
+        <div class="stat">
+          <div class="value">4<sup>m</sup></div>
+          <div class="type">read</div>
+        </div>
+        <div class="stat border">
+          <div class="value">5123</div>
+          <div class="type">views</div>
+        </div>
+        <div class="stat">
+          <div class="value">32</div>
+          <div class="type">comments</div>
+        </div>
+      </div>
+    </div>
+      `)
+    })
+}
+
+function deleteNotify(notifyLista) {
+
+  localStorage.setItem(
+    "notify",
+    JSON.stringify([...notifyLista])
+  );
+  
+  location.reload();
+
+};
