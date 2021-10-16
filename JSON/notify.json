@@ -1,24 +1,37 @@
 [
- {
-    "titulo": "Vivo s Orissana",
+  {
+    "titulo": "charla con eduardo O",
     "tema": "vacio en procesos de refrigeracion",
     "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
     "img": "<img src='img/notify/charla ref.png>",
     "id": "1"
- },
- {
-  "titulo": "Vivo s OrissaDDna",
-  "tema": "vacio en procesos de refrigeracion",
-  "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-  "img": "<img src='img/notify/charla ref.png>",
-  "id": "1"
-},
-{
-  "titulo": "Vivo s OrissFFFFFana",
-  "tema": "vacio en procesos de refrigeracion",
-  "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-  "img": "<img src='img/notify/charla ref.png>",
-  "id": "1"
-}
-
+  },
+  {
+    "titulo": "charla con Carlitos sobre todo tipo de cosas",
+    "tema": "vacio en procesos de refrigeracion",
+    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+    "img": "<img src='img/notify/charla ref.png>",
+    "id": "1"
+  },
+  {
+    "titulo": "charla con la pocha",
+    "tema": "vacio en procesos de refrigeracion",
+    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+    "img": "<img src='img/notify/charla ref.png>",
+    "id": "1"
+  },
+  {
+    "titulo": "se la mando a la pochi",
+    "tema": "vacio en procesos de refrigeracion",
+    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+    "img": "<img src='img/notify/charla ref.png>",
+    "id": "1"
+  },
+  {
+    "titulo": "se la mando a la pochis",
+    "tema": "vacio en procesos de refrigeracion",
+    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+    "img": "<img src='img/notify/charla ref.png>",
+    "id": "1"
+  }
 ]

@@ -167,10 +167,10 @@ function renderNotifyList(notify) {
       <div class="card-text">
         <span class="date">4 days ago</span>
         <h2>Post One</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+        <p>${titulo}</p>
       </div>
       <div class="btnNotifyVisto">
-        <button class="btn btn-success" onclick="deleteNotify(notifyLista)">VISTO</button>
+        <button class="btn btn-success" onclick="deleteNotify(notifyLista, '${titulo}')">VISTO</button>
       </div>
       <div class="card-stats">
         <div class="stat">
@@ -191,13 +191,34 @@ function renderNotifyList(notify) {
     })
 }
 
-function deleteNotify(notifyLista) {
 
-  localStorage.setItem(
-    "notify",
-    JSON.stringify([...notifyLista])
-  );
+let notify = [];
+
+const deleteNotify = (not, titulo) => {
+    //buscar producto en DB
+    const product = not.find(prod => prod.titulo === titulo); //Buscar si existe en el cart
+    console.log("🚀 ~ file: notify.js ~ line 199 ~ deleteNotify ~ product", product)
+    
+    const isInNot = notify.find(prod => prod.titulo === titulo);
+    console.log("🚀 ~ file: notify.js ~ line 202 ~ deleteNotify ~ isInNot", isInNot)
   
-  location.reload();
+    if (isInNot) {
+      notify[notify.findIndex(prod => prod.titulo === titulo)].cantidad += 1;
+      notify = [...notify];
+      return;
+    }
+    product.cantidad = 1;
+    notify.push(product);
 
+    console.log('agregando producto al notify: ', notify )
+    
+    localStorage.setItem("notify", JSON.stringify(notify));
+
+    const indexArr1 = notify.map((el)=> el.titulo)
+    const arrayDeNotificaciones = not.filter((el)=> !indexArr1.includes(el.titulo))
+    console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
+
+    renderNotifyCuantity(arrayDeNotificaciones)
+    
 };
+  
