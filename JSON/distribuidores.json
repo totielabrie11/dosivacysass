@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "CASA SAL PARK",
+        "provincia": "CABA",
+        "localidad":"CABA",
+        "direccion": "Piedras 614",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5606961159356!2d-58.37959568506897!3d-34.61526856561584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad6079a9773%3A0xa1d9092c0b31fa8d!2sCasa%20Sal%20Park!5e0!3m2!1ses!2sar!4v1636724829664!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
+        "img": "<img src='/img/contacto/distribuidores/sal park.jpg' alt='sal park' class='rounded'>",
+        "id": "1"
+    },
+    {
+        "nombre": "MAWEN INDUSTRIAL",
+        "provincia": "BUENOS AIRES",
+        "localidad":"MARTINEZ",
+        "direccion": "Entre Ríos 2349",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.30541969091!2d-58.5323464850731!3d-34.49514055926759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb05de0990659%3A0xe48dcb8f056a513f!2sEntre%20R%C3%ADos%202349%2C%20B1640GCE%20Mart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636725906251!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
+        "img": "<img src='/img/contacto/distribuidores/mawen.jpg' alt='mawen' class='rounded'>",
+        "id": "2"
+    },
+    {
+        "nombre": "MULTIMAKS",
+        "provincia": "BUENOS AIRES",
+        "localidad":"TIGRE",
+        "direccion": "Av. Crisólogo Larralde 1097",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846.738899452622!2d-58.57245451045071!3d-34.438546889616866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca573bc9b21f3%3A0xfbc7a2f088e77545!2sMultimaks!5e0!3m2!1ses!2sar!4v1636726250501!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
+        "img": "<img src='/img/contacto/distribuidores/multimaks.jpg' alt='multimaks' class='rounded'>",
+        "id": "3"
+    },
+    {
+        "nombre": "DIMOTEC",
+        "provincia": "CORDOBA",
+        "localidad":"CORDOBA CAPITAL",
+        "direccion": "Av. Dr. Arturo Capdevila 113",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
+        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "id": "4"
+    }
+  ]
