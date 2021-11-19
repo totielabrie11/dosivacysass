@@ -76,14 +76,13 @@ $.ajax({
           distribuidor.provincia.toLowerCase().includes(valorBusquedaFilter)
         );
     
+        totalBusquedaDeDistribuidor = resultadoBusqueda1.concat(resultadoBusqueda2)
         
-        console.log(resultadoBusqueda1)
-        
-        if (resultadoBusqueda1) {
+        if (totalBusquedaDeDistribuidor) {
 
           distribuidores.innerHTML = ""
 
-          renderDistribuidorsCard(resultadoBusqueda1);
+          renderDistribuidorsCard(totalBusquedaDeDistribuidor);
 
           volverLista.innerHTML = "<div class='btn btn-dark w-25 d-block mt-4' onclick='location.reload()')>VOLVER A LA LISTA</DIV>"
         
