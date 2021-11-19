@@ -102,7 +102,7 @@ main {
 }
 
 main section {
-  padding: 10px 10%;
+  padding: 10px 5%;
   margin-bottom: 10px;
 }
 
@@ -1616,7 +1616,7 @@ section.catalogo div#ani:hover {
   margin:30px;
 } */
 .card-list {
-  width: 70%;
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
@@ -1762,6 +1762,126 @@ h5 {
 
 .card:nth-child(4) .date {
   color: #ccbf09;
+}
+
+.card:nth-child(5) .card-footer {
+  background: #09cca2;
+}
+
+.card:nth-child(5) .date {
+  color: #09cca2;
+}
+
+.card:nth-child(6) .card-footer {
+  background: #75f122;
+}
+
+.card:nth-child(6) .date {
+  color: #75f122;
+}
+
+.card:nth-child(7) .card-footer {
+  background: #fff126;
+}
+
+.card:nth-child(7) .date {
+  color: #fff126;
+}
+
+.card:nth-child(8) .card-footer {
+  background: #c2c2c2;
+}
+
+.card:nth-child(8) .date {
+  color: #c2c2c2;
+}
+
+.card:nth-child(9) .card-footer {
+  background: #ff0c71;
+}
+
+.card:nth-child(9) .date {
+  color: #ff0c71;
+}
+
+.card:nth-child(10) .card-footer {
+  background: #ff510c;
+}
+
+.card:nth-child(10) .date {
+  color: #ff510c;
+}
+
+.card:nth-child(11) .card-footer {
+  background: #03b43e;
+}
+
+.card:nth-child(11) .date {
+  color: #03b43e;
+}
+
+.card:nth-child(12) .card-footer {
+  background: #ccbf09;
+}
+
+.card:nth-child(12) .date {
+  color: #ccbf09;
+}
+
+.card:nth-child(13) .card-footer {
+  background: #09cca2;
+}
+
+.card:nth-child(13) .date {
+  color: #09cca2;
+}
+
+.card:nth-child(14) .card-footer {
+  background: #75f122;
+}
+
+.card:nth-child(14) .date {
+  color: #75f122;
+}
+
+.card:nth-child(15) .card-footer {
+  background: #fff126;
+}
+
+.card:nth-child(15) .date {
+  color: #fff126;
+}
+
+.card:nth-child(16) .card-footer {
+  background: #c2c2c2;
+}
+
+.card:nth-child(16) .date {
+  color: #c2c2c2;
+}
+
+.leyenda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.leyenda h3 {
+  font-size: 20px;
 }
 
 /* Mensaje del desarrollador:

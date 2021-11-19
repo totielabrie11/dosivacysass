@@ -20,7 +20,9 @@ $.ajax({
 
     distribuidors.forEach(element => {
 
-      const { nombre, provincia, localidad, direccion, maps, img, id } = element
+      
+      const { nombre, provincia, localidad, direccion, maps, img, id, tipo } = element
+      htmlVacio = ""
       html = 
       `
       <div class="card">
@@ -38,16 +40,16 @@ $.ajax({
         </div>
         <div class="card-footer">
             <div class="info">
-                <div class="value">51784</div>
-                <div class="type">views</div>
+                <div class="value">CLASE</div>
+                <div class="type">${tipo.dosificacion}</div>
             </div>
             <div class="info">
-                <div class="value">329</div>
-                <div class="type">comments</div>
+                <div class="value">CLASE</div>
+                <div class="type">${tipo.vacio}</div>
             </div>
             <div class="info">
-                <div class="value">4.5</div>
-                <div class="type">rating</div>
+                <div class="value">CLASE</div>
+                <div class="type">${tipo.soplador}</div>
             </div>
         </div>
       </div>
@@ -56,4 +58,38 @@ $.ajax({
         element;
         console.log(element)
     });
-}
+
+    $("#btnSearch").click(function (e) {
+      e.preventDefault(distribuidors);
+     
+      let inputs = $("input");
+    
+      const valorBusqueda = $(inputs).val();
+     
+      const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
+      
+      resultadoBusqueda1 = distribuidors.filter((distribuidor) =>
+          distribuidor.nombre.toLowerCase().includes(valorBusquedaFilter)
+        );
+    
+        resultadoBusqueda2 = distribuidors.filter((distribuidor) =>
+          distribuidor.provincia.toLowerCase().includes(valorBusquedaFilter)
+        );
+    
+        
+        console.log(resultadoBusqueda1)
+        
+        if (resultadoBusqueda1) {
+
+          distribuidores.innerHTML = ""
+
+          renderDistribuidorsCard(resultadoBusqueda1);
+
+          volverLista.innerHTML = "<div class='btn btn-dark w-25 d-block mt-4' onclick='location.reload()')>VOLVER A LA LISTA</DIV>"
+        
+          
+        };
+      });
+  };
+
+
