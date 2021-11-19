@@ -104,7 +104,6 @@
         }, 
         "id": "4"
     },
-
     {
         "nombre": "MR GARDEN",
         "provincia": "CORDOBA",
@@ -149,7 +148,8 @@
             "refrigeracion": "R"
         }, 
         "id": "4"
-    }, {
+    }, 
+    {
         "nombre": "ING RAMON RUSSO",
         "provincia": "SALTA",
         "localidad":"SALTA",

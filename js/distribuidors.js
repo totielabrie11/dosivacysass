@@ -72,11 +72,17 @@ $.ajax({
           distribuidor.nombre.toLowerCase().includes(valorBusquedaFilter)
         );
     
-        resultadoBusqueda2 = distribuidors.filter((distribuidor) =>
+      resultadoBusqueda2 = distribuidors.filter((distribuidor) =>
           distribuidor.provincia.toLowerCase().includes(valorBusquedaFilter)
         );
+
+      resultadoBusqueda3 = distribuidors.filter((distribuidor) =>
+          distribuidor.localidad.toLowerCase().includes(valorBusquedaFilter)
+        );
     
-        totalBusquedaDeDistribuidor = resultadoBusqueda1.concat(resultadoBusqueda2)
+        BusquedaParcial = resultadoBusqueda1.concat(resultadoBusqueda2)
+
+        totalBusquedaDeDistribuidor = resultadoBusqueda3.concat(BusquedaParcial)
         
         if (totalBusquedaDeDistribuidor) {
 
