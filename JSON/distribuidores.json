@@ -5,7 +5,7 @@
         "localidad":"CABA",
         "direccion": "Piedras 614",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5606961159356!2d-58.37959568506897!3d-34.61526856561584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad6079a9773%3A0xa1d9092c0b31fa8d!2sCasa%20Sal%20Park!5e0!3m2!1ses!2sar!4v1636724829664!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/sal park.jpg' alt='sal park' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/sal park.jpg' alt='sal park' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -20,7 +20,7 @@
         "localidad":"MARTINEZ",
         "direccion": "Entre Ríos 2349",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.30541969091!2d-58.5323464850731!3d-34.49514055926759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb05de0990659%3A0xe48dcb8f056a513f!2sEntre%20R%C3%ADos%202349%2C%20B1640GCE%20Mart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636725906251!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/mawen.jpg' alt='mawen' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/mawen.jpg' alt='mawen' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -35,7 +35,7 @@
         "localidad":"TIGRE",
         "direccion": "Av. Crisólogo Larralde 1097",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d846.738899452622!2d-58.57245451045071!3d-34.438546889616866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca573bc9b21f3%3A0xfbc7a2f088e77545!2sMultimaks!5e0!3m2!1ses!2sar!4v1636726250501!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/multimaks.jpg' alt='multimaks' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/multimaks.jpg' alt='multimaks' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -50,7 +50,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -65,7 +65,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Avenida Juan B. Justo 5400",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13627.719743481692!2d-64.1752871!3d-31.3609126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5df4c6958e9dfe66!2sRc%20Consultores%20SRL!5e0!3m2!1ses-419!2sar!4v1637337162817!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/rcconsultores.jpg' alt='rcconsultores' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/rcconsultores.jpg' alt='rcconsultores' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -80,7 +80,7 @@
         "localidad":"VILLA MARIA",
         "direccion": "Buenos Aires 1566",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6736.8172294477!2d-63.23920635662231!3d-32.40821107750843!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74f6ec3d0ee200c0!2sHidrocentro%20Servicios%20SRL!5e0!3m2!1ses-419!2sar!4v1637338009298!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/hidro-centro.jpg' alt='hidro centro' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/hidro-centro.jpg' alt='hidro centro' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -95,7 +95,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Francfort 1894",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13624.587695111068!2d-64.1510127!3d-31.3825121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff32cb9cde2a9e!2sHidromecanica%20Mediterranea!5e0!3m2!1ses-419!2sar!4v1637342377037!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/mediterranea.JPG' alt='hidromecanica' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/mediterranea.JPG' alt='hidromecanica' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -110,7 +110,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Domingo F. Sarmiento 151",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13620.494694081604!2d-64.1793844!3d-31.4107185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xece201b09ef7686e!2sMr%20Garden!5e0!3m2!1ses-419!2sar!4v1637343034000!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/mr-garden.png' alt='mr garden' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/mr-garden.png' alt='mr garden' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -125,7 +125,7 @@
         "localidad":"RESISTENCIA",
         "direccion": "Av. 25 de Mayo 1830",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d860.0627905700948!2d-59.00322079020421!3d-27.43629714127025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c71bcdcc569%3A0xda10710ae08961c7!2sServibom%20S.A.!5e0!3m2!1ses-419!2sar!4v1637344351357!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/servibom.png' alt='servibom' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/servibom.png' alt='servibom' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -140,7 +140,7 @@
         "localidad":"PARANA",
         "direccion": "Rosario del Tala 644",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.380776770507!2d-60.51867073987837!3d-31.73280596829063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b452760ee9f03b%3A0x39a26e5b40d1ae2f!2sRosario%20del%20Tala%20644%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1637345025426!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/parana-medio.jpg' alt='parana-medio' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/parana-medio.jpg' alt='parana-medio' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -155,7 +155,7 @@
         "localidad":"SALTA",
         "direccion": "Av. José de Artigas 200",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5121.7372054909765!2d-65.39613225274566!3d-24.808629748996132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8f017053197ddb7!2sIngeniero%20Ramon%20Russo!5e0!3m2!1ses-419!2sar!4v1637347023062!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/ing-ramonr.jpg' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/ing-ramonr.jpg' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -170,7 +170,7 @@
         "localidad":"San Salvador",
         "direccion": "Av. Almte. Brown 833",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d909.8090743832349!2d-65.28701863372957!3d-24.198502412104727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9346a768cb28eed!2sGomez%20Roco!5e0!3m2!1ses-419!2sar!4v1637346417289!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/gomez-roco.jpg' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/gomez-roco.jpg' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -185,7 +185,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -200,7 +200,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -215,7 +215,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",
@@ -230,7 +230,7 @@
         "localidad":"CORDOBA CAPITAL",
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='/img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacion": "D",
             "vacio": "V",

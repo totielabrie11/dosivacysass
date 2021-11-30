@@ -1,7 +1,7 @@
 //Llamado Ajax a mis distribuidors JSON
 $.ajax({
     method: "GET",
-    url: "../json/distribuidores.json",
+    url: "https://dosivac-281c9-default-rtdb.firebaseio.com/distribuidores.json",
   }).done((distribuidors) => {
       
     renderDistribuidorsCard(distribuidors)

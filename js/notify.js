@@ -1,7 +1,26 @@
-//Llamado Ajax a mis notify JSON
 $.ajax({
   method: "GET",
+  url: "https://dosivac-281c9-default-rtdb.firebaseio.com/notify.json",
+}).done(function(notify) {
+  
+    console.log(notify);
+  
+    renderNotifyList(notify)
+    nuevoEventToLCS(notify);
+    notifyDetector(notify);
+  
+  }).always(function() {
+    // Por ejemplo removemos la imagen "cargando..."
+  }).fail(function() {
+    // Manejar errores
+  })
+
+
+//Llamado Ajax a mis notify JSON
+/* $.ajax({
   url: "../json/notify.json",
+  dataType:'json',
+  type: "GET",
 }).done((notify) => {
     
     renderNotifyList(notify)
@@ -12,7 +31,7 @@ $.ajax({
     console.log("carga de notify no fue exitosa"); //reemplazar por un sweet modal
 }).always(() => {
     console.log("carga de datos notify.JSON terminada");
-});
+}); */
 
 
 let arrayDeNotificaciones = [];
