@@ -167,115 +167,101 @@ div.navegacion { /* esta relacionado con las flechas de navegacion que están ar
         height: 10%;
     }
 }    
-footer {
-    display: flex;
-    background-color: rgb(68, 67, 67);
-    /* background: rgb(203,223,237);
-    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%); */
-    height: 140px;
-    align-content: center;
-    justify-content: space-between; 
-    position: relative;
-    
-    .personita {
-        width:calc(calc((100% / 40) + 60px)); /* no encontraba la forma de hacer que mi elemento que pesa un determinado "%" , no desapareciera de mi pantalla en tamaño mobile hasta que me encontré con esta funcion "calc" que me encantó */
-        position:fixed;
-        right: -15px;
-        bottom: 0;
-    }
-    .burbujatexto {
-        position: fixed;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        right: 2rem;
-        bottom: 7rem;
-        width: calc(calc((100% / 10) + 210px));
-        height: 100px;
-        padding: 10px;
-        color:grey;
-        background-color:rgb(236, 234, 97);
-        border-radius: 15px;
-        a {
-        text-decoration: none;
-            p {
-                color: grey;
-            }
 
-        }
-        .triangulo {
-        position: relative;
-        bottom: -3.5rem;
-        right: -10px;
-        width: 0px; 
-        height: 0px;
-        transform: rotate(60deg);
-        border-left: 50px solid #ecea61;
-        border-top: 25px solid transparent;
-        border-bottom: 25px solid transparent; 
-        }
-    }
-    #cerrarburbuja {
-        position: absolute;
-        width: 24px;
-        bottom: 11.5rem;
-        right: 3.5rem;
-        color: black;
-        font-size: 15px;
-        border-radius: 50%;
-        background:#fff;
-        text-align: center;
-        box-shadow: 4px 4px 0px (rgb(255,255, 255));
-        cursor: pointer;
-        transition: all 0.5s ease;
-        &:hover {
-            transform: rotate(0deg) translate(4px, 4px) scale(1);
-            box-shadow: 0px 0px 0px
-                   } 
-    }
-    .capa__personita {
-        width:calc(calc((100% / 40) + 45px));
-        height: 5rem;
-        position:fixed;
-        right: -15px;
-        bottom: 0;  
-        background:(0,0,0,0.0);
-        cursor: pointer;
-    }
-    #btn-modal-img {
-        display: none;
-    }
-    h6{
-        display: flex;
-    }
+footer {
     
-    span {
+    .container-footer-all{
+        max-width: 1400px;
+        padding: 10px 5%;
+        margin-bottom: 10px;
+    }
+
+    .container-footer-body{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .column1{
+        max-width: 400px;
+        height: 100%;
+    }.column1 h3{
+    font-size: 22px;  
+    text-align: center; 
+    }.column1 p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c7c7c7;
+    }
+
+    .column2{
+        min-width: 400px;
         text-align: center;
-        margin-bottom: 20px;
-        font-family: 'Lobster Two', cursive;
-        font-size: 1.6rem;
-        text-shadow: 4px 4px 6px black;
+        height: 100%;
+    }.column2 h3{
+        font-size: 22px;
+    }.column2 .row{
+        margin-top: 20px;
+        display: flex;
+
+    }.row1 {
+         display: flex;
+         margin-top: 20px;
     }
-    div.footer__line {
-        width: 100%;
-        height: 8px;
-        background-color: black;
+    img{
+        width: 35px;
+        height: 36px;
+        justify-content: flex-start;
+    }.row1 label{    
+        margin-top: 10px;
+        margin-left: 20px;
+        color: #c7c7c7;
     }
-    
-    div.footer__image {
-        width: 3rem;
-        height: 3rem;
+
+    .column3{
+        min-width: 400px;
+        height: 100%;
         
-        }
-    .footer__row{
+    }.column3 h3{
+        font-size: 22px;
+        text-align: center;
+    }.row2{
+        margin-top: 20px;
         display: flex;
-        justify-content: space-around;
+        align-items: center;
+    
+    }.row2 i{
+        width: 36px;
+        height: 36px;
+        font-size: 36px;
+    }.row2-map i{
+        margin-top: 20px;
+        display: flex;
+        width: 36px;
+        height: 36px;
+        font-size: 36px;
+    }.row2 label {
+        margin-left: 20px;
+        max-width: 140px;
     }
-}
-section article 
-    {
-    background: rgb(223, 236, 245);
-    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(99,227,235,1) 50%, rgba(82,221,244,1) 82%, rgba(69,85,252,1) 100%);
+
+    .container-footer{
+        width: 100%;
+        background: #101010;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }.copyright {
+        color: #c7c7c7;
+    }a{
+        font-weight: bold;
+    }.information {
+        margin-right: 200px;
+    }.information a{
+    color: #c7c7c7;
+    }
+
+    background-color: #202020;
+    color: #fff;
+    height: 100%;
+    padding-top: 40px;
 }
