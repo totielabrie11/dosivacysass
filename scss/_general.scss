@@ -10,8 +10,9 @@
     body {
         background: rgb(203,223,237);
         background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
-    color:white;
-    overflow: hidden;
+        color:white;
+        overflow: hidden;
+        font-family: 'Readex Pro', sans-serif;
     }
 }
 
@@ -31,42 +32,7 @@ nav {
                 font-size: 22px;
                 margin-right: 10px;
 }}}}
-
-#search__contenedor { /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
-    justify-content: flex-end;
-    align-items: center;
-    margin: auto;   
-    #search__button {
-    text-align: center;
-    align-items: center;
-    overflow: hidden;
-    }
-    #search__input {
-    text-align:inherit;
-    width: 50%;
-    }
-}
-/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
-#search__contenedor {
-    margin-right: 2%;
-    margin-left: 2%;
-}
-#search__input {
-    border: 0;
-    
-    color: black;
-    outline: none;
-}
-#search__button {
-    color: grey;
-}
-#form__login {
-    margin-right: 15%;
-    margin-top: 40px;
-}
-
-
-main {
+/* main {
     max-width: 100%;
     color: white;
     section {
@@ -77,96 +43,7 @@ main {
        text-decoration: none; 
         } 
     }
-}
-
-h1 {
-    color: white;
-    margin-left: 10px;
-    display: none;
-}
-h2 {
-    width: 100%;
-    margin-left: 12px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    //text-shadow: 5px 6px 2px black;
-    font-size: 40px;
-    color: rgb(114, 197, 245);
-    color: white;
-} 
-h3 {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    text-shadow: 3px 3px 2px black;
-    color: rgb(114, 197, 245);
-    color: white;
-    height: 100%;       
-}
-
-.solucionador {
-    display: flex;
-    justify-content: center;
-}
-
-
-.tarjeta__empresa {
-    display: flex;
-    justify-content: center;
-    background: none; 
-    margin: auto;
-}
-#tarjeta__historia1, #tarjeta__historia2  {
-    width: 43rem;
-    color: rgb(36, 141, 226);
-    text-align:justify;
-}
-
-.tarjetaproducto { /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
-    .card-title { 
-        font-size: 1.5rem;
-        color: rgb(129, 129, 148);
-        font-style: italic;
-        text-align: center;
-        }
-        .card-body p {
-            font-family: "B612";
-            font-size: 20px;
-            background: rgb(195, 226, 228);
-            padding: 10px;
-            color: black;   
-            text-align: center;
-            border-radius: 5px;
-        }
-    .tarjetaproducto__posicionamiento {
-        margin-bottom: 30px;
-    }
-.dale__like {
-    display: flex;
-    justify-content: flex-end;
-    li {
-        list-style:none;     
-        }
-    }
-}
-
-.fondobomba  {
-    display: flex;
-    justify-content: space-between;
-    background: rgb(187,255,249);
-    background: linear-gradient(90deg, rgba(187,255,249,0.4794117476091999) 3%, rgba(0,34,245,0.49061622940191707) 18%, rgba(0,212,255,0.45420166357558645) 100%); 
-    }
-
-div.navegacion { /* esta relacionado con las flechas de navegacion que están arriba del footer */
-    background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    .tamaño__img--navegacion {
-        width: 10%;
-        height: 10%;
-    }
-}    
+} */
 
 footer {
     
@@ -264,4 +141,147 @@ footer {
     color: #fff;
     height: 100%;
     padding-top: 40px;
+}
+
+/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
+#search__contenedor {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#search__input {
+    border: 0;
+    
+    color: black;
+    outline: none;
+}
+#search__button {
+    color: grey;
+}
+#form__login {
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    margin-left: 10px;
+
+}
+h2 {
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-family: 'B612', sans-serif;
+    //text-shadow: 5px 6px 2px black;
+    font-size: 40px;
+    color: rgb(114, 197, 245);
+    color: white;
+} 
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'B612', sans-serif;
+    text-shadow: 3px 3px 2px black;
+    color: rgb(114, 197, 245);
+    color: white;
+    height: 100%;       
+}
+
+
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 35vh;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.container-1 {
+	width: 90%;
+	max-width: 1200px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.container-1::after {
+	content: "";
+	width: 2px;
+	height: 100%;
+	background: #1b3231;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 1px);
+	z-index: 1;
+}
+
+.evento {
+	display: flex;
+	justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.evento::after {
+	content: "";
+	display: block;
+	width: 14px;
+	height: 14px;
+	border-radius: 100px;
+	background: #DCDFD9;
+	border: 2px solid #1b3231;
+	position: absolute;
+	z-index: 2;
+	top: calc(50% - 9px);
+	left: calc(50% - 9px);
+}
+
+.fecha {
+	margin-top: 8.5rem;
+	width: calc(42% + 20px);
+	font-size: 32px;
+	font-weight: normal;
+}
+
+.foto {
+	width: 42%;
+	border: 10px solid #fff;
+	position: relative;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.foto::after {
+	content: "";
+	display: block;
+	border: 20px solid transparent;
+	border-left: 20px solid #fff;
+	position: absolute;
+	right: -50px;
+	top: calc(50% - 20px);
+}
+
+.foto img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.evento:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.evento:nth-child(even) .fecha {
+	justify-content: end;
+}
+
+.evento:nth-child(even) .foto::after {
+	content: "";
+	border: 20px solid transparent;
+	border-right: 20px solid #fff;
+	right: initial;
+	left: -50px;
 }

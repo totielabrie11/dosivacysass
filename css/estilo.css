@@ -21,6 +21,7 @@ html body {
   background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
   color: white;
   overflow: hidden;
+  font-family: 'Readex Pro', sans-serif;
 }
 
 nav {
@@ -51,185 +52,18 @@ nav ul li a {
   margin-right: 10px;
 }
 
-#search__contenedor {
-  /* ejemplo de no usar botstrap "para todo", me costo horrores encontrar algunos identificadorfes para modificar las ubicaciones del contenido. y casi ninguno de estos elementos reaccionan a las media Query */
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-}
-
-#search__contenedor #search__button {
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-}
-
-#search__contenedor #search__input {
-  text-align: inherit;
-  width: 50%;
-}
-
-/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
-#search__contenedor {
-  margin-right: 2%;
-  margin-left: 2%;
-}
-
-#search__input {
-  border: 0;
-  color: black;
-  outline: none;
-}
-
-#search__button {
-  color: grey;
-}
-
-#form__login {
-  margin-right: 15%;
-  margin-top: 40px;
-}
-
-main {
-  max-width: 100%;
-  color: white;
-}
-
-main section {
-  padding: 10px 5%;
-  margin-bottom: 10px;
-}
-
-main section a {
-  text-decoration: none;
-}
-
-h1 {
-  color: white;
-  margin-left: 10px;
-  display: none;
-}
-
-h2 {
-  width: 100%;
-  margin-left: 12px;
-  margin-top: 10px;
-  font-family: 'B612', sans-serif;
-  font-size: 40px;
-  color: #72c5f5;
-  color: white;
-}
-
-h3 {
-  margin-left: 10px;
-  margin-top: 10px;
-  font-family: 'B612', sans-serif;
-  text-shadow: 3px 3px 2px black;
-  color: #72c5f5;
-  color: white;
-  height: 100%;
-}
-
-.solucionador {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.tarjeta__empresa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: none;
-  margin: auto;
-}
-
-#tarjeta__historia1, #tarjeta__historia2 {
-  width: 43rem;
-  color: #248de2;
-  text-align: justify;
-}
-
-.tarjetaproducto {
-  /* este estilo, se va a ir viendo reflejado en distintas secciones de toda la pagina */
-}
-
-.tarjetaproducto .card-title {
-  font-size: 1.5rem;
-  color: #818194;
-  font-style: italic;
-  text-align: center;
-}
-
-.tarjetaproducto .card-body p {
-  font-family: "B612";
-  font-size: 20px;
-  background: #c3e2e4;
-  padding: 10px;
-  color: black;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.tarjetaproducto .tarjetaproducto__posicionamiento {
-  margin-bottom: 30px;
-}
-
-.tarjetaproducto .dale__like {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.tarjetaproducto .dale__like li {
-  list-style: none;
-}
-
-.fondobomba {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background: #bbfff9;
-  background: -webkit-gradient(linear, left top, right top, color-stop(3%, rgba(187, 255, 249, 0.479412)), color-stop(18%, rgba(0, 34, 245, 0.490616)), to(rgba(0, 212, 255, 0.454202)));
-  background: linear-gradient(90deg, rgba(187, 255, 249, 0.479412) 3%, rgba(0, 34, 245, 0.490616) 18%, rgba(0, 212, 255, 0.454202) 100%);
-}
-
-div.navegacion {
-  /* esta relacionado con las flechas de navegacion que están arriba del footer */
-  background: -webkit-gradient(linear, left top, right top, from(#cbdfed), color-stop(76%, #3c3d40), to(#b0b1bd));
-  background: linear-gradient(90deg, #cbdfed 0%, #3c3d40 76%, #b0b1bd 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: auto;
-}
-
-div.navegacion .tamaño__img--navegacion {
-  width: 10%;
-  height: 10%;
-}
-
+/* main {
+    max-width: 100%;
+    color: white;
+    section {
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    
+    a {
+       text-decoration: none; 
+        } 
+    }
+} */
 footer {
   background-color: #202020;
   color: #fff;
@@ -373,6 +207,174 @@ footer .information {
 
 footer .information a {
   color: #c7c7c7;
+}
+
+/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
+#search__contenedor {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#search__input {
+  border: 0;
+  color: black;
+  outline: none;
+}
+
+#search__button {
+  color: grey;
+}
+
+#form__login {
+  margin-right: 15%;
+  margin-top: 40px;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+h2 {
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 10px;
+  font-family: 'B612', sans-serif;
+  font-size: 40px;
+  color: #72c5f5;
+  color: white;
+}
+
+h3 {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'B612', sans-serif;
+  text-shadow: 3px 3px 2px black;
+  color: #72c5f5;
+  color: white;
+  height: 100%;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 35vh;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.container-1 {
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.container-1::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: #1b3231;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 1px);
+  z-index: 1;
+}
+
+.evento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.evento::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 100px;
+  background: #DCDFD9;
+  border: 2px solid #1b3231;
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+}
+
+.fecha {
+  margin-top: 8.5rem;
+  width: calc(42% + 20px);
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.foto {
+  width: 42%;
+  border: 10px solid #fff;
+  position: relative;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.foto::after {
+  content: "";
+  display: block;
+  border: 20px solid transparent;
+  border-left: 20px solid #fff;
+  position: absolute;
+  right: -50px;
+  top: calc(50% - 20px);
+}
+
+.foto img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.evento:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.evento:nth-child(even) .fecha {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.evento:nth-child(even) .foto::after {
+  content: "";
+  border: 20px solid transparent;
+  border-right: 20px solid #fff;
+  right: initial;
+  left: -50px;
 }
 
 section article.tarjetaproducto {
@@ -1590,7 +1592,7 @@ section.catalogo div#ani:hover {
   transition: 0.5s ease;
   cursor: pointer;
   margin:30px;
-} */
+}  */
 .card-list {
   width: 100%;
   display: -ms-grid;
