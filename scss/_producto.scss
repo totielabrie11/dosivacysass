@@ -45,9 +45,16 @@
   }
   
   .productP-detail {
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0 20px;  
     font-size: 11px;
     color: #fff;
+    width: 60%;
+    span {
+      font-size: 14px;
+    }
   }
   
   .productP-detail h2 {
@@ -59,11 +66,14 @@
   }
   
   .back-text {
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
     font-size: 125px;
     font-weight: 900;
     margin-left: -7px;
     margin-top: -12px;
+    
     opacity: 0.1;
   }
   
@@ -218,9 +228,10 @@
     font-weight: 200;
     color: #fff;
     border-radius: 7px;
-    margin-top: -13px;
     margin-left: -5px;
     box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+    text-transform: uppercase;
+    cursor: pointer;
   }
   
   .productP-price b {
