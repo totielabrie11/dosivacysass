@@ -101,38 +101,8 @@ nav li {
         margin-right: 30px;
     }
 }
-@media all and (max-width:796px){
-    .banner__cliente--image {
-        width: 100%;
-        height: 14rem;
-        margin-top: 10px;
-    }
-    article.catalogo__producto1, article.catalogo__producto2, article.catalogo__producto3, article.catalogo__producto4, article.catalogo__producto5, article.catalogo__producto6, article.catalogo__producto7, article.catalogo__producto8, article.catalogo__producto9, article.catalogo__producto10, article.catalogo__producto11, article.catalogo__producto12 {
-        display: flex;/* Entiendo que existen herramientas mas poderosas para hacer esta sintaxis mas ordenada, por ahora se me escapa  */
-        flex-direction: column;
-        justify-content:inherit;
-        margin-right: none;
-        margin-left: 1.8px;
-        width: 100%;
-        height: auto;
-        }  
-    li .novedad__image {
-        width: 6rem;
-        height: 6rem;
-        margin-right: 30px;
-    }
-    
-}
-@media all and (max-width:576px) {
-article.catalogo__producto1, div.catalogo__producto2, div.catalogo__producto3, div.catalogo__producto4, div.catalogo__producto5, div.catalogo__producto6, div.catalogo__producto7, div.catalogo__producto8, div.catalogo__producto9, div.catalogo__producto10, div.catalogo__producto11, div.catalogo__producto12 {
-    height: auto;
-    display: flex;
-    }
-    #video__gerente {
-        width: 24rem;
-        height: 13rem;
-    }
-} 
+
+
 @media all and (max-width:496px) {
     li .novedad__image {
         width: 3rem;

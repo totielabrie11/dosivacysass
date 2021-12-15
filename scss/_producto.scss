@@ -1,411 +1,245 @@
-@for $i from 1 through 12 {  
-    .catalogo__producto#{$i}  { 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-        text-shadow: 6px 6px 4px rgb(0, 32, 92);
-        width: 28rem; 
-        height: 100%; 
-        margin-top: 10px;
-        background-color: grey; 
-        text-align: center;
-    }
-}
-div.catalogo__image--tamaño {    
-    width: 26.5rem;
-    height: 22rem; 
+.container__products {
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.galeria__image--contenedor {
-    margin-top: 10px;
-    border-radius: 15px;
-    background-color: grey;     
+.containerP {
+    width: 280px;
+    height: 500px;
+    margin: 30px auto;
+    margin-right: 20px;
     }
-
-.galeria__image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
-    figure {
-        position: relative;
-        width: 15rem;
-        height: 10rem;
-        border-radius: 15px;
-        overflow:hidden;
-        box-shadow: 5px 10px 20px rgba(18, 20, 150, 0.548);
-        display: flex;
-        align-items: center;
-        img {
-            transition: all 1s ease-out;
-        }
-        .capa1 {
-            position: absolute;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            background: rgba(0, 1, 2, 0.61);
-            transition: all 500ms ease-out;
-            opacity: 0;
-            visibility: hidden;
-        }
-    }
-    
-} 
-
-input#btn-modal-img, #btn-modal-img1, #btn-modal-img2, #btn-modal-img3, #btn-modal-img4, #btn-modal-img5, #btn-modal-img6, #btn-modal-img7, #btn-modal-img8, #btn-modal-img9, #btn-modal-img10, #btn-modal-img11, #btn-modal-img12, #btn-modal-img13, #btn-modal-img14, #btn-modal-img15, #btn-modal-img16, #btn-modal-img17, #btn-modal-img18, #btn-modal-img19, #btn-modal-img20 {
-    display: none;
-}   
-label.lbl-modal--image {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0);
-    border-radius: 15px;
-    cursor: pointer;
-    position:absolute;
-    }
-.modal__galeria {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 500ms ease;
-    visibility: hidden;
-    opacity: 0;
-    
-    .contenedor__modal {
-        width: 80%;
-        height: auto;
-        margin: auto;
-        background: #fff;
-        box-shadow: 2px 7px 25px rgba(255,255,255,0.6);
-        transition: all 500ms ease;
-        position: relative;
-        header {
-            padding: 10px;
-            background: #db5046;
-            color: #fff;
-            text-align: center;
-            }
-        label  {
-            position: absolute;
-            right: 15px;
-            top: 7px;
-            border-radius: 100%;
-            background: #000;
-            width: 30px;
-            color: #fff;
-            font-size: 20px;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 4px 4px 0px (rgb(0, 0, 0)); 
-            transition: all 0.5s ease;
-            &:hover {
-                transform: rotate(0deg) translate(4px, 4px) scale(1);
-                box-shadow: 0px 0px 0px
-                       } 
-            }
-        .contenido-img {
-            width: 100%;
-            height: auto;
-            img {
-                width: 100%;
-            }             
-        }
-    }
-}
-#btn-modal-img:checked ~ .modal__galeria {     /* me hubiera gustado resolverlo con otra sintaxis, prove con parentesis con , con ; y nada me funcionó. Finalmente opto por repetir la funcion por la cantidad de veces que lo necesito (esto se reptie en el modal que contiene cada tarjeta de producto) */
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img1:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img2:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img3:checked ~ .modal__galeria {   
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img4:checked ~ .modal__galeria {    
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img5:checked ~ .modal__galeria {    
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img6:checked ~ .modal__galeria {    
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img7:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img8:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img9:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img10:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img11:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img12:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img13:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img14:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img15:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img16:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img17:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img18:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-#btn-modal-img19:checked ~ .modal__galeria {
-    opacity: 1;
-    visibility: visible;
-    z-index: 1;
-}
-
-#fig__sombra--img:hover > .capa1 {  /* esto muestra el efecto o la transicion de la capa oculta al pasar el mosue por la foto que vamos a seleccinar */
-        transition: all 1s ease-out;
-        opacity: 1;
-        visibility: visible;
-    }
-
-figure {        
-    transition: all 1.5s;
-    &:hover {
-    /* transform:  scale(1.20); tuve que anular el efecto con escalamiento por que me rompe el modal y se volvia loca la pagina.*/
-    background-color: rgba(0, 0, 0, 0.678);
-    }    
-} 
-
-
-article.catalogo {
-    div{
-        transition: all 1.5s;
-    }
-}
-section.catalogo {
-    margin-right: 10px;
-    margin-left: 1%;
-    justify-content: space-between;
-    a.btn.btn-primary {
-        margin-top: 10px;
-    }
-    
-    li a.btn-gas {
-        margin-top: 10px;
-        font-size: 13px;
-        text-transform: uppercase;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        height: 45px;
-    }
-
-/* anular cualquier tipo de animacion   {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
-    transform: none !important;
-} */
-
-div#ani{  /* todo lo que esté dentro de un div con el id "ani" va a tener este pequeño efecto */
-    transition: all 2s;
-    &:hover {
-    transform: rotate(0deg) translate(10px, 2px) scale(1.04)    
-        }
-    }       
- 
-}
-
-
-
-
-/* estilos modal (de todos mis catalgos de producto)*/
-.modal__position {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    .lbl-modal{
-        color: black;
-        width: 50%;
-        margin-bottom: 10px;
-        text-align: center;
-        text-transform: uppercase;
-        color:grey;
-        background: rgb(236, 234, 97);
-        padding: 10px 15px;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    #btn-modal:checked ~ .modal__position { /* se repite el problema de sintaxis expuesto arriba en la galeria de fotos */
-        height: 100%;
-    }
-    #btn-modal1:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal2:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal3:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal4:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal5:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal6:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal7:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal8:checked ~ .modal__position {
-        height: 100%;
-    }
-    #btn-modal9:checked ~ .modal__position {
-        height: 100%;
-    }
-    
-    #btn-modal, #btn-modal1, #btn-modal2, #btn-modal3, #btn-modal4, #btn-modal5, #btn-modal6, #btn-modal7, #btn-modal8, #btn-modal9 {
-        display: none;
-    }
-    .modal {
-        position: fixed;
-        top: 0;
-        left: 0;
-        background:rgba(0,0,0,0.5);
-        transition: all 1s ease;
-        opacity: 0;
-        visibility: hidden;
-        }
-#btn-modal:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal1:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal2:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal3:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal4:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal5:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal6:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal7:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal8:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-modal9:checked ~ .modal {
-    opacity: 1;
-    visibility: visible;
-}
-     
-.contenedor {
-    width: 400px;
-    height: 300px;
-    margin: auto;
-    background: rgb(236, 234, 97);
-    box-shadow: 1px 7px 25px;
-    transition: all 500ms ease;
+  
+  .cardP {
+    border-radius: 25px;
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cardP-head {
     position: relative;
-           
-    header {
-        padding: 10px;
-        background: rgb(236, 234, 97);
-        }
-    label {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 20px;
-        cursor: pointer;
-        }
-    }
-}
+    height: 252px;
+    background: #fa782e;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    //filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#c82930', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    border-radius: 25px 25px 0 0;
+  }
+  
+  .cardP-logo {
+    width: 55px;
+    margin: 20px;
+  }
+  
+  .productP-img {
+    position: absolute;
+    left: 0;
+    margin-top: -26px;
+    margin-left: 90px;
+  }
+  
+  .productP-detail {
+    padding: 0 20px;
+    font-size: 11px;
+    color: #fff;
+  }
+  
+  .productP-detail h2 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .back-text {
+    display: inline-block;
+    font-size: 125px;
+    font-weight: 900;
+    margin-left: -7px;
+    margin-top: -12px;
+    opacity: 0.1;
+  }
+  
+  .cardP-body {
+    height: 255px;
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+    color: black;
+  }
+  
+  .productP-title {
+    padding: 20px 20px 5px 20px;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .productP-title b {
+    font-weight: 900;
+    letter-spacing: 0px;
+  }
+  
+  .badge {
+    position: relative;
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    background: #11e95b;
+    padding: 2px 5px;
+    border-radius: 4px;
+    top: -2px;
+    margin-left: 5px;
+  }
+  
+  .productP-caption {
+    display: block;
+    padding: 0 20px;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .productP-rating {
+    padding: 0 20px;
+    font-size: 11px;
+  }
+  
+  .productP-rating i.grey {
+    color: #acacab;
+  }
+  
+  .productP-size h4 {
+    font-size: 11px;
+    padding: 0 21px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .ul-size {
+    margin-left: 15px;
+  }
+  
+  .ul-size li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .ul-size li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 11px;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 23px;
+    color: #000;
+  }
+  
+  .ul-size li a.active {
+    background: #f35e3d;
+    color: #fff;
+  }
+  
+  .productP-size:before,
+  .productP-size:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .productP-color h4 {
+    font-size: 11px;
+    padding: 0 21px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .ul-color {
+    margin-left: 27px;
+  }
+  
+  .ul-color li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .ul-color li a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+  }
+  
+  .ul-color li a.orange {
+    background: #f35e3d;
+  }
+  
+  .ul-color li a.green {
+    background: #11e95b;
+  }
+  
+  .ul-color li a.yellow {
+    background: #ffd414;
+  }
+  
+  .ul-color li a.active:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    border: 1px solid #f35e3d;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  
+  .productP-price {
+    position: absolute;
+    background: #11e95b;
+    padding: 7px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 7px;
+    margin-top: -13px;
+    margin-left: -5px;
+    box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+  }
+  
+  .productP-price b {
+    margin-left: 5px;
+  }
+  
+  
+  
+  .yt
+  {
+    position: fixed;
+    padding:7px 10px 3px 10px;
+    top: 5px;
+    right: 5px;
+    background: rgba(0,0,0,0.1);
+  }
+  
+  .yt:hover
+  {
+    background: rgba(0,0,0,0.2);
+  }
+  
