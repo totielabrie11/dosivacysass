@@ -145,7 +145,7 @@
     margin-right: 20px;
   }
   
-  .ul-size li a {
+  .ul-size li {
     display: inline-block;
     text-decoration: none;
     font-size: 11px;
@@ -155,11 +155,14 @@
     text-align: center;
     line-height: 23px;
     color: #000;
+    cursor: pointer;
   }
   
-  .ul-size li a.active {
+  .ul-size li.active {
     background: #f35e3d;
     color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
   }
   
   .productP-size:before,
@@ -194,7 +197,7 @@
     border-radius: 100%;
   }
   
-  .ul-color li a.orange {
+  .ul-color li.orange {
     background: #f35e3d;
   }
   
@@ -232,6 +235,10 @@
     box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
     text-transform: uppercase;
     cursor: pointer;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
   
   .productP-price b {
