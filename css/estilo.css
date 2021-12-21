@@ -838,7 +838,7 @@ div#banner__aireacion--position {
   height: 17rem;
   position: absolute;
   bottom: 0;
-  background: -moz-linear-gradient(-45deg, #fa792e 8%, #c82931 83%);
+  background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
   border-radius: 5%;
   border: 3.5px solid #11e95b;
   z-index: 1;

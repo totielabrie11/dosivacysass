@@ -21,11 +21,8 @@ $('.btnModal').click(function(){
     left: '0px',
   
   });
-  setTimeout(() => {
-    
-    $('.modalDesc').fadeOut(500);
 
-  }, 500);
+  $('.modalDesc').fadeOut(500);
 })
 
 
