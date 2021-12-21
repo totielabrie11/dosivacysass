@@ -1,3 +1,34 @@
+$('.modalDesc').hide();
+
+function abrirModal(id){
+
+  console.log(id)
+  /* $('ul li').click(function(){
+    $('.modalDesc').fadeIn(1000);
+  }); */
+
+  $("ul li").click(function(){
+    $(".modalDesc").fadeIn(1000).animate({
+      left: '280px',
+     });
+  });  
+}
+
+
+$('.btnModal').click(function(){
+
+  $(".modalDesc").animate({
+    left: '0px',
+  
+  });
+  setTimeout(() => {
+    
+    $('.modalDesc').fadeOut(500);
+
+  }, 500);
+})
+
+
 $("ul li").removeClass("active")
 
 function pintarDom(id) {
@@ -8,8 +39,11 @@ function pintarDom(id) {
   $( '#' + `${id}`).addClass( "active" );
 
   $( '#' + `${id}` ).dblclick(function() {
-    $("ul li").removeClass("active")
+    $("ul li").removeClass("active");
+
   });
+
+  abrirModal(id);
 };
 
 
@@ -20,3 +54,4 @@ $("li").click(function() {
   pintarDom(id)
 
 });
+

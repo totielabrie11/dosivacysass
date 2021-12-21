@@ -331,15 +331,15 @@ h3 {
 }
 
 .fecha {
-  margin-top: 8.5rem;
+  margin-top: auto;
   width: calc(42% + 20px);
   font-size: 32px;
   font-weight: normal;
 }
 
 .foto {
-  width: 42%;
-  border: 10px solid #fff;
+  width: 46%;
+  border: 5px solid #fff;
   position: relative;
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -351,7 +351,7 @@ h3 {
   border: 20px solid transparent;
   border-left: 20px solid #fff;
   position: absolute;
-  right: -50px;
+  right: -40px;
   top: calc(50% - 20px);
 }
 
@@ -378,7 +378,7 @@ h3 {
   border: 20px solid transparent;
   border-right: 20px solid #fff;
   right: initial;
-  left: -50px;
+  left: -40px;
 }
 
 section article.tarjetaproducto {
@@ -585,6 +585,7 @@ div#banner__aireacion--position {
   border-radius: 25px;
   -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
           box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
 .cardP-head {
@@ -813,6 +814,7 @@ div#banner__aireacion--position {
 .productP-price a {
   text-decoration: none;
   color: white;
+  font-size: 21px;
 }
 
 .productP-price b {
@@ -829,6 +831,30 @@ div#banner__aireacion--position {
 
 .yt:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+
+.modalDesc {
+  width: 280px;
+  height: 17rem;
+  position: absolute;
+  bottom: 0;
+  background: -moz-linear-gradient(-45deg, #fa792e 8%, #c82931 83%);
+  border-radius: 5%;
+  border: 3.5px solid #11e95b;
+  z-index: 1;
+}
+
+.modalDesc h2 {
+  font-size: 17px;
+}
+
+.btnModal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: calc((100% / 2) - 12px);
 }
 
 .ocultar__form {

@@ -14,6 +14,7 @@
   .cardP {
     border-radius: 25px;
     box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
   }
   
   .cardP-head {
@@ -238,6 +239,7 @@
     a {
       text-decoration: none;
       color: white;
+      font-size: 21px;
     }
   }
   
@@ -261,3 +263,25 @@
     background: rgba(0,0,0,0.2);
   }
   
+  //Modal de producto
+
+.modalDesc {
+  width: 280px;
+  height: 17rem;
+  position: absolute;
+  bottom: 0;
+  background: -moz-linear-gradient(-45deg, #fa792e 8%, #c82931 83%);
+  border-radius: 5%;
+  border: 3.5px solid #11e95b;
+  z-index: 1;
+  h2{
+    font-size: 17px;
+  }
+}
+
+.btnModal {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: calc((100% / 2) - 12px);
+}

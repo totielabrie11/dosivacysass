@@ -244,15 +244,15 @@ h3 {
 }
 
 .fecha {
-	margin-top: 8.5rem;
+	margin-top: auto;
 	width: calc(42% + 20px);
 	font-size: 32px;
 	font-weight: normal;
 }
 
 .foto {
-	width: 42%;
-	border: 10px solid #fff;
+	width: 46%;
+	border: 5px solid #fff;
 	position: relative;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -263,7 +263,7 @@ h3 {
 	border: 20px solid transparent;
 	border-left: 20px solid #fff;
 	position: absolute;
-	right: -50px;
+	right: -40px;
 	top: calc(50% - 20px);
 }
 
@@ -285,5 +285,5 @@ h3 {
 	border: 20px solid transparent;
 	border-right: 20px solid #fff;
 	right: initial;
-	left: -50px;
+	left: -40px;
 }
