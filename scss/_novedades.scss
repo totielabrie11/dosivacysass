@@ -1,7 +1,11 @@
-.card-body h4 {
-    text-transform: uppercase;
-    font-weight: bold;
-    h5 span {
-        text-align:inherit;
+.card-body {
+    
+   
+    h4 {
+        text-transform: uppercase;
+        font-weight: bold;
     }
-}
+    H5, span, p{
+        text-align: center;
+    }
+};
