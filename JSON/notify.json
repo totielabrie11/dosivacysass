@@ -1,44 +1,41 @@
 [
   {
-    "titulo": "charla con eduardo O",
+    "titulo": "Charla Refrigeracion",
     "tema": "vacio en procesos de refrigeracion",
+    "fechaCreacion": "10/09/21",
+    "fechaEvento": "21/10/21",
     "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
+    "img": "<img src='../img/notify/charla-ref.png' alt=''>",
     "id": "1"
   },
   {
-    "titulo": "charla con Carlitos sobre todo tipo de cosas",
-    "tema": "vacio en procesos de refrigeracion",
-    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
-    "id": "1"
+    "titulo": "despedimos el año",
+    "tema": "Te deseamos unas felices fiestas",
+    "fechaCreacion": "10/09/21",
+    "fechaEvento": "24/12/21",
+    "descripcion": "Queremos desearte una feliz Navidad y dejarte los mejores deseos para el 2022",
+    "img": "<img src='https://www.love4musicals.com/wp-content/uploads/2017/12/image-8.jpeg' >",
+    "id": "2"
   },
   {
-    "titulo": "charla con la pocha",
-    "tema": "vacio en procesos de refrigeracion",
-    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
-    "id": "1"
+    "titulo": "Pagina WEB Dosivac",
+    "tema": "breve repaso para ir definiendo hacia donde se encamina la pagina web",
+    "fechaCreacion": "12/23/21",
+    "fechaEvento": "24/12/21",
+    "horaEvento": "10:00 am",
+    "descripcion": "iremos recorriendo los distintos temas, y funcionalidades de la pagina. colores, resuelve de forma rapida las consulta del US",
+    "img": "<img src='../img/notify/web.jpg' >",
+    "id": "3"
   },
   {
-    "titulo": "se la mando a la pochi",
-    "tema": "vacio en procesos de refrigeracion",
-    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
-    "id": "1"
-  },
-  {
-    "titulo": "se la mando a la pochis",
-    "tema": "vacio en procesos de refrigeracion",
-    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
-    "id": "1"
-  },
-  {
-    "titulo": "se la mando a la pochisss",
-    "tema": "vacio en procesos de refrigeracion",
-    "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='img/notify/charla ref.png>",
-    "id": "1"
+    "titulo": "Fin de año",
+    "tema": "Despedimos el año juntos",
+    "fechaCreacion": "12/23/21",
+    "fechaEvento": "31/12/21",
+    "horaEvento": "24:00",
+    "descripcion": "Te invitamos a reflexionar sobre el año pasado para recibir el año nuevo, apostando a una Argenitna mejor, una Argenitna Industrial, tus amigos de Dosivac",
+    "img": "<img src='https://1.bp.blogspot.com/-gdcyCjib_9U/YDRnCtJFBFI/AAAAAAAG90I/oP73Uo4v3PQAIdEK1SkdPmfl6ajGltb0gCLcBGAsYHQ/s16000/calendarios-del-ano-2022-para-imprimir.jpg' >",
+    "id": "4"
   }
+  
 ]

@@ -1,6 +1,6 @@
 $.ajax({
   method: "GET",
-  url: "https://dosivac-281c9-default-rtdb.firebaseio.com/notify.json",
+  url: "../../JSON/notify.json",
 }).done(function(notify) {
   
     console.log(notify);
@@ -173,40 +173,51 @@ $("#pruebaporid").click( function(){
 
 function renderNotifyList(notify) {
   
-  notifyLista = notify
+  let fechaCreacion = notify.map((x)=> x.fechaCreacion)
+  let fechaEventos = notify.map((x)=> x.fechaEvento)
+  
+  console.log(fechaCreacion);
+  console.log(fechaEventos);
+
+
   notify.forEach((elemento) => {
-    const { titulo, tema, descripcion, img, id } =
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =
     elemento;
-     
+    
     
     $("#renderTodasLasNotify").append(
       `
-      <div class="card col-3">
-      <div class="card-image"></div>
-      <div class="card-text">
-        <span class="date">4 days ago</span>
-        <h2>Post One</h2>
-        <p>${titulo}</p>
+      <div class="card">
+      <div class="card-image">
+          ${img}
       </div>
-      <div class="btnNotifyVisto">
-        <button class="btn btn-success" onclick="deleteNotify(notifyLista, '${titulo}')">VISTO</button>
+      <div class="card-body">
+          <span class="date"></span>
+          <h4 class="text-center">${titulo}</h4>
+          <h5>${tema}</h5>
+          <p>
+           ${descripcion}
+          </p>
+          
       </div>
-      <div class="card-stats">
-        <div class="stat">
-          <div class="value">4<sup>m</sup></div>
-          <div class="type">read</div>
-        </div>
-        <div class="stat border">
-          <div class="value">5123</div>
-          <div class="type">views</div>
-        </div>
-        <div class="stat">
-          <div class="value">32</div>
-          <div class="type">comments</div>
-        </div>
+      <div class="card-footer">
+          <div class="info">
+              <div class="value">PUBLICADO</div>
+              <div class="type">${fechaCreacion}</div>
+          </div>
+          <div class="info">
+              <div class="value">FECHA</div>
+              <div class="type">${fechaEvento}</div>
+          </div>
+          <div class="info">
+              <div class="value">ACTIVO</div>
+              <div class="type"></div>
+          </div>
       </div>
+    </div>  
     </div>
-      `)
+      `
+      )
     })
 }
 
