@@ -3,36 +3,105 @@
         "linea": "Milenio",
         "modelo": "015",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.15 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "015"
+        "id": "015",
+        "idRender": "renderMilenioCar"
     },
     {
         "linea": "Milenio",
         "modelo": "033",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.3 lts/h</li><li>0.33 lts/h</li><li>5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "033"
+        "id": "033",
+        "idRender": "renderMilenioCar"
     },
     {
         "linea": "Milenio",
         "modelo": "035",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.5 lts/h</li><li>0.35 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "035"
+        "id": "035",
+        "idRender": "renderMilenioCar"
     },
     {
         "linea": "Milenio",
         "modelo": "070",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>7 lts/h</li><li>0.15 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "070"
+        "id": "070",
+        "idRender": "renderMilenioCar"
     },
     {
         "linea": "Milenio",
         "modelo": "130",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>13 lts/h</li><li>1.3 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "130"
+        "id": "130",
+        "idRender": "renderMilenioCar"
     },
     {
         "linea": "Milenio",
         "modelo": "300",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>3 lts/h</li><li>1.5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
-        "id": "300"
+        "id": "300",
+        "idRender": "renderMilenioCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "01515",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "01515",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "03210",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "03210",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "05010",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "05010",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "10005",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "10005",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "16003",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "16003",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD PLUS",
+        "modelo": "01515P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "01515P",
+        "idRender": "renderEmdPCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "16003",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "16003",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "16003",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "16003",
+        "idRender": "renderEmdCar"
+    },
+    {
+        "linea": "EMD",
+        "modelo": "16003",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "16003",
+        "idRender": "renderEmdCar"
     }
 ]

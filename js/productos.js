@@ -1,32 +1,47 @@
+//CIERTTO TODO LOS , .modalDesc//
 $('.modalDesc').hide();
 
-function abrirModal(id){
 
+////////////////FUNCION QUE ABRE EL MODAL, que recibe un id////////////////////
+ $(document).ready(function() {
+  $("ul").click(function(event) {
+      
+    const idModal = event.currentTarget.id;
+
+    if (idModal) {
+      abrirModal(idModal)
+    }
+  });
+});
+
+
+function abrirModal(idModal){
+
+  idModal = idModal.slice(1)
   
-  $("ul li").click(function(id){
-    
-    console.log(id)
-    
-    $("#milenio").fadeIn(1000).animate({
-      left: '280px',
+  console.log(idModal);
+
+    $('#' + `${idModal}`).fadeIn(1000).animate({
+      bottom: '240px',
     });
-  });  
+    
 }
 
-
+/* FUNCION QUE CIERRA EL MODAL , todos los .modalDesc*/
 $('.btnModal').click(function(){
 
   $(".modalDesc").animate({
-    left: '0px',
+    bottom: '0px',
   
   });
 
   $('.modalDesc').fadeOut(500);
 })
 
-
+//Remuevo todos los class .active, para que no aparezca ninguno pintado//
 $("ul li").removeClass("active")
 
+//FUNCION QUE PINTAL EL SELECTOR DE BOMBA, por class .active//
 function pintarSelector(id) {
   
   $("ul li").removeClass("active");
@@ -38,7 +53,7 @@ function pintarSelector(id) {
 
   });
 
-  abrirModal(id);
+  abrirModal(id);  //mando el id a la funcion abrirModal
 };
 
 
@@ -50,7 +65,7 @@ $("li").click(function() {
   pintarSelector(id);
 });
 
-//Funcion que va a renderizar las caracteristicas de los productos
+//FUNCION RENDER DE LA CARACTERISTISCA DE LOS PRODUCTOS//
 $.ajax({
   method: "GET",
   url: "../../JSON/productos.json",
@@ -80,21 +95,24 @@ function filterCaracteristicas( producto ){
       console.log(producto)
       const prodcutoFinded = producto.filter(x => x.id === id);
       renderCaracteristicas(prodcutoFinded)
+
+      
     }
   
   const renderCaracteristicas = (productoFinded)=>{
-    
+
+      console.log(productoFinded)
     
       productoFinded.forEach((producto) => {
         
-        const { linea, modelo, caracteristicas, id } = producto;
+        const { linea, modelo, caracteristicas, id, idRender } = producto;
         htmlClean = ""
         html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
         <div class="d-flex justify-content-between">
         ${caracteristicas}
         </div>`
   
-        $("#caracterContainer").html("" + html);
+        $('#' + `${idRender}`).html("" + html);
   
 
       })
