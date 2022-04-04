@@ -8,8 +8,7 @@
     max-width: 100% !important;
     overflow-x: hidden !important; /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body {
-        background: rgb(203,223,237);
-        background: linear-gradient(90deg, rgba(203,223,237,1) 0%, rgba(60,61,64,1) 76%, rgba(176,177,189,1) 100%);
+        background-image: linear-gradient(to bottom, #043039b4 25%, #ffffff 100%);
         color:white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
@@ -90,10 +89,16 @@ footer {
         width: 35px;
         height: 36px;
         justify-content: flex-start;
-    }.row1 label{    
+    }.row1 
+        a {
+            text-decoration: none;
+        } 
+        label{    
         margin-top: 10px;
         margin-left: 20px;
         color: #c7c7c7;
+        cursor: pointer;
+        
     }
 
     .column3{
@@ -190,100 +195,3 @@ h3 {
 }
 
 
-
-.hero {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 35vh;
-	font-size: 36px;
-	text-transform: uppercase;
-}
-
-.container-1 {
-	width: 90%;
-	max-width: 1200px;
-	margin: 100px auto;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-}
-
-.container-1::after {
-	content: "";
-	width: 2px;
-	height: 100%;
-	background: #1b3231;
-	position: absolute;
-	top: 0;
-	left: calc(50% - 1px);
-	z-index: 1;
-}
-
-.evento {
-	display: flex;
-	justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-	margin-bottom: 200px;
-	position: relative;
-}
-
-.evento::after {
-	content: "";
-	display: block;
-	width: 14px;
-	height: 14px;
-	border-radius: 100px;
-	background: #DCDFD9;
-	border: 2px solid #1b3231;
-	position: absolute;
-	z-index: 2;
-	top: calc(50% - 9px);
-	left: calc(50% - 9px);
-}
-
-.fecha {
-	margin-top: auto;
-	width: calc(42% + 20px);
-	font-size: 32px;
-	font-weight: normal;
-}
-
-.foto {
-	width: 46%;
-	border: 5px solid #fff;
-	position: relative;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.foto::after {
-	content: "";
-	display: block;
-	border: 20px solid transparent;
-	border-left: 20px solid #fff;
-	position: absolute;
-	right: -40px;
-	top: calc(50% - 20px);
-}
-
-.foto img {
-	width: 100%;
-	vertical-align: top;
-}
-
-.evento:nth-child(even) {
-	flex-direction: row-reverse;
-}
-
-.evento:nth-child(even) .fecha {
-	justify-content: end;
-}
-
-.evento:nth-child(even) .foto::after {
-	content: "";
-	border: 20px solid transparent;
-	border-right: 20px solid #fff;
-	right: initial;
-	left: -40px;
-}

@@ -1,6 +1,6 @@
 $.ajax({
   method: "GET",
-  url: "../../JSON/notify.json",
+  url: "../JSON/notify.json",
 }).done(function(notify) {
   
     console.log(notify);
