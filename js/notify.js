@@ -3,11 +3,10 @@ $.ajax({
   url: "../JSON/notify.json",
 }).done(function(notify) {
   
-    console.log(notify);
-  
     renderNotifyList(notify)
     nuevoEventToLCS(notify);
     notifyDetector(notify);
+    deleteNotify(notify);
   
   }).always(function() {
     // Por ejemplo removemos la imagen "cargando..."
@@ -113,7 +112,7 @@ function notifyDetector(notify){
     renderNotifyCuantity(arrayDeNotificaciones)
     
   }
-
+  
 }
   
 
@@ -210,7 +209,7 @@ function renderNotifyList(notify) {
               <div class="type">${fechaEvento}</div>
           </div>
           <div class="info">
-              <div class="value">ACTIVO</div>
+              <div class="value" onclick="deleteNotify('${titulo}')">ACTIVO</div>
               <div class="type"></div>
           </div>
       </div>
@@ -222,11 +221,14 @@ function renderNotifyList(notify) {
 }
 
 
-let notify = [];
 
-const deleteNotify = (not, titulo) => {
-    //buscar producto en DB
-    const product = not.find(prod => prod.titulo === titulo); //Buscar si existe en el cart
+
+const deleteNotify = (titulo) => {
+
+  console.log(titulo)
+  
+   // buscar producto en DB
+    /* const product = not.find(prod => prod.titulo === titulo); //Buscar si existe en el cart
     console.log("🚀 ~ file: notify.js ~ line 199 ~ deleteNotify ~ product", product)
     
     const isInNot = notify.find(prod => prod.titulo === titulo);
@@ -248,7 +250,7 @@ const deleteNotify = (not, titulo) => {
     const arrayDeNotificaciones = not.filter((el)=> !indexArr1.includes(el.titulo))
     console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
 
-    renderNotifyCuantity(arrayDeNotificaciones)
+    renderNotifyCuantity(arrayDeNotificaciones) ; */
     
 };
   

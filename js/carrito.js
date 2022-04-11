@@ -100,6 +100,8 @@ $.ajax({
   let carrito = [];
 const agregarAlCarrito = id => {
     //buscar producto en DB
+    arrayDeProductoById
+    
     const product = arrayDeProductoById.find(prod => prod.id === id); //Buscar si existe en el cart
     const isInCart = carrito.find(prod => prod.id === id);
   
