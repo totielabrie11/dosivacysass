@@ -1356,4 +1356,121 @@ body section {
   right: initial;
   left: -40px;
 }
+
+.contact-form {
+  --form-ok-color: #4caf50;
+  --form-error-color: #f44336;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.contact-form > * {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-form legend,
+.contact-form-response {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-form input[type="submit"] {
+  width: 50%;
+  background-color: #4caf50;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form *::-webkit-input-placeholder {
+  color: black;
+}
+
+.contact-form *:-ms-input-placeholder {
+  color: black;
+}
+
+.contact-form *::-ms-input-placeholder {
+  color: black;
+}
+
+.contact-form *::placeholder {
+  color: black;
+}
+
+.contact-form [required]:valid {
+  border: thick solid var(--form-ok-color);
+}
+
+.contact-form [required]:invalid {
+  border: thick solid var(--form-error-color);
+}
+
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 80%;
+  background-color: var(--form-error-color);
+  color: #fff;
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+  display: block;
+  -webkit-animation: show-message 1s 1 normal 0s ease-out both;
+          animation: show-message 1s 1 normal 0s ease-out both;
+}
+
+.contact-form-loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.none {
+  display: none;
+}
+
+@-webkit-keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.tito {
+  background-color: #f44336;
+}
 /*# sourceMappingURL=estilo.css.map */
