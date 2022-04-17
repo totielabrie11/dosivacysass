@@ -91,17 +91,52 @@
         "idRender": "renderEmdCar"
     },
     {
-        "linea": "EMD",
-        "modelo": "16003",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "16003",
-        "idRender": "renderEmdCar"
+        "linea": "DDI",
+        "modelo": "10",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D10",
+        "idRender": "renderDdiCar"
     },
     {
-        "linea": "EMD",
-        "modelo": "16003",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "16003",
-        "idRender": "renderEmdCar"
+        "linea": "DDI",
+        "modelo": "30",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>6 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D30",
+        "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DDI",
+        "modelo": "60",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>60 lts/h</li><li>12 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D60",
+        "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DDI",
+        "modelo": "80",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>80 lts/h</li><li>16 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D80",
+        "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DDI",
+        "modelo": "150",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>150 lts/h</li><li>30 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D150",
+        "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DDI",
+        "modelo": "300",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>300 lts/h</li><li>60 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D300",
+        "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DDI",
+        "modelo": "600",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "D600",
+        "idRender": "renderDdiCar"
     }
 ]
