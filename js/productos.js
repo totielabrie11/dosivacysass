@@ -120,3 +120,67 @@ function filterCaracteristicas( producto ){
   }
 
 };
+
+function ShowSelected(){
+
+  const combo = document.getElementById("productsSelector");
+   let selected = combo.options[combo.selectedIndex].text;
+   console.log(selected); 
+
+   switch (selected) {
+      case "Todos Nuestros Productos": 
+        muestroTodosLosProductos();
+      break;
+       
+      case 'Refrigeracion': 
+        muestroProductosRefrigeracion();
+       break;
+
+      case 'Dosificacion':
+        muestroProductosDosificacion();
+       break;
+
+      case 'Transporte Neumatico':
+        muestroProductosSoplante();
+      break;
+
+      case 'vacio industrial':
+      muestroProductosVacioIndus();
+      break;
+     
+      default:
+       break;
+   }
+}
+
+function muestroTodosLosProductos(){
+  
+  $('#Dos').removeClass('novisible');
+  $('*#Dos, *#Ref').addClass('visible');
+  
+}
+
+function muestroProductosRefrigeracion(){
+  $('*#Dos, *#Ref').removeClass('visible', 'novisible');
+  $('*#Dos').addClass('novisible');
+
+}
+
+function muestroProductosDosificacion(){
+
+  console.log('estoy mostrando todos los productos de dosificacion')
+
+}
+
+function muestroProductosSoplante(){
+
+  console.log('estoy mostrando todos los productos de de sopladores')
+
+}
+
+function muestroProductosVacioIndus(){
+
+  console.log('muestro products de vacío industrial')
+}
+
+
