@@ -152,5 +152,54 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR12",
         "idRender": "renderDvrCar"
+    },
+    {
+        "linea": "DVRII",
+        "modelo": "1A",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "id": "1A",
+        "idRender": "renderDvrIICar"
+    },
+    {
+        "linea": "DVRII",
+        "modelo": "2A",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "id": "2A",
+        "idRender": "renderDvrIICar"
+    },
+    {
+        "linea": "DVRII",
+        "modelo": "3A",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "id": "3A",
+        "idRender": "renderDvrIICar"
+    },
+    {
+        "linea": "DVRII",
+        "modelo": "4A",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "id": "4A",
+        "idRender": "renderDvrIICar"
+    },
+    {
+        "linea": "SUPERVAC",
+        "modelo": "VP1",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>58 lts/m</li><li>10 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
+        "id": "VP1",
+        "idRender": "renderSupervacCar"
+    },
+    {
+        "linea": "SUPERVAC",
+        "modelo": "VP2",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>114 lts/m</li><li>30 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
+        "id": "VP2",
+        "idRender": "renderSupervacCar"
+    },
+    {
+        "linea": "DVR6",
+        "modelo": "DVR6",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "id": "DVR6P",
+        "idRender": "renderDvr6Car"
     }
 ]
