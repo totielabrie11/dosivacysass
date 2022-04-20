@@ -138,5 +138,19 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D600",
         "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DVR",
+        "modelo": "DVR6",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
+        "id": "DVR6",
+        "idRender": "renderDvrCar"
+    },
+    {
+        "linea": "DVR",
+        "modelo": "DVR12",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
+        "id": "DVR12",
+        "idRender": "renderDvrCar"
     }
 ]
