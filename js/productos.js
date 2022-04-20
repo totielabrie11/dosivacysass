@@ -120,11 +120,11 @@ function filterCaracteristicas( producto ){
   }
 
 };
-
+muestroTodosLosProductos()
 function ShowSelected(){
 
-  const combo = document.getElementById("productsSelector");
-   let selected = combo.options[combo.selectedIndex].text;
+  const contenido = document.getElementById("productsSelector");
+   let selected = contenido.options[contenido.selectedIndex].text;
    console.log(selected); 
 
    switch (selected) {
@@ -132,8 +132,12 @@ function ShowSelected(){
         muestroTodosLosProductos();
       break;
        
-      case 'Refrigeracion': 
+      case 'Vacío en Refrigeracion': 
         muestroProductosRefrigeracion();
+       break;
+
+      case "Vacío en Laboratorio": 
+        muestroProductosLaboratorio();
        break;
 
       case 'Dosificacion':
@@ -155,20 +159,21 @@ function ShowSelected(){
 
 function muestroTodosLosProductos(){
   
-  $('#Dos').removeClass('novisible');
-  $('*#Dos, *#Ref').addClass('visible');
+  console.log('todos los productos');
   
 }
 
 function muestroProductosRefrigeracion(){
-  $('*#Dos, *#Ref').removeClass('visible', 'novisible');
-  $('*#Dos').addClass('novisible');
+  $('*#Dos, *#Lab').addClass('novisible');
+}
+
+function muestroProductosLaboratorio(){
+  $('*#Dos, *#Ref').addClass('novisible');
 
 }
 
 function muestroProductosDosificacion(){
-
-  console.log('estoy mostrando todos los productos de dosificacion')
+  $('*#Ref, *#Lab').addClass('novisible');
 
 }
 

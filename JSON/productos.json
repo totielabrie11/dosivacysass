@@ -198,8 +198,36 @@
     {
         "linea": "DVR6",
         "modelo": "DVR6",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
-        "id": "DVR6P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "id": "DVR6Pre",
         "idRender": "renderDvr6Car"
+    },
+    {
+        "linea": "DVL",
+        "modelo": "100",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "id": "DVL100",
+        "idRender": "renderDvr6Car"
+    },
+    {
+        "linea": "DVL",
+        "modelo": "150",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "id": "DVL150",
+        "idRender": "renderDvr6Car"
+    },
+    {
+        "linea": "DVL",
+        "modelo": "100",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>100 lts/m</li><li>10 lts/m</li><li>45micrones</li><li>Directo incrustrado</li></ul></div></div>",
+        "id": "DVL100",
+        "idRender": "renderDvlCar"
+    },
+    {
+        "linea": "DVL",
+        "modelo": "150",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>15 lts/m</li><li>45micrones</li><li>Directo incrustrado</li></ul></div></div>",
+        "id": "DVL150",
+        "idRender": "renderDvlCar"
     }
 ]

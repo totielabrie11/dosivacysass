@@ -61,7 +61,8 @@
   <h2>DOSIFICACION</h2>
   <select name="products" id="productsSelector" class="d-flex text-center p-2 my-2 btn-danger" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
     <option value="todos">Todos Nuestros Productos</option>
-    <option value="refrigeracion">Refrigeracion</option>
+    <option value="refrigeracion">Vacío en Refrigeracion</option>
+    <option value="refrigeracion">Vacío en Laboratorio</option>
     <option value="dosificacion">Dosificacion</option>
     <option value="soplante">Transporte Neumatico</option>
     <option value="vacioIndustrial">Vacio Industrial</option>
@@ -621,7 +622,7 @@
               <span class="productP-size">
                       <h4>Modelos</h4>
                       <ul class="ul-size" id="DVR6P">
-                        <li class="active" id="015">DVR6</li>
+                        <li class="active" id="DVR6Pre">DVR6</li>
                         <br>
                       </ul>
               </span>
@@ -639,7 +640,7 @@
             </div>
           </div>
           <div id="VR6P" class="modalDesc">
-            <div id="renderMilenioCar">
+            <div id="renderDvr6Car">
               
             </div>
             <div class="btnModal btn btn-warning">x</div>
@@ -1491,29 +1492,29 @@
           </div>
         </div>
       </div>
-      <div class="containerP" id="Dos">
+      <div class="containerP" id="Lab">
         <div class="cardP">
           <div class="cardP-head">
             <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <img src="../../img/bombas/DVL-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
             <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+              <h2>DVL</h2>
+              <span style="overflow:visible">Bomba de Vacío para ensayos de laboratorio, limpieza de material bacteriologico, ect.</span>
             </div>
             <span class="back-text">
-                    DOS
+                    LAB
                   </span>
           </div>
           <div class="cardP-body">
             <div class="productP-desc">
               <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
+                      dosivac<b>vacio</b>
+                      <span class="midStock">
                         stock
                       </span>
               </span>
               <span class="productP-caption">
-                Cloro Collection
+                SATANDAR PUMP 1 STAGE TO FILTERING
               </span>
               <span class="productP-rating">
                       <i class="fa fa-star"></i>
@@ -1526,13 +1527,10 @@
             <div class="productP-properties">
               <span class="productP-size">
                       <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
+                      <ul class="ul-size" id="DVL">
+                        <li class="active" id="DVL100">100</li>
+                        <li id="DVL150">150</li>
+                        <br>
                       </ul>
               </span>
              <!--  <span class="productP-color">
@@ -1544,18 +1542,18 @@
                       </ul>
                     </span> -->
               <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+                  <a href="../../docs/Manual DVR 6.pdf" download><b>descargar manual</b></a>
               </span>
             </div>
           </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
+          <div id="VL" class="modalDesc">
+            <div id="renderDvlCar">
               
             </div>
             <div class="btnModal btn btn-warning">x</div>
           </div>
         </div>
-      </div>  
+      </div> 
     </div>
   </section>
 </main>

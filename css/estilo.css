@@ -454,11 +454,6 @@ div#banner__aireacion--position {
   visibility: hidden;
 }
 
-.visible {
-  display: block;
-  visibility: visible;
-}
-
 .container__products {
   display: -webkit-box;
   display: -ms-flexbox;
