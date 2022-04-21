@@ -205,29 +205,71 @@
     {
         "linea": "DVL",
         "modelo": "100",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
-        "id": "DVL100",
-        "idRender": "renderDvr6Car"
-    },
-    {
-        "linea": "DVL",
-        "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
-        "id": "DVL150",
-        "idRender": "renderDvr6Car"
-    },
-    {
-        "linea": "DVL",
-        "modelo": "100",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>100 lts/m</li><li>10 lts/m</li><li>45micrones</li><li>Directo incrustrado</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>100 lts/m</li><li>1 lts/m</li><li>45micrones</li><li>semi elastico manchon</li></ul></div></div>",
         "id": "DVL100",
         "idRender": "renderDvlCar"
     },
     {
         "linea": "DVL",
         "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>15 lts/m</li><li>45micrones</li><li>Directo incrustrado</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>1 lts/m</li><li>35micrones</li><li>semi elastico manchon</li></ul></div></div>",
         "id": "DVL150",
         "idRender": "renderDvlCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "400",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>400 lts/m</li><li>15 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "400",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "800",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 lts/m</li><li>30 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "800",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "1250",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1250 lts/m</li><li>40 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "1250",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "1810",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1810 lts/m</li><li>50 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "1810",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "2500",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>2500 lts/m</li><li>80 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "2500",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "3000",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3000 lts/m</li><li>100 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li><li>Acero Inoxidable</li></ul></div></div>",
+        "id": "3000",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "4500",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4500 lts/m</li><li>150 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "4500",
+        "idRender": "renderDshcCar"
+    },
+    {
+        "linea": "DSHC",
+        "modelo": "6300",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6300 lts/m</li><li>200 lts/m</li><li>30 mmHg</li><li>Enchavetado incrustrado</li></ul></div></div>",
+        "id": "6300",
+        "idRender": "renderDshcCar"
     }
 ]

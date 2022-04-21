@@ -140,6 +140,10 @@ function ShowSelected(){
         muestroProductosLaboratorio();
        break;
 
+      case "Vacío Industrial":
+        muestroProductosVacioIndustrial();
+       break;
+
       case 'Dosificacion':
         muestroProductosDosificacion();
        break;
@@ -158,22 +162,35 @@ function ShowSelected(){
 }
 
 function muestroTodosLosProductos(){
-  
-  console.log('todos los productos');
+
+  $('*#Dos, *#Lab, *#Dos, *#Ind').removeClass('novisible');
   
 }
 
 function muestroProductosRefrigeracion(){
-  $('*#Dos, *#Lab').addClass('novisible');
+
+  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
+   $('*#Dos, *#Lab, *#Ind').addClass('novisible');
 }
 
 function muestroProductosLaboratorio(){
-  $('*#Dos, *#Ref').addClass('novisible');
+
+  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Ind').addClass('novisible');
 
 }
 
+function muestroProductosVacioIndustrial(){
+
+  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Lab').addClass('novisible');
+   
+}
+
 function muestroProductosDosificacion(){
-  $('*#Ref, *#Lab').addClass('novisible');
+  
+  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind').addClass('novisible');
 
 }
 
@@ -182,10 +199,4 @@ function muestroProductosSoplante(){
   console.log('estoy mostrando todos los productos de de sopladores')
 
 }
-
-function muestroProductosVacioIndus(){
-
-  console.log('muestro products de vacío industrial')
-}
-
 

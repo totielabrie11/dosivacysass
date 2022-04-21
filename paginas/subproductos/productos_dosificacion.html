@@ -61,8 +61,9 @@
   <h2>DOSIFICACION</h2>
   <select name="products" id="productsSelector" class="d-flex text-center p-2 my-2 btn-danger" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
     <option value="todos">Todos Nuestros Productos</option>
-    <option value="refrigeracion">Vacío en Refrigeracion</option>
-    <option value="refrigeracion">Vacío en Laboratorio</option>
+    <option value="vacio">Vacío en Refrigeracion</option>
+    <option value="vacio">Vacío en Laboratorio</option>
+    <option value="vacio">Vacío Industrial</option>
     <option value="dosificacion">Dosificacion</option>
     <option value="soplante">Transporte Neumatico</option>
     <option value="vacioIndustrial">Vacio Industrial</option>
@@ -89,7 +90,7 @@
             <div class="productP-desc">
               <span class="productP-title">
                       dosivac<b>dosador</b>
-                      <span class="midStock">
+                      <span class="noStock">
                         stock
                       </span>
               </span>
@@ -133,7 +134,7 @@
             <div id="renderMilenioCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>  
@@ -198,7 +199,7 @@
             <div id="renderEmdCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div> 
@@ -263,7 +264,7 @@
             <div id="renderEmdPCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div> 
@@ -284,7 +285,7 @@
             <div class="productP-desc">
               <span class="productP-title">
                       dosivac<b>dosador</b>
-                      <span class="noStock">
+                      <span class="midStock">
                         stock
                       </span>
               </span>
@@ -329,7 +330,7 @@
             <div id="renderDdiCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -394,7 +395,7 @@
             <div id="renderMilenioCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -456,7 +457,7 @@
             <div id="renderDvrCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -467,7 +468,7 @@
             <img src="../../img/bombas/DVR2-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
             <div class="productP-detail">
               <h2>DVRII</h2> 
-              <span> Bomba de Vacío, para refrigeracion <br> doble etapa <br> gas ballast </span>
+              <span> Bomba de Vacío, para refrigeracion <br> doble etapa <br>con gas ballast </span>
             </div>
             <span class="back-text">
                     REF
@@ -520,7 +521,7 @@
             <div id="renderDvrIICar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -582,7 +583,7 @@
             <div id="renderSupervacCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -643,852 +644,7 @@
             <div id="renderDvr6Car">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
-          </div>
-        </div>
-      </div>
-      <div class="containerP" id="Dos">
-        <div class="cardP">
-          <div class="cardP-head">
-            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
-            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
-            <div class="productP-detail">
-              <h2>MILENIO</h2> 
-              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-            </div>
-            <span class="back-text">
-                    DOS
-                  </span>
-          </div>
-          <div class="cardP-body">
-            <div class="productP-desc">
-              <span class="productP-title">
-                      dosivac<b>dosador</b>
-                      <span class="inStock">
-                        stock
-                      </span>
-              </span>
-              <span class="productP-caption">
-                Cloro Collection
-              </span>
-              <span class="productP-rating">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star grey"></i>
-                    </span>
-            </div>
-            <div class="productP-properties">
-              <span class="productP-size">
-                      <h4>Modelos</h4>
-                      <ul class="ul-size" id="milenio">
-                        <li class="active" id="015">015</li>
-                        <li id="033">033</li>
-                        <li id="035">035</li>
-                        <li id="070">070</li>
-                        <li id="130">130</li>
-                        <li id="300">300</li>
-                      </ul>
-              </span>
-             <!--  <span class="productP-color">
-                      <h4>Colour</h4>
-                      <ul class="ul-color">
-                        <li><a href="#" class="orange active"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-                      </ul>
-                    </span> -->
-              <span class="productP-price">
-                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
-              </span>
-            </div>
-          </div>
-          <div id="ilenio" class="modalDesc">
-            <div id="renderMilenioCar">
-              
-            </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div>
@@ -1550,10 +706,858 @@
             <div id="renderDvlCar">
               
             </div>
-            <div class="btnModal btn btn-warning">x</div>
+            <div class="btnModal btn btn-dark">x</div>
           </div>
         </div>
       </div> 
+      <div class="containerP" id="Ind">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/DSHC todas.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>DSHC</h2> 
+              <span>Bomba de vacío por sello de agua para procesos industriales</span>
+            </div>
+            <span class="back-text">
+                    VAC
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>VACIO</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                INDUSTRIAL vacuum pump Collection v380
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="DSHC">
+                        <li class="active" id="400">400</li>
+                        <li id="800">800</li>
+                        <li id="1250">1250</li>
+                        <li id="1810">1810</li>
+                        <li id="2500">2500</li>
+                        <li id="3000">3000</li>
+                        <li id="4500">4500</li>
+                        <li id="6300">6300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="SHC" class="modalDesc">
+            <div id="renderDshcCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      <div class="containerP" id="Dos">
+        <div class="cardP">
+          <div class="cardP-head">
+            <img src="../../img/LogoDosiSolar-removebg-preview.png" alt="logo" class="cardP-logo">
+            <img src="../../img/bombas/mielnio-removebg-preview.png" alt="Shoe" class="productP-img" width="100%">
+            <div class="productP-detail">
+              <h2>MILENIO</h2> 
+              <span> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+            </div>
+            <span class="back-text">
+                    DOS
+                  </span>
+          </div>
+          <div class="cardP-body">
+            <div class="productP-desc">
+              <span class="productP-title">
+                      dosivac<b>dosador</b>
+                      <span class="inStock">
+                        stock
+                      </span>
+              </span>
+              <span class="productP-caption">
+                Cloro Collection
+              </span>
+              <span class="productP-rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star grey"></i>
+                    </span>
+            </div>
+            <div class="productP-properties">
+              <span class="productP-size">
+                      <h4>Modelos</h4>
+                      <ul class="ul-size" id="milenio">
+                        <li class="active" id="015">015</li>
+                        <li id="033">033</li>
+                        <li id="035">035</li>
+                        <li id="070">070</li>
+                        <li id="130">130</li>
+                        <li id="300">300</li>
+                      </ul>
+              </span>
+             <!--  <span class="productP-color">
+                      <h4>Colour</h4>
+                      <ul class="ul-color">
+                        <li><a href="#" class="orange active"></a></li>
+                        <li><a href="#" class="green"></a></li>
+                        <li><a href="#" class="yellow"></a></li>
+                      </ul>
+                    </span> -->
+              <span class="productP-price">
+                  <a href="../../docs/Vol.MILENIOE-I.pdf" download><b>descargar manual</b></a>
+              </span>
+            </div>
+          </div>
+          <div id="ilenio" class="modalDesc">
+            <div id="renderMilenioCar">
+              
+            </div>
+            <div class="btnModal btn btn-dark">x</div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 </main>

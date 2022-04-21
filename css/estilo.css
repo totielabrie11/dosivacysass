@@ -759,7 +759,7 @@ div#banner__aireacion--position {
 
 .modalDesc {
   width: 280px;
-  height: 17rem;
+  height: 20rem;
   position: absolute;
   bottom: 0;
   background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
@@ -779,6 +779,9 @@ div#banner__aireacion--position {
   position: absolute;
   bottom: 0;
   left: calc((100% / 2) - 12px);
+  border-radius: 50%;
+  background-color: #5de911;
+  color: #000;
 }
 
 #caracterContainer {
