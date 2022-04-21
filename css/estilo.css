@@ -15,9 +15,15 @@ html {
   /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
 }
 
-html body {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #043039b4), to(#ffffff));
-  background-image: linear-gradient(to bottom, #043039b4 25%, #ffffff 100%);
+html body.claro {
+  background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
+  color: black;
+  overflow: hidden;
+  font-family: 'Readex Pro', sans-serif;
+}
+
+html body.oscuro {
+  background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
@@ -250,8 +256,6 @@ h2 {
   margin-top: 10px;
   font-family: 'B612', sans-serif;
   font-size: 40px;
-  color: #72c5f5;
-  color: white;
 }
 
 h3 {
@@ -780,8 +784,10 @@ div#banner__aireacion--position {
   bottom: 0;
   left: calc((100% / 2) - 12px);
   border-radius: 50%;
-  background-color: #5de911;
+  background-color: #11e95b;
   color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #caracterContainer {
