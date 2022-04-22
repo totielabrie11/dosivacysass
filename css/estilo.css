@@ -16,14 +16,18 @@ html {
 }
 
 html body.claro {
-  background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
+  -webkit-transition: 10s ease all;
+  transition: 10s ease all;
+  background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
   color: black;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
 }
 
 html body.oscuro {
-  background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
+  -webkit-transition: 10s ease all;
+  transition: 10s ease all;
+  background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
@@ -41,6 +45,10 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-transform: uppercase;
+  background: #202020;
+}
+
+body.oscuro nav {
   background-color: #dbdae4;
 }
 
@@ -54,6 +62,7 @@ nav .switchContainer {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: auto;
 }
 
 nav ul {
@@ -71,6 +80,14 @@ nav ul li a {
   text-decoration: none;
   font-size: 22px;
   margin-right: 10px;
+}
+
+body.claro nav ul li a {
+  color: #fff !important;
+}
+
+body.oscuro nav ul li a {
+  color: black !important;
 }
 
 /* main {
@@ -272,173 +289,6 @@ h3 {
   color: #72c5f5;
   color: white;
   height: 100%;
-}
-
-section article.tarjetaproducto {
-  margin-top: 20px;
-}
-
-h3 {
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-}
-
-div.carousel {
-  display: none;
-}
-
-nav li {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  /* para que no me tire elementos desplegables hacia el costado */
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  /* mi navegacion mobiel pasa a estar a la derecha "mas facil para moverse con una sola mano" */
-  /* justify-content: flex-end; al cambiar el eje horizontal por eje vertical esta propiedad ya no me empuja los elementos hacia la derecha sino que los empuja hacia abajo donde no tienen mas lugar, por eso arriba uso la propiedad align-items: flex end, "eje vertical" ;*/
-}
-
-#search__input {
-  min-width: 73%;
-  margin-left: 20%;
-  margin: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-div#banner__aireacion--position {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 200%;
-}
-
-@media all and (max-width: 816px) {
-  #video__gerente {
-    width: 36rem;
-    height: 20rem;
-  }
-}
-
-@media all and (max-width: 576px) {
-  /* * {  Durante todo mi proyecto, o gran parte de las hrs que llevo en él. Desactive todas las animaciones en tamaño mobile pequeño como el mío. Pensé que no tenia sentido que estén presentes. Luego mis animaciones estuvieron mejor y me animo a dejarlas presentes en la entrega final.
-        -webkit-transition: none !important;
-        -moz-transition: none !important;
-        -o-transition: none !important;
-        -ms-transition: none !important;
-        transition: none !important;
-        transform: none !important;
-       } */
-  h2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 25px;
-  }
-  div #bomba {
-    width: 80%;
-  }
-  section article.tarjetaproducto {
-    margin-top: 20px;
-  }
-  div #image--tamaño--mq {
-    width: 5rem;
-    height: 5rem;
-    background-color: hotpink;
-  }
-  div #image--tamaño--mq figure {
-    margin-top: 5px;
-    width: 5rem;
-    height: 5rem;
-  }
-  div #image--tamaño--mq figure h5 {
-    font-size: 10px;
-  }
-  div #image--tamaño--mq figure spam {
-    display: none;
-  }
-}
-
-@media all and (max-width: 1200px) {
-  div#tarjeta__historia {
-    width: 100%;
-  }
-  .banner__cliente--image {
-    margin-top: 10px;
-  }
-  .tarjeta__empresa {
-    width: 100%;
-  }
-  #tarjeta__historia1, #tarjeta__historia2 {
-    margin: auto;
-  }
-  #tarjeta__historia2 {
-    margin-top: 10px;
-  }
-  li .novedad__image {
-    width: 10rem;
-    height: 10rem;
-    margin-right: 30px;
-  }
-}
-
-@media all and (max-width: 496px) {
-  li .novedad__image {
-    width: 3rem;
-    height: 3rem;
-    margin-right: 30px;
-  }
-  #video__gerente {
-    width: 18rem;
-    height: 10rem;
-  }
-  .galeria__image figure#fig__sombra--img {
-    width: 100%;
-    height: 20%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .galeria__image figure#fig__sombra--img .contenedor__modal {
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-  }
-  .galeria__image figure#fig__sombra--img .contenedor__modal:hover {
-    /* La intencion en esta mq, era que cuando abria la foto en mi dispositivo mobile. la foto modal que tenia un width 80% era mas pequeña que mi cajita de vista previa. Pero si al hacer click la imagen se girase, sería muy util, aunque de todas formas siempre tienes la opcion de girar el telefono y pasar al breakpint siguiente donde esto no ocurre.  */
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-    width: 40%;
-    /* el modal no giraba por que antes debía de encogerse , rotar y luego crecer */
-    -webkit-transition: all 200ms;
-    transition: all 200ms;
-    min-width: 120%;
-    /* fuerzo a la imagen a que se estire, en realidad a su contenedor ya que la img lleva el 100% del peso del padre */
-    height: auto;
-  }
-  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img {
-    width: 100%;
-    /* como el contenedor modal crece con la propiedad min-width - el contenedor hijo que le asigna tamaño al img crece siguiendo la suerte del padre */
-    height: auto;
-  }
-  .galeria__image figure#fig__sombra--img .contenedor__modal:hover .contenido-img img {
-    min-width: 100%;
-    /* el img no tiene mas remedio que crecer ante este evento */
-  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -961,20 +811,24 @@ div#banner__aireacion--position {
   left: 0;
   right: unset;
   border-radius: 100px;
-  -webkit-transition: .3s ease all;
-  transition: .3s ease all;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
   -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .switch.active {
   background: orange;
-  color: #000;
+  color: #000000;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
 }
 
 .switch.active::after {
   right: 0;
   left: unset;
+  -webkit-transition: 10s ease all;
+  transition: 10s ease all;
 }
 
 .switch span {
@@ -1264,7 +1118,7 @@ h5 {
   font-size: 20px;
 }
 
-body section {
+div.rueda section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

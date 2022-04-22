@@ -11,17 +11,22 @@ html {
 
     /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body.claro {
-        background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
+        transition: 10s ease all;
+        background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
         color: black;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
+        
+        
     }
 
     body.oscuro {
-        background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
+        transition: 10s ease all;
+        background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
         color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
+       
     }
 
     main {
@@ -34,19 +39,27 @@ nav {
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
-    background-color: rgb(219, 218, 228);
+    background: #202020;
+
+    body.oscuro & {
+
+        
+        background-color: rgb(219, 218, 228);
+    }
 
     .switchContainer {
         width: 15%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        margin: auto;
 
     }
 
     ul {
         display: flex;
 
+        
         li {
             list-style: none;
             margin-right: 3%;
@@ -55,6 +68,12 @@ nav {
                 text-decoration: none;
                 font-size: 22px;
                 margin-right: 10px;
+                body.claro & {
+                    color: #fff !important;
+                }
+                body.oscuro & {
+                    color: black !important;
+                }
             }
         }
     }
