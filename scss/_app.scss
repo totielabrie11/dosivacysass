@@ -1,15 +1,18 @@
 .ocultar__form {
     display: none;
 }
+
 .ocultar__carrito {
     display: none;
 }
+
 .tamañoLetraCaracteristica {
     font-size: 12px;
 }
+
 .carrito__superior {
     display: block;
-    position:absolute;
+    position: absolute;
     top: 40px;
     right: 0;
     width: 800px;
@@ -19,34 +22,38 @@
     z-index: 1;
     border-radius: 10px;
 }
+
 /* seccion que va a definir estilos para mi carrito de compras */
 .lista__tabla {
     ul {
         display: flex;
         justify-content: space-between;
+
         li {
-            list-style:none;
-        i {
-            cursor: pointer;    
+            list-style: none;
+
+            i {
+                cursor: pointer;
             }
         }
     }
 }
+
 #carritoIcon {
     cursor: pointer;
     font-size: 35px;
 }
+
 #notifyIcon {
     cursor: pointer;
     font-size: 35px;
     color: red;
 }
+
 .notifyContainer {
-    display: flex;
-    margin: auto;
-    width: 12%;
     position: relative;
 }
+
 .notifyCuantity {
     position: absolute;
     bottom: 0px;
@@ -59,6 +66,7 @@
     color: black;
 
 }
+
 .carrito {
     display: flex;
     justify-content: space-between;
@@ -66,21 +74,26 @@
     width: 100%;
     height: 80px;
     position: relative;
+
     h4 {
-        font-size:14px ;
+        font-size: 14px;
     }
+
     background-color: rgb(134, 141, 140);
 }
+
 .contenedor__img__carrito {
     display: flex;
     width: 20%;
     height: 160%;
 }
+
 .precio__total {
     position: absolute;
     right: 100px;
     bottom: 10px;
 }
+
 .btn__borrarCarrito {
     display: flex;
     justify-content: center;
@@ -89,10 +102,11 @@
     width: 30px;
     height: 30px;
     background-color: rgb(252, 65, 65);
-    color: white;    
+    color: white;
     cursor: pointer;
 }
-.btn__confirmarCarrito{
+
+.btn__confirmarCarrito {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,4 +114,48 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.switch {
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background: #F1F1F1;
+        top: 0;
+        left: 0;
+        right: unset;
+        border-radius: 100px;
+        transition: .3s ease all;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+    }
+
+    &.active {
+        background: orange;
+        color: #000;
+
+        &::after {
+            right: 0;
+            left: unset;
+        }
+    }
+
+    span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: #fff;
+    }
 }

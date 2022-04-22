@@ -1,25 +1,30 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
- }
- html {
+}
+
+html {
     font-size: 15px;
     max-width: 100% !important;
-    overflow-x: hidden !important; /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
+    overflow-x: hidden !important;
+
+    /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body.claro {
         background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
-        color:black;
+        color: black;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
     }
+
     body.oscuro {
         background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
-        color:white;
+        color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
     }
-    main{
+
+    main {
         padding: 10px 10%;
     }
 }
@@ -28,18 +33,33 @@
 nav {
     display: flex;
     justify-content: space-between;
-    text-transform:uppercase;
+    text-transform: uppercase;
     background-color: rgb(219, 218, 228);
+
+    .switchContainer {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
     ul {
         display: flex;
+
         li {
-            list-style:none;
+            list-style: none;
             margin-right: 3%;
+
             a {
                 text-decoration: none;
                 font-size: 22px;
                 margin-right: 10px;
-}}}}
+            }
+        }
+    }
+}
+
 /* main {
     max-width: 100%;
     color: white;
@@ -54,101 +74,132 @@ nav {
 } */
 
 footer {
-    
-    .container-footer-all{
+
+    .container-footer-all {
         max-width: 1400px;
         padding: 10px 5%;
         margin-bottom: 10px;
     }
 
-    .container-footer-body{
+    .container-footer-body {
         display: flex;
         justify-content: space-between;
     }
 
-    .column1{
+    .column1 {
         max-width: 400px;
         height: 100%;
-    }.column1 h3{
-    font-size: 22px;  
-    text-align: center; 
-    }.column1 p{
-    margin-top: 20px;
-    font-size: 14px;
-    color: #c7c7c7;
     }
 
-    .column2{
+    .column1 h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .column1 p {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #c7c7c7;
+    }
+
+    .column2 {
         min-width: 400px;
         text-align: center;
         height: 100%;
-    }.column2 h3{
+    }
+
+    .column2 h3 {
         font-size: 22px;
-    }.column2 .row{
+    }
+
+    .column2 .row {
         margin-top: 20px;
         display: flex;
 
-    }.row1 {
-         display: flex;
-         margin-top: 20px;
     }
-    img{
+
+    .row1 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    img {
         width: 35px;
         height: 36px;
         justify-content: flex-start;
-    }.row1 
-        a {
-            text-decoration: none;
-        } 
-        label{    
+    }
+
+    .row1 a {
+        text-decoration: none;
+    }
+
+    label {
         margin-top: 10px;
         margin-left: 20px;
         color: #c7c7c7;
         cursor: pointer;
-        
+
     }
 
-    .column3{
+    .column3 {
         min-width: 400px;
         height: 100%;
-        
-    }.column3 h3{
+
+    }
+
+    .column3 h3 {
         font-size: 22px;
         text-align: center;
-    }.row2{
+    }
+
+    .row2 {
         margin-top: 20px;
         display: flex;
         align-items: center;
-    
-    }.row2 i{
+
+    }
+
+    .row2 i {
         width: 36px;
         height: 36px;
         font-size: 36px;
-    }.row2-map i{
+    }
+
+    .row2-map i {
         margin-top: 20px;
         display: flex;
         width: 36px;
         height: 36px;
         font-size: 36px;
-    }.row2 label {
+    }
+
+    .row2 label {
         margin-left: 20px;
         max-width: 140px;
     }
 
-    .container-footer{
+    .container-footer {
         width: 100%;
         background: #101010;
         display: flex;
         justify-content: space-between;
         padding: 20px;
-    }.copyright {
+    }
+
+    .copyright {
         color: #c7c7c7;
-    }a{
+    }
+
+    a {
         font-weight: bold;
-    }.information {
+    }
+
+    .information {
         margin-right: 200px;
-    }.information a{
-    color: #c7c7c7;
+    }
+
+    .information a {
+        color: #c7c7c7;
     }
 
     background-color: #202020;
@@ -162,25 +213,25 @@ footer {
     margin-right: 2%;
     margin-left: 2%;
 }
+
 #search__input {
     border: 0;
-    
+
     color: black;
     outline: none;
 }
+
 #search__button {
     color: grey;
 }
-#form__login {
-    margin-right: 15%;
-    margin-top: 40px;
-}
+
 
 h1 {
     color: white;
     margin-left: 10px;
 
 }
+
 h2 {
     width: 100%;
     margin-left: 12px;
@@ -188,7 +239,8 @@ h2 {
     font-family: 'B612', sans-serif;
     //text-shadow: 5px 6px 2px black;
     font-size: 40px;
-} 
+}
+
 h3 {
     margin-left: 10px;
     margin-top: 10px;
@@ -196,5 +248,5 @@ h3 {
     text-shadow: 3px 3px 2px black;
     color: rgb(114, 197, 245);
     color: white;
-    height: 100%;       
+    height: 100%;
 }

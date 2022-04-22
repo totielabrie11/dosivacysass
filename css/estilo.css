@@ -44,6 +44,18 @@ nav {
   background-color: #dbdae4;
 }
 
+nav .switchContainer {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,8 +155,7 @@ footer img {
           justify-content: flex-start;
 }
 
-footer .row1
-a {
+footer .row1 a {
   text-decoration: none;
 }
 
@@ -238,11 +249,6 @@ footer .information a {
 
 #search__button {
   color: grey;
-}
-
-#form__login {
-  margin-right: 15%;
-  margin-top: 40px;
 }
 
 h1 {
@@ -849,11 +855,6 @@ div#banner__aireacion--position {
 }
 
 .notifyContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: auto;
-  width: 12%;
   position: relative;
 }
 
@@ -935,6 +936,54 @@ div#banner__aireacion--position {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+  background: orange;
+  color: #000;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
 }
 
 .card-body h4 {
