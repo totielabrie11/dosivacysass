@@ -13,7 +13,7 @@ html {
     body.claro {
         transition: 10s ease all;
         background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
-        color: black;
+        color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
         
@@ -57,9 +57,16 @@ nav {
     }
 
     ul {
-        display: flex;
-
         
+        display: flex;
+        body.claro & .dropdown-menu {
+            background-color: #de1f1f !important;
+            
+        }
+        body.oscuro & .dropdown-menu {
+            background-color: #a5de1f !important;
+        }
+          
         li {
             list-style: none;
             margin-right: 3%;
@@ -69,11 +76,19 @@ nav {
                 font-size: 22px;
                 margin-right: 10px;
                 body.claro & {
-                    color: #fff !important;
+
+                    color: rgb(190, 185, 185) !important;
+                    &:hover {
+                        color: #fff !important;
+                    }
                 }
                 body.oscuro & {
-                    color: black !important;
+                    color: rgb(57, 54, 54) !important;
+                    &:hover {
+                        color: black !important;
+                    }
                 }
+                
             }
         }
     }

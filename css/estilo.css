@@ -19,7 +19,7 @@ html body.claro {
   -webkit-transition: 10s ease all;
   transition: 10s ease all;
   background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
-  color: black;
+  color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
 }
@@ -71,6 +71,14 @@ nav ul {
   display: flex;
 }
 
+body.claro nav ul .dropdown-menu {
+  background-color: #de1f1f !important;
+}
+
+body.oscuro nav ul .dropdown-menu {
+  background-color: #a5de1f !important;
+}
+
 nav ul li {
   list-style: none;
   margin-right: 3%;
@@ -83,10 +91,18 @@ nav ul li a {
 }
 
 body.claro nav ul li a {
+  color: #beb9b9 !important;
+}
+
+body.claro nav ul li a:hover {
   color: #fff !important;
 }
 
 body.oscuro nav ul li a {
+  color: #393636 !important;
+}
+
+body.oscuro nav ul li a:hover {
   color: black !important;
 }
 
@@ -720,6 +736,11 @@ h3 {
   color: black;
 }
 
+body.oscuro .notifyCuantity {
+  background-color: black !important;
+  color: #fff !important;
+}
+
 .carrito {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -853,8 +874,8 @@ h3 {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4em;
 }
 
@@ -896,8 +917,8 @@ h3 {
 .card-image {
   display: block;
   position: relative;
-  height: 180px;
-  max-width: 100%;
+  height: 400px;
+  min-width: 100%;
 }
 
 .card-image img {

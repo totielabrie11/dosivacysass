@@ -65,6 +65,11 @@
     border-radius: 50%;
     color: black;
 
+    body.oscuro & {
+        background-color: black !important;
+        color: #fff !important;
+    }
+
 }
 
 .carrito {

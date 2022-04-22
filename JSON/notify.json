@@ -1,5 +1,15 @@
 [
   {
+  "titulo": "Nuevo Producto Refrigeración",
+  "tema": "Nuevo lanzamiento DVR",
+  "fechaCreacion": "22/04/22",
+  "fechaEvento": "01/05/22",
+  "horaEvento": "10:00",
+  "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite (se puede transportar acostada).<br> ✔Motor sin chispa que permite trabajo con todos los gases incluidos los explosivos. <br> ✔Bomba de aceite incorporada que garantiza la lubricación incluso a mala calidad de vacío. <br>✔sistema de paletas radiales con resortes.<br> ✔válvula solenoide en boca de aspiración impide reflujo de aceite al circuito ante corte eléctrico.<br> ✔Nueva tecnología que da alimentación eléctrica alterna posibilitando al motor más eficiencia y potencia con menor peso y consumo.<br> ✔Fabricación DOSIVAC que asegura un año de cobertura repuestos y reparación con garantía oficial!",
+  "img": "<img src='../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg' width='200px'>",
+  "id": "1"
+  },
+  {
     "titulo": "Pagina Webss",
     "tema": "visualizando la pagina web con Meli",
     "fechaCreacion": "11/04/22",
