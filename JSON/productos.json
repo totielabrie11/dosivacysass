@@ -284,35 +284,47 @@
         "modelo": "DVR6",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR6",
-        "idRender": "renderDvrCar"
+        "idRender": "renderDvrCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=fvWxAIfhSrc"
     },
     {
         "linea": "DVR",
         "modelo": "DVR12",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR12",
-        "idRender": "renderDvrCar"
+        "idRender": "renderDvrCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=fvWxAIfhSrc"
     },
     {
         "linea": "DVRII",
         "modelo": "1A",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "1A",
-        "idRender": "renderDvrIICar"
+        "idRender": "renderDvrIICar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zcHwGP3FRcM",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVRII",
         "modelo": "2A",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "2A",
-        "idRender": "renderDvrIICar"
+        "idRender": "renderDvrIICar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zcHwGP3FRcM"
     },
     {
         "linea": "DVRII",
         "modelo": "3A",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "3A",
-        "idRender": "renderDvrIICar"
+        "idRender": "renderDvrIICar",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVRII",

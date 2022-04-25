@@ -105,18 +105,52 @@ function filterCaracteristicas( producto ){
     
       productoFinded.forEach((producto) => {
         
-        const { linea, modelo, caracteristicas, id, idRender, youtube, link } = producto;
+        const { linea, modelo, caracteristicas, id, idRender, youtube, instagram, link, linki  } = producto;
         htmlClean = ""
-        html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
-        <div class="d-flex justify-content-between">
-        ${caracteristicas}
-        </div>
-        <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"></a></div>
-        `
-        
-        $('#' + `${idRender}`).html("" + html);
-  
+        yotubeRedifined = producto.youtube 
+        instagramRedifined = producto.instagram
+        if (yotubeRedifined || instagramRedifined == undefined) {
+          
+            if (yotubeRedifined && instagramRedifined) {
+              console.log("muestro render de ambos")
+              return
 
+              
+            }if (instagramRedifined) {
+              console.log('muestro render solo instragram')
+              return
+
+            }if (yotubeRedifined) {
+              console.log('muestro el render de youtube')
+            }
+            else{
+              console.log('muestro render comun')
+
+              /* html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+                <div class="d-flex justify-content-between">
+                ${caracteristicas}
+                </div>
+                    `
+              $('#' + `${idRender}`).html("" + html); */
+            }  
+
+          
+
+        } else {
+         
+          console.log('muestro render de instragram')
+          /* html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+          <div class="d-flex justify-content-between">
+          ${caracteristicas}
+          </div>
+          <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"></a></div>
+          <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"></a></div>
+          `
+
+          $('#' + `${idRender}`).html("" + html); */
+        
+  
+        }
       })
        
   }
