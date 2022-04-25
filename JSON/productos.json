@@ -368,7 +368,9 @@
         "modelo": "800",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 lts/m</li><li>30 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
         "id": "800",
-        "idRender": "renderDshcCar"
+        "idRender": "renderDshcCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=3u4frjXiNy4"
     },
     {
         "linea": "DSHC",

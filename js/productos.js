@@ -105,13 +105,15 @@ function filterCaracteristicas( producto ){
     
       productoFinded.forEach((producto) => {
         
-        const { linea, modelo, caracteristicas, id, idRender } = producto;
+        const { linea, modelo, caracteristicas, id, idRender, youtube, link } = producto;
         htmlClean = ""
         html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
         <div class="d-flex justify-content-between">
         ${caracteristicas}
-        </div>`
-  
+        </div>
+        <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"></a></div>
+        `
+        
         $('#' + `${idRender}`).html("" + html);
   
 
