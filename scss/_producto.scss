@@ -308,9 +308,11 @@
 //Modal de producto
 
 .modalDesc {
-  width: 280px;
-  height: 20rem;
+
+  width: 120% ;
+  height: 35rem;
   position: absolute;
+  left: -30px;
   bottom: 0;
   background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
   border-radius: 5%;
@@ -319,13 +321,15 @@
 
   h2 {
     font-size: 17px;
+    text-align: center;
+    justify-content: center;
   }
 }
 
 .btnModal {
   display: flex;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: calc((100% / 2) - 12px);
   border-radius: 50%;
   background-color: #11e95b;

@@ -22,7 +22,7 @@ function abrirModal(idModal){
   console.log(idModal);
 
     $('#' + `${idModal}`).fadeIn(1000).animate({
-      bottom: '240px',
+      bottom: '120px',
     });
     
 }

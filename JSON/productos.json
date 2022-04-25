@@ -212,8 +212,71 @@
     {
         "linea": "DE",
         "modelo": "10/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>6 lts/h</li><br><li>0.6 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>6 lts/h</li><br><li>0.6 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
         "id": "DE1",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "15/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>90 kg/cm2</li><br><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE2",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "17/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>100 kg/cm2</li><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE3",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "20/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE4",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "25/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE5",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "10/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>12 lts/h</li><br><li>1.2 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
+        "id": "DE6",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "15/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>90 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE7",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "17/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>100 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE8",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "20/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE9",
+        "idRender": "renderDeCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "25/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "id": "DE10",
         "idRender": "renderDeCar"
     },
     {
