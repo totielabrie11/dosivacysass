@@ -42,6 +42,34 @@
         "idRender": "renderMilenioCar"
     },
     {
+        "linea": "Mi-Emd",
+        "modelo": "Mi-01515",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.2 lts/h</li><li>0.015 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "Mi01515",
+        "idRender": "renderMiEmdCar"
+    },
+    {
+        "linea": "Mi-Emd",
+        "modelo": "Mi-03210",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "Mi03210",
+        "idRender": "renderMiEmdCar"
+    },
+    {
+        "linea": "Mi-Emd",
+        "modelo": "Mi-10005",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.090 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "Mi10005",
+        "idRender": "renderMiEmdCar"
+    },
+    {
+        "linea": "Mi-Emd",
+        "modelo": "Mi-16003",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "Mi16003",
+        "idRender": "renderMiEmdCar"
+    },
+    {
         "linea": "EMD",
         "modelo": "01515",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
@@ -138,6 +166,55 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D600",
         "idRender": "renderDdiCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "7/25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.30 lts/h</li><br><li>0.030 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI1",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "10/25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.66 lts/h</li><br><li>0.066 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI2",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "10/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.85 lts/h</li><br><li>0.185 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI3",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "15/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.1 lts/h</li><br><li>0.41 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI4",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "10/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.6 lts/h</li><br><li>0.36 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI5",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DECI",
+        "modelo": "15/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DECI6",
+        "idRender": "renderDeciCar"
+    },
+    {
+        "linea": "DE",
+        "modelo": "10/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>6 lts/h</li><br><li>0.6 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "id": "DE1",
+        "idRender": "renderDeCar"
     },
     {
         "linea": "DVR",

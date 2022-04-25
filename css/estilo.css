@@ -285,8 +285,11 @@ footer .information a {
 }
 
 h1 {
-  color: white;
-  margin-left: 10px;
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 10px;
+  font-family: 'B612', sans-serif;
+  font-size: 40px;
 }
 
 h2 {
