@@ -293,3 +293,13 @@ h3 {
     color: white;
     height: 100%;
 }
+
+a {
+    text-decoration: none;
+    span {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

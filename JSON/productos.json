@@ -4,42 +4,54 @@
         "modelo": "015",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.15 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "015",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Milenio",
         "modelo": "033",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.3 lts/h</li><li>0.33 lts/h</li><li>5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "033",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Milenio",
         "modelo": "035",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.5 lts/h</li><li>0.35 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "035",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Milenio",
         "modelo": "070",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>7 lts/h</li><li>0.15 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "070",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Milenio",
         "modelo": "130",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>13 lts/h</li><li>1.3 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "130",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Milenio",
         "modelo": "300",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>3 lts/h</li><li>1.5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "300",
-        "idRender": "renderMilenioCar"
+        "idRender": "renderMilenioCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=zV0HgCUVHHo"
     },
     {
         "linea": "Mi-Emd",
@@ -67,42 +79,54 @@
         "modelo": "Mi-16003",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi16003",
-        "idRender": "renderMiEmdCar"
+        "idRender": "renderMiEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD",
         "modelo": "01515",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "01515",
-        "idRender": "renderEmdCar"
+        "idRender": "renderEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD",
         "modelo": "03210",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "03210",
-        "idRender": "renderEmdCar"
+        "idRender": "renderEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD",
         "modelo": "05010",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "05010",
-        "idRender": "renderEmdCar"
+        "idRender": "renderEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD",
         "modelo": "10005",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "10005",
-        "idRender": "renderEmdCar"
+        "idRender": "renderEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD",
         "modelo": "16003",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "16003",
-        "idRender": "renderEmdCar"
+        "idRender": "renderEmdCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
         "linea": "EMD PLUS",
@@ -112,60 +136,67 @@
         "idRender": "renderEmdPCar"
     },
     {
-        "linea": "EMD",
-        "modelo": "16003",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "16003",
-        "idRender": "renderEmdCar"
-    },
-    {
         "linea": "DDI",
         "modelo": "10",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D10",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "30",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>6 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D30",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "60",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>60 lts/h</li><li>12 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D60",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "80",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>80 lts/h</li><li>16 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D80",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "150",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>150 lts/h</li><li>30 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D150",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "300",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>300 lts/h</li><li>60 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D300",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DDI",
         "modelo": "600",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D600",
-        "idRender": "renderDdiCar"
+        "idRender": "renderDdiCar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
     },
     {
         "linea": "DECI",
@@ -304,9 +335,7 @@
         "id": "1A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "instagram": "../img/redes/instagram-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=zcHwGP3FRcM",
-        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
     },
     {
         "linea": "DVRII",
@@ -315,7 +344,7 @@
         "id": "2A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=zcHwGP3FRcM"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
     },
     {
         "linea": "DVRII",
@@ -323,15 +352,17 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "3A",
         "idRender": "renderDvrIICar",
-        "instagram": "../img/redes/instagram-removebg-preview.png",
-        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
     },
     {
         "linea": "DVRII",
         "modelo": "4A",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "4A",
-        "idRender": "renderDvrIICar"
+        "idRender": "renderDvrIICar",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
     },
     {
         "linea": "SUPERVAC",
@@ -380,9 +411,7 @@
         "modelo": "800",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 lts/m</li><li>30 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
         "id": "800",
-        "idRender": "renderDshcCar",
-        "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=3u4frjXiNy4"
+        "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
