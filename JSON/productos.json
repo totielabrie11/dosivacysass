@@ -79,9 +79,7 @@
         "modelo": "Mi-16003",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi16003",
-        "idRender": "renderMiEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=kF91YEokR54"
+        "idRender": "renderMiEmdCar"
     },
     {
         "linea": "EMD",
