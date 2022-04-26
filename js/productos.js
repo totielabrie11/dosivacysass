@@ -118,7 +118,7 @@ function filterCaracteristicas( producto ){
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
-              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span class="me-2 p-2">Producto con contenido en youtube</span></a></div>
+              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><br><span class="me-2 p-2">Producto con contenido en youtube</span></a></div>
               <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><span class="me-2 p-2">Publicado en instragram</span></a></div></a></div>
               `
 
@@ -133,7 +133,7 @@ function filterCaracteristicas( producto ){
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
-              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span class="me-2 p-2">Producto con contenido en youtube</span></a></div></a></div>
+              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><br><span class="me-2 p-2">Producto con contenido en youtube</span></a></div></a></div>
               `
 
               $('#' + `${idRender}`).html("" + html);

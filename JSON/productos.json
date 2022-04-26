@@ -311,6 +311,123 @@
         "idRender": "renderDeCar"
     },
     {
+        "linea": "DEAP",
+        "modelo": "6/25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.79 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP1",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "9/25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.76 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP2",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "13/25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.7 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP3",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "6/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.4 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP4",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "9/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5.2 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP5",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "13/70",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>11.2 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP6",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "6/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.7 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP7",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "9/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10.4 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP8",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DEAP",
+        "modelo": "13/140",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>21.1 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "id": "DEAP9",
+        "idRender": "renderDEAPCar"
+    },
+    {
+        "linea": "DES",
+        "modelo": "07",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>1.38 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "id": "DES1",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
+        "linea": "DES",
+        "modelo": "10",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>3 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>6 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "id": "DES2",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
+        "linea": "DES",
+        "modelo": "15",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>6.5 lts/h</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "id": "DES3",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
+        "linea": "DES",
+        "modelo": "AQ-17",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>8.3 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>16.6 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "id": "DES4",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
+        "linea": "DES",
+        "modelo": "AQ-20",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>11.5 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>23 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "id": "DES5",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
+        "linea": "DES",
+        "modelo": "AQ-25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>17.9 lts/h</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>35.80</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "id": "DES6",
+        "idRender": "renderDesCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
+    },
+    {
         "linea": "DVR",
         "modelo": "DVR6",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
@@ -383,7 +500,9 @@
         "modelo": "DVR6",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
         "id": "DVR6Pre",
-        "idRender": "renderDvr6Car"
+        "idRender": "renderDvr6Car",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/Ccp_T7eOfjg/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVL",
@@ -444,7 +563,7 @@
     {
         "linea": "DSHC",
         "modelo": "4500",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4500 lts/m</li><li>150 lts/m</li><li>30 mmHg</li><li>Integral/acople directo</li><li>Acero Inoxidable</li><li>Compacta/Caballete</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><br><li>Opcional</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4500 lts/m</li><li>150 lts/m</li><li>30 mmHg</li><li>Integral/acople directo</li><li>Acero Inoxidable</li><li>Compacta/Caballete</li></ul></div></div>",
         "id": "4500",
         "idRender": "renderDshcCar"
     },
@@ -453,6 +572,8 @@
         "modelo": "6300",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6300 lts/m</li><li>200 lts/m</li><li>30 mmHg</li><li>Acop Directo</li><li>Caballete</li></ul></div></div>",
         "id": "6300",
-        "idRender": "renderDshcCar"
+        "idRender": "renderDshcCar",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CPiazqmB0MP/?utm_source=ig_web_copy_link"
     }
 ]
