@@ -130,16 +130,62 @@
     },
     {
         "linea": "EMD PLUS",
+        "modelo": "00707P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.7 lts/h</li><li>0.007 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "PLUS1",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
+    },
+    {
+        "linea": "EMD PLUS",
         "modelo": "01515P",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "01515P",
-        "idRender": "renderEmdPCar"
+        "id": "PLUS2",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
+    },
+    {
+        "linea": "EMD PLUS",
+        "modelo": "03210P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "PLUS3",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
+    },{
+        "linea": "EMD PLUS",
+        "modelo": "05010P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "PLUS4",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
+    },
+    {
+        "linea": "EMD PLUS",
+        "modelo": "10005P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "PLUS5",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
+    },
+    {
+        "linea": "EMD PLUS",
+        "modelo": "16003P",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "id": "PLUS6",
+        "idRender": "renderEmdPCar",
+        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
         "linea": "DDI",
         "modelo": "10",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "D10",
+        "id": "PLUS6",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
@@ -428,10 +474,25 @@
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
+        "linea": "DEPP",
+        "modelo": "10",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>30 lts/dia</li><li>1.5 lts/dia</li><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
+        "id": "DEPP1",
+        "idRender": "renderDEPPCar"
+    },
+    {
+        "linea": "DEPP",
+        "modelo": "15",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>70 lts/dia</li><li>3.5 lts/dia</li><li>100 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
+        "id": "DEPP2",
+        "idRender": "renderDEPPCar"
+        
+    },
+    {
         "linea": "DVR",
         "modelo": "DVR6",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
-        "id": "DVR6",
+        "id": "DVR1",
         "idRender": "renderDvrCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=fvWxAIfhSrc"
@@ -440,7 +501,7 @@
         "linea": "DVR",
         "modelo": "DVR12",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
-        "id": "DVR12",
+        "id": "DVR2",
         "idRender": "renderDvrCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=fvWxAIfhSrc"
@@ -452,7 +513,9 @@
         "id": "1A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVRII",
@@ -461,7 +524,9 @@
         "id": "2A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVRII",
@@ -470,7 +535,9 @@
         "id": "3A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "DVRII",
@@ -479,7 +546,9 @@
         "id": "4A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=V45RPkriji8"
+        "link": "https://www.youtube.com/watch?v=V45RPkriji8",
+        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
         "linea": "SUPERVAC",
@@ -496,8 +565,8 @@
         "idRender": "renderSupervacCar"
     },
     {
-        "linea": "DVR6",
-        "modelo": "DVR6",
+        "linea": "DVR",
+        "modelo": "DVR6 BLUE",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
         "id": "DVR6Pre",
         "idRender": "renderDvr6Car",
