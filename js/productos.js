@@ -113,25 +113,42 @@ function filterCaracteristicas( producto ){
           
             if (yotubeRedifined && instagramRedifined) {
               console.log("muestro render de ambos")
+
+              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              <div class="d-flex justify-content-between">
+              ${caracteristicas}
+              </div>
+              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span class="me-2 p-2">Producto con contenido en youtube</span></a></div>
+              <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"></a></div>
+              `
+
+              $('#' + `${idRender}`).html("" + html);
               return
 
               
-            }if (instagramRedifined) {
-              console.log('muestro render solo instragram')
-              return
-
             }if (yotubeRedifined) {
               console.log('muestro el render de youtube')
+
+              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              <div class="d-flex justify-content-between">
+              ${caracteristicas}
+              </div>
+              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"></a></div>
+              `
+
+              $('#' + `${idRender}`).html("" + html);
+
+              return
             }
             else{
               console.log('muestro render comun')
 
-              /* html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
                 <div class="d-flex justify-content-between">
                 ${caracteristicas}
                 </div>
                     `
-              $('#' + `${idRender}`).html("" + html); */
+              $('#' + `${idRender}`).html("" + html); 
             }  
 
           
@@ -139,16 +156,14 @@ function filterCaracteristicas( producto ){
         } else {
          
           console.log('muestro render de instragram')
-          /* html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+          html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
           <div class="d-flex justify-content-between">
           ${caracteristicas}
           </div>
-          <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"></a></div>
           <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"></a></div>
           `
 
-          $('#' + `${idRender}`).html("" + html); */
-        
+          $('#' + `${idRender}`).html("" + html); 
   
         }
       })

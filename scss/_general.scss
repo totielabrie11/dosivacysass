@@ -16,8 +16,8 @@ html {
         color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
-        
-        
+
+
     }
 
     body.oscuro {
@@ -26,7 +26,7 @@ html {
         color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
-       
+
     }
 
     main {
@@ -43,7 +43,7 @@ nav {
 
     body.oscuro & {
 
-        
+
         background-color: rgb(219, 218, 228);
     }
 
@@ -57,16 +57,18 @@ nav {
     }
 
     ul {
-        
+
         display: flex;
+
         body.claro & .dropdown-menu {
             background-color: #de1f1f !important;
-            
+
         }
+
         body.oscuro & .dropdown-menu {
             background-color: #a5de1f !important;
         }
-          
+
         li {
             list-style: none;
             margin-right: 3%;
@@ -75,20 +77,24 @@ nav {
                 text-decoration: none;
                 font-size: 22px;
                 margin-right: 10px;
+
                 body.claro & {
 
                     color: rgb(190, 185, 185) !important;
+
                     &:hover {
                         color: #fff !important;
                     }
                 }
+
                 body.oscuro & {
                     color: rgb(57, 54, 54) !important;
+
                     &:hover {
                         color: black !important;
                     }
                 }
-                
+
             }
         }
     }
