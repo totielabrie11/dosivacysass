@@ -206,6 +206,10 @@ function ShowSelected(){
       case 'vacio industrial':
       muestroProductosVacioIndus();
       break;
+
+      case 'Accesorios':
+      muestroProductosAccesorios();
+      break;
      
       default:
        break;
@@ -214,34 +218,34 @@ function ShowSelected(){
 
 function muestroTodosLosProductos(){
 
-  $('*#Dos, *#Lab, *#Dos, *#Ind').removeClass('novisible');
+  $('*#Dos, *#Lab, *#Dos, *#Ind, *#Acc').removeClass('novisible');
   
 }
 
 function muestroProductosRefrigeracion(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
-   $('*#Dos, *#Lab, *#Ind').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
+   $('*#Dos, *#Lab, *#Ind, #Acc').addClass('novisible');
 }
 
 function muestroProductosLaboratorio(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Ind').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Ind, #Acc').addClass('novisible');
 
 }
 
 function muestroProductosVacioIndustrial(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Lab').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Lab, #Acc').addClass('novisible');
    
 }
 
 function muestroProductosDosificacion(){
   
-  $('*#Dos, *#Lab, *#Ref, *#Ind').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, #Acc').addClass('novisible');
 
 }
 
@@ -251,3 +255,7 @@ function muestroProductosSoplante(){
 
 }
 
+function muestroProductosAccesorios(){
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos').addClass('novisible');
+}

@@ -642,5 +642,58 @@
         "idRender": "renderDshcCar",
         "instagram":"../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CPiazqmB0MP/?utm_source=ig_web_copy_link"
+    },
+    {
+        "linea": "MDF",
+        "modelo": "M5",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "id": "MDF1",
+        "idRender": "renderMDFCar",
+        "instagram":"../img/bombas/mdf-panel.png",
+        "linki": "#"
+    },
+    {
+        "linea": "MDF",
+        "modelo": "M6",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>30 lts/h</li><li>0.5 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "id": "MDF2",
+        "idRender": "renderMDFCar",
+        "instagram":"../img/bombas/mdf-panel.png",
+        "linki": "#"
+    },
+    {
+        "linea": "MDF",
+        "modelo": "M9",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>120 lts/h</li><li>6 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "id": "MDF3",
+        "idRender": "renderMDFCar",
+        "instagram":"../img/bombas/mdf-panel.png",
+        "linki": "#"
+    },
+    {
+        "linea": "MDF",
+        "modelo": "M12",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>300 lts/h</li><li>18 lts/h</li><li>Acero Inoxidable</li><li>1/2</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "id": "MDF4",
+        "idRender": "renderMDFCar",
+        "instagram":"../img/bombas/mdf-panel.png",
+        "linki": "#"
+    },
+    {
+        "linea": "MDF",
+        "modelo": "M25",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1500 lts/h</li><li>30 lts/h</li><li>Acero Inoxidable</li><li>1''</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "id": "MDF5",
+        "idRender": "renderMDFCar",
+        "instagram":"../img/bombas/mdf-panel.png",
+        "linki": "#"
+    },
+    {
+        "linea": "DIVISOR",
+        "modelo": "220-380",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Memorias</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>indeterminado</li><li>indeterminado</li><li>5</li><li>Riel DIM</li><li>380v-220v</li><li>Salida Rele cc</li></ul></div></div>",
+        "id": "DIV1",
+        "idRender": "renderDIVCar"
     }
+
 ]
