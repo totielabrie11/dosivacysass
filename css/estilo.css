@@ -16,8 +16,8 @@ html {
 }
 
 html body.claro {
-  -webkit-transition: 10s ease all;
-  transition: 10s ease all;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
   background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
   color: white;
   overflow: hidden;
@@ -25,8 +25,8 @@ html body.claro {
 }
 
 html body.oscuro {
-  -webkit-transition: 10s ease all;
-  transition: 10s ease all;
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
   background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
   color: white;
   overflow: hidden;
