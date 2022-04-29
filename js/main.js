@@ -22,3 +22,11 @@ if (localStorage.getItem('dark-mode') === 'true') {
 	d.body.classList.remove('oscuro');
 	btnSwitch.classList.remove('active');
 }
+
+
+/* fetch("./JSON/distribuidores.json")
+.then(response => {
+	
+   return response.json();
+})
+.then(data => console.log(data)); */

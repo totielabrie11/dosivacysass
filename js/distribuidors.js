@@ -1,8 +1,8 @@
 //Llamado Ajax a mis distribuidors JSON
 $.ajax({
     method: "GET",
-    url: "../JSON/DISTRIBUIDORES.JSON",
-  }).done((distribuidors) => {
+    url: "../JSON/distribuidores.json",
+  }).done(function(distribuidors) {
       
     renderDistribuidorsCard(distribuidors)
       
