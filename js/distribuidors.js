@@ -21,7 +21,7 @@ $.ajax({
     distribuidors.forEach(element => {
 
       
-      const { nombre, provincia, localidad, direccion, maps, img, id, tipo } = element
+      const { nombre, provincia, localidad, direccion, maps, img, id, tipo, contacto } = element
       htmlVacio = ""
       html = 
       `
@@ -36,20 +36,35 @@ $.ajax({
             <p>
               ${direccion}
             </p>
+            <p>
+              ${contacto}
+            </p>
             ${maps}
         </div>
         <div class="card-footer">
             <div class="info">
-                <div class="value">CLASE</div>
-                <div class="type">${tipo.dosificacion}</div>
+                <div class="value">VENDE</div>
+                <div class="type">${tipo.dosificacionMenor}</div>
             </div>
             <div class="info">
-                <div class="value">CLASE</div>
+                <div class="value">VENDE</div>
+                <div class="type">${tipo.dosificacionMayor}</div>
+            </div>
+            <div class="info">
+                <div class="value">VENDE</div>
                 <div class="type">${tipo.vacio}</div>
             </div>
             <div class="info">
-                <div class="value">CLASE</div>
+                <div class="value">VENDE</div>
+                <div class="type">${tipo.refrigeracion}</div>
+            </div>
+            <div class="info">
+                <div class="value">VENDE</div>
                 <div class="type">${tipo.soplador}</div>
+            </div>
+            <div class="info">
+                <div class="value">VENDE</div>
+                <div class="type">${tipo.petroleo}</div>
             </div>
         </div>
       </div>
