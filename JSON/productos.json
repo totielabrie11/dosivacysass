@@ -87,7 +87,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "01515",
         "idRender": "renderEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
@@ -96,7 +96,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "03210",
         "idRender": "renderEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
@@ -105,7 +105,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "05010",
         "idRender": "renderEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
@@ -114,7 +114,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "10005",
         "idRender": "renderEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
@@ -123,7 +123,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "16003",
         "idRender": "renderEmdCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=kF91YEokR54"
     },
     {
@@ -132,7 +132,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.7 lts/h</li><li>0.007 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS1",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
@@ -141,7 +141,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS2",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
@@ -150,15 +150,16 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS3",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
-    },{
+    },
+    {
         "linea": "EMD PLUS",
         "modelo": "05010P",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS4",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
@@ -167,7 +168,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS5",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
@@ -176,7 +177,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS6",
         "idRender": "renderEmdPCar",
-        "youtube":"../img/redes/youtube-removebg-preview.png",
+        "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=QeNwFk0IlwM"
     },
     {
@@ -273,7 +274,7 @@
     {
         "linea": "DECI",
         "modelo": "10/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.6 lts/h</li><br><li>0.36 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo </li></ul></div></div>",
         "id": "DECI5",
         "idRender": "renderDeciCar"
     },
@@ -423,7 +424,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>1.38 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES1",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -432,7 +433,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>3 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>6 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES2",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -441,7 +442,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>6.5 lts/h</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES3",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -450,7 +451,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>8.3 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>16.6 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES4",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -459,7 +460,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>11.5 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>23 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES5",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -468,7 +469,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>17.9 lts/h</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>35.80</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES6",
         "idRender": "renderDesCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {
@@ -484,7 +485,6 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>70 lts/dia</li><li>3.5 lts/dia</li><li>100 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
         "id": "DEPP2",
         "idRender": "renderDEPPCar"
-        
     },
     {
         "linea": "DVR",
@@ -512,7 +512,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
@@ -523,7 +523,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
@@ -534,7 +534,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
@@ -545,7 +545,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
     {
@@ -640,7 +640,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6300 lts/m</li><li>200 lts/m</li><li>30 mmHg</li><li>Acop Directo</li><li>Caballete</li></ul></div></div>",
         "id": "6300",
         "idRender": "renderDshcCar",
-        "instagram":"../img/redes/instagram-removebg-preview.png",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
         "linki": "https://www.instagram.com/p/CPiazqmB0MP/?utm_source=ig_web_copy_link"
     },
     {
@@ -649,7 +649,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF1",
         "idRender": "renderMDFCar",
-        "instagram":"../img/bombas/mdf-panel.png",
+        "instagram": "../img/bombas/mdf-panel.png",
         "linki": "#"
     },
     {
@@ -658,7 +658,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>30 lts/h</li><li>0.5 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF2",
         "idRender": "renderMDFCar",
-        "instagram":"../img/bombas/mdf-panel.png",
+        "instagram": "../img/bombas/mdf-panel.png",
         "linki": "#"
     },
     {
@@ -667,7 +667,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>120 lts/h</li><li>6 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF3",
         "idRender": "renderMDFCar",
-        "instagram":"../img/bombas/mdf-panel.png",
+        "instagram": "../img/bombas/mdf-panel.png",
         "linki": "#"
     },
     {
@@ -676,7 +676,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>300 lts/h</li><li>18 lts/h</li><li>Acero Inoxidable</li><li>1/2</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF4",
         "idRender": "renderMDFCar",
-        "instagram":"../img/bombas/mdf-panel.png",
+        "instagram": "../img/bombas/mdf-panel.png",
         "linki": "#"
     },
     {
@@ -685,7 +685,7 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1500 lts/h</li><li>30 lts/h</li><li>Acero Inoxidable</li><li>1''</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF5",
         "idRender": "renderMDFCar",
-        "instagram":"../img/bombas/mdf-panel.png",
+        "instagram": "../img/bombas/mdf-panel.png",
         "linki": "#"
     },
     {
@@ -695,5 +695,4 @@
         "id": "DIV1",
         "idRender": "renderDIVCar"
     }
-
 ]

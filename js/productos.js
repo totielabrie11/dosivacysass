@@ -114,7 +114,7 @@ function filterCaracteristicas( producto ){
             if (yotubeRedifined && instagramRedifined) {
               console.log("muestro render de ambos")
 
-              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              html = "" + `<h3 class="text-center my-2 p-1"> ${linea} ${modelo}</h3>
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
@@ -129,7 +129,7 @@ function filterCaracteristicas( producto ){
             }if (yotubeRedifined) {
               console.log('muestro el render de youtube')
 
-              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              html = "" + `<h3 class="text-center my-2 p-1"> ${linea} ${modelo}</h3>
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
@@ -143,7 +143,7 @@ function filterCaracteristicas( producto ){
             else{
               console.log('muestro render comun')
 
-              html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+              html = "" + `<h3 class="text-center my-2 p-1"> ${linea} ${modelo}</h3>
                 <div class="d-flex justify-content-between">
                 ${caracteristicas}
                 </div>
@@ -156,7 +156,7 @@ function filterCaracteristicas( producto ){
         } else {
          
           console.log('muestro render de instragram')
-          html = "" + `<h2 class="text-center my-2 p-1"> ${linea} ${modelo}</h2>
+          html = "" + `<h3 class="text-center my-2 p-1"> ${linea} ${modelo}</h3>
           <div class="d-flex justify-content-between">
           ${caracteristicas}
           </div>

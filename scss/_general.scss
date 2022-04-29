@@ -88,7 +88,9 @@ nav {
                 }
 
                 body.oscuro & {
-                    color: rgb(57, 54, 54) !important;
+                    color: rgb(81, 81, 81) !important;
+                    text-shadow: 2px 2px 3px white;
+                    font-weight: bold;
 
                     &:hover {
                         color: black !important;
@@ -276,20 +278,35 @@ h1 {
 }
 
 h2 {
-    width: 100%;
+    /* width: 100%;
     margin-left: 12px;
     margin-top: 10px;
     font-family: 'B612', sans-serif;
     //text-shadow: 5px 6px 2px black;
-    font-size: 40px;
+    font-size: 40px; */
+
+    text-align: center;
+    padding: 2.5rem 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: #e7dac2;
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 2px black;
+
+    body.oscuro & {
+        color: black;
+        text-shadow: 3px 3px 2px white;
+    }
 }
+
 
 h3 {
     margin-left: 10px;
     margin-top: 10px;
     font-family: 'B612', sans-serif;
     text-shadow: 3px 3px 2px black;
-    color: rgb(114, 197, 245);
     color: white;
     height: 100%;
 }
