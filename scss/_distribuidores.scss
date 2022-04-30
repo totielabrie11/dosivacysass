@@ -1,42 +1,42 @@
 .card-list {
-    width                : 100%;
-    display              : grid;
+    width: 100%;
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap             : 4em
+    grid-gap: 4em
 }
 
 .card,
 .card-body,
 .card-footer {
-    display       : flex;
+    display: flex;
     flex-direction: column;
-    align-items   : center;
+    align-items: center;
 }
 
 .card {
     border-radius: 18px;
-    background   : #fff;
-    box-shadow   : 4px 4px 25px rgba(0, 0, 0, 0.4);
-    overflow     : hidden;
-    cursor       : pointer;
-    transition   : transform 0.4s;
+    background: #fff;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.4s;
 }
 
 .card:hover {
-    transform : scale(1.05);
+    transform: scale(1.05);
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
-    display  : block;
-    position : relative;
-    height   : 400px;
+    display: block;
+    position: relative;
+    height: 400px;
     min-width: 100%;
 }
 
 .card-image img {
-    max-height     : 100%;
-    width          : 100%;
+    max-height: 100%;
+    width: 100%;
     background-size: cover;
 }
 
@@ -52,33 +52,34 @@
 .card-body h4 {
     font-size: 1.5em;
     color: black;
-   
+
 }
+
 h5 {
-    color: black;  
-  }
+    color: black;
+}
 
 .card-body p {
-    color      : gray;
-    font-size  : 1.1em;
+    color: gray;
+    font-size: 1.1em;
     line-height: 22px;
-    text-align : center;
+    text-align: center;
 }
 
 .card-footer {
-    width                : 100%;
-    display              : grid;
+    width: 100%;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card-footer .info {
-    font-size     : 0.9em;
-    padding       : 10px;
-    color         : #fff;
-    display       : flex;
-    align-items   : center;
+    font-size: 0.9em;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    border-right  : 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .card-footer .info:last-child {
@@ -87,8 +88,8 @@ h5 {
 
 .card-footer .info .type {
     text-transform: uppercase;
-    margin-top    : 2px;
-    font-size     : 0.8em;
+    margin-top: 2px;
+    font-size: 0.8em;
 }
 
 .card:nth-child(1) .card-footer {
@@ -222,16 +223,17 @@ h5 {
 .leyenda {
     display: flex;
     flex-direction: column;
-    
-    h3{
+
+    h3 {
         font-size: 20px;
     }
+
     min-width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
     justify-content: space-between;
     align-items: flex-end;
-    
+
 
 }
