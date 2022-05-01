@@ -291,6 +291,24 @@
         "id": "16"
     },
     {
+        "nombre": "RODACOM",
+        "provincia": "ENTRE RIOS",
+        "localidad": "PARANA",
+        "direccion": "Av. Almafuerte 560",
+        "contacto": "0343 434-1115  <br> bombasymotores@rodacom.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13571.392093583896!2d-60.51067!3d-31.747349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb066d3c12521325b!2sRodacom!5e0!3m2!1ses-419!2sar!4v1651372702230!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='https://lh5.googleusercontent.com/p/AF1QipMvKn5OAgbsgS9d43jWl6tN_tfTzDvvwboQ9eO4=w408-h255-k-no' alt='parana-medio' class='rounded'>",
+        "tipo": {
+            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "",
+            "vacio": "",
+            "soplador": "",
+            "refrigeracion": "",
+            "petroleo": ""
+        },
+        "id": "16"
+    },
+    {
         "nombre": "ING RAMON RUSSO",
         "provincia": "SALTA",
         "localidad": "SALTA",

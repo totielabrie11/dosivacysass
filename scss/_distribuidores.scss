@@ -1,7 +1,8 @@
 .card-list {
     width: 100%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 4em
 }
 
@@ -14,6 +15,8 @@
 }
 
 .card {
+    max-width: 325px;
+    max-height: 920px;
     border-radius: 18px;
     background: #fff;
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
@@ -217,6 +220,47 @@ h5 {
 }
 
 .card:nth-child(16) .date {
+    color: #c2c2c2;
+}
+
+.card:nth-child(17) .card-footer {
+    background: #ff0c71;
+}
+
+.card:nth-child(17) .date {
+    color: #ff0c71;
+}
+
+.card:nth-child(18) .card-footer {
+    background: #ff510c;
+    ;
+}
+
+.card:nth-child(18) .date {
+    color: #ff510c;
+}
+
+.card:nth-child(19) .card-footer {
+    background: #03b43e;
+}
+
+.card:nth-child(19) .date {
+    color: #03b43e;
+}
+
+.card:nth-child(20) .card-footer {
+    background: #ccbf09;
+}
+
+.card:nth-child(20) .date {
+    color: #ccbf09;
+}
+
+.card:nth-child(21) .card-footer {
+    background: #c2c2c2;
+}
+
+.card:nth-child(21) .date {
     color: #c2c2c2;
 }
 

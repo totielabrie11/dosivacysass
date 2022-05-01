@@ -21,8 +21,23 @@
 }
 
 ////////////////CARDS DISTRIBUIDOR/////////////////
-
 @media screen and (max-width: 484px) {
+    main {
+        padding: 2px 2% !important;
+    }
+
+    .card {
+        max-width: 260px !important;
+        max-height: 750px;
+        margin: auto !important;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            font-size: 20px !important;
+        }
+    }
+
     span.date {
         margin: auto !important;
         font-size: 20px !important;
@@ -32,7 +47,7 @@
 @media screen and (max-width: 390px) {
     h2 {
         margin: auto !important;
-        font-size: 20px !important;
+        font-size: 25px !important;
     }
 
     span.date {
@@ -61,10 +76,43 @@
     }
 }
 
-@media screen and (max-width: 288px) {
+@media screen and (max-width: 364px) {
+    main {
+        padding: none !important;
+    }
+
+    h2 {
+        margin: auto !important;
+        font-size: 25px !important;
+    }
+
+    span.date {
+        margin: auto !important;
+        font-size: 18px !important;
+    }
+
+    p,
+    h4,
+    h5 {
+        font-size: 15px !important;
+    }
+
     .card {
-        max-width: calc(180px + 40px / 2);
-        max-height: 650px;
+        max-width: calc(200px + 40px / 2) !important;
+        max-height: 750px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 310px) {
+    .card {
+        max-width: 200px !important;
+        margin: auto !important;
+        justify-content: center;
+        align-items: center;
+        max-height: 630px !important;
         justify-content: center;
         align-items: center;
 
