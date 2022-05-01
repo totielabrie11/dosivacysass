@@ -18,12 +18,12 @@
     <link rel="stylesheet" href="css/estilo.css">
     <title>Dosivac/Home</title>
 </head>
-<body class="claro" onload="onLoad()">
+<body class="claro">
 <header>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="img/Logo_Dosivac-removebg-preview.png" alt="" width="200px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="hamburguesita" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -94,10 +94,28 @@
     </div>
   </section> -->
 </header>
+<main>
+  <div id="contenedorClima">
+      <div class="caja1">
+          <h3 id="temperatura-valor"></h3>
+          <h3 id="temperatura-descripcion"></h3>
+      </div>
+      <div class="caja2">
+          <h3 id="ubicacion"></h3></li>
+          <img id="icono-animado" src="" alt="" width="50%">
+      </div>
+      <div class="caja3">
+          <h3>Veloc. del Viento</h3>
+          <h3 id="viento-velocidad"></h3>
+      </div>
+  </div>
 
-
-<div class="rueda">
-  <main>
+  <div id="loader" class="loader">Loading...</div>
+  <div class="hero">
+    <img src="img/home.jpg" alt="" width="100%">
+  </div>
+  <div class="rueda">
+    
     <section>
       <div class="box">
         <span style="--i:1;"><img src="https://www.elagoradiario.com/wp-content/uploads/2021/01/agua.jpg" ></span>
@@ -110,7 +128,7 @@
         <span style="--i:8;"><img src="https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2017/12/aguas-grises.jpg" ></span>
       </div>
     </section>
-  </main>
+</main>
 </div>
 <footer>
   <div class="container-footer-all">

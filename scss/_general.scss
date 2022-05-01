@@ -30,7 +30,7 @@ html {
     }
 
     main {
-        padding: 10px 10%;
+        padding: 10px 2%;
     }
 }
 
@@ -41,8 +41,16 @@ nav {
     text-transform: uppercase;
     background: #202020;
 
-    body.oscuro & {
+    body.claro & {
+        #hamburguesita {
+            background-color: #de1f1f;
+        }
+    }
 
+    body.oscuro & {
+        #hamburguesita {
+            background-color: #b5de1f;
+        }
 
         background-color: rgb(219, 218, 228);
     }
@@ -114,6 +122,11 @@ nav {
         } 
     }
 } */
+.hero img {
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
 footer {
 

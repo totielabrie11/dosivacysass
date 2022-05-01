@@ -14,6 +14,26 @@
 	display: flex;
 	flex-direction: column;
 	position: relative;
+
+	.posision-iconito {
+		position: relative;
+	}
+
+	h2,
+	h3 {
+		font-size: 20px;
+		color: rgba(255, 255, 255, 0.952);
+
+	}
+
+	.iconito {
+		width: 80px;
+		height: 60px;
+		position: absolute;
+		right: 50%;
+		top: 50%;
+		z-index: 1;
+	}
 }
 
 .container-1::after {
