@@ -76,6 +76,16 @@
     }
 }
 
+////////////MDQ DE WEATHER////////////
+@media screen and (max-width: 500px) {
+
+    div.weather {
+        display: block !important;
+        float: none !important;
+        margin: auto !important;
+    }
+}
+
 @media screen and (max-width: 364px) {
     main {
         padding: none !important;
