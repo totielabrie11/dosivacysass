@@ -60,7 +60,7 @@
             </li>
           </ul>
           <div class="switchContainer">
-            <div class="notifyContainer d-none">
+            <div class="notifyContainer">
               <a href="#"><i class="material-icons my-2 me-2" id="notifyIcon">notifications</i></a>
               <div class="notifyCuantityContainer mt-2.5 ms-1">
                 <h6 class="text-center notifyCuantity"></h6>
@@ -70,12 +70,6 @@
               <span><i class="fas fa-sun"></i></span>
               <span><i class="fas fa-moon"></i></span>
             </button>
-            <div>
-              <div class="d-flex p-2 w-25">
-                  <input type="search" id="search limpiar" placeholder="buscar distribuidor" class="input float-start mt-2 p-1">
-                  <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2 ms-2"> 
-              </div>
-            </div>
           </div>
           <!-- <form class="d-flex" id="search__contenedor">
             <input class="form-control m-1" type="search" placeholder="buscar aqui" aria-label="Search" id="search__input">
@@ -99,6 +93,12 @@
 <main>
   <div class="hero">
     <h2>DISTRIBUIDORES</h2>
+  </div>
+  <div>
+    <div class="d-flex p-2 my-4 text-center justify-content-center align-item-center">
+        <input type="search" id="search limpiar" placeholder="buscar distribuidor" class="input float-start mt-2 p-1">
+        <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2 ms-2"> 
+    </div>
   </div>
   <section>
     <div class="card-list" id="distribuidores">
@@ -204,5 +204,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 <script src="../js/main.js"></script>
+<script src="../js/notify.js"></script>
 </body>
 </html>

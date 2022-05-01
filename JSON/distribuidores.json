@@ -6,7 +6,7 @@
         "direccion": "Piedras 614",
         "contacto": "113266-3331 <br> nicolasmiralles@salpark.com",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5606961159356!2d-58.37959568506897!3d-34.61526856561584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad6079a9773%3A0xa1d9092c0b31fa8d!2sCasa%20Sal%20Park!5e0!3m2!1ses!2sar!4v1636724829664!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/salpark.JPG' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/salpark.jpg' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddi-blanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
@@ -80,7 +80,7 @@
         "direccion": "Av. Independencia 3202",
         "contacto": "0223 472-1234 <br> benjaminseall@hotmail.com",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12574.609605759802!2d-57.5625178!3d-38.0085675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc39fc099ba94aa50!2sBenjamin%20Seall%20y%20C%C3%ADa%20S.A.!5e0!3m2!1ses-419!2sar!4v1651364840742!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/benjaminseall.JPG' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/benjaminseall.jpg' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddi-blanco.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
@@ -134,7 +134,7 @@
         "direccion": "Av. Dr. Arturo Capdevila 113",
         "contacto": "0810-220-3466 <br> ventas@dimotec.com.ar",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/dimotec.jpg' alt='Dimotec' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddi-blanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
@@ -172,7 +172,7 @@
         "direccion": "Francfort 1894",
         "contacto": "0351 726-4828 <br> hidromecanica@hidromecanicamedit.com.ar",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13624.587695111068!2d-64.1510127!3d-31.3825121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff32cb9cde2a9e!2sHidromecanica%20Mediterranea!5e0!3m2!1ses-419!2sar!4v1637342377037!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/mediterranea.JPG' alt='hidromecanica' class='rounded'>",
+        "img": "<img src='../img/contacto/distribuidores/mediterranea.jpg' alt='hidromecanica' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddi-blanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
@@ -273,13 +273,13 @@
         "id": "15"
     },
     {
-        "nombre": "PARANA MEDIO",
+        "nombre": "VALENTINUZ HNOS",
         "provincia": "ENTRE RIOS",
         "localidad": "PARANA",
-        "direccion": "Rosario del Tala 644",
-        "contacto": "0343154807130  <br> paranamedio@paranamediodist.com.ar",
-        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.380776770507!2d-60.51867073987837!3d-31.73280596829063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b452760ee9f03b%3A0x39a26e5b40d1ae2f!2sRosario%20del%20Tala%20644%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1637345025426!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/parana-medio.jpg' alt='parana-medio' class='rounded'>",
+        "direccion": "Av. Almafuerte 749",
+        "contacto": "0343 424-5148  <br> tecnica@valentinuzhnos.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13571.277070729137!2d-60.5082375!3d-31.7481338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc26da293283c6311!2sValentinuz%20Hnos.%20S.A.!5e0!3m2!1ses-419!2sar!4v1651368499209!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/valentinuz.jpg' alt='parana-medio' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddi-blanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
