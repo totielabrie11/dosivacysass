@@ -22,11 +22,27 @@
 
 ////////////////CARDS DISTRIBUIDOR/////////////////
 
+@media screen and (max-width: 484px) {
+    span.date {
+        margin: auto !important;
+        font-size: 20px !important;
+    }
+}
 
 @media screen and (max-width: 390px) {
     h2 {
         margin: auto !important;
         font-size: 20px !important;
+    }
+
+    span.date {
+        margin: auto !important;
+        font-size: 18px !important;
+    }
+
+    h4,
+    h5 {
+        font-size: 15px !important;
     }
 
     .card {
