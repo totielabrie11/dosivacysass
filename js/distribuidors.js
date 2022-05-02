@@ -113,3 +113,14 @@ $.ajax({
   };
 
 
+$("#btnVerDistribuidor").click( "click", function() {
+    
+  $('#distribuidoresInter').toggle().removeClass('d-none');
+
+});
+
+$("#distribuidoresInter, #btnModal").click( "click", function() {
+   
+  $('#distribuidoresInter').toggle().removeClass('d-none');
+
+});

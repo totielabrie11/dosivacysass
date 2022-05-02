@@ -694,5 +694,26 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Memorias</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>indeterminado</li><li>indeterminado</li><li>5</li><li>Riel DIM</li><li>380v-220v</li><li>Salida Rele cc</li></ul></div></div>",
         "id": "DIV1",
         "idRender": "renderDIVCar"
+    },
+    {
+        "linea": "CONTROL TOTAL",
+        "modelo": "CT-M",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>220v</li></ul></div></div>",
+        "id": "CONTROL1",
+        "idRender": "renderControlCard"
+    },
+    {
+        "linea": "CONTROL TOTAL",
+        "modelo": "CT-T",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>380v</li></ul></div></div>",
+        "id": "CONTROL2",
+        "idRender": "renderControlCard"
+    },
+    {
+        "linea": "CONTROL TOTAL",
+        "modelo": "CT-C",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>110v</li></ul></div></div>",
+        "id": "CONTROL3",
+        "idRender": "renderControlCard"
     }
 ]

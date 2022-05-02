@@ -22,6 +22,9 @@ textarea {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
+    body.oscuro & {
+        color:black;
+    } 
 }
 
 .contact-form input,
