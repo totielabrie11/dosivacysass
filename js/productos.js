@@ -203,12 +203,16 @@ function ShowSelected(){
         muestroProductosSoplante();
       break;
 
-      case 'vacio industrial':
-      muestroProductosVacioIndus();
+      case 'dosificadoras neumaticas':
+      muestroProductosNeumaticos();
       break;
 
       case 'Accesorios':
       muestroProductosAccesorios();
+      break;
+
+      case 'equipos especiales':
+      muestroProductosEspeciales();
       break;
      
       default:
@@ -218,34 +222,34 @@ function ShowSelected(){
 
 function muestroTodosLosProductos(){
 
-  $('*#Dos, *#Lab, *#Dos, *#Ind, *#Acc').removeClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
   
 }
 
 function muestroProductosRefrigeracion(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
-   $('*#Dos, *#Lab, *#Ind, #Acc').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp').addClass('novisible');
 }
 
 function muestroProductosLaboratorio(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Ind, #Acc').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').addClass('novisible');
 
 }
 
 function muestroProductosVacioIndustrial(){
 
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Lab, #Acc').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp').addClass('novisible');
    
 }
 
 function muestroProductosDosificacion(){
   
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind, #Acc').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp').addClass('novisible');
 
 }
 
@@ -256,6 +260,17 @@ function muestroProductosSoplante(){
 }
 
 function muestroProductosAccesorios(){
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind, *#Dos').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu').addClass('novisible');
+}
+
+function muestroProductosNeumaticos(){
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc').addClass('novisible');
+  
+}
+
+function muestroProductosEspeciales(){
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc').addClass('novisible');
 }

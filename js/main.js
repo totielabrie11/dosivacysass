@@ -131,3 +131,15 @@ window.addEventListener('load', ()=> {
           
     }
 })
+
+$("#btnMostrarContactos").click( "click", function() {
+    
+  $('#contactoContainer').toggle().removeClass('d-none');
+
+});
+
+$("#BtnModalDeContacto").click( "click", function() {
+   
+  $('#contactoContainer').toggle().removeClass('d-none');
+
+});

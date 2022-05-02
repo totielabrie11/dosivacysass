@@ -94,3 +94,29 @@ textarea {
 .tito {
     background-color: #f44336;
 }
+
+.contactoContainer{
+    width: 80%;
+    background-color: grey;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.contactoContainer .btnModal {
+    width: 35px;
+    position:static;
+    left: 20px;
+    border-radius: 50%;
+    background-color: #1155e9;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
