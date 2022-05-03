@@ -18,7 +18,8 @@ html {
 html body.claro {
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
-  background-image: url(https://static6.depositphotos.com/1005574/664/v/450/depositphotos_6644153-stock-illustration-abstract-background.jpg);
+  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
+  background-size: 100%;
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
@@ -27,7 +28,7 @@ html body.claro {
 html body.oscuro {
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
-  background-image: url(https://st.depositphotos.com/1012885/4990/i/450/depositphotos_49900577-stock-photo-large-grunge-textures-backgrounds.jpg);
+  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
@@ -521,6 +522,7 @@ a span {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: auto;
 }
 
 .containerP {
@@ -528,6 +530,11 @@ a span {
   height: 500px;
   margin: 30px auto;
   margin-right: 45px;
+  margin: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .cardP {

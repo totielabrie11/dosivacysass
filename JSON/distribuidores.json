@@ -242,7 +242,7 @@
         "direccion": "Gral. Paz 154",
         "contacto": "02942 69-1487 <br> andrea@ingesur-cr.com.ar",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10664.748787197004!2d-70.27430273145687!3d-37.37448648214312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x937c45e9db0ed1fb!2sINGESUR%20SRL!5e0!3m2!1ses-419!2sar!4v1651364395313!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
-        "img": "",
+        "img": "<img src='../img/contacto/distribuidores/ingesur.JPG' alt='servibom' class='rounded'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.JPG' width='95%' alt='dosificacion' class='rounded'></abbr>",
