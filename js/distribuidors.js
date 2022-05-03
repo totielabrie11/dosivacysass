@@ -124,3 +124,4 @@ $("#distribuidoresInter, #btnModal").click( "click", function() {
   $('#distribuidoresInter').toggle().removeClass('d-none');
 
 });
+
