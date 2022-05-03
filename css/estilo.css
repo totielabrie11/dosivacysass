@@ -57,7 +57,7 @@ body.oscuro nav {
 }
 
 body.oscuro nav #hamburguesita {
-  background-color: #3b58fb;
+  background-color: white;
 }
 
 nav .switchContainer {
@@ -861,13 +861,14 @@ a span {
   position: static;
   left: 20px;
   border-radius: 50%;
-  background-color: #1155e9;
+  background-color: #242424;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   margin: auto;
   margin-top: 20px;
+  color: white;
 }
 
 #caracterContainer {
@@ -1784,7 +1785,7 @@ body.oscuro .contact-form legend, body.oscuro
 }
 
 body.oscuro .contact-form input[type="submit"] {
-  background-color: #b5de1f;
+  background-color: var(--form-ok-color);
 }
 
 .contact-form *::-webkit-input-placeholder {
@@ -1882,13 +1883,14 @@ body.oscuro .contact-form input[type="submit"] {
   position: static;
   left: 20px;
   border-radius: 50%;
-  background-color: #1155e9;
+  background-color: #242424;
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   margin: auto;
   margin-top: 20px;
+  color: white;
 }
 
 .gallery {

@@ -35,7 +35,7 @@ textarea {
 
 .contact-form input[type="submit"] {
     body.oscuro & {
-        background-color: #b5de1f;
+        background-color: var(--form-ok-color);
 
     }
 
@@ -109,14 +109,15 @@ textarea {
 
 .contactoContainer .btnModal {
     width: 35px;
-    position:static;
-    left: 20px;
-    border-radius: 50%;
-    background-color: #1155e9;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-  }
+  position:static;
+  left: 20px;
+  border-radius: 50%;
+  background-color: #242424;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+} 
