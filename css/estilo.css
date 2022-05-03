@@ -1596,6 +1596,144 @@ div.rueda section {
      object-fit: cover;
 }
 
+.container3d {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 250px;
+  height: 250px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.carousel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.item {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 290px;
+  height: 250px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #FFF;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  -webkit-transform: rotateY(0deg) translateZ(250px);
+          transform: rotateY(0deg) translateZ(250px);
+  background: url(https://media-exp1.licdn.com/dms/image/C4E1BAQGIvyonAGxqQA/company-background_10000/0/1558025893109?e=2147483647&v=beta&t=Cjt11Sv4TY3N78nTE8jN5hq0W7HKlgD9_4FnFQ8IOK8);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.b {
+  -webkit-transform: rotateY(60deg) translateZ(250px);
+          transform: rotateY(60deg) translateZ(250px);
+  background: url(https://www.autycom.com/wp-content/uploads/2019/06/para-que-sirven-los-equipos-de-automatizacion-industrial.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.c {
+  -webkit-transform: rotateY(120deg) translateZ(250px);
+          transform: rotateY(120deg) translateZ(250px);
+  background: url(https://grupoacura.com/wp/wp-content/uploads/2021/04/sistemas-de-tratamiento-de-aguas-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.d {
+  -webkit-transform: rotateY(180deg) translateZ(250px);
+          transform: rotateY(180deg) translateZ(250px);
+  background: url(https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2017/12/aguas-grises.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.e {
+  -webkit-transform: rotateY(240deg) translateZ(250px);
+          transform: rotateY(240deg) translateZ(250px);
+  background: url(https://www.todofotovoltaica.com/wp-content/uploads/2021/01/image-5.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.f {
+  -webkit-transform: rotateY(300deg) translateZ(250px);
+          transform: rotateY(300deg) translateZ(250px);
+  background: url(https://lu17.com/wp-content/uploads/2016/01/petroleo2-e1585408145792.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.next, .prev {
+  color: #444;
+  position: absolute;
+  bottom: calc(0px - 60%);
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  -webkit-box-shadow: 0 5px 0 #999;
+          box-shadow: 0 5px 0 #999;
+  -webkit-transition: top 0.1s, -webkit-box-shadow 0.1s;
+  transition: top 0.1s, -webkit-box-shadow 0.1s;
+  transition: box-shadow 0.1s, top 0.1s;
+  transition: box-shadow 0.1s, top 0.1s, -webkit-box-shadow 0.1s;
+}
+
+.next:hover, .prev:hover {
+  color: #000;
+}
+
+.next:active, .prev:active {
+  bottom: calc(0px - 60%);
+  -webkit-box-shadow: 0 1px 0 #999;
+          box-shadow: 0 1px 0 #999;
+}
+
+.next {
+  right: 5em;
+}
+
+.prev {
+  left: 5em;
+}
+
 .hero h2 {
   display: -webkit-box;
   display: -ms-flexbox;
