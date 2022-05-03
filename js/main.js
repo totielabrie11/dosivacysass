@@ -41,8 +41,10 @@ window.addEventListener('load', ()=> {
       let container = document.getElementById('contenedorClima');
       let loader = document.getElementById('loader');
       console.log('entre al loader')
-      loader.style.display = 'none'; 
+      loader.style.display = 'none';
+      loader.style.visibility = 'hidden' 
       container.style.display = 'flex'; 
+      container.style.visibility = 'visible';
   }
 
     if(navigator.geolocation){

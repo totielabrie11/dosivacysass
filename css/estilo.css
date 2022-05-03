@@ -2009,9 +2009,8 @@ body.oscuro .contact-form input[type="submit"] {
 }
 
 #contenedorClima {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
+  visibility: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

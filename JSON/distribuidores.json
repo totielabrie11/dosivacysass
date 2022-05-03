@@ -13,8 +13,7 @@
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://airvac.it/wp-content/uploads/2017/04/ccb4e23c8aa216f1e96d31ab209c036b_XL.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
             "refrigeracion": "<abbr title='vende productos de refrigeracion'><img src='https://http2.mlstatic.com/D_NQ_NP_635631-MLA41329426745_042020-O.webp' width='100%' alt='dosificacion' class='rounded'></abbr>",
-            "petroleo": "<abbr title='vende productos para la industria petrolera'><img src='https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg' width='100%' alt='dosificacion' class='rounded'>",
-            "repuestos": "<abbr title='vende repuestos de nuestros productos'><img src='http://bombaspatalano.com.ar/wp-content/uploads/2017/10/fotos-10-11-repuestos-de-bombas.jpg' width='100%' alt='dosificacion' class='rounded'>"
+            "petroleo": "<abbr title='vende productos para la industria petrolera'><img src='https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg' width='100%' alt='dosificacion' class='rounded'>"
         },
         "id": "1"
     },
@@ -313,29 +312,53 @@
         "provincia": "SALTA",
         "localidad": "SALTA",
         "direccion": "Av. José de Artigas 200",
+        "contacto": "0387 431-4625",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5121.7372054909765!2d-65.39613225274566!3d-24.808629748996132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8f017053197ddb7!2sIngeniero%20Ramon%20Russo!5e0!3m2!1ses-419!2sar!4v1637347023062!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/ing-ramonr.jpg' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacion": "D",
-            "vacio": "V",
-            "soplador": "S",
-            "refrigeracion": "R"
+            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://airvac.it/wp-content/uploads/2017/04/ccb4e23c8aa216f1e96d31ab209c036b_XL.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "",
+            "petroleo": ""
         },
         "id": "17"
     },
     {
-        "nombre": "GOMEZ ROCO",
-        "provincia": "JUJUY",
+        "nombre": "GOMEZ ROCCO",
+        "provincia": "SALTA-JUJUY",
         "localidad": "San Salvador",
-        "direccion": "Av. Almte. Brown 833",
-        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d909.8090743832349!2d-65.28701863372957!3d-24.198502412104727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9346a768cb28eed!2sGomez%20Roco!5e0!3m2!1ses-419!2sar!4v1637346417289!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
-        "img": "<img src='../img/contacto/distribuidores/gomez-roco.jpg' alt='Dimotec' class='rounded'>",
+        "direccion": "Av. Monseñor Tavella 4100",
+        "contacto": "0387 15-685-3999 <br> administracion@gomezroco.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5121.048152982325!2d-65.42362539841214!3d-24.82530015927873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d459713ed8223db!2sGomez%20Roco!5e0!3m2!1ses-419!2sar!4v1651538295962!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/gomezr.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacion": "D",
-            "vacio": "V",
-            "soplador": "S",
-            "refrigeracion": "R"
+            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://airvac.it/wp-content/uploads/2017/04/ccb4e23c8aa216f1e96d31ab209c036b_XL.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "<abbr title='vende productos de refrigeracion'><img src='https://http2.mlstatic.com/D_NQ_NP_635631-MLA41329426745_042020-O.webp' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "petroleo": ""
         },
         "id": "18"
+    },
+    {
+        "nombre": "DOSISUR",
+        "provincia": "NEUQUEN",
+        "localidad": "",
+        "direccion": "Mar del Plata 675",
+        "contacto": "0299 441-3800 <br> ventas@dosisur.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12409.33398874422!2d-68.1141502!3d-38.9620523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fec2a4eda780a43!2sDosisur%20SRL!5e0!3m2!1ses-419!2sar!4v1651539107305!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/dosisur.JPG' alt='Dimotec' class='rounded'>",
+        "tipo": {
+            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://airvac.it/wp-content/uploads/2017/04/ccb4e23c8aa216f1e96d31ab209c036b_XL.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "<abbr title='vende productos de refrigeracion'><img src='https://http2.mlstatic.com/D_NQ_NP_635631-MLA41329426745_042020-O.webp' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "petroleo": "<abbr title='vende productos para la industria petrolera'><img src='https://www.foronuclear.org/wp-content/uploads/2010/06/petroleo.jpg' width='100%' alt='dosificacion' class='rounded'>"
+        },
+        "id": "19"
     }
 ]
