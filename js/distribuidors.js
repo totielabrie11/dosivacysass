@@ -125,3 +125,4 @@ $("#distribuidoresInter, #btnModal").click( "click", function() {
 
 });
 
+const mapaArgentina = "https://www.google.com/maps/d/edit?mid=1ZlFqlHdx5DpSJai-rMa4mCcQKaIn8zpf&ll=-37.123093732887604%2C-72.7200054851399&z=4"
