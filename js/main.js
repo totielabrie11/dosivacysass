@@ -72,7 +72,7 @@ window.addEventListener('load', ()=> {
                 //console.log(data.weather[0].description)
                 let desc = data.weather[0].description
                 temperaturaDescripcion.textContent = desc.toUpperCase()
-                ubicacion.textContent = data.name
+                ubicacion.textContent = data.name 
                 
                 vientoVelocidad.textContent = `${data.wind.speed} m/s`
                 
@@ -83,6 +83,7 @@ window.addEventListener('load', ()=> {
 
                 //para iconos dinámicos
                 console.log(data.weather[0].main)
+                
                 switch (data.weather[0].main) {
                     case 'Thunderstorm':
                       iconoAnimado.src='animated/thunder.svg'
@@ -106,10 +107,9 @@ window.addEventListener('load', ()=> {
                       break;                        
                     case 'Clear':
                       let hoy = new Date() 
-                      let hora = hoy.getHours()
-                      console.log(hora)
+                      hora = hoy.getHours()
 
-                      if (hora <= 18) {
+                      if ((hora <= 18) && (hora >= 6)) {
                         iconoAnimado.src='animated/day.svg'
                         console.log('LIMPIO');
                       }else{
@@ -128,7 +128,13 @@ window.addEventListener('load', ()=> {
                         iconoAnimado.src='animated/cloudy-day-1.svg'
                         console.log('NUBES');
                         cleanUp();
-                        break;  
+                        break;
+                    case 'Mist':
+                      iconoAnimado.src='animated/icons8-mist-64.png'
+                      console.log('NEBLINA');
+                      cleanUp();
+                      break;     
+
                     default:
                       iconoAnimado.src='animated/cloudy-day-1.svg'
                       console.log('por defecto');
@@ -143,7 +149,7 @@ window.addEventListener('load', ()=> {
           
     }
 })
-
+//////////////////////BTN DE CONTACTO//////////////////////
 $("#btnMostrarContactos").click( "click", function() {
     
   $('#contactoContainer').toggle().removeClass('d-none');
