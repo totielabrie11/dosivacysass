@@ -171,7 +171,8 @@ function filterCaracteristicas( producto ){
   }
 
 };
-muestroTodosLosProductos()
+
+
 function ShowSelected(){
 
   const contenido = document.getElementById("productsSelector");
@@ -219,6 +220,7 @@ function ShowSelected(){
        break;
    }
 }
+noMuestroProdcuto();
 
 function muestroTodosLosProductos(){
 
@@ -273,4 +275,8 @@ function muestroProductosNeumaticos(){
 function muestroProductosEspeciales(){
   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc').addClass('novisible');
+}
+
+function noMuestroProdcuto(){
+  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp').addClass('novisible');
 }

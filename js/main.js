@@ -64,9 +64,9 @@ window.addEventListener('load', ()=> {
             .then( response => { return response.json()})
             .then( data => {
                 //console.log(data)
-                
+                console.log(data.main)
                 let temp = Math.round(data.main.temp)
-                //console.log(temp)
+                console.log(temp)
                 temperaturaValor.textContent = `${temp} ° C`
 
                 //console.log(data.weather[0].description)
@@ -105,8 +105,18 @@ window.addEventListener('load', ()=> {
                         cleanUp();
                       break;                        
                     case 'Clear':
+                      let hoy = new Date() 
+                      let hora = hoy.getHours()
+                      console.log(hora)
+
+                      if (hora <= 18) {
                         iconoAnimado.src='animated/day.svg'
                         console.log('LIMPIO');
+                      }else{
+                        iconoAnimado.src='animated/night.svg'
+                        console.log('LIMPIO, DE NOCHE')
+                      }
+                        
                         cleanUp();
                       break;
                     case 'Atmosphere':
