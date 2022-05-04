@@ -1,4 +1,5 @@
-//CIERTTO TODO LOS , .modalDesc//
+////////////////////////////CONTROLADOR DE MODAL DESCRIPCTION//////////////////////////
+//Cierro todos los .modalDesc//
 $('.modalDesc').hide();
 
 
@@ -172,6 +173,7 @@ function filterCaracteristicas( producto ){
 
 };
 
+///////////////////ABRIR PRODUCTOS CON EL SELECT////////////////////////
 
 function ShowSelected(){
 
@@ -200,6 +202,10 @@ function ShowSelected(){
         muestroProductosDosificacion();
        break;
 
+      case 'bombas de energías sustentable':
+        muestroProductosSustentables();
+       break;
+
       case 'Transporte Neumatico':
         muestroProductosSoplante();
       break;
@@ -223,60 +229,72 @@ function ShowSelected(){
 noMuestroProdcuto();
 
 function muestroTodosLosProductos(){
-
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
   
 }
 
 function muestroProductosRefrigeracion(){
-
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible');
 }
 
 function muestroProductosLaboratorio(){
-
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible');
 
 }
 
 function muestroProductosVacioIndustrial(){
-
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno').addClass('novisible');
    
 }
 
 function muestroProductosDosificacion(){
-  
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno').addClass('novisible');
 
 }
 
 function muestroProductosSoplante(){
-
+  $('#productoPorCategory').addClass('d-none')
   console.log('estoy mostrando todos los productos de de sopladores')
 
 }
 
 function muestroProductosAccesorios(){
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu, *#Reno').addClass('novisible');
 }
 
 function muestroProductosNeumaticos(){
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc, *#Reno').addClass('novisible');
   
 }
 
 function muestroProductosEspeciales(){
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp').removeClass('novisible');
-  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc').addClass('novisible');
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno').addClass('novisible');
 }
 
-function noMuestroProdcuto(){
-  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp').addClass('novisible');
+function muestroProductosSustentables(){
+  $('#productoPorCategory').addClass('d-none')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp').addClass('novisible');
+   
 }
+
+
+function noMuestroProdcuto(){
+  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp, *#Reno').addClass('novisible');
+}
+
+///////////////////////////ABRIR PRODUCTOS CON EL BTN///////////////////////////

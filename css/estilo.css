@@ -882,6 +882,38 @@ a span {
   font-size: 14px;
 }
 
+.productoPorCategory .containerP {
+  width: 280px;
+  height: 500px;
+  margin: 20px auto;
+  margin-right: 45px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.productoPorCategory .containerP:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+
+.productoPorCategory .cardP {
+  border-radius: 25px;
+  -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.productoPorCategory .card {
+  background-color: #11e95b;
+}
+
+.productoPorCategory .cardP-body {
+  max-height: 100px;
+}
+
 .ocultar__form {
   display: none;
 }

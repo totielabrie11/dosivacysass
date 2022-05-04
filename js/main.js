@@ -116,9 +116,8 @@ window.addEventListener('load', ()=> {
                         iconoAnimado.src='animated/night.svg'
                         console.log('LIMPIO, DE NOCHE')
                       }
-                        
                         cleanUp();
-                      break;
+                        break;
                     case 'Atmosphere':
                       iconoAnimado.src='animated/weather.svg'
                         console.log('ATMOSFERA');
@@ -130,10 +129,16 @@ window.addEventListener('load', ()=> {
                         cleanUp();
                         break;
                     case 'Mist':
-                      iconoAnimado.src='animated/icons8-mist-64.png'
-                      console.log('NEBLINA');
-                      cleanUp();
-                      break;     
+                        iconoAnimado.src='animated/icons8-mist-64.png'
+                        console.log('NEBLINA');
+                        cleanUp();
+                        break;
+                        
+                    case 'Fog':
+                        iconoAnimado.src='animated/icons8-mist-64.png'
+                        console.log('NEBLINA DENSA');
+                        cleanUp();
+                        break;
 
                     default:
                       iconoAnimado.src='animated/cloudy-day-1.svg'

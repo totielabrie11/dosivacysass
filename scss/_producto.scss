@@ -367,3 +367,32 @@
 #caracterContainer {
   font-size: 14px;
 }
+
+.productoPorCategory{
+  .containerP {
+    width: 280px;
+    height: 500px;
+    margin: 20px auto;
+    margin-right: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
+    &:hover  {
+        transform: scale(1.1);
+        transition: all 1s ease-out;
+        cursor: pointer;
+      }
+    }
+  
+  
+  .cardP {
+    border-radius: 25px;
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  .card{
+    background-color: #11e95b;
+  }
+  .cardP-body{
+    max-height: 100px;
+  }
+}
