@@ -157,4 +157,20 @@
         margin-bottom: 20px !important;
         margin-top: 20px !important;
     }
+
+    //////////MQ DE CAROUSEL///////
+    .container3d {
+        width: 150px;
+        height: 150px;
+
+        .item {
+            width: calc(290px - 25%);
+            height: calc(250px - 25%);
+        }
+    }
+
+    .prev,
+    .next {
+        display: none;
+    }
 }

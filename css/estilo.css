@@ -505,6 +505,18 @@ a span {
     margin-bottom: 20px !important;
     margin-top: 20px !important;
   }
+  .container3d {
+    width: 150px;
+    height: 150px;
+  }
+  .container3d .item {
+    width: calc(290px - 25%);
+    height: calc(250px - 25%);
+  }
+  .prev,
+  .next {
+    display: none;
+  }
 }
 
 .novisible {
@@ -1671,8 +1683,8 @@ div.rueda section {
   width: 250px;
   height: 250px;
   position: relative;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  -webkit-perspective: 1600px;
+          perspective: 1600px;
 }
 
 .carousel {
@@ -1691,8 +1703,8 @@ div.rueda section {
   display: block;
   position: absolute;
   background: #000;
-  width: 290px;
-  height: 250px;
+  width: calc(290px - 10%);
+  height: calc(250px - 10%);
   line-height: 200px;
   font-size: 5em;
   text-align: center;
@@ -1761,7 +1773,8 @@ div.rueda section {
   background-size: cover;
 }
 
-.next, .prev {
+.next,
+.prev {
   color: #444;
   position: absolute;
   bottom: calc(0px - 60%);
@@ -1778,11 +1791,13 @@ div.rueda section {
   transition: box-shadow 0.1s, top 0.1s, -webkit-box-shadow 0.1s;
 }
 
-.next:hover, .prev:hover {
+.next:hover,
+.prev:hover {
   color: #000;
 }
 
-.next:active, .prev:active {
+.next:active,
+.prev:active {
   bottom: calc(0px - 60%);
   -webkit-box-shadow: 0 1px 0 #999;
           box-shadow: 0 1px 0 #999;

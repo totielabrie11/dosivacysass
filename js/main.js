@@ -174,6 +174,8 @@ var carousel = $(".carousel"),
 $(".next").on("click", { d: "n" }, rotate);
 $(".prev").on("click", { d: "p" }, rotate);
 
+$('.carousel').on("click", {d: "n"}, rotate)
+
 function rotate(e){
   if(e.data.d=="n"){
     currdeg = currdeg - 60;
