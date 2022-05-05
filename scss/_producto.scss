@@ -31,9 +31,12 @@
 }
 
 .cardP-head {
-  h2, h3 {
+
+  h2,
+  h3 {
     font-size: 20px;
   }
+
   position: relative;
   height: 252px;
   background: #fa782e;
@@ -346,15 +349,22 @@
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
+
+  box-shadow: 4px 4px 0px (rgb(30, 30, 30));
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(0deg) translate(4px, 4px) scale(1);
+    box-shadow: 0px 0px 0px
+  }
 }
 
 .distribuidoresInter .btnModal {
   width: 35px;
-  position:static;
+  position: static;
   left: 20px;
   border-radius: 50%;
   background-color: #242424;
-  color: #000;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
@@ -362,13 +372,20 @@
   margin-top: 20px;
   color: white;
 
+  box-shadow: 4px 4px 0px (rgb(24, 24, 24));
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(0deg) translate(4px, 4px) scale(1);
+    box-shadow: 0px 0px 0px
+  }
 }
 
 #caracterContainer {
   font-size: 14px;
 }
 
-.productoPorCategory{
+.productoPorCategory {
   .containerP {
     width: 280px;
     height: 500px;
@@ -376,23 +393,33 @@
     margin-right: 45px;
     margin-left: 30px;
     margin-right: 30px;
-    &:hover  {
-        transform: scale(1.1);
-        transition: all 1s ease-out;
-        cursor: pointer;
-      }
+
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: rotate(0deg) translate(4px, 4px) scale(1);
+
     }
-  
-  
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 0px;
+      cursor: pointer;
+    }
+  }
+
+
   .cardP {
     border-radius: 25px;
     box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
     position: relative;
   }
-  .card{
+
+  .card {
     background-color: #11e95b;
   }
-  .cardP-body{
+
+  .cardP-body {
     max-height: 100px;
   }
 }

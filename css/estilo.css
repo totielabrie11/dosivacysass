@@ -557,7 +557,8 @@ a span {
   border-radius: 25px 25px 0 0;
 }
 
-.cardP-head h2, .cardP-head h3 {
+.cardP-head h2,
+.cardP-head h3 {
   font-size: 20px;
 }
 
@@ -861,6 +862,17 @@ a span {
   color: #000;
   text-transform: uppercase;
   font-weight: bold;
+  -webkit-box-shadow: 4px 4px 0px #1e1e1e;
+          box-shadow: 4px 4px 0px #1e1e1e;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btnModal:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
 }
 
 .distribuidoresInter .btnModal {
@@ -869,13 +881,23 @@ a span {
   left: 20px;
   border-radius: 50%;
   background-color: #242424;
-  color: #000;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   margin: auto;
   margin-top: 20px;
   color: white;
+  -webkit-box-shadow: 4px 4px 0px #181818;
+          box-shadow: 4px 4px 0px #181818;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.distribuidoresInter .btnModal:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
 }
 
 #caracterContainer {
@@ -889,13 +911,20 @@ a span {
   margin-right: 45px;
   margin-left: 30px;
   margin-right: 30px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.productoPorCategory .containerP:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
 }
 
 .productoPorCategory .containerP:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
   cursor: pointer;
 }
 
@@ -2055,13 +2084,23 @@ body.oscuro .contact-form input[type="submit"] {
   left: 20px;
   border-radius: 50%;
   background-color: #242424;
-  color: #000;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   margin: auto;
   margin-top: 20px;
   color: white;
+  -webkit-box-shadow: 4px 4px 0px #181818;
+          box-shadow: 4px 4px 0px #181818;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contactoContainer .btnModal:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
 }
 
 .gallery {

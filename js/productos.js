@@ -268,6 +268,7 @@ function muestroProductosSoplante(){
 }
 
 function muestroProductosAccesorios(){
+  $('#productoPorCategory').addClass('d-none')
   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
    $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu, *#Reno').addClass('novisible');
 }
