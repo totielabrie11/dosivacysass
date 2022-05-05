@@ -166,19 +166,25 @@
   </div>
 <div class="hero" class="d-flex">
   <h2>Productos</h2>
-  <select name="products" id="productsSelector" class="d-flex text-center p-2 my-4 btn-danger w-50" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
-    <option value="todos">Todos Nuestros Productos</option>
-    <option value="vacio">Vacío en Refrigeracion</option>
-    <option value="vacio">Vacío en Laboratorio</option>
-    <option value="vacio">Vacío Industrial</option>
-    <option value="dosificacion">Dosificacion</option>
-    <option value="dosificacion">dosificadoras neumaticas</option>
-    <option value="dosificacion">bombas de energías sustentable</option>
-    <option value="soplante">Transporte Neumatico</option>
-    <option value="accesorios">Accesorios</option>
-    <option value="equipos">equipos especiales</option>
-  </select>
+  <div class="d-flex align-items-center justify-content-center flex-wrap">
+    <div class="btn btn-dark d-none" id="btn-volver">Volver al selector</div>
+    <select name="products" id="productsSelector" class="d-flex text-center p-2 my-4 btn-danger w-50" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
+      <option value="todos">Todos Nuestros Productos</option>
+      <option value="vacio">Vacío en Refrigeracion</option>
+      <option value="vacio">Vacío en Laboratorio</option>
+      <option value="vacio">Vacío Industrial</option>
+      <option value="dosificacion">Dosificacion</option>
+      <option value="dosificacion">dosificadoras neumaticas</option>
+      <option value="dosificacion">bombas de energías sustentable</option>
+      <option value="soplante">Transporte Neumatico</option>
+      <option value="accesorios">Accesorios</option>
+      <option value="equipos">equipos especiales</option>
+    </select>
+  </div>
 </div>
+
+
+
 <!-- LISTA DE CATEGORIAS QUE CONTIENE LOS PRODUCTOS -->
 <section class="d-flex productoPorCategory" id="productoPorCategory">
   <div class="container__products">
@@ -2171,6 +2177,7 @@
       
     </div>
   </section>
+  <div class="btn btn-dark d-none" id="btn-volver">Volver al selector</div>
 </main>
 
 <footer>
