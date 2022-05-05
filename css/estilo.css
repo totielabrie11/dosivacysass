@@ -887,6 +887,29 @@ a span {
           box-shadow: 0px 0px 0px;
 }
 
+#btn-volver {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+  color: #000;
+  -webkit-box-shadow: 4px 4px 0px #1e1e1e;
+          box-shadow: 4px 4px 0px #1e1e1e;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#btn-volver:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
+}
+
+body.oscuro #btn-volver {
+  background-color: black;
+  color: white;
+}
+
 .distribuidoresInter .btnModal {
   width: 35px;
   position: static;

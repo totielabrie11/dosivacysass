@@ -359,6 +359,26 @@
   }
 }
 
+#btn-volver {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
+        color: #000;
+
+  box-shadow: 4px 4px 0px (rgb(30, 30, 30));
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: rotate(0deg) translate(4px, 4px) scale(1);
+    box-shadow: 0px 0px 0px
+  }
+  body.oscuro & {
+        background-color:black;
+        color: white;
+    }
+}
+
+
 .distribuidoresInter .btnModal {
   width: 35px;
   position: static;
@@ -417,8 +437,6 @@
       justify-content: center;
       text-align: center;
     
-     
-    
       h3 {
         font-size: 150%;
         margin-top: 90%;
@@ -442,3 +460,4 @@
     max-height: 100px;
   }
 }
+
