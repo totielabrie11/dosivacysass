@@ -330,15 +330,15 @@ function irArriba() {
   $('*#btn-volver').click(function(){
     $('body, html').animate({
       scrollTop: '65px'
-    }, 1000);
+    }, 600);
     console.log('estoy entrando en la funcion scroll')
   });
 
   $(window).scroll(function(){
     if( $(this).scrollTop() > 0 ){
-      $('#btn-volver').slideDown(1000);
+      $('#btn-volver').slideDown(600);
     } else {
-      $('').slideUp(1000);
+      $('').slideUp(600);
     }
   })
 };
