@@ -198,11 +198,11 @@ function ShowSelected(){
         muestroProductosVacioIndustrial();
        break;
 
-      case 'Dosificacion':
-        muestroProductosDosificacion();
+      case 'Dosificacion bombas electricas':
+        muestroProductosDosificacionElectrica();
        break;
 
-      case 'bombas de energías sustentable':
+      case 'Bombas de energías sustentable':
         muestroProductosSustentables();
        break;
 
@@ -210,7 +210,7 @@ function ShowSelected(){
         muestroProductosSoplante();
       break;
 
-      case 'dosificadoras neumaticas':
+      case 'Dosificacion bombas neumaticas':
       muestroProductosNeumaticos();
       break;
 
@@ -218,7 +218,7 @@ function ShowSelected(){
       muestroProductosAccesorios();
       break;
 
-      case 'equipos especiales':
+      case 'Equipos especiales':
       muestroProductosEspeciales();
       break;
      
@@ -257,10 +257,10 @@ function muestroProductosVacioIndustrial(){
    
 }
 
-function muestroProductosDosificacion(){
+function muestroProductosDosificacionElectrica(){
   $('#productoPorCategory').addClass('d-none')
   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno').addClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno, *#Neu').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
 }
