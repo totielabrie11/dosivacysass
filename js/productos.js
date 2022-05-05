@@ -232,6 +232,8 @@ function muestroTodosLosProductos(){
   $('#productoPorCategory').addClass('d-none')
   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
   $('*#btn-volver').removeClass('d-none')
+
+  
 }
 
 function muestroProductosRefrigeracion(){
@@ -239,6 +241,8 @@ function muestroProductosRefrigeracion(){
   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
    $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible');
    $('*#btn-volver').removeClass('d-none')
+
+  
 }
 
 function muestroProductosLaboratorio(){
@@ -247,6 +251,7 @@ function muestroProductosLaboratorio(){
    $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
+  
 }
 
 function muestroProductosVacioIndustrial(){
@@ -255,6 +260,7 @@ function muestroProductosVacioIndustrial(){
    $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
    
+  
 }
 
 function muestroProductosDosificacionElectrica(){
@@ -263,6 +269,7 @@ function muestroProductosDosificacionElectrica(){
    $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno, *#Neu').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
+
 }
 
 function muestroProductosSoplante(){
@@ -270,6 +277,8 @@ function muestroProductosSoplante(){
   console.log('estoy mostrando todos los productos de de sopladores')
 
   $('*#btn-volver').removeClass('d-none')
+
+  
 }
 
 function muestroProductosAccesorios(){
@@ -278,6 +287,8 @@ function muestroProductosAccesorios(){
    $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu, *#Reno').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
+
+  
 }
 
 function muestroProductosNeumaticos(){
@@ -286,6 +297,8 @@ function muestroProductosNeumaticos(){
    $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc, *#Reno').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
+
+   
   
 }
 
@@ -295,6 +308,9 @@ function muestroProductosEspeciales(){
   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno').addClass('novisible')
 
   $('*#btn-volver').removeClass('d-none')
+
+  
+
 }
 
 function muestroProductosSustentables(){
@@ -303,8 +319,7 @@ function muestroProductosSustentables(){
    $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
-   
-  
+
 }
 
 
@@ -327,18 +342,12 @@ $('*#btn-volver').on('click', function(){volverALista(), irArriba()})
 
 function irArriba() {
 
-  $('*#btn-volver').click(function(){
+  $('*#btn-volver').click(function () {
     $('body, html').animate({
-      scrollTop: '65px'
-    }, 600);
-    console.log('estoy entrando en la funcion scroll')
+      scrollTop: '320.55px'
+    }, 150);
+    console.log('estoy entrando en la funcion scroll');
   });
 
-  $(window).scroll(function(){
-    if( $(this).scrollTop() > 0 ){
-      $('#btn-volver').slideDown(600);
-    } else {
-      $('').slideUp(600);
-    }
-  })
-};
+
+}
