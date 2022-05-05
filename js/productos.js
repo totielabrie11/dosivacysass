@@ -319,4 +319,26 @@ function volverALista(){
 
 }
 ///////////////////////////BTN VOLVER A LISTA///////////////////////////
-$('*#btn-volver').on('click', function(){volverALista()})
+$('*#btn-volver').on('click', function(){volverALista(), irArriba()})
+
+
+
+///////////////CONTROL PARA IR A LA PARTE SUPERIOR DE LA PAGINA////////////////
+
+function irArriba() {
+
+  $('*#btn-volver').click(function(){
+    $('body, html').animate({
+      scrollTop: '65px'
+    }, 1000);
+    console.log('estoy entrando en la funcion scroll')
+  });
+
+  $(window).scroll(function(){
+    if( $(this).scrollTop() > 0 ){
+      $('#btn-volver').slideDown(1000);
+    } else {
+      $('').slideUp(1000);
+    }
+  })
+};
