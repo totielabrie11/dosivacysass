@@ -221,7 +221,11 @@ function ShowSelected(){
       case 'Equipos especiales':
       muestroProductosEspeciales();
       break;
-     
+
+      case 'Equipos SKID':
+        muestroProductosEquipos();
+        break;
+
       default:
        break;
    }
