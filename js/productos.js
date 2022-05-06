@@ -230,7 +230,7 @@ noMuestroProdcuto();
 
 function muestroTodosLosProductos(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible');
   $('*#btn-volver').removeClass('d-none')
 
   
@@ -238,8 +238,8 @@ function muestroTodosLosProductos(){
 
 function muestroProductosRefrigeracion(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible');
-   $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible');
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible');
+   $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').addClass('novisible');
    $('*#btn-volver').removeClass('d-none')
 
   
@@ -247,8 +247,8 @@ function muestroProductosRefrigeracion(){
 
 function muestroProductosLaboratorio(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
   
@@ -256,8 +256,8 @@ function muestroProductosLaboratorio(){
 
 function muestroProductosVacioIndustrial(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno, *#Equi').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
    
   
@@ -265,8 +265,8 @@ function muestroProductosVacioIndustrial(){
 
 function muestroProductosDosificacionElectrica(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno, *#Neu').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno, *#Neu, *#Equi').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
 
@@ -283,8 +283,8 @@ function muestroProductosSoplante(){
 
 function muestroProductosAccesorios(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu, *#Reno').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Neu, *#Reno, *#Equi').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
 
@@ -293,8 +293,8 @@ function muestroProductosAccesorios(){
 
 function muestroProductosNeumaticos(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc, *#Reno').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Esp, *#Acc, *#Reno, *#Equi').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
 
@@ -304,19 +304,25 @@ function muestroProductosNeumaticos(){
 
 function muestroProductosEspeciales(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno').addClass('novisible')
+   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno, *#Equi').addClass('novisible')
 
-  $('*#btn-volver').removeClass('d-none')
+   $('*#btn-volver').removeClass('d-none')
 
-  
+}
 
+function muestroProductosEquipos(){
+  $('#productoPorCategory').addClass('d-none')
+   $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno, *#Esp').addClass('novisible')
+
+   $('*#btn-volver').removeClass('d-none')
 }
 
 function muestroProductosSustentables(){
   $('#productoPorCategory').addClass('d-none')
-  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno').removeClass('novisible')
-   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp').addClass('novisible')
+  $('*#Dos, *#Lab, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi').removeClass('novisible')
+   $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp, *#Equi').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
 

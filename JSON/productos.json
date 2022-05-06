@@ -751,6 +751,15 @@
         "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
     },
     {
+        "linea": "DSV",
+        "modelo": "60",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "DSV1",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": ""
+    },
+    {
         "linea": "MDF",
         "modelo": "M5",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
@@ -822,5 +831,26 @@
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>110v</li></ul></div></div>",
         "id": "CONTROL3",
         "idRender": "renderControlCard"
+    },
+    {
+        "linea": "AQUALINE",
+        "modelo": "25 lts",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>25 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "id": "AQUALINE1",
+        "idRender": "renderAqualineCard"
+    },
+    {
+        "linea": "AQUALINE",
+        "modelo": "50 lts",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>50 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "id": "AQUALINE2",
+        "idRender": "renderAqualineCard"
+    },
+    {
+        "linea": "AQUALINE",
+        "modelo": "90 lts",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "id": "AQUALINE3",
+        "idRender": "renderAqualineCard"
     }
 ]
