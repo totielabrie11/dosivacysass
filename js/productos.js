@@ -194,7 +194,7 @@ function ShowSelected(){
         muestroProductosLaboratorio();
        break;
 
-      case "Vacío Industrial":
+      case "Vacío Industrial - Sopladores":
         muestroProductosVacioIndustrial();
        break;
 
@@ -344,7 +344,7 @@ function irArriba() {
 
   $('*#btn-volver').click(function () {
     $('body, html').animate({
-      scrollTop: '320.55px'
+      scrollTop: '312.55px'
     }, 150);
     console.log('estoy entrando en la funcion scroll');
   });

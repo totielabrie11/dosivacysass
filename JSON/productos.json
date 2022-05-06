@@ -644,6 +644,113 @@
         "linki": "https://www.instagram.com/p/CPiazqmB0MP/?utm_source=ig_web_copy_link"
     },
     {
+        "linea": "DS",
+        "modelo": "60",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA1",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "150",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>175 m/3</li><li>59 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA2",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "300",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>124 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA3",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "500",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>518 m/3</li><li>194 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA4",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "700",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>802 m/3</li><li>348 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA5",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "1000",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>400 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA6",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "1300",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1480 m/3</li><li>617 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA7",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "1800",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1910 m/3</li><li>799 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA8",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "2800",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3062 m/3</li><li>1021 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA9",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "4500",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4782 m/3</li><li>1663 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA10",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
+        "linea": "DS",
+        "modelo": "6200",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6450 m/3</li><li>1850 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA11",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },{
+        "linea": "DS",
+        "modelo": "9000",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3536 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>" ,
+        "id": "SOPLA12",
+        "idRender": "renderSopCard",
+        "instagram": "../img/redes/instagram-removebg-preview.png",
+        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
+    },
+    {
         "linea": "MDF",
         "modelo": "M5",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
