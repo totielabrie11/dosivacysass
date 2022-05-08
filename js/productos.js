@@ -361,3 +361,9 @@ function irArriba() {
 
 
 }
+
+$('*.cardP').on('click', function()
+  {
+    irArriba();
+    console.log('estoy haciendo algo')
+  })
