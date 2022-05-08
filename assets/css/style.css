@@ -16,14 +16,24 @@
 
 * {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
+}
+
+html {
+
+	max-width: 100% !important;
+	overflow-x: hidden !important;
 }
 
 body {
 	background: #fff;
 	margin: 0;
 	color: #5a5a5a;
+	width: 100%;
+
 }
 
 h1,
@@ -390,4 +400,47 @@ input {
 #c p {
 	color: white;
 	font-size: 13px;
+}
+
+/* ////////////////////////MEDIA QUERY///////////////////// */
+@media screen and (max-width: 810px) {
+
+	h1 {
+		margin: none !important;
+		max-height: 100px;
+		display: block !important;
+		position: absolute;
+		top: 330px;
+	}
+
+	h3 {
+		margin: none !important;
+		position: absolute;
+		top: 400px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 150% !important;
+		height: 200px !important;
+
+	}
+
+	button {
+		width: 60% !important;
+		margin-bottom: 20px !important;
+		margin: auto;
+		flex-wrap: wrap;
+		display: block !important;
+		font-size: 70% !important;
+	}
+
+	input {
+		width: 100% !important;
+	}
+
 }
