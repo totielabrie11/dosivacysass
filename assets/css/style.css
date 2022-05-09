@@ -250,16 +250,19 @@ input {
 }
 
 .fondo1 {
-	background: url(https://erenovable.com//wp-content/uploads/2019/10/como-cuidar-el-medio-ambiente-istock-600x303.jpg) no-repeat center top;
+	background: url(https://erenovable.com//wp-content/uploads/2019/10/como-cuidar-el-medio-ambiente-istock-600x303.jpg) center top;
+	background-repeat: no-repeat;
 }
 
 .fondo2 {
-	background: url(https://bonmarche.in/wp-content/uploads/2020/08/wooden-block-with-mission-massage-wood-table-background_1627-2977.jpg) no-repeat center top;
+	background: url(https://bonmarche.in/wp-content/uploads/2020/08/wooden-block-with-mission-massage-wood-table-background_1627-2977.jpg) center top;
+	background-repeat: no-repeat;
 
 }
 
 .fondo3 {
-	background: url(https://365psd.com/images/istock/previews/8666/86668571-abstract-future-technology-vision-design-innovation-concept-background.jpg) no-repeat center top;
+	background: url(https://365psd.com/images/istock/previews/8666/86668571-abstract-future-technology-vision-design-innovation-concept-background.jpg) center top;
+	background-repeat: no-repeat;
 }
 
 #h h1 {
@@ -419,16 +422,17 @@ input {
 		top: 400px;
 	}
 
+
+
 	h1,
 	h2,
 	h3,
 	h4,
 	h5,
-	h6 {
+	h6 span {
 		font-size: 150% !important;
-		height: 200px !important;
-
 	}
+
 
 	button {
 		width: 60% !important;
@@ -443,4 +447,15 @@ input {
 		width: 100% !important;
 	}
 
+	.fondo1,
+	.fondo2,
+	.fondo3 {
+		background-size: 100% !important;
+		background-repeat: repeat !important;
+	}
+
+	.foto-position {
+		position: absolute;
+		top: 250px;
+	}
 }
