@@ -887,7 +887,7 @@ a span {
           box-shadow: 0px 0px 0px;
 }
 
-#btn-volver {
+.btn-efect {
   text-transform: uppercase;
   font-weight: bold;
   background-color: white;
@@ -898,14 +898,14 @@ a span {
   transition: all 0.2s ease;
 }
 
-#btn-volver:hover {
+.btn-efect:hover {
   -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
           transform: rotate(0deg) translate(4px, 4px) scale(1);
   -webkit-box-shadow: 0px 0px 0px;
           box-shadow: 0px 0px 0px;
 }
 
-body.oscuro #btn-volver {
+body.oscuro .btn-efect {
   background-color: black;
   color: white;
 }
@@ -1445,19 +1445,19 @@ h5 {
 }
 
 .card:nth-child(16) .card-footer {
-  background: #c2c2c2;
+  background: #09cca2;
 }
 
 .card:nth-child(16) .date {
-  color: #c2c2c2;
+  color: #09cca2;
 }
 
 .card:nth-child(17) .card-footer {
-  background: #ff0c71;
+  background: #75f122;
 }
 
 .card:nth-child(17) .date {
-  color: #ff0c71;
+  color: #75f122;
 }
 
 .card:nth-child(18) .card-footer {
@@ -1484,12 +1484,44 @@ h5 {
   color: #ccbf09;
 }
 
-.card:nth-child(21) .card-footer {
+.card:nth-child(23) .card-footer {
   background: #c2c2c2;
 }
 
 .card:nth-child(21) .date {
   color: #c2c2c2;
+}
+
+.card:nth-child(22) .card-footer {
+  background: #ff0c71;
+}
+
+.card:nth-child(22) .date {
+  color: #ff0c71;
+}
+
+.card:nth-child(23) .card-footer {
+  background: #ff510c;
+}
+
+.card:nth-child(23) .date {
+  color: #ff510c;
+}
+
+.card:nth-child(24) .card-footer {
+  background: #03b43e;
+}
+
+.card:nth-child(24) .date {
+  color: #03b43e;
+}
+
+.card:nth-child(25) .card-footer {
+  background: #fff126;
+}
+
+.card:nth-child(25) .date {
+  color: #fff126;
 }
 
 .leyenda {

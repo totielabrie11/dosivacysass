@@ -334,7 +334,7 @@ function muestroProductosSustentables(){
 
 
 function noMuestroProdcuto(){
-  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp, *#Reno').addClass('novisible')
+  $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Esp, *#Reno, *#Equi').addClass('novisible')
 }
 
 function volverALista(){
