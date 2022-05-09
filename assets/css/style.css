@@ -34,6 +34,7 @@ body {
 	color: #5a5a5a;
 	width: 100%;
 
+
 }
 
 h1,
@@ -455,7 +456,14 @@ input {
 	}
 
 	.foto-position {
+
 		position: absolute;
 		top: 250px;
 	}
+
+	.foto-sustentable {
+		width: 60%;
+		margin-left: 20%;
+	}
+
 }
