@@ -90,16 +90,15 @@
   <div class="hero">
     <h2>DISTRIBUIDORES</h2>
   </div>
-  <div class="d-flex text-center justify-content-center align-items-center flex-wrap mb-4">
-    <div class="d-flex p-2 my-4 text-center justify-content-center align-item-center w-50">
-        <input type="search" id="search limpiar" placeholder="buscar distribuidor local" class="input float-start mt-2 p-1 w-100">
-        <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2"> 
-    </div>
-  </div>
-  <div>
-    <button class="btn btn-dark p-2 my-4 text-center btn-efect" id="btnVerDistribuidor">VER DISTRIBUIDORES COMERCIO INTERNACIONAL</button>
-  </div>
+  <div class="d-flex align-item-center justify-content-around flex-wrap">
+    <div class="card mb-4"><img src="https://www.etapainfantil.com/wp-content/uploads/2021/06/Mapa-politico-Argentina.jpg" width="60%" alt=""></div>
+    <div class="card nb-4"><img src="https://www.seekpng.com/png/small/8-80491_mapa-de-america-png-world-map.png" alt=""></div>
+  </div>  
+  
   <div class="distribuidoresInter d-none" id="distribuidoresInter">
+    <div>
+      <button class="btn btn-dark p-2 my-4 text-center btn-efect" id="btnVerDistribuidor">VER DISTRIBUIDORES COMERCIO INTERNACIONAL</button>
+    </div>
     <div class="container">
       <table class="fl-table">
         <thead>
@@ -229,7 +228,13 @@
     </div>
   </div>
 
-  <section>
+  <section class="d-none">
+    <div class="d-flex text-center justify-content-center align-items-center flex-wrap mb-4">
+      <div class="d-flex p-2 my-4 text-center justify-content-center align-item-center w-50">
+          <input type="search" id="search limpiar" placeholder="buscar distribuidor local" class="input float-start mt-2 p-1 w-100">
+          <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2"> 
+      </div>
+    </div>
     <div class="card-list" id="distribuidores">
     
     </div>
@@ -330,7 +335,8 @@
   </div>
   
 </footer>
-        <script src="../node_modules/jquery/dist/jquery.js"></script>
+          <script src="../node_modules/jquery/dist/jquery.js"></script>
+        <script src="https://www.ign.gob.ar/argenmap2/argenmap.jquery.min.js"></script>
       <script src="../js/distribuidors.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
