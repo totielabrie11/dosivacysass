@@ -1254,7 +1254,7 @@ body.oscuro .notifyCuantity {
 .card-image {
   display: block;
   position: relative;
-  height: 400px;
+  height: 200px;
   min-width: 100%;
 }
 
@@ -1265,7 +1265,8 @@ body.oscuro .notifyCuantity {
 }
 
 .card-body {
-  padding: 20px 28px;
+  padding: 10px 14px;
+  height: 150px;
 }
 
 .card-body .date {
