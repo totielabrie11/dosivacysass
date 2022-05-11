@@ -17,7 +17,30 @@ function contactFormValidations(){
     let $select = $inputs[4]
 
     $select.addEventListener("change", ()=>{
-        console.log($select.value)
+        const mailSelector = $select.value
+        console.log("🚀 ~ file: form.js ~ line 23 ~ $select.addEventListener ~ mailSelector", mailSelector)
+        
+        if (mailSelector == "reparaciones") {
+            $form.setAttribute('action', 'https://formsubmit.co/repuestos@dosivac.com')
+            console.log('estoy modificando repuestos')
+            console.log($form.action)
+        }
+        if (mailSelector == "cotizaciones") {
+            $form.setAttribute('action', 'https://formsubmit.co/cotizaciones@dosivac.com')
+            console.log('estoy modificando cotizaciones')
+            console.log($form.action)
+        }
+        if (mailSelector == "dosificacion") {
+            $form.setAttribute('action', 'https://formsubmit.co/bombas@dosivac.com')
+            console.log('estoy modificando bombas')
+            console.log($form.action)
+        }
+        if (mailSelector == "sopladores") {
+            $form.setAttribute('action', 'https://formsubmit.co/ventatecnica@dosivac.com')
+            console.log('estoy modificando ventatecnica')
+            console.log($form.action)
+        }
+        
     })
     
     
