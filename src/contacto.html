@@ -134,6 +134,13 @@
       <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto, debe incluír al menos @ y .com" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
       <input type="text" name="subject" placeholder="Asunto a tratar" title="El asunto es requerido" required>
       <input type="text" name="subject" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida" required>
+     <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido" required>
+        <option value="">---Eliga Destinatario---</option>
+        <option value="reparaciones">REPARACIONES</option>
+        <option value="cotizaciones">COTIZACIONES</option>
+        <option value="dosificacion">DOSIFICACION Y VACIO</option>
+        <option value="sopladores">SOPLADORES Y CENTRALES DE VACIO</option>
+      </select>
       <textarea name="comments" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 carcateres" data-pattern="^.{1,255}$" required></textarea>
       <input type="submit" class="" value="Enviar">
       <div class="contact-form-loader none">

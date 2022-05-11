@@ -1,6 +1,6 @@
-const d = document
+const doc = document
 
-d.addEventListener('DOMContentLoader', (e) =>
+doc.addEventListener('DOMContentLoader', (e) =>
 
     contactFormValidations()
 
@@ -10,19 +10,29 @@ contactFormValidations()
 
 function contactFormValidations(){
 
-    const $form = d.querySelector('.contact-form');
-    $inputs = d.querySelectorAll('.contact-form [required]');
+    const $form = doc.querySelector('.contact-form');
+    $inputs = doc.querySelectorAll('.contact-form [required]');
     console.log($inputs)
 
+    let $select = $inputs[4]
+
+    $select.addEventListener("change", ()=>{
+        console.log($select.value)
+    })
+    
+    
+       
+
+
     $inputs.forEach(input => {
-        const $span = d.createElement('span')
+        const $span = doc.createElement('span')
         $span.id = input.name;
         $span.textContent = input.title;
         $span.classList.add('contact-form-error', 'none')
         input.insertAdjacentElement("afterend", $span);
     });
 
-    d.addEventListener('keyup', e=> {
+    doc.addEventListener('keyup', e=> {
         
         if (e.target.matches('.contact-form [required]')) {
             let $input = e.target
@@ -43,9 +53,10 @@ function contactFormValidations(){
                 : d.getElementById($input.name).classList.remove('is-active');
             }
         }
+    
     });
 
-   d.addEventListener('submit', e=> {
+   doc.addEventListener('submit', e=> {
         //e.preventDefault();
 
         const $loader = d.querySelector(".contact-form-loader");
