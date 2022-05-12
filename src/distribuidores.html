@@ -91,14 +91,11 @@
     <h2>DISTRIBUIDORES</h2>
   </div>
   <div class="d-flex align-item-center justify-content-around flex-wrap">
-    <div class="card"><img src="https://www.etapainfantil.com/wp-content/uploads/2021/06/Mapa-politico-Argentina.jpg" width="60%" alt=""></div>
-    <div class="card"><img src="https://www.seekpng.com/png/small/8-80491_mapa-de-america-png-world-map.png" alt=""></div>
+    <div class="card" id="mapaA"><img src="https://www.etapainfantil.com/wp-content/uploads/2021/06/Mapa-politico-Argentina.jpg" width="60%" alt=""></div>
+    <div class="card" id="mapaI"><img src="https://www.seekpng.com/png/small/8-80491_mapa-de-america-png-world-map.png" alt=""></div>
   </div>  
   
   <div class="distribuidoresInter d-none" id="distribuidoresInter">
-    <div>
-      <button class="btn btn-dark p-2 my-4 text-center btn-efect" id="btnVerDistribuidor">VER DISTRIBUIDORES COMERCIO INTERNACIONAL</button>
-    </div>
     <div class="container">
       <table class="fl-table">
         <thead>
@@ -228,15 +225,35 @@
     </div>
   </div>
 
-  <section class="d-none">
+  <section id="distribuidorList" class="d-none">
     <div class="d-flex text-center justify-content-center align-items-center flex-wrap mb-4">
-      <div class="d-flex p-2 my-4 text-center justify-content-center align-item-center w-50">
-          <input type="search" id="search limpiar" placeholder="buscar distribuidor local" class="input float-start mt-2 p-1 w-100">
-          <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2"> 
-      </div>
+      <form target="_blank" action="https://formsubmit.co/martinezcarlosmanuel.1@gmail.com" method="POST" class="contact-form">
+        <legend>Busque Distribuidor</legend>
+        <input type="text" id="search limpiar" name="nombre" placeholder="Por nombre de distribuidor" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" >
+        <input type="text" id="search limpiar" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida">
+        <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido">
+          <option value="">---Por tipo de productos---</option>
+          <option value="sopladores">SOPLADORES</option>
+          <option value="vacio">BOMBAS DE VACIO</option>
+          <option value="vacioLab">VACIO PARA LABORATORIOS</option>
+          <option value="dosificacionMin">DOSIFICADORAS COMPACTAS</option>
+          <option value="dosificacionMax">DOSIFICADORAS GRAN TAMAÑO</option>
+          <option value="petroleo">PARA INDUSTRIA PETROLEO</option>
+          <option value="accesorios">ACCESORIOS</option>
+        </select>
+        <input type="submit" id="btnSearch" class="" value="Enviar">
+        <div class="contact-form-loader none">
+            <img src="assets/puff.svg" alt="cargando">
+        </div>
+        <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+        </div>
+      </form>
     </div>
     <div class="card-list" id="distribuidores">
-    
+      <!-- <input type="name" id="search limpiar" placeholder="buscar distribuidor local" class="input float-start mt-2 p-1 w-100"title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+      <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2">  -->
+      
     </div>
   </section>
   <div id="volverLista">
@@ -335,6 +352,7 @@
   </div>
   
 </footer>
+            <script src="../js/form.js"></script>
           <script src="../node_modules/jquery/dist/jquery.js"></script>
         <script src="https://www.ign.gob.ar/argenmap2/argenmap.jquery.min.js"></script>
       <script src="../js/distribuidors.js"></script>

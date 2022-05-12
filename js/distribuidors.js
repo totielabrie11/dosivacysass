@@ -14,7 +14,6 @@ $.ajax({
   });
 
 
-
   function renderDistribuidorsCard(distribuidors) {
   
 
@@ -72,14 +71,21 @@ $.ajax({
       $('#distribuidores').append(html)
         element;
         console.log(element)
-    });
-
-    $("#btnSearch").click(function (e) {
-      e.preventDefault(distribuidors);
-     
-      let inputs = $("input");
+    });    
     
-      const valorBusqueda = $(inputs).val();
+    $('select').change(function(){
+      valorDelSelect = $('select').val();
+      console.log("🚀 ~ file: distribuidors.js ~ line 78 ~ $ ~ valorDelSelect", valorDelSelect)
+      
+    })
+    
+    
+    $("#btnSearch").click(function (e) {
+      
+    
+      let $inputs = $("input");
+    
+      const valorBusqueda = $($inputs).val();
      
       const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
       
@@ -113,16 +119,25 @@ $.ajax({
   };
 
 
-$("#btnVerDistribuidor").click( "click", function() {
-    
-  $('#distribuidoresInter').toggle().removeClass('d-none');
-
-});
-
 $("#distribuidoresInter, #btnModal").click( "click", function() {
    
   $('#distribuidoresInter').toggle().removeClass('d-none');
+  
 
 });
 
 const mapaArgentina = "https://www.google.com/maps/d/edit?mid=1ZlFqlHdx5DpSJai-rMa4mCcQKaIn8zpf&ll=-37.123093732887604%2C-72.7200054851399&z=4"
+
+$("#mapaA").click("click", function(){
+
+  $('#distribuidorList').toggle().removeClass('d-none');
+
+  
+
+})
+
+$("#mapaI").click("click", function(){
+
+  $('#distribuidoresInter').toggle().removeClass('d-none');
+
+});
