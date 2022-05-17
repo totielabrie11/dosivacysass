@@ -18,20 +18,23 @@ html {
 html body.claro {
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
-  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
-  background-size: 100%;
+  /*  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
+        background-size: 100%; */
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
+  background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+  background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal;
 }
 
 html body.oscuro {
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
-  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
-  color: white;
+  /*  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
+        color: white; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
+  background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
 }
 
 html main {
