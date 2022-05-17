@@ -227,18 +227,18 @@
 
   <section id="distribuidorList" class="d-none">
     <div class="d-flex text-center justify-content-center align-items-center flex-wrap mb-4">
-      <form target="_blank" action="https://formsubmit.co/martinezcarlosmanuel.1@gmail.com" method="POST" class="contact-form">
+      <form target="_blank" class="contact-form" id="form-distribuidores">
         <legend>Busque Distribuidor</legend>
-        <input type="text" id="search limpiar" name="nombre" placeholder="Por nombre de distribuidor" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" >
-        <input type="text" id="search limpiar" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida">
+        <input type="text" id="nombreDis" name="nombre" placeholder="Por nombre de distribuidor" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" >
+        <input type="text" id="localidadDis" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida">
         <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido">
           <option value="">---Por tipo de productos---</option>
           <option value="sopladores">SOPLADORES</option>
-          <option value="vacio">BOMBAS DE VACIO</option>
-          <option value="vacioLab">VACIO PARA LABORATORIOS</option>
-          <option value="dosificacionMin">DOSIFICADORAS COMPACTAS</option>
-          <option value="dosificacionMax">DOSIFICADORAS GRAN TAMAÑO</option>
-          <option value="petroleo">PARA INDUSTRIA PETROLEO</option>
+          <option value="industrial">BOMBAS DE VACIO INDUSTRIAL</option>
+          <option value="laboratorio">VACIO PARA LABORATORIOS</option>
+          <option value="compactos">DOSIFICADORAS COMPACTAS</option>
+          <option value="gran porte">DOSIFICADORAS GRAN TAMAÑO</option>
+          <option value="petrolera">PARA INDUSTRIA PETROLEO</option>
           <option value="accesorios">ACCESORIOS</option>
         </select>
         <input type="submit" id="btnSearch" class="" value="Enviar">
@@ -351,8 +351,9 @@
       </div>
   </div>
   
-</footer>
-            <script src="../js/form.js"></script>
+</footer>      
+              
+            
           <script src="../node_modules/jquery/dist/jquery.js"></script>
         <script src="https://www.ign.gob.ar/argenmap2/argenmap.jquery.min.js"></script>
       <script src="../js/distribuidors.js"></script>

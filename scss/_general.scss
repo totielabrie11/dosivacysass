@@ -29,7 +29,7 @@ html {
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
-        background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+        background-image: url(https://img.freepik.com/foto-gratis/pared-moderna-verde-claro-elegante-agradable-espacio-brillante-salpicaduras_114160-574.jpg)
 
     }
 
@@ -78,7 +78,7 @@ nav {
         }
 
         body.oscuro & .dropdown-menu {
-            background-color: #a5de1f !important;
+            background-color: #1fded8 !important;
         }
 
         li {

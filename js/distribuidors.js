@@ -73,49 +73,113 @@ $.ajax({
         console.log(element)
     });    
     
+    var $valorDelSelect = '';
+
     $('select').change(function(){
-      valorDelSelect = $('select').val();
-      console.log("🚀 ~ file: distribuidors.js ~ line 78 ~ $ ~ valorDelSelect", valorDelSelect)
+      $valorDelSelect = $('select').val();
       
     })
     
-    
     $("#btnSearch").click(function (e) {
       
-    
-      let $inputs = $("input");
-    
-      const valorBusqueda = $($inputs).val();
-     
-      const valorBusquedaFilter = valorBusqueda.trim().toLowerCase();
-      
-      resultadoBusqueda1 = distribuidors.filter((distribuidor) =>
-          distribuidor.nombre.toLowerCase().includes(valorBusquedaFilter)
-        );
-    
-      resultadoBusqueda2 = distribuidors.filter((distribuidor) =>
-          distribuidor.provincia.toLowerCase().includes(valorBusquedaFilter)
-        );
-
-      resultadoBusqueda3 = distribuidors.filter((distribuidor) =>
-          distribuidor.localidad.toLowerCase().includes(valorBusquedaFilter)
-        );
-    
-        BusquedaParcial = resultadoBusqueda1.concat(resultadoBusqueda2)
-
-        totalBusquedaDeDistribuidor = resultadoBusqueda3.concat(BusquedaParcial)
-        
-        if (totalBusquedaDeDistribuidor) {
-
-          distribuidores.innerHTML = ""
-
-          renderDistribuidorsCard(totalBusquedaDeDistribuidor);
-
-          volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4' onclick='location.reload()')>VOLVER A LA LISTA</DIV>"
-        
-          
+      const administrarFilter = ($valorDelSelect) => {
+        if ($valorDelSelect === "vacio") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+          );
+          return;
         };
-      });
+        if ($valorDelSelect === "sopladores") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.soplador.toLowerCase().includes($valorDelSelect)
+          );
+          return;
+        };
+        if ($valorDelSelect === "laboratorio") {
+          Busqueda1 = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.refrigeracion.toLowerCase().includes($valorDelSelect)
+          );
+          Busqueda2 = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+          );
+          Busqueda = Busqueda1.concat(Busqueda2)
+          return;
+        };
+        if ($valorDelSelect === "industrial") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+          );
+          return;
+        };
+        if ($valorDelSelect === "petrolera") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.petroleo.toLowerCase().includes($valorDelSelect)
+          );
+          return;
+        };
+        if ($valorDelSelect === "compactos") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.dosificacionMenor.toLowerCase().includes($valorDelSelect)
+          );
+          return;
+        };
+        if ($valorDelSelect === "gran porte") {
+          Busqueda = distribuidors.filter((distribuidor) =>
+            distribuidor.tipo.dosificacionMayor.toLowerCase().includes($valorDelSelect)
+          );
+          return;
+        };
+
+        if ($valorDelSelect === "accesorios") {
+          Busqueda = [];
+          alert('accesorios no está asignado a ningun distribuidor')
+        };
+
+
+      };
+      
+      let $inputs = $("input");
+      
+      const $nombreDis = $('#nombreDis').val().trim().toLowerCase();
+      const $localidadDis = $('#localidadDis').val().trim().toLowerCase();
+      
+      //configuro mis shitches para que entre la busqueda según su caso
+      if($valorDelSelect != ''){
+
+        administrarFilter($valorDelSelect);
+
+      };
+    
+
+      if($nombreDis){
+
+        Busqueda = distribuidors.filter((distribuidor) =>
+          distribuidor.nombre.toLowerCase().includes($nombreDis)
+        );
+      };
+
+      if($localidadDis){
+        
+        Busqueda = distribuidors.filter((distribuidor) =>
+          distribuidor.provincia.toLowerCase().includes($localidadDis)
+          //distribuidor.localidad.toLowerCase().includes($localidadDis)
+        );
+      };
+  
+      console.log(Busqueda);
+
+      if (Busqueda) {
+
+        distribuidores.innerHTML = ""
+
+        renderDistribuidorsCard(Busqueda);
+
+        volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4' onclick='location.reload()')>VOLVER A LA LISTA</DIV>"
+        
+      }else{
+        distribuidores.innerHTML = ""
+      };
+    });
   };
 
 
@@ -141,3 +205,13 @@ $("#mapaI").click("click", function(){
   $('#distribuidoresInter').toggle().removeClass('d-none');
 
 });
+
+
+// Tomo control de mi form para buscar Distribuidores
+const $formDist = $("#form-distribuidores")
+
+$formDist.submit(e =>{
+  
+  e.preventDefault();
+
+})

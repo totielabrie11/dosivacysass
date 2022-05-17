@@ -8,7 +8,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5606961159356!2d-58.37959568506897!3d-34.61526856561584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad6079a9773%3A0xa1d9092c0b31fa8d!2sCasa%20Sal%20Park!5e0!3m2!1ses!2sar!4v1636724829664!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/salpark.JPG' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -26,9 +26,9 @@
         "maps": "<img src='../img/logos banner/mercadolibre.png' alt='venta online' class='rounded'>",
         "img": "",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='100%' alt='dosificacion' class='rounded'></abbr>",
-            "vacio": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://www.reporteroindustrial.com/documenta/imagenes/50003170/Red-de-vacio-de-area-local-para-multiples-usuarios-en-un-laboratorio-VACUULAN-235-g.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://medac.es/sites/default/files/blog/destacadas/material-de-laboratorio.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
             "soplador": "",
             "refrigeracion": "<abbr title='vende productos de refrigeracion'><img src='https://http2.mlstatic.com/D_NQ_NP_635631-MLA41329426745_042020-O.webp' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "petroleo": "",
@@ -65,7 +65,7 @@
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "",
-            "vacio": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://www.reporteroindustrial.com/documenta/imagenes/50003170/Red-de-vacio-de-area-local-para-multiples-usuarios-en-un-laboratorio-VACUULAN-235-g.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://medac.es/sites/default/files/blog/destacadas/material-de-laboratorio.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
             "soplador": "",
             "refrigeracion": "<abbr title='vende productos de refrigeracion'><img src='https://http2.mlstatic.com/D_NQ_NP_635631-MLA41329426745_042020-O.webp' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "petroleo": ""
@@ -135,7 +135,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2084.6988300348808!2d-64.17345968983939!3d-31.38045696568722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329839aeddd605%3A0xec55f7e8a1d79276!2sDimotec!5e0!3m2!1ses!2sar!4v1636726463396!5m2!1ses!2sar' width='400' height='200' style='border:0;' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/dimotec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -154,11 +154,11 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13627.719743481692!2d-64.1752871!3d-31.3609126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5df4c6958e9dfe66!2sRc%20Consultores%20SRL!5e0!3m2!1ses-419!2sar!4v1637337162817!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/rcconsultores.jpg' alt='rcconsultores' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
-            "refrigeracion": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://www.reporteroindustrial.com/documenta/imagenes/50003170/Red-de-vacio-de-area-local-para-multiples-usuarios-en-un-laboratorio-VACUULAN-235-g.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
+            "refrigeracion": "<abbr title='vende soluciones de vacio para laboratorio'><img src='https://medac.es/sites/default/files/blog/destacadas/material-de-laboratorio.jpg' alt='laboratorio' class='rounded' width='100%'></abbr>",
             "petroleo": "",
             "repuestos": "<abbr title='vende repuestos de nuestros productos'><img src='http://bombaspatalano.com.ar/wp-content/uploads/2017/10/fotos-10-11-repuestos-de-bombas.jpg' width='100%' alt='dosificacion' class='rounded'>"
         },
@@ -173,7 +173,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13624.587695111068!2d-64.1510127!3d-31.3825121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff32cb9cde2a9e!2sHidromecanica%20Mediterranea!5e0!3m2!1ses-419!2sar!4v1637342377037!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/mediterranea.jpg' alt='hidromecanica' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "",
@@ -191,7 +191,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13620.494694081604!2d-64.1793844!3d-31.4107185!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xece201b09ef7686e!2sMr%20Garden!5e0!3m2!1ses-419!2sar!4v1637343034000!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/mr-garden.png' alt='mr garden' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -208,7 +208,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6736.8172294477!2d-63.23920635662231!3d-32.40821107750843!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74f6ec3d0ee200c0!2sHidrocentro%20Servicios%20SRL!5e0!3m2!1ses-419!2sar!4v1637338009298!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/hidro-centro.jpg' alt='hidro centro' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "",
             "soplador": "",
@@ -226,7 +226,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d860.0627905700948!2d-59.00322079020421!3d-27.43629714127025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c71bcdcc569%3A0xda10710ae08961c7!2sServibom%20S.A.!5e0!3m2!1ses-419!2sar!4v1637344351357!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/servibom.png' alt='servibom' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "",
@@ -244,7 +244,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10664.748787197004!2d-70.27430273145687!3d-37.37448648214312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x937c45e9db0ed1fb!2sINGESUR%20SRL!5e0!3m2!1ses-419!2sar!4v1651364395313!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/ingesur.JPG' alt='servibom' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -262,7 +262,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.380776770507!2d-60.51867073987837!3d-31.73280596829063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b452760ee9f03b%3A0x39a26e5b40d1ae2f!2sRosario%20del%20Tala%20644%2C%20Paran%C3%A1%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1637345025426!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/parana-medio.JPG' alt='parana-medio' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -280,7 +280,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13571.277070729137!2d-60.5082375!3d-31.7481338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc26da293283c6311!2sValentinuz%20Hnos.%20S.A.!5e0!3m2!1ses-419!2sar!4v1651368499209!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/valentinuz.jpg' alt='parana-medio' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -298,7 +298,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13571.392093583896!2d-60.51067!3d-31.747349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb066d3c12521325b!2sRodacom!5e0!3m2!1ses-419!2sar!4v1651372702230!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='https://lh5.googleusercontent.com/p/AF1QipMvKn5OAgbsgS9d43jWl6tN_tfTzDvvwboQ9eO4=w408-h255-k-no' alt='parana-medio' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "",
             "vacio": "",
             "soplador": "",
@@ -316,7 +316,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5121.7372054909765!2d-65.39613225274566!3d-24.808629748996132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf8f017053197ddb7!2sIngeniero%20Ramon%20Russo!5e0!3m2!1ses-419!2sar!4v1637347023062!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/ing-ramonr.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -334,7 +334,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5121.048152982325!2d-65.42362539841214!3d-24.82530015927873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d459713ed8223db!2sGomez%20Roco!5e0!3m2!1ses-419!2sar!4v1651538295962!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/gomezr.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -352,7 +352,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12409.33398874422!2d-68.1141502!3d-38.9620523!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9fec2a4eda780a43!2sDosisur%20SRL!5e0!3m2!1ses-419!2sar!4v1651539107305!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/dosisur.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -370,7 +370,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14241.651480060273!2d-65.2108335!3d-26.8268175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x44f14b8648a41b2a!2sDistribuidora%20Dimond%20S.%20A.!5e0!3m2!1ses-419!2sar!4v1652106806470!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/dimond.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "",
@@ -388,7 +388,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.825205279662!2d-65.2248461!3d-26.8333899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd90f8ab168ac3aa!2sATILIO%20MAROLA!5e0!3m2!1ses!2sar!4v1652107298401!5m2!1ses!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/atilio.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "",
@@ -406,7 +406,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7060.098796471601!2d-64.27259458996582!3d-27.77745205361389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e8b98c4c825ffe3!2sMAQUINAS%20Y%20MOTORES%20SC!5e0!3m2!1ses!2sar!4v1652108287559!5m2!1ses!2sar' width='400' height='200    ' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/maquinasymotores.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "",
             "soplador": "",
@@ -424,7 +424,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13394.873982609739!2d-68.847324!3d-32.932035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb169389466c08864!2sTecmec!5e0!3m2!1ses!2sar!4v1652108914102!5m2!1ses!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/tecmec.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
@@ -442,7 +442,7 @@
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13603.516015044024!2d-68.51901!3d-31.527483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeee4755a8560a82!2sHqmax!5e0!3m2!1ses-419!2sar!4v1652109917692!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/hqmax.JPG' alt='Dimotec' class='rounded'>",
         "tipo": {
-            "dosificacionMenor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
             "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
             "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
