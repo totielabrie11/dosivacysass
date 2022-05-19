@@ -174,7 +174,7 @@ $.ajax({
 
         renderDistribuidorsCard(Busqueda);
 
-        volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4' onclick='location.reload()')>VOLVER A LA LISTA</DIV>"
+        volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4' onclick='location.reload()')>VOLVER AL SELECTOR</DIV>"
         
       }else{
         distribuidores.innerHTML = ""

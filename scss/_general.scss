@@ -40,11 +40,15 @@ html {
 
 
 nav {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1 !important;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     background: #202020;
 
+    
     body.claro & {
         #hamburguesita {
             background-color: #0b2caf;

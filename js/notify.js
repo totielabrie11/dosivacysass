@@ -178,6 +178,7 @@ function renderNotifyList(notify) {
   console.log(fechaCreacion);
   console.log(fechaEventos);
 
+  notify.reverse();
 
   notify.forEach((elemento) => {
     const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =

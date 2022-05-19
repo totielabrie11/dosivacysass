@@ -42,6 +42,9 @@ html main {
 }
 
 nav {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2326,6 +2329,7 @@ body.oscuro .contact-form input[type="submit"] {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+  margin-top: 40px;
   height: 200px;
 }
 
@@ -2355,6 +2359,7 @@ body.oscuro .contact-form input[type="submit"] {
 
 .loader {
   margin: 100px auto;
+  margin-top: 150px;
   font-size: 25px;
   width: 1em;
   height: 1em;
