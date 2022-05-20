@@ -33,6 +33,17 @@ $.ajax({
 }); */
 
 
+const btnCampanita = document.getElementById("notifyIcon");
+
+  btnCampanita.addEventListener("click", function(){
+
+    let $boxNotifys = document.getElementById('notifyBox');
+    
+    $boxNotifys.classList.toggle('d-none')
+   
+  });
+
+
 let arrayDeNotificaciones = [];
 
 function nuevoEventToLCS(notify){
@@ -43,16 +54,7 @@ function nuevoEventToLCS(notify){
       JSON.stringify([...notify])
     );
   };
-
-  const btnCampanita = document.getElementById("notifyIcon");
-  btnCampanita.addEventListener("click", function(){
-
-    guardarLCS(notify);
-    location.reload();
-
-  });
-   
-  
+ 
   
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
   

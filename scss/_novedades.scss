@@ -9,3 +9,53 @@
         text-align: center;
     }
 };
+
+.notifyBox {
+    background-color: white;
+    color: black;
+    position: fixed;
+    right: 6%;
+    top: 100px;
+    border-radius: 10px;
+    z-index: 1;
+
+    .sombrerito-notify{
+        position:absolute;
+        top: -8%;
+        right:20%; 
+        border-left: 50px solid rgb(75, 72, 72);
+        border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent; 
+        transform: rotate(27deg);
+        overflow:visible;
+        body.oscuro & {
+            border-left: 50px solid #f7fafb ;
+        }
+    }
+    .card-header {
+        background-color: rgb(75, 72, 72) !important;
+        body.oscuro & {
+            background-color: white !important;
+        }
+        h3{
+            color: rgb(52, 68, 208) !important;
+            text-align: center;
+       }
+    
+    }
+    .card-body{
+        width: 100%;
+        padding: 5%;
+        
+    }
+    .card-footer{
+        background-color: rgb(75, 72, 72) !important;
+        body.oscuro & {
+            background-color: white !important;
+        
+        }
+    }
+
+} 
+    
+

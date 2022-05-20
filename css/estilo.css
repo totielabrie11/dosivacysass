@@ -1210,6 +1210,58 @@ body.oscuro .notifyCuantity {
   text-align: center;
 }
 
+.notifyBox {
+  background-color: white;
+  color: black;
+  position: fixed;
+  right: 6%;
+  top: 100px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.notifyBox .sombrerito-notify {
+  position: absolute;
+  top: -8%;
+  right: 20%;
+  border-left: 50px solid #4b4848;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  -webkit-transform: rotate(27deg);
+          transform: rotate(27deg);
+  overflow: visible;
+}
+
+body.oscuro .notifyBox .sombrerito-notify {
+  border-left: 50px solid #f7fafb;
+}
+
+.notifyBox .card-header {
+  background-color: #4b4848 !important;
+}
+
+body.oscuro .notifyBox .card-header {
+  background-color: white !important;
+}
+
+.notifyBox .card-header h3 {
+  color: #3444d0 !important;
+  text-align: center;
+}
+
+.notifyBox .card-body {
+  width: 100%;
+  padding: 5%;
+}
+
+.notifyBox .card-footer {
+  background-color: #4b4848 !important;
+}
+
+body.oscuro .notifyBox .card-footer {
+  background-color: white !important;
+}
+
 .card-list {
   width: 100%;
   margin: auto;
