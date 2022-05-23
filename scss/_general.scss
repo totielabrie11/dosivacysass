@@ -77,12 +77,12 @@ nav {
         display: flex;
 
         body.claro & .dropdown-menu {
-            background-color: #de1f1f !important;
+            background-color: #FA782E !important;
 
         }
 
         body.oscuro & .dropdown-menu {
-            background-color: #1fded8 !important;
+            background-color: #014995 !important;
         }
 
         li {
@@ -97,14 +97,14 @@ nav {
                 body.claro & {
 
                     color: rgb(190, 185, 185) !important;
-
+                    text-shadow: 2px 2px 3px rgb(1, 1, 1);
                     &:hover {
                         color: #fff !important;
                     }
                 }
 
                 body.oscuro & {
-                    color: rgb(81, 81, 81) !important;
+                    color: rgb(31, 31, 31) !important;
                     text-shadow: 2px 2px 3px white;
                     font-weight: bold;
 

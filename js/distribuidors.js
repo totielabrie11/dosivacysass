@@ -183,26 +183,29 @@ $.ajax({
   };
 
 
-$("#distribuidoresInter, #btnModal").click( "click", function() {
+$(".btnModal, *#btn-back-i").click( "click", function() {
    
-  $('#distribuidoresInter').toggle().removeClass('d-none');
-  
+  $('#distribuidoresInter').toggle().addClass('d-none');
+  $('#mapaA, #mapaI').toggle().removeClass('d-none');
 
 });
 
-const mapaArgentina = "https://www.google.com/maps/d/edit?mid=1ZlFqlHdx5DpSJai-rMa4mCcQKaIn8zpf&ll=-37.123093732887604%2C-72.7200054851399&z=4"
+$('*#btn-back').click('click', function(){
+  $('#distribuidorList').toggle().removeClass('d-none');
+  $('#mapaA, #mapaI').toggle().removeClass('d-none');
+})
+
 
 $("#mapaA").click("click", function(){
 
   $('#distribuidorList').toggle().removeClass('d-none');
-
-  
-
+  $('#mapaA, #mapaI').toggle().addClass('d-none');
 })
 
 $("#mapaI").click("click", function(){
 
   $('#distribuidoresInter').toggle().removeClass('d-none');
+  $('#mapaA, #mapaI').toggle().addClass('d-none');
 
 });
 

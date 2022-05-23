@@ -29,7 +29,7 @@
         transform: rotate(27deg);
         overflow:visible;
         body.oscuro & {
-            border-left: 50px solid #f7fafb ;
+            border-left: 50px solid #FFFFFF;
         }
     }
     .card-header {
@@ -38,10 +38,9 @@
             background-color: white !important;
         }
         h3{
-            color: rgb(52, 68, 208) !important;
+            color: #014995 !important;
             text-align: center;
        }
-    
     }
     .card-body{
         width: 100%;
