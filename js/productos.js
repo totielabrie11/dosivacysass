@@ -349,20 +349,16 @@ $('*#btn-volver').on('click', function(){volverALista(), irArriba()})
 
 
 ///////////////CONTROL PARA IR A LA PARTE SUPERIOR DE LA PAGINA////////////////
-
 function irArriba() {
 
-  $('*#btn-volver').click(function () {
-    $('body, html').animate({
-      scrollTop: '312.55px'
-    }, 150);
+  $('body, html').animate({
+      scrollTop: '120px'
+  }, 150);
     console.log('estoy entrando en la funcion scroll');
-  });
+};
 
 
-}
-
-$('*.cardP').on('click', function()
+$('*#productListSelector').on('click', function()
   {
     irArriba();
     console.log('estoy haciendo algo')

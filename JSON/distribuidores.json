@@ -437,7 +437,7 @@
         "nombre": "HQ MAX",
         "provincia": "San Juan",
         "localidad": "",
-        "direccion": "0264 505-5302",
+        "direccion": "Haití 562",
         "contacto": "0261 435-0488 <br> info@hqmax.com.ar",
         "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13603.516015044024!2d-68.51901!3d-31.527483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeee4755a8560a82!2sHqmax!5e0!3m2!1ses-419!2sar!4v1652109917692!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
         "img": "<img src='../img/contacto/distribuidores/hqmax.JPG' alt='Dimotec' class='rounded'>",
@@ -450,5 +450,59 @@
             "petroleo": ""
         },
         "id": "24"
+    },
+    {
+        "nombre": "DOSIBOM",
+        "provincia": "SANTA FE",
+        "localidad": "ROSARIO",
+        "direccion": "Entre Ríos 3053",
+        "contacto": "0341 669-4892 <br> lfranco@dosibom.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3347.179354358704!2d-60.64850349752521!3d-32.972669591323694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2ded96173079e7a!2sDosibom%20S.r.l.!5e0!3m2!1ses-419!2sar!4v1653331460702!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/dosibom.JPG' alt='Dimotec' class='rounded'>",
+        "tipo": {
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "",
+            "petroleo": ""
+        },
+        "id": "25"
+    },
+    {
+        "nombre": "PITUELLI",
+        "provincia": "SANTA FE",
+        "localidad": "ROSARIO",
+        "direccion": "Gálvez 2966",
+        "contacto": "0341 433 2518 <br> edgardo_pituelli@seiysia.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3347.51044472398!2d-60.669585665081804!3d-32.96393228613024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe45e34b81386ede!2sPituelli!5e0!3m2!1ses-419!2sar!4v1653333069634!5m2!1ses-419!2sar' width='400' height='200' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/pituelli.jpg' alt='Dimotec' class='rounded'>",
+        "tipo": {
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "",
+            "petroleo": ""
+        },
+        "id": "26"
+    },
+    {
+        "nombre": "EYSIN",
+        "provincia": "SANTA FE",
+        "localidad": "SANTA FE",
+        "direccion": "República de Siria 4098",
+        "contacto": "0342 452-7620 <br> mgentina@eysin.com.ar",
+        "maps": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6794.228285577844!2d-60.70172876986695!3d-31.630725014805137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa35933f55f1d0591!2sEysin!5e0!3m2!1ses-419!2sar!4v1653333327591!5m2!1ses-419!2sar' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+        "img": "<img src='../img/contacto/distribuidores/eysin.PNG' alt='EYSIN' class='rounded'>",
+        "tipo": {
+            "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.jpg' width='95%' alt='dosificacion' class='rounded'></abbr>",
+            "vacio": "<abbr title='vende soluciones de vacío para uso industrial'><img src='https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg' width='100%' alt='dosificacion' class='rounded'></abbr>",
+            "soplador": "<abbr title='vende sopladores para tratamiento de agua y transporte neumatico'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnxOLM0cg6HIwn9Xd0ae3UrsRv4reA27XpJw&usqp=CAU' width='100%' alt='sopladores' class='rounded' ></abbr>",
+            "refrigeracion": "",
+            "petroleo": ""
+        },
+        "id": "27"
     }
 ]

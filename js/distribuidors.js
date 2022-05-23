@@ -174,7 +174,7 @@ $.ajax({
 
         renderDistribuidorsCard(Busqueda);
 
-        volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4' onclick='location.reload()')>VOLVER AL SELECTOR</DIV>"
+        volverLista.innerHTML = "<div class='btn btn-dark w-100 d-block mt-4 btn-efect' onclick='location.reload()')>RESETEAR BUSQUEDA</DIV>"
         
       }else{
         distribuidores.innerHTML = ""
@@ -182,17 +182,26 @@ $.ajax({
     });
   };
 
+////////////////////////SETEO DE BTNS PARA VOLVER A LA VISTA GRAL DEL DIS///////////////
+function subir() {
+
+  $('body, html').animate({
+      scrollTop: '120px'
+  }, 150);
+    console.log('estoy entrando en la funcion scroll');
+};
 
 $(".btnModal, *#btn-back-i").click( "click", function() {
    
   $('#distribuidoresInter').toggle().addClass('d-none');
   $('#mapaA, #mapaI').toggle().removeClass('d-none');
-
+  subir();
 });
 
 $('*#btn-back').click('click', function(){
   $('#distribuidorList').toggle().removeClass('d-none');
   $('#mapaA, #mapaI').toggle().removeClass('d-none');
+  subir();
 })
 
 
@@ -200,13 +209,14 @@ $("#mapaA").click("click", function(){
 
   $('#distribuidorList').toggle().removeClass('d-none');
   $('#mapaA, #mapaI').toggle().addClass('d-none');
+  subir();
 })
 
 $("#mapaI").click("click", function(){
 
   $('#distribuidoresInter').toggle().removeClass('d-none');
   $('#mapaA, #mapaI').toggle().addClass('d-none');
-
+  subir();
 });
 
 

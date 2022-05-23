@@ -116,14 +116,36 @@
       <img src="./img/logom-removebg-preview.png" width="10%" alt="">
       <h3 class="card-text">Notificaciones</h3> 
     </div>
-    <div class="card-body">
-      <div card="notyListIndex" id="notyListIndex">
-        
+    <div class="card-body" id="notyListIndex">
+          <table class="table w-100">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Asunto</th>
+                <th scope="col">Foto</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">check</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Censo</td>
+                <td style="font-size: 10px;">campaña colectiva salimos a tomar mediciones</td>
+                <td><img src="https://www.censo.gob.ar/wp-content/uploads/2021/12/logo_censo_noticias.jpg" alt="" width="80%"></td>
+                <td>15/05/2022</td>
+                <td class="d-flex align-item-center justify-content-center">
+                  <buttom class="btn btn-success my-2"><span class="material-icons">done</span></buttom>
+                  <buttom class="btn btn-danger my-2"><span class='material-icons'>close</span></buttom>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <div class="card-footer d-flex">
+        <h4 class="card-text" id="totalNotify">notificaciones sin revisar: </h4>
       </div>
-    </div>
-    <div class="card-footer">
-        <h4 class="card-text" id="totalNotify">tengo x notify</h4>
-    </div>
   </div>
 
   <div id="loader" class="loader">Loading...</div>

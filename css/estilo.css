@@ -23,8 +23,15 @@ html body.claro {
   color: white;
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
-  background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal;
+  /* background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+        background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal; */
+  background: #000000;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#434343), to(#000000));
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 html body.oscuro {
@@ -1587,6 +1594,30 @@ h5 {
 
 .card:nth-child(25) .date {
   color: #fff126;
+}
+
+.card:nth-child(26) .card-footer {
+  background: #75F122;
+}
+
+.card:nth-child(26) .date {
+  color: #75F122;
+}
+
+.card:nth-child(27) .card-footer {
+  background: #09CCA2;
+}
+
+.card:nth-child(27) .date {
+  color: #09CCA2;
+}
+
+.card:nth-child(28) .card-footer {
+  background: #FF510C;
+}
+
+.card:nth-child(28) .date {
+  color: #FF510C;
 }
 
 .leyenda {
