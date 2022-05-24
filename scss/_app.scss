@@ -169,3 +169,15 @@
     }
 }
 
+///////////////////////Estilos y control, de mi BTN setter//////////////////////////
+#btnSetter, .active1 {
+    
+        font-size: 30px;
+        margin-left: 10px;
+        cursor: pointer;
+        &.active1 {
+            
+            color: yellowgreen;
+            
+        }
+}

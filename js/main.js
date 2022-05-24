@@ -190,3 +190,119 @@ function rotate(e){
     "transform": "rotateY("+currdeg+"deg)"
   });
 }
+
+///////////////////////////SWEET ALERTS/////////////////////
+const $btnSelectorSetting = document.querySelector('#btnSelectorSetting');
+
+if(localStorage.getItem('setter') == null ) {localStorage.setItem('setter', 'true')}
+
+$btnSelectorSetting.addEventListener('click', () => {
+  
+  console.log('estoy entrando al evento click on setter')
+	btnSetter.classList.toggle('active1');
+	//verificar LCS
+	//Guardamos en LCS
+	if (btnSetter.classList.contains('active1')) {
+		localStorage.setItem('setter', 'true')
+	}else{
+		localStorage.setItem('setter', 'false')
+	}
+
+});
+
+//obtenenmos el modo actual
+if (localStorage.getItem('setter') === 'true') {
+	btnSetter.classList.add('active1');
+  setter = true	
+}else{
+	btnSetter.classList.remove('active1');
+  setter = false
+} 
+
+if (setter) {
+
+    Swal.fire({
+      title: "Bienvenido",
+      text: "Puedes obtener informacion de las opciones que te da la tarjeta de productos, haga click en avanzar para continuar",
+      // html:
+      // icon:
+      confirmButtonText: 'Avanzar',
+      // footer:
+      // width:
+      // padding:
+      // background:
+      // grow:
+      // backdrop:
+      // timer:
+      // timerProgressBar:
+      // toast:
+      // position:
+      // allowOutsideClick:
+      // allowEscapeKey:
+      // allowEnterKey:
+      // stopKeydownPropagation:
+    
+      // input:
+      // inputPlaceholder:
+      // inputValue:
+      // inputOptions:
+      
+      //  customClass:
+      // 	container:
+      // 	popup:
+      // 	header:
+      // 	title:
+      // 	closeButton:
+      // 	icon:
+      // 	image:
+      // 	content:
+      // 	input:
+      // 	actions:
+      //confirmButton:
+      //cancelButton:
+      // 	footer:	
+    
+      showConfirmButton: true,
+      confirmButtonColor: '#11E95B',
+      confirmButtonAriaLabel: 'confirmar',
+    
+      showCancelButton: true,
+      cancelButtonText: 'Declinar',
+      cancelButtonColor: '#FF0000',
+      // cancelButtonAriaLabel:
+      
+      // buttonsStyling:
+      // showCloseButton:
+      // closeButtonAriaLabel:
+    
+    
+      // imageUrl:
+      // imageWidth:
+      // imageHeight:
+      // imageAlt:
+
+    }).then((res) => {
+      /* Read more about isConfirmed, isDenied below */
+     
+         if (res.isConfirmed) {
+     
+          modalProductoStock();
+         
+         } else {
+          
+          localStorage.setItem('setter', 'false')
+          btnSetter.classList.remove('active1')
+          
+         }
+    });
+}
+function modalProductoStock(){
+
+  console.log('estoy mostrando el segundo modal')
+}
+
+
+
+
+
+
