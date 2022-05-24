@@ -219,11 +219,17 @@ if (localStorage.getItem('setter') === 'true') {
   setter = false
 } 
 
+function declinarSetter(){
+  
+  localStorage.setItem('setter', 'false');
+  btnSetter.classList.remove('active1');
+}
+
 if (setter) {
 
     Swal.fire({
       title: "Bienvenido",
-      text: "Puedes obtener informacion de las opciones que te da la tarjeta de productos, haga click en avanzar para continuar",
+      text: "Ahora puedes obtener informacion facilmente accesible desde las tarjetas de productos, haga click en avanzar para continuar",
       // html:
       icon: "info",
       confirmButtonText: 'Avanzar',
@@ -289,10 +295,8 @@ if (setter) {
           modalProductoStock();
          
          } else {
-          
-          localStorage.setItem('setter', 'false')
-          btnSetter.classList.remove('active1')
-          
+
+          declinarSetter();
          }
     });
 }
@@ -300,7 +304,7 @@ function modalProductoStock(){
 
   Swal.fire({
     title: "Stock disponible",
-    text: "Este dato puede inferir aproximadamente en el plazo de entrega de un producto",
+    text: "Este dato visual puede ser ultil para tener una idea aproximada del plazo de entrega de un producto.",
     // html:
     // icon:
     confirmButtonText: 'Avanzar',
@@ -367,8 +371,7 @@ function modalProductoStock(){
        
        } else {
         
-        localStorage.setItem('setter', 'false')
-        btnSetter.classList.remove('active1')
+        declinarSetter();
         
        }
   });
@@ -377,10 +380,10 @@ function modalProductoStock(){
 function modalProductoDetail() {
   Swal.fire({
     title: "Ver detalles de productos",
-    text: "Puedes realizar una comparativa rapida de los productos",
+    text: "Puedes realizar una comparativa rapida de los productos y sus distintos modelos. También puedes descargar el folleto para obtener más información",
     // html:
     // icon:
-    confirmButtonText: 'Avanzar',
+    confirmButtonText: 'Finalizar',
     // footer:
     // width:
     // padding:
@@ -418,11 +421,11 @@ function modalProductoDetail() {
   
     showConfirmButton: true,
     confirmButtonColor: '#11E95B',
-    confirmButtonAriaLabel: 'confirmar',
+    //confirmButtonAriaLabel: 'Finalizar',
   
-    showCancelButton: true,
-    cancelButtonText: 'Declinar',
-    cancelButtonColor: '#FF0000',
+    //showCancelButton: true,
+    //cancelButtonText: 'Declinar',
+    //cancelButtonColor: '#FF0000',
     // cancelButtonAriaLabel:
     
     // buttonsStyling:
@@ -435,6 +438,14 @@ function modalProductoDetail() {
     // imageHeight:
     // imageAlt:
 
+  }).then((res)=>{
+    if (res.isConfirmed) {
+   
+      declinarSetter();
+    }else{
+
+      location.reload();
+    }
   })
 
 }
