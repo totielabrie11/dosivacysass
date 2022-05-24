@@ -225,7 +225,7 @@ if (setter) {
       title: "Bienvenido",
       text: "Puedes obtener informacion de las opciones que te da la tarjeta de productos, haga click en avanzar para continuar",
       // html:
-      // icon:
+      icon: "info",
       confirmButtonText: 'Avanzar',
       // footer:
       // width:
@@ -298,7 +298,145 @@ if (setter) {
 }
 function modalProductoStock(){
 
-  console.log('estoy mostrando el segundo modal')
+  Swal.fire({
+    title: "Stock disponible",
+    text: "Este dato puede inferir aproximadamente en el plazo de entrega de un producto",
+    // html:
+    // icon:
+    confirmButtonText: 'Avanzar',
+    // footer:
+    // width:
+    // padding:
+    // background:
+    // grow:
+    // backdrop:
+    // timer:
+    // timerProgressBar:
+    // toast:
+    // position:
+    // allowOutsideClick:
+    // allowEscapeKey:
+    // allowEnterKey:
+    // stopKeydownPropagation:
+  
+    // input:
+    // inputPlaceholder:
+    // inputValue:
+    // inputOptions:
+    
+    //  customClass:
+    // 	container:
+    // 	popup:
+    // 	header:
+    // 	title:
+    // 	closeButton:
+    // 	icon:
+    // 	image:
+    // 	content:
+    // 	input:
+    // 	actions:
+    //confirmButton:
+    //cancelButton:
+    // 	footer:	
+  
+    showConfirmButton: true,
+    confirmButtonColor: '#11E95B',
+    confirmButtonAriaLabel: 'confirmar',
+  
+    showCancelButton: true,
+    cancelButtonText: 'Declinar',
+    cancelButtonColor: '#FF0000',
+    // cancelButtonAriaLabel:
+    
+    // buttonsStyling:
+    // showCloseButton:
+    // closeButtonAriaLabel:
+  
+  
+    imageUrl: "../img/alerts/stock.jpg",
+    imageWidth: "80%",
+    // imageHeight:
+    // imageAlt:
+
+  }).then((res) => {
+    /* Read more about isConfirmed, isDenied below */
+   
+       if (res.isConfirmed) {
+   
+        modalProductoDetail();
+       
+       } else {
+        
+        localStorage.setItem('setter', 'false')
+        btnSetter.classList.remove('active1')
+        
+       }
+  });
+}
+
+function modalProductoDetail() {
+  Swal.fire({
+    title: "Ver detalles de productos",
+    text: "Puedes realizar una comparativa rapida de los productos",
+    // html:
+    // icon:
+    confirmButtonText: 'Avanzar',
+    // footer:
+    // width:
+    // padding:
+    // background:
+    // grow:
+    // backdrop:
+    // timer:
+    // timerProgressBar:
+    // toast:
+    // position:
+    // allowOutsideClick:
+    // allowEscapeKey:
+    // allowEnterKey:
+    // stopKeydownPropagation:
+  
+    // input:
+    // inputPlaceholder:
+    // inputValue:
+    // inputOptions:
+    
+    //  customClass:
+    // 	container:
+    // 	popup:
+    // 	header:
+    // 	title:
+    // 	closeButton:
+    // 	icon:
+    // 	image:
+    // 	content:
+    // 	input:
+    // 	actions:
+    //confirmButton:
+    //cancelButton:
+    // 	footer:	
+  
+    showConfirmButton: true,
+    confirmButtonColor: '#11E95B',
+    confirmButtonAriaLabel: 'confirmar',
+  
+    showCancelButton: true,
+    cancelButtonText: 'Declinar',
+    cancelButtonColor: '#FF0000',
+    // cancelButtonAriaLabel:
+    
+    // buttonsStyling:
+    // showCloseButton:
+    // closeButtonAriaLabel:
+  
+  
+    imageUrl: "../img/alerts/caracteristicas.jpg",
+    imageWidth: "80%",
+    // imageHeight:
+    // imageAlt:
+
+  })
+
 }
 
 
