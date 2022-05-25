@@ -108,44 +108,54 @@
 
 
   <div class="notifyBox col-md-6 d-none" id="notifyBox">
-    <div class="sombrerito-notify">
-  
-    </div>
     
     <div class="card-header d-flex align-items-center">
       <img src="./img/logom-removebg-preview.png" width="10%" alt="">
-      <h3 class="card-text">Notificaciones</h3> 
+      <h3 class="w-100 text-center">Notificaciones</h3> 
     </div>
     <div class="card-body" id="notyListIndex">
-          <table class="table w-100">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Asunto</th>
-                <th scope="col">Foto</th>
-                <th scope="col">Fecha</th>
-                <th scope="col">check</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>Censo</td>
-                <td style="font-size: 10px;">campaña colectiva salimos a tomar mediciones</td>
-                <td><img src="https://www.censo.gob.ar/wp-content/uploads/2021/12/logo_censo_noticias.jpg" alt="" width="80%"></td>
-                <td>15/05/2022</td>
-                <td class="d-flex align-item-center justify-content-center">
-                  <buttom class="btn btn-success my-2"><span class="material-icons">done</span></buttom>
-                  <buttom class="btn btn-danger my-2"><span class='material-icons'>close</span></buttom>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <div class="tucked-corners-top">
+        <div class="tucked-corners-bottom">
+          <h4>Titulo</h4>
+          <div class="container d-flex">
+            <div style="width: 250px" class="me-2">
+              <img src="https://blogs.ucontinental.edu.pe/wp-content/uploads/2017/04/foto-exposicion.png" width="100%" alt="" class="rounded">
+            </div>
+            <div class="text-md-center text-wrap">
+              <span >Lorem, ipsum dolor sit ametsdsdsdssdsd consectetur adipisicing elit. </span>
+            </div>
+            <div class="controlsNotify d-flex">
+              <button class="btn btn-primary w-50 ms-1 me-2 my-4"><i class="fas fa-eye"></i></button>
+              <button class="btn btn-danger w-50 my-4"><i class="fas fa-trash"></i></button>
+              <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2">
+            </div>
+          </div><!--  content here -->
         </div>
-      <div class="card-footer d-flex">
-        <h4 class="card-text" id="totalNotify">notificaciones sin revisar: </h4>
       </div>
+
+      <div class="tucked-corners-top">
+        <div class="tucked-corners-bottom">
+          <h4>Titulo</h4>
+          <div class="container d-flex">
+            <div style="width: 250px" class="me-2">
+              <img src="https://blogs.ucontinental.edu.pe/wp-content/uploads/2017/04/foto-exposicion.png" width="100%" alt="" class="rounded">
+            </div>
+            <div class="text-md-center text-wrap">
+              <span >Lorem, ipsum dolor sit ametsdsdsdssdsd consectetur adipisicing elit. </span>
+            </div>
+            <div class="controlsNotify d-flex">
+              <button class="btn btn-primary w-50 ms-1 me-2 my-4"><i class="fas fa-eye"></i></button>
+              <button class="btn btn-danger w-50 my-4"><i class="fas fa-trash"></i></button>
+              <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2">
+            </div>
+          </div><!--  content here -->
+        </div>
+      </div>
+      
+    </div>
+    <div class="card-footer d-flex">
+      <h4 class="card-text" id="totalNotify">notificaciones sin revisar: </h4>
+    </div>
   </div>
 
   <div id="loader" class="loader">Loading...</div>
