@@ -233,8 +233,28 @@
       <form target="_blank" class="contact-form" id="form-distribuidores">
         <legend>Busque Distribuidor</legend>
         <input type="text" id="nombreDis" name="nombre" placeholder="Por nombre de distribuidor" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" >
-        <input type="text" id="localidadDis" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida">
-        <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido">
+        <select class="text-center" value="" id="selectProvincia" name=""  title="La provincia o localidad es requerida">
+          <option value="">---Por Provincia---</option>
+          <option value="buenos aires">BUENOS AIRES</option>
+          <option value="caba">CABA</option>
+          <option value="chaco">CHACO</option>
+          <option value="chubut">CHUBUT</option>
+          <option value="cordoba">CORDOBA</option>
+          <option value="entre rios">ENTRE RIOS</option>
+          <option value="formosa">FORMOSA</option>
+          <option value="jujuy">JUJUY</option>
+          <option value="la rioja">LA RIOJA</option>
+          <option value="mendoza">MENDOZA</option>
+          <option value="neuquen">NEUQUEN</option>
+          <option value="rio negro">RIO NEGRO</option>
+          <option value="salta">SALTA</option>
+          <option value="san juan">SAN JUAN</option>
+          <option value="san luis">SAN LUIS</option>
+          <option value="santa fe">SANTA FE</option>
+          <option value="santiago del estero">SANTIAGO DEL ESTERO</option>
+          <option value="tucuman">TUCUMAN</option>
+        </select>
+        <select class="text-center" name="" id="selectTipoProd" title="El destino al que llegará la consulta es requerido">
           <option value="">---Por tipo de productos---</option>
           <option value="sopladores">SOPLADORES</option>
           <option value="industrial">BOMBAS DE VACIO INDUSTRIAL</option>

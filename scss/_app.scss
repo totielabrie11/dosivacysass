@@ -181,3 +181,58 @@
             
         }
 }
+
+#btnTools, .active1 {
+    
+        font-size: 30px;
+        margin-left: 10px;
+        cursor: pointer;
+        &.active1 {
+            
+            color: yellowgreen;
+            
+        }
+}
+///////////////////////////Estilos de mi BoxTools////////////////////
+.toolsBox {
+    background-color: white;
+    max-height: 100%;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    border-radius: 10px;
+    z-index: 1;
+    overflow: auto;
+
+    .card-header {
+        background-color: rgb(75, 72, 72) !important;
+
+        body.oscuro & {
+            background-color: white !important;
+        }
+
+        h3 {
+            color: #014995 !important;
+            text-align: center;
+        }
+    }
+
+    .card-body {
+        width: 100%;
+        padding: 5%;
+        background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
+        overflow-y: scroll;
+
+    }
+
+    .card-footer {
+        background-color: rgb(75, 72, 72) !important;
+
+        body.oscuro & {
+            background-color: white !important;
+
+        }
+    }
+
+}

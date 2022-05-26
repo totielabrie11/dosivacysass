@@ -73,64 +73,72 @@ $.ajax({
         console.log(element)
     });    
     
-    var $valorDelSelect = '';
+    var $selectPorTipoProduct = '';
+    var $selectPorProvincia = '';
 
     $('select').change(function(){
-      $valorDelSelect = $('select').val();
+      $selectPorTipoProduct = $('#selectTipoProd').val();
+      $selectPorProvincia = $('#selectProvincia').val();
       
     })
     
     $("#btnSearch").click(function (e) {
-      
-      const administrarFilter = ($valorDelSelect) => {
-        if ($valorDelSelect === "vacio") {
+      const buscarPorProvincia = ($selectPorProvincia) => {
+        Busqueda = distribuidors.filter((distribuidor) =>
+          distribuidor.provincia.toLowerCase().includes($selectPorProvincia)
+          //distribuidor.localidad.toLowerCase().includes($localidadDis)
+        );
+      }
+
+      const administrarFilter = ($selectPorTipoProduct) => {
+        if ($selectPorTipoProduct === "vacio") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.vacio.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
-        if ($valorDelSelect === "sopladores") {
+        if ($selectPorTipoProduct === "sopladores") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.soplador.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.soplador.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
-        if ($valorDelSelect === "laboratorio") {
+        if ($selectPorTipoProduct === "laboratorio") {
           Busqueda1 = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.refrigeracion.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.refrigeracion.toLowerCase().includes($selectPorTipoProduct)
           );
           Busqueda2 = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.vacio.toLowerCase().includes($selectPorTipoProduct)
           );
           Busqueda = Busqueda1.concat(Busqueda2)
           return;
         };
-        if ($valorDelSelect === "industrial") {
+        if ($selectPorTipoProduct === "industrial") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.vacio.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.vacio.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
-        if ($valorDelSelect === "petrolera") {
+        if ($selectPorTipoProduct === "petrolera") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.petroleo.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.petroleo.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
-        if ($valorDelSelect === "compactos") {
+        if ($selectPorTipoProduct === "compactos") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.dosificacionMenor.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.dosificacionMenor.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
-        if ($valorDelSelect === "gran porte") {
+        if ($selectPorTipoProduct === "gran porte") {
           Busqueda = distribuidors.filter((distribuidor) =>
-            distribuidor.tipo.dosificacionMayor.toLowerCase().includes($valorDelSelect)
+            distribuidor.tipo.dosificacionMayor.toLowerCase().includes($selectPorTipoProduct)
           );
           return;
         };
 
-        if ($valorDelSelect === "accesorios") {
+        if ($selectPorTipoProduct === "accesorios") {
           Busqueda = [];
           alert('accesorios no está asignado a ningun distribuidor')
         };
@@ -141,15 +149,22 @@ $.ajax({
       let $inputs = $("input");
       
       const $nombreDis = $('#nombreDis').val().trim().toLowerCase();
-      const $localidadDis = $('#localidadDis').val().trim().toLowerCase();
+      
+      
+      //const $localidadDis = $selectProvincia.trim().toLowerCase();
+      
       
       //configuro mis shitches para que entre la busqueda según su caso
-      if($valorDelSelect != ''){
+      if($selectPorTipoProduct != ''){
 
-        administrarFilter($valorDelSelect);
+        administrarFilter($selectPorTipoProduct);
 
       };
-    
+      if ($selectPorProvincia != ''){
+         
+        buscarPorProvincia($selectPorProvincia);
+
+      }
 
       if($nombreDis){
 
@@ -158,14 +173,7 @@ $.ajax({
         );
       };
 
-      if($localidadDis){
-        
-        Busqueda = distribuidors.filter((distribuidor) =>
-          distribuidor.provincia.toLowerCase().includes($localidadDis)
-          //distribuidor.localidad.toLowerCase().includes($localidadDis)
-        );
-      };
-  
+    
       console.log(Busqueda);
 
       if (Busqueda) {

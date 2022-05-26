@@ -184,7 +184,7 @@
         "linea": "DDI",
         "modelo": "10",
         "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
-        "id": "PLUS6",
+        "id": "D10",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
         "link": "https://www.youtube.com/watch?v=xKWFmgBHx94"
@@ -489,7 +489,7 @@
     {
         "linea": "DVR",
         "modelo": "DVR6",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR1",
         "idRender": "renderDvrCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",

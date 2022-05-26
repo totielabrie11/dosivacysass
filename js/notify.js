@@ -6,6 +6,7 @@ $.ajax({
     renderNotifyList(notify)
     nuevoEventToLCS(notify);
     deleteNotify(notify);
+    notifyDetector(notify);
   
   }).always(function() {
     // Por ejemplo removemos la imagen "cargando..."
@@ -13,23 +14,6 @@ $.ajax({
     // Manejar errores
   })
 
-
-//Llamado Ajax a mis notify JSON
-/* $.ajax({
-  url: "../json/notify.json",
-  dataType:'json',
-  type: "GET",
-}).done((notify) => {
-    
-    renderNotifyList(notify)
-    nuevoEventToLCS(notify);
-    notifyDetector(notify);
-    
-}).fail((error) => {
-    console.log("carga de notify no fue exitosa"); //reemplazar por un sweet modal
-}).always(() => {
-    console.log("carga de datos notify.JSON terminada");
-}); */
 
 //////////////////SETTER DE BOTONES PARA LAS NOTIFY/////////////////////////
 //Elimina todo
@@ -55,9 +39,10 @@ function nuevoEventToLCS(notify){
       "notify",
       JSON.stringify([...notify])
     );
-
   };
+  //guardarLCS(notify)  => borra todas las notifys
   
+
   
 
   
@@ -230,7 +215,7 @@ function renderNotifyList(notify) {
       `
       <div class="card">
       <div class="card-image">
-          ${img}
+          <img src="${img}">
       </div>
       <div class="card-body">
           <span class="date"></span>

@@ -194,6 +194,7 @@ function rotate(e){
 ///////////////////////////SWEET ALERTS/////////////////////
 const $btnSelectorSetting = document.querySelector('#btnSelectorSetting');
 
+
 if(localStorage.getItem('setter') == null ) {localStorage.setItem('setter', 'true')}
 
 $btnSelectorSetting.addEventListener('click', () => {
@@ -450,8 +451,16 @@ function modalProductoDetail() {
 
 }
 
+///////////////////////////SETTINGS TOOLS////////////////////////
+function settingsTools(){
+  const $btnTools = document.querySelector('#btnToolsContainer');
+  
+  $btnTools.addEventListener('click', () =>{
+    
+    btnTools.classList.toggle('active1');
+    toolsBox.classList.toggle('d-none');
 
-
-
+  })
+}
 
 

@@ -660,7 +660,7 @@ a span {
 
 .inStock {
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   background: #11e95b;
@@ -672,7 +672,7 @@ a span {
 
 .noStock {
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   background: #e91111;
@@ -684,7 +684,7 @@ a span {
 
 .inStock {
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   background: #11e95b;
@@ -696,7 +696,7 @@ a span {
 
 .midStock {
   position: relative;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 300;
   color: #fff;
   background: #faa640;
@@ -1221,6 +1221,56 @@ body.oscuro .notifyCuantity {
 
 #btnSetter.active1, .active1.active1 {
   color: yellowgreen;
+}
+
+#btnTools, .active1 {
+  font-size: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#btnTools.active1, .active1.active1 {
+  color: yellowgreen;
+}
+
+.toolsBox {
+  background-color: white;
+  max-height: 100%;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  border-radius: 10px;
+  z-index: 1;
+  overflow: auto;
+}
+
+.toolsBox .card-header {
+  background-color: #4b4848 !important;
+}
+
+body.oscuro .toolsBox .card-header {
+  background-color: white !important;
+}
+
+.toolsBox .card-header h3 {
+  color: #014995 !important;
+  text-align: center;
+}
+
+.toolsBox .card-body {
+  width: 100%;
+  padding: 5%;
+  background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
+  overflow-y: scroll;
+}
+
+.toolsBox .card-footer {
+  background-color: #4b4848 !important;
+}
+
+body.oscuro .toolsBox .card-footer {
+  background-color: white !important;
 }
 
 .card-body h4 {
