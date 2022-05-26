@@ -6,17 +6,17 @@
     "fechaEvento": "01/05/22",
     "horaEvento": "10:00",
     "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite (se puede transportar acostada).<br> ✔Motor sin chispa que permite trabajo con todos los gases incluidos los explosivos. <br> ✔Bomba de aceite incorporada que garantiza la lubricación incluso a mala calidad de vacío. <br>✔sistema de paletas radiales con resortes.<br> ✔válvula solenoide en boca de aspiración impide reflujo de aceite al circuito ante corte eléctrico.<br> ✔Nueva tecnología que da alimentación eléctrica alterna posibilitando al motor más eficiencia y potencia con menor peso y consumo.<br> ✔Fabricación DOSIVAC que asegura un año de cobertura repuestos y reparación con garantía oficial!",
-    "img": "<img src='../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg' width='200px'>",
+    "img": "../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg",
     "id": "1"
   },
   {
-    "titulo": "Pagina Webss",
+    "titulo": "Pagina Webs",
     "tema": "visualizando la pagina web con Meli",
     "fechaCreacion": "11/04/22",
     "fechaEvento": "12/04/22",
     "horaEvento": "15:00",
     "descripcion": "espero que me de opiniones con respecto a la visual y a la funcionalidad",
-    "img": "<img src='https://thumbs.dreamstime.com/z/mujer-de-negocios-en-el-escritorio-oficina-personaje-vectorial-directora-femenina-habla-y-est%C3%A1-sentada-158529934.jpg' >",
+    "img": "https://thumbs.dreamstime.com/z/mujer-de-negocios-en-el-escritorio-oficina-personaje-vectorial-directora-femenina-habla-y-est%C3%A1-sentada-158529934.jpg",
     "id": "1"
   },
   {
@@ -25,7 +25,7 @@
     "fechaCreacion": "10/09/21",
     "fechaEvento": "21/10/21",
     "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
-    "img": "<img src='../img/notify/charla-ref.png' alt=''>",
+    "img": "../img/notify/charla-ref.png",
     "id": "2"
   },
   {
@@ -34,7 +34,7 @@
     "fechaCreacion": "10/09/21",
     "fechaEvento": "24/12/21",
     "descripcion": "Queremos desearte una feliz Navidad y dejarte los mejores deseos para el 2022",
-    "img": "<img src='https://www.love4musicals.com/wp-content/uploads/2017/12/image-8.jpeg' >",
+    "img": "https://www.love4musicals.com/wp-content/uploads/2017/12/image-8.jpeg",
     "id": "3"
   },
   {
@@ -44,7 +44,7 @@
     "fechaEvento": "24/12/21",
     "horaEvento": "10:00 am",
     "descripcion": "iremos recorriendo los distintos temas, y funcionalidades de la pagina. colores, resuelve de forma rapida las consulta del US",
-    "img": "<img src='../img/notify/web.jpg' >",
+    "img": "../img/notify/web.jpg",
     "id": "4"
   },
   {
@@ -54,17 +54,17 @@
     "fechaEvento": "31/12/21",
     "horaEvento": "24:00",
     "descripcion": "Te invitamos a reflexionar sobre el año pasado para recibir el año nuevo, apostando a una Argenitna mejor, una Argenitna Industrial, tus amigos de Dosivac",
-    "img": "<img src='https://1.bp.blogspot.com/-gdcyCjib_9U/YDRnCtJFBFI/AAAAAAAG90I/oP73Uo4v3PQAIdEK1SkdPmfl6ajGltb0gCLcBGAsYHQ/s16000/calendarios-del-ano-2022-para-imprimir.jpg' >",
+    "img": "https://1.bp.blogspot.com/-gdcyCjib_9U/YDRnCtJFBFI/AAAAAAAG90I/oP73Uo4v3PQAIdEK1SkdPmfl6ajGltb0gCLcBGAsYHQ/s16000/calendarios-del-ano-2022-para-imprimir.jpg",
     "id": "5"
   },
   {
-    "titulo": "CENSO",
+    "titulo": "CENSO NACIONAL",
     "tema": "Dosivac permanece cerrado por CENSO 2022",
     "fechaCreacion": "18/05/22",
     "fechaEvento": "19/05/22",
     "horaEvento": "15:00",
     "descripcion": "Te recomendamos tomar las medidas precautorias necesarias y tener impreso el número de ID para facilitar la operatoria",
-    "img": "<img src='https://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/censo_digital_2022.jpg?itok=zhIah5gI' >",
-    "id": "6"
+    "img": "https://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/censo_digital_2022.jpg?itok=zhIah5gI",
+    "id": "7"
   }
 ]

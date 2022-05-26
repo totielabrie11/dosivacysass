@@ -5,7 +5,6 @@ $.ajax({
   
     renderNotifyList(notify)
     nuevoEventToLCS(notify);
-    notifyDetector(notify);
     deleteNotify(notify);
   
   }).always(function() {
@@ -32,6 +31,9 @@ $.ajax({
     console.log("carga de datos notify.JSON terminada");
 }); */
 
+//////////////////SETTER DE BOTONES PARA LAS NOTIFY/////////////////////////
+//Elimina todo
+
 
 const btnCampanita = document.getElementById("notifyIcon");
 
@@ -53,8 +55,11 @@ function nuevoEventToLCS(notify){
       "notify",
       JSON.stringify([...notify])
     );
+
   };
- 
+  
+  
+
   
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
   
@@ -67,7 +72,7 @@ function nuevoEventToLCS(notify){
     }
   else {
     console.log('desarrollar la logica para el usuario que tiene antecedente en LCS')
-
+    notifyDetector(notify);
   }
   
 }
@@ -156,21 +161,55 @@ function renderNoTengoNotification() {
   
 
 }
+function renderNotifyListControl(notify) {
 
-function renderNotifyCuantity(arrayDeNotificaciones) {
+  notify.forEach((elemento)=> {
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =
+    elemento;
 
-  
-  const notifyCuantity = [...arrayDeNotificaciones].length
-  
-  $('.notifyCuantity').html(`<h6 id="notifyCuantity" class="text-center"> ${notifyCuantity}</h6>`)
+    $("#notyListControl").append(
+
+    `
+    <div class="tucked-corners-top">
+      <div class="tucked-corners-bottom">
+        <h4>${titulo}</h4>
+        <div class="container d-flex">
+          <div style="width: 50%" height: "50%" class="me-2">
+          <img src="${img}" width="70%" alt="" class="rounded">
+          </div>
+          <div class="text-md-center text-wrap">
+            <span >${tema}</span>
+          </div>
+          <div class="controlsNotify d-flex">
+            <button class="btn btn-primary w-50 ms-1 me-2 my-4"><i class="fas fa-eye"></i></button>
+            <button class="btn btn-danger w-50 my-4"><i class="fas fa-trash"></i></button>
+            <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      `
+    );
+
+
+  })
   
 }
 
-$("#pruebaporid").click( function(){
+function renderNotifyCuantity(arrayDeNotificaciones) {
 
-  console.log("acá pasa algo")
+  const notifyCuantity = [...arrayDeNotificaciones].length
+  
+  if (notifyCuantity) {
+    
+    renderNotifyListControl(arrayDeNotificaciones) 
+  }; 
 
-})
+  $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantity}</span>`)
+  
+}
+
 
 function renderNotifyList(notify) {
   
