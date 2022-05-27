@@ -461,6 +461,9 @@ function settingsTools(){
     toolsBox.classList.toggle('d-none');
 
   })
+
+
 }
+
 
 

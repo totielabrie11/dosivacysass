@@ -1316,6 +1316,10 @@ body.oscuro .notifyBox .card-header {
   overflow-y: scroll;
 }
 
+.notifyBox .card-body button {
+  max-height: 40px;
+}
+
 .notifyBox .card-footer {
   background-color: #4b4848 !important;
 }
@@ -1406,7 +1410,7 @@ body.oscuro .notifyBox .card-footer {
 }
 
 #checkbox {
-  background-color: black;
+  background-color: black !important;
 }
 
 .card-list {

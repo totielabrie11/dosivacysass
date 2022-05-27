@@ -44,7 +44,9 @@
         padding: 5%;
         background: url(https://img.freepik.com/foto-gratis/textura-marron_1253-157.jpg?w=2000);
         overflow-y: scroll;
-
+        button {
+            max-height: 40px;
+        }
     }
 
     .card-footer {
@@ -142,5 +144,5 @@
 
 /////////////////ESTILOS GENERALES de MIS NOTIFYS//////////////////////
 #checkbox {
-    background-color: black;
+    background-color: black !important;
 }

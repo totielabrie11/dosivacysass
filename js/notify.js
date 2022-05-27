@@ -30,7 +30,7 @@ const btnCampanita = document.getElementById("notifyIcon");
   });
 
 
-let arrayDeNotificaciones = [];
+let arrayNotiRenderBox = [];
 
 function nuevoEventToLCS(notify){
 
@@ -40,7 +40,7 @@ function nuevoEventToLCS(notify){
       JSON.stringify([...notify])
     );
   };
-  //guardarLCS(notify)  => borra todas las notifys
+  //guardarLCS(notify)  //=> borra todas las notifys
   
 
   
@@ -57,7 +57,7 @@ function nuevoEventToLCS(notify){
     }
   else {
     console.log('desarrollar la logica para el usuario que tiene antecedente en LCS')
-    notifyDetector(notify);
+    //notifyDetector(notify);
   }
   
 }
@@ -77,8 +77,9 @@ function notifyDetector(notify){
   
 
   const indexArr1 = notificationLCS.map((el)=> el.titulo)
-  const arrayDeNotificaciones = notificationDBS.filter((el)=> !indexArr1.includes(el.titulo))
-  console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
+  const arrayNotiRenderBox = notificationDBS.filter((el)=> !indexArr1.includes(el.titulo))
+  console.log("notificaciones no vistas por el US", arrayNotiRenderBox)
+  notifyNoVistas = localStorage.setItem('notifyNoVistas', JSON.stringify(arrayNotiRenderBox));
 
  
   let arrOne = notificationDBS.map((titulo)=> titulo.titulo)
@@ -101,7 +102,7 @@ function notifyDetector(notify){
     console.log('tengo nuevas notificaciones')
     
     notifyWebNotification()
-    renderNotifyCuantity(arrayDeNotificaciones)
+    renderNotifyCuantity(arrayNotiRenderBox)
     
   }
   
@@ -146,9 +147,11 @@ function renderNoTengoNotification() {
   
 
 }
-function renderNotifyListControl(notify) {
+function renderNotifyListControl(arrayNotiRenderBox) {
 
-  notify.forEach((elemento)=> {
+  console.log('las notify que están entrando al render box',arrayNotiRenderBox);
+
+  arrayNotiRenderBox.forEach((elemento)=> {
     const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =
     elemento;
 
@@ -167,8 +170,8 @@ function renderNotifyListControl(notify) {
           </div>
           <div class="controlsNotify d-flex">
             <button class="btn btn-primary w-50 ms-1 me-2 my-4"><i class="fas fa-eye"></i></button>
-            <button class="btn btn-danger w-50 my-4"><i class="fas fa-trash"></i></button>
-            <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2">
+            <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
+            <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
           </div>
         </div>
       </div>
@@ -177,18 +180,50 @@ function renderNotifyListControl(notify) {
       `
     );
 
-
   })
   
 }
+//Eliminar los ckecklist
+const eliminarCheckList = (id) => {
+  
+  console.log(id)
 
-function renderNotifyCuantity(arrayDeNotificaciones) {
+}
+//Ingresar los ckecklist del BoxNotify
+let arrayCkeck = []
+const ingresarCheckList = (id) =>{
 
-  const notifyCuantity = [...arrayDeNotificaciones].length
+
+  const notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
+   if (notifyNoVistas == null){notifyNoVistas = []}
+  console.log(notifyNoVistas)
+  console.log(id)
+    
+  const notifys = notifyNoVistas.find(not => not.id === id); //Buscar si existe en el not
+  const isInNot = arrayCkeck.find(prod => prod.id === id);
+  
+    if (isInNot) {
+      arrayCkeck[arrayCkeck.findIndex(not => not.id === id)].cantidad += 1;
+      arrayCkeck = [...arrayCkeck];
+      return;
+    }
+    notifys.cantidad = 1;
+    arrayCkeck.push(notifys);
+
+  console.log('cantidad de notify listadas',arrayCkeck);
+  
+
+}
+
+
+
+function renderNotifyCuantity(arrayNotiRenderBox) {
+
+  notifyCuantity = [...arrayNotiRenderBox].length
   
   if (notifyCuantity) {
     
-    renderNotifyListControl(arrayDeNotificaciones) 
+    renderNotifyListControl(arrayNotiRenderBox) 
   }; 
 
   $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantity}</span>`)
@@ -274,10 +309,10 @@ const deleteNotify = (titulo) => {
     localStorage.setItem("notify", JSON.stringify(notify));
 
     const indexArr1 = notify.map((el)=> el.titulo)
-    const arrayDeNotificaciones = not.filter((el)=> !indexArr1.includes(el.titulo))
-    console.log("notificaciones no vistas por el US", arrayDeNotificaciones)
+    const arrayNotiRenderBox = not.filter((el)=> !indexArr1.includes(el.titulo))
+    console.log("notificaciones no vistas por el US", arrayNotiRenderBox)
 
-    renderNotifyCuantity(arrayDeNotificaciones) ; */
+    renderNotifyCuantity(arrayNotiRenderBox) ; */
     
 };
   
