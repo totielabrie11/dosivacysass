@@ -42,9 +42,6 @@ function nuevoEventToLCS(notify){
   };
   //guardarLCS(notify)  //=> borra todas las notifys
   
-
-  
-
   
   notifyLCS = JSON.parse(localStorage.getItem("notify"));
   
@@ -169,7 +166,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
             <span >${tema}</span>
           </div>
           <div class="controlsNotify d-flex">
-            <button class="btn btn-primary w-50 ms-1 me-2 my-4"><i class="fas fa-eye"></i></button>
+            <button class="btn btn-primary w-50 ms-1 me-2 my-4" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
             <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
             <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
           </div>
@@ -183,11 +180,22 @@ function renderNotifyListControl(arrayNotiRenderBox) {
   })
   
 }
+//Eliminar los cuantity
+const eliminarCuantity = (id) => {
+  notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
+  console.log("🚀 ~ file: notify.js ~ line 189 ~ eliminarCuantity ~ notifyNoVistas", notifyNoVistas)
+  let notifyCuantityFilter = notifyNoVistas.filter(not => not.id !== id);
+
+   
+   localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
+ 
+}
 //Eliminar los ckecklist
 const eliminarCheckList = (id) => {
+  notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
+  console.log("🚀 ~ file: notify.js ~ line 196 ~ eliminarCheckList ~ notifyNoVistas", notifyNoVistas)
+  console.log(id);
   
-  console.log(id)
-
 }
 //Ingresar los ckecklist del BoxNotify
 let arrayCkeck = []
@@ -220,7 +228,12 @@ const ingresarCheckList = (id) =>{
 function renderNotifyCuantity(arrayNotiRenderBox) {
 
   notifyCuantity = [...arrayNotiRenderBox].length
-  
+    let cuantityUS = JSON.parse(localStorage.getItem("notifyNoVistas"))
+    if(cuantityUS =! []){
+      notifyCuantity = cuantityUS
+    };
+
+
   if (notifyCuantity) {
     
     renderNotifyListControl(arrayNotiRenderBox) 
