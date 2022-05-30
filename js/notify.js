@@ -188,7 +188,8 @@ const eliminarCuantity = (id) => {
 
    
    localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
- 
+
+   renderNotifyCuantity();
 }
 //Eliminar los ckecklist
 const eliminarCheckList = (id) => {
@@ -226,13 +227,24 @@ const ingresarCheckList = (id) =>{
 
 
 function renderNotifyCuantity(arrayNotiRenderBox) {
+  if (arrayNotiRenderBox == null) {arrayNotiRenderBox = notifyCuantity
+    notifyCuantityUS = JSON.parse(localStorage.getItem("notifyNoVistas"))
+
+    if (notifyCuantityUS.length == 0) {
+    
+      renderNoTengoNotification();
+    
+    }else{
+      const notifyCuantityNumber = notifyCuantityUS.length
+      $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantityNumber}</span>`)
+    }
+     
+    return
+  }
+
 
   notifyCuantity = [...arrayNotiRenderBox].length
-    let cuantityUS = JSON.parse(localStorage.getItem("notifyNoVistas"))
-    if(cuantityUS =! []){
-      notifyCuantity = cuantityUS
-    };
-
+  
 
   if (notifyCuantity) {
     
@@ -241,7 +253,10 @@ function renderNotifyCuantity(arrayNotiRenderBox) {
 
   $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantity}</span>`)
   
+
 }
+  
+  
 
 
 function renderNotifyList(notify) {
