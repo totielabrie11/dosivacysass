@@ -149,14 +149,14 @@ function renderNotifyListControl(arrayNotiRenderBox) {
   console.log('las notify que están entrando al render box',arrayNotiRenderBox);
 
   arrayNotiRenderBox.forEach((elemento)=> {
-    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, classes } =
     elemento;
 
     $("#notyListControl").append(
 
     `
-    <div class="tucked-corners-top">
-      <div class="tucked-corners-bottom">
+    <div class="tucked-corners-top ">
+      <div id="acceder" class="tucked-corners-bottom ${classes}">
         <h4>${titulo}</h4>
         <div class="container d-flex">
           <div style="width: 50%" height: "50%" class="me-2">
@@ -166,7 +166,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
             <span >${tema}</span>
           </div>
           <div class="controlsNotify d-flex">
-            <button class="btn btn-primary w-50 ms-1 me-2 my-4" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
+            <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
             <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
             <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
           </div>
@@ -181,21 +181,39 @@ function renderNotifyListControl(arrayNotiRenderBox) {
   
 }
 //Eliminar los cuantity
+
+
 const eliminarCuantity = (id) => {
+
+  $btnButton = document.querySelectorAll('button')[2];
+  
+ $btnButton.setAttribute("id", `${id}`);
+
+
+
+  acceder.classList.toggle("active2");
+    
+
+
   notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
   console.log("🚀 ~ file: notify.js ~ line 189 ~ eliminarCuantity ~ notifyNoVistas", notifyNoVistas)
+  
   let notifyCuantityFilter = notifyNoVistas.filter(not => not.id !== id);
+    localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
 
-   
-   localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
 
-   renderNotifyCuantity();
+    
+
+  renderNotifyCuantity();
 }
+
 //Eliminar los ckecklist
 const eliminarCheckList = (id) => {
   notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
   console.log("🚀 ~ file: notify.js ~ line 196 ~ eliminarCheckList ~ notifyNoVistas", notifyNoVistas)
   console.log(id);
+
+
   
 }
 //Ingresar los ckecklist del BoxNotify
@@ -238,7 +256,7 @@ function renderNotifyCuantity(arrayNotiRenderBox) {
       const notifyCuantityNumber = notifyCuantityUS.length
       $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantityNumber}</span>`)
     }
-     
+
     return
   }
 

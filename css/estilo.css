@@ -1413,6 +1413,14 @@ body.oscuro .notifyBox .card-footer {
   background-color: black !important;
 }
 
+#notifyListRender.active2, .active2.active2 {
+  background-color: black;
+}
+
+#notifyListRender.active2 img, .active2.active2 img {
+  opacity: 10%;
+}
+
 .card-list {
   width: 100%;
   margin: auto;

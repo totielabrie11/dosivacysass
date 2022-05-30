@@ -146,3 +146,16 @@
 #checkbox {
     background-color: black !important;
 }
+
+#notifyListRender, .active2 {
+
+    &.active2 {
+        
+        background-color:rgb(0, 0, 0);
+        img {
+            opacity: 10%;
+        }
+        
+        
+    }
+}
