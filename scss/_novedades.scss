@@ -42,7 +42,7 @@
     .card-body {
         width: 100%;
         padding: 5%;
-        background: url(https://img.freepik.com/foto-gratis/textura-marron_1253-157.jpg?w=2000);
+        background: url(https://thumbs.dreamstime.com/b/textura-del-fondo-del-tablero-de-madera-aglomerada-84550046.jpg);
         overflow-y: scroll;
 
         button {
@@ -148,7 +148,11 @@
     background-color: black !important;
 }
 
-#notifyListRender,
+#notifyListRender{
+    img {
+        max-width: 100px;
+    }
+}
 .active2 {
 
     &.active2 {

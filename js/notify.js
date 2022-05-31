@@ -143,86 +143,135 @@ function renderNoTengoNotification() {
   $('.notifyCuantityContainer').html("")
   
 
-}
+};
+
 function renderNotifyListControl(arrayNotiRenderBox) {
 
+  
   console.log('las notify que están entrando al render box',arrayNotiRenderBox);
 
   const clase = arrayNotiRenderBox.map((x)=> x.clase)
   if (clase) {
-    console.log(clase)
-  };
-
-  arrayNotiRenderBox.forEach((elemento)=> {
-    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
-    elemento;
-
-    $("#notyListControl").append(
-
-    `
-    <div class="tucked-corners-top ">
-      <div id="acceder" class="tucked-corners-bottom ${clase}">
-        <h4>${titulo}</h4>
-        <div class="container d-flex">
-          <div style="width: 50%" height: "50%" class="me-2">
-          <img src="${img}" width="70%" alt="" class="rounded">
+      
+      $("#notyListControl").html('');
+      arrayNotiRenderBox.forEach((elemento)=> {
+        const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
+        elemento;
+    
+        $("#notyListControl").append(
+    
+        `
+        <div class="tucked-corners-top ">
+          <div id="acceder" class="tucked-corners-bottom ${clase}">
+            <h4>${titulo}</h4>
+            <div class="container d-flex">
+              <div style="width: 50%" height: "50%" class="me-2">
+              <img src="${img}" width="70%" alt="" class="rounded">
+              </div>
+              <div class="text-md-center text-wrap">
+                <span >${tema}</span>
+              </div>
+              <div class="controlsNotify d-flex">
+                <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
+                <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
+                <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
+              </div>
+            </div>
           </div>
-          <div class="text-md-center text-wrap">
-            <span >${tema}</span>
-          </div>
-          <div class="controlsNotify d-flex">
-            <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
-            <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
-            <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
+        </div>
+        
+          `
+        )
+      });
+      return
+
+  }else{
+    arrayNotiRenderBox.forEach((elemento)=> {
+      const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
+      elemento;
+  
+      $("#notyListControl").append(
+  
+      `
+      <div class="tucked-corners-top ">
+        <div id="acceder" class="tucked-corners-bottom ${clase}">
+          <h4>${titulo}</h4>
+          <div class="container d-flex">
+            <div style="width: 50%" height: "50%" class="me-2">
+            <img src="${img}" width="70%" alt="" class="rounded">
+            </div>
+            <div class="text-md-center text-wrap">
+              <span >${tema}</span>
+            </div>
+            <div class="controlsNotify d-flex">
+              <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
+              <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
+              <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-      `
-    );
-
-  })
+      
+        `
+      );
+  
+    })
+  }
+  
   
 }
 //Eliminar los cuantity
 
-
+let notifyMapedNot = [];
 const eliminarCuantity = (id) => {
 
-  /* $btnButton = document.querySelectorAll('button')[2];
- $btnButton.setAttribute("id", `${id}`);
-  acceder.classList.toggle("active2"); */
   
-
   notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
   console.log("🚀 ~ file: notify.js ~ line 189 ~ eliminarCuantity ~ notifyNoVistas", notifyNoVistas)
   
   let notifyCuantityFilter = notifyNoVistas.filter(not => not.id !== id);
-  let notifyEliminated =  notifyNoVistas.filter(not => not.id == id);
+  let notifyMapActive2 =  notifyNoVistas.filter(not => not.id == id);
   //agregar la class cambio vista box
   let nuevaClase = 'active2';
   //let id = 2;
 
-  notifyEliminated.map(function(dato){
+  
+  notifyMapActive2.map(function(dato){
     if(dato.id == id){
     dato.clase = nuevaClase;
     }
   
-  return notifyEliminated;
-});
-
-console.log(notifyEliminated);
+    return notifyMapActive2;
+  });
 
 
+  const notifys = notifyMapActive2.find(not => not.id === id); //Buscar si existe en el not
+  const isInNot = notifyMapedNot.find(prod => prod.id === id);
+  
+    if (isInNot) {
+      notifyMapedNot[notifyMapedNot.findIndex(not => not.id === id)].cantidad += 1;
+      notifyMapedNot = [...notifyMapedNot];
+      return;
+    }
+    notifys.cantidad = 1;
+    notifyMapedNot.push(notifys);
 
-    localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
+  console.log('cantidad de notify mapeadas',notifyMapedNot);
 
+  const indexArr1 = notifyNoVistas.map((el)=> el.id)
+  const notifyNoMapeadas = notifyNoVistas.filter((el)=> indexArr1.includes(el.id))
+  console.log("🚀 ~ file: notify.js ~ line 263 ~ eliminarCuantity ~ notifyNoMapeadas", notifyNoMapeadas)
+  
+  const NotiMapNoMapConcat = notifyNoMapeadas.concat(notifyMapedNot)
+  console.log("🚀 ~ file: notify.js ~ line 266 ~ eliminarCuantity ~ NotiMapNoMapConcat", NotiMapNoMapConcat)
+  
+  
+  renderNotifyListControl(NotiMapNoMapConcat);
+  
+  localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
 
-    
+    renderNotifyCuantity();
 
-  renderNotifyCuantity();
-  renderNotifyListControl(notifyEliminated);
 }
 
 //Eliminar los ckecklist

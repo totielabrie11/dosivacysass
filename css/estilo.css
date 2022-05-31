@@ -1312,7 +1312,7 @@ body.oscuro .notifyBox .card-header {
 .notifyBox .card-body {
   width: 100%;
   padding: 5%;
-  background: url(https://img.freepik.com/foto-gratis/textura-marron_1253-157.jpg?w=2000);
+  background: url(https://thumbs.dreamstime.com/b/textura-del-fondo-del-tablero-de-madera-aglomerada-84550046.jpg);
   overflow-y: scroll;
 }
 
@@ -1413,24 +1413,24 @@ body.oscuro .notifyBox .card-footer {
   background-color: black !important;
 }
 
-#notifyListRender.active2,
+#notifyListRender img {
+  max-width: 100px;
+}
+
 .active2.active2 {
   background-color: rgba(0, 0, 0, 0.719);
 }
 
-#notifyListRender.active2 button.btn-primary,
 .active2.active2 button.btn-primary {
   color: black;
   cursor: not-allowed;
   background-color: #e5e5e5 !important;
 }
 
-#notifyListRender.active2 button > *,
 .active2.active2 button > * {
   pointer-events: none;
 }
 
-#notifyListRender img,
 .active2 img {
   opacity: 10%;
 }
