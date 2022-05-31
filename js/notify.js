@@ -148,15 +148,20 @@ function renderNotifyListControl(arrayNotiRenderBox) {
 
   console.log('las notify que están entrando al render box',arrayNotiRenderBox);
 
+  const clase = arrayNotiRenderBox.map((x)=> x.clase)
+  if (clase) {
+    console.log(clase)
+  };
+
   arrayNotiRenderBox.forEach((elemento)=> {
-    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, classes } =
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
     elemento;
 
     $("#notyListControl").append(
 
     `
     <div class="tucked-corners-top ">
-      <div id="acceder" class="tucked-corners-bottom ${classes}">
+      <div id="acceder" class="tucked-corners-bottom ${clase}">
         <h4>${titulo}</h4>
         <div class="container d-flex">
           <div style="width: 50%" height: "50%" class="me-2">
@@ -185,26 +190,39 @@ function renderNotifyListControl(arrayNotiRenderBox) {
 
 const eliminarCuantity = (id) => {
 
-  $btnButton = document.querySelectorAll('button')[2];
-  
+  /* $btnButton = document.querySelectorAll('button')[2];
  $btnButton.setAttribute("id", `${id}`);
-
-
-
-  acceder.classList.toggle("active2");
-    
-
+  acceder.classList.toggle("active2"); */
+  
 
   notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
   console.log("🚀 ~ file: notify.js ~ line 189 ~ eliminarCuantity ~ notifyNoVistas", notifyNoVistas)
   
   let notifyCuantityFilter = notifyNoVistas.filter(not => not.id !== id);
+  let notifyEliminated =  notifyNoVistas.filter(not => not.id == id);
+  //agregar la class cambio vista box
+  let nuevaClase = 'active2';
+  //let id = 2;
+
+  notifyEliminated.map(function(dato){
+    if(dato.id == id){
+    dato.clase = nuevaClase;
+    }
+  
+  return notifyEliminated;
+});
+
+console.log(notifyEliminated);
+
+
+
     localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
 
 
     
 
   renderNotifyCuantity();
+  renderNotifyListControl(notifyEliminated);
 }
 
 //Eliminar los ckecklist
