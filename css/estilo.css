@@ -1413,11 +1413,25 @@ body.oscuro .notifyBox .card-footer {
   background-color: black !important;
 }
 
-#notifyListRender.active2, .active2.active2 {
-  background-color: black;
+#notifyListRender.active2,
+.active2.active2 {
+  background-color: rgba(0, 0, 0, 0.719);
 }
 
-#notifyListRender.active2 img, .active2.active2 img {
+#notifyListRender.active2 button.btn-primary,
+.active2.active2 button.btn-primary {
+  color: black;
+  cursor: not-allowed;
+  background-color: #e5e5e5 !important;
+}
+
+#notifyListRender.active2 button > *,
+.active2.active2 button > * {
+  pointer-events: none;
+}
+
+#notifyListRender img,
+.active2 img {
   opacity: 10%;
 }
 
