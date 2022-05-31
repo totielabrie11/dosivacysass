@@ -5,7 +5,6 @@ $.ajax({
   
     renderNotifyList(notify)
     nuevoEventToLCS(notify);
-    deleteNotify(notify);
     notifyDetector(notify);
   
   }).always(function() {
@@ -151,8 +150,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
   console.log('las notify que están entrando al render box',arrayNotiRenderBox);
 
   const clase = arrayNotiRenderBox.map((x)=> x.clase)
-  if (clase) {
-      
+  
       $("#notyListControl").html('');
       arrayNotiRenderBox.forEach((elemento)=> {
         const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
@@ -165,6 +163,9 @@ function renderNotifyListControl(arrayNotiRenderBox) {
           <div id="acceder" class="tucked-corners-bottom ${clase}">
             <h4>${titulo}</h4>
             <div class="container d-flex">
+              <div class="pinchito" style="width: 50%" height: "50%">
+                <img src="../img/pinche-removebg-preview.png" width="30%">
+              </div>
               <div style="width: 50%" height: "50%" class="me-2">
               <img src="${img}" width="70%" alt="" class="rounded">
               </div>
@@ -183,41 +184,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
           `
         )
       });
-      return
 
-  }else{
-    arrayNotiRenderBox.forEach((elemento)=> {
-      const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, clase } =
-      elemento;
-  
-      $("#notyListControl").append(
-  
-      `
-      <div class="tucked-corners-top ">
-        <div id="acceder" class="tucked-corners-bottom ${clase}">
-          <h4>${titulo}</h4>
-          <div class="container d-flex">
-            <div style="width: 50%" height: "50%" class="me-2">
-            <img src="${img}" width="70%" alt="" class="rounded">
-            </div>
-            <div class="text-md-center text-wrap">
-              <span >${tema}</span>
-            </div>
-            <div class="controlsNotify d-flex">
-              <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
-              <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
-              <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
-            </div>
-          </div>
-        </div>
-      </div>
-      
-        `
-      );
-  
-    })
-  }
-  
   
 }
 //Eliminar los cuantity
@@ -384,7 +351,7 @@ function renderNotifyList(notify) {
               <div class="type">${fechaEvento}</div>
           </div>
           <div class="info">
-              <div class="value" onclick="deleteNotify('${titulo}')">ACTIVO</div>
+              <div class="value">ACTIVO</div>
               <div class="type"></div>
           </div>
       </div>
@@ -393,39 +360,5 @@ function renderNotifyList(notify) {
       `
       )
     })
-}
-
-
-
-
-const deleteNotify = (titulo) => {
-
-  console.log(titulo)
-  
-   // buscar producto en DB
-    /* const product = not.find(prod => prod.titulo === titulo); //Buscar si existe en el cart
-    console.log("🚀 ~ file: notify.js ~ line 199 ~ deleteNotify ~ product", product)
-    
-    const isInNot = notify.find(prod => prod.titulo === titulo);
-    console.log("🚀 ~ file: notify.js ~ line 202 ~ deleteNotify ~ isInNot", isInNot)
-  
-    if (isInNot) {
-      notify[notify.findIndex(prod => prod.titulo === titulo)].cantidad += 1;
-      notify = [...notify];
-      return;
-    }
-    product.cantidad = 1;
-    notify.push(product);
-
-    console.log('agregando producto al notify: ', notify )
-    
-    localStorage.setItem("notify", JSON.stringify(notify));
-
-    const indexArr1 = notify.map((el)=> el.titulo)
-    const arrayNotiRenderBox = not.filter((el)=> !indexArr1.includes(el.titulo))
-    console.log("notificaciones no vistas por el US", arrayNotiRenderBox)
-
-    renderNotifyCuantity(arrayNotiRenderBox) ; */
-    
 };
   

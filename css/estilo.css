@@ -1417,6 +1417,13 @@ body.oscuro .notifyBox .card-footer {
   max-width: 100px;
 }
 
+#notyListControl .pinchito {
+  position: absolute;
+  width: 20px;
+  left: 50%;
+  top: -20%;
+}
+
 #notyListControl .active2.active2 {
   background-color: rgba(0, 0, 0, 0.719);
 }

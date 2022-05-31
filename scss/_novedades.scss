@@ -152,6 +152,12 @@
     img {
         max-width: 100px;
     };
+    .pinchito{
+        position: absolute;
+        width: 20px;
+        left: 50%;
+        top: -20%;
+    };
     .active2 {
 
         &.active2 {
@@ -172,8 +178,8 @@
     
         img {
             opacity: 25%;
-        }
+        };
     
     
-    }
-}
+    };
+};
