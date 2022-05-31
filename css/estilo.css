@@ -1413,26 +1413,26 @@ body.oscuro .notifyBox .card-footer {
   background-color: black !important;
 }
 
-#notifyListRender img {
+#notyListControl img {
   max-width: 100px;
 }
 
-.active2.active2 {
+#notyListControl .active2.active2 {
   background-color: rgba(0, 0, 0, 0.719);
 }
 
-.active2.active2 button.btn-primary {
+#notyListControl .active2.active2 button.btn-primary {
   color: black;
   cursor: not-allowed;
   background-color: #e5e5e5 !important;
 }
 
-.active2.active2 button > * {
+#notyListControl .active2.active2 button > * {
   pointer-events: none;
 }
 
-.active2 img {
-  opacity: 10%;
+#notyListControl .active2 img {
+  opacity: 25%;
 }
 
 .card-list {

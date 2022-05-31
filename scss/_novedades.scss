@@ -148,32 +148,32 @@
     background-color: black !important;
 }
 
-#notifyListRender{
+#notyListControl{
     img {
         max-width: 100px;
-    }
-}
-.active2 {
+    };
+    .active2 {
 
-    &.active2 {
-
-        background-color: rgba(0, 0, 0, 0.719);
-
-        button.btn-primary {
-            color: black;
-
-            cursor: not-allowed;
-            background-color: rgb(229, 229, 229) !important;
+        &.active2 {
+    
+            background-color: rgba(0, 0, 0, 0.719);
+    
+            button.btn-primary {
+                color: black;
+    
+                cursor: not-allowed;
+                background-color: rgb(229, 229, 229) !important;
+            }
+    
+            button>* {
+                pointer-events: none;
+            }
         }
-
-        button>* {
-            pointer-events: none;
+    
+        img {
+            opacity: 25%;
         }
+    
+    
     }
-
-    img {
-        opacity: 10%;
-    }
-
-
 }
