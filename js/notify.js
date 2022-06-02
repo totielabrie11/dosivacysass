@@ -73,8 +73,9 @@ function notifyDetector(notify){
   
 
   const indexArr1 = notificationLCS.map((el)=> el.titulo)
-  const arrayNotiRenderBox = notificationDBS.filter((el)=> !indexArr1.includes(el.titulo))
-  console.log("notificaciones no vistas por el US", arrayNotiRenderBox)
+  let arrayNotiRenderBox =  notificationDBS.filter((el)=> !indexArr1.includes(el.titulo))
+  console.log("notificaciones no vistas por el US", arrayNotiRenderBox);
+
   notifyNoVistas = localStorage.setItem('notifyNoVistas', JSON.stringify(arrayNotiRenderBox));
 
  
@@ -189,7 +190,8 @@ function renderNotifyListControl(arrayNotiRenderBox) {
 }
 //Eliminar los cuantity
 
-let notifyMapedNot = [];
+notifyMapedNot = [];
+
 const eliminarCuantity = (id) => {
 
   
@@ -232,7 +234,7 @@ const eliminarCuantity = (id) => {
   const NotiMapNoMapConcat = notifyNoMapeadas.concat(notifyMapedNot)
   console.log("🚀 ~ file: notify.js ~ line 266 ~ eliminarCuantity ~ NotiMapNoMapConcat", NotiMapNoMapConcat)
   
-  
+  NotiMapNoMapConcat.splice(-1,1);
   renderNotifyListControl(NotiMapNoMapConcat);
   
   localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
@@ -279,6 +281,11 @@ const ingresarCheckList = (id) =>{
 
 
 function renderNotifyCuantity(arrayNotiRenderBox) {
+  
+  if(notifyMapedNot != ""){
+    console.log('cantidad de notify que fueron mapeadas y debo guardar en LCS: ', notifyMapedNot)
+  }
+
   if (arrayNotiRenderBox == null) {arrayNotiRenderBox = notifyCuantity
     notifyCuantityUS = JSON.parse(localStorage.getItem("notifyNoVistas"))
 
@@ -295,12 +302,11 @@ function renderNotifyCuantity(arrayNotiRenderBox) {
   }
 
 
-  notifyCuantity = [...arrayNotiRenderBox].length
-  
+  notifyCuantity = [...arrayNotiRenderBox].length  
 
   if (notifyCuantity) {
     
-    renderNotifyListControl(arrayNotiRenderBox) 
+    renderNotifyListControl(arrayNotiRenderBox); 
   }; 
 
   $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantity}</span>`)
