@@ -30,19 +30,24 @@ const btnCampanita = document.getElementById("notifyIcon");
 
 
 let arrayNotiRenderBox = [];
-
 function nuevoEventToLCS(notify){
-
-  const guardarLCS = (notify) => {
-    localStorage.setItem(
-      "notify",
-      JSON.stringify([...notify])
-    );
-  };
+  
+    notifyLCS = JSON.parse(localStorage.getItem("notify"));
+    if(notifyLCS == null){notifyLCS = []}
+    /* respaldo = JSON.parse(localStorage.getItem("respaldo"));
+    notifyLCS.concat(respaldo) */
+    guardarLCS = (notify) => {
+      
+      localStorage.setItem(
+        "notify",
+        JSON.stringify([...notify])
+      );
+      
+    };
+    
   //guardarLCS(notify)  //=> borra todas las notifys
-  
-  
-  notifyLCS = JSON.parse(localStorage.getItem("notify"));
+ 
+
   
  
   if (notifyLCS === null) {
@@ -61,10 +66,24 @@ function nuevoEventToLCS(notify){
 ////////////funcion crear la logica para enterarme de nuevas notificaciones y actualizar///////
 
 function notifyDetector(notify){
-
-  const notificationLCS = notifyLCS
-  console.log("cantidad de notifications en el localStorage", notificationLCS)
-
+  realTime = JSON.parse(localStorage.getItem("notifyRealtime"));
+  respaldo = JSON.parse(localStorage.getItem("respaldo"));
+   if (respaldo == null) {respaldo = []}
+  let notificationLCS = []
+  if (respaldo.length != 0) {
+    notificationLCS = respaldo.concat(realTime)
+    console.log('tengo respaldo')
+  }else{
+    notificationLCS = notifyLCS
+    'no tengo respaldo'
+  }
+  
+  console.log("cantidad de notifications en el localStorage", notificationLCS);
+  
+  if (notificationLCS) {
+    respaldo = localStorage.setItem("respaldo", JSON.stringify(notificationLCS))
+  }
+  
   const notificationDBS = notify
   console.log("cantidad de notifications en el dataBase", notificationDBS)
 
@@ -142,7 +161,8 @@ function renderNoTengoNotification() {
     
   $('.notifyCuantityContainer').html("")
   
-
+  $("#notyListControl").append("<div class='tucked-corners-top '><div id='acceder' class='tucked-corners-bottom'><h4 class='mt-4 text-center'>No tienes notificaciones pendientes</h4><div class='container d-flex'><div class='pinchito' style='width: 50%' height: '50%'><img src='../img/pinche-removebg-preview.png' width='30%'></div><img src='https://us.123rf.com/450wm/grublee/grublee0907/grublee090700075/5232176-bot%C3%B3n-verde-brillante-con-un-dedo-pulgar-hacia-arriba.jpg' width='50px'></img><div style='width: 100%' height: '50%' class='me-2'><div class='text-md-center text-wrap w-100'><a href='src/novedades.html'><span class='text-center btn btn-warning btn-efect'>ir a mis eventos</span></a></div><div class='controlsNotify d-flex'></div></div></div></div>");
+  
 };
 
 function renderNotifyListControl(arrayNotiRenderBox) {
@@ -175,7 +195,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
               </div>
               <div class="controlsNotify d-flex">
                 <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
-                <button class="btn btn-danger w-50 my-4" id="btnEliminarCheck" onclick="eliminarCheckList('${id}')"><i class="fas fa-trash"></i></button>
+               
                 <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
               </div>
             </div>
@@ -193,18 +213,24 @@ function renderNotifyListControl(arrayNotiRenderBox) {
 notifyMapedNot = [];
 
 const eliminarCuantity = (id) => {
-
+  respaldo = JSON.parse(localStorage.getItem("respaldo"));
   
+  
+  if (parseInt(respaldo.length) != 0 ) {
+    localStorage.setItem("notify", JSON.stringify(respaldo))
+  } 
+
   notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
   console.log("🚀 ~ file: notify.js ~ line 189 ~ eliminarCuantity ~ notifyNoVistas", notifyNoVistas)
   
   let notifyCuantityFilter = notifyNoVistas.filter(not => not.id !== id);
   let notifyMapActive2 =  notifyNoVistas.filter(not => not.id == id);
   //agregar la class cambio vista box
-  let nuevaClase = 'active2';
+  
   //let id = 2;
 
-  
+  let nuevaClase = 'active2';
+
   notifyMapActive2.map(function(dato){
     if(dato.id == id){
     dato.clase = nuevaClase;
@@ -237,21 +263,17 @@ const eliminarCuantity = (id) => {
   NotiMapNoMapConcat.splice(-1,1);
   renderNotifyListControl(NotiMapNoMapConcat);
   
+  console.log(notifyCuantityFilter)
   localStorage.setItem("notifyNoVistas", JSON.stringify(notifyCuantityFilter));
 
     renderNotifyCuantity();
 
+    
+    
 }
 
-//Eliminar los ckecklist
-const eliminarCheckList = (id) => {
-  notifyNoVistas = JSON.parse(localStorage.getItem("notifyNoVistas"))
-  console.log("🚀 ~ file: notify.js ~ line 196 ~ eliminarCheckList ~ notifyNoVistas", notifyNoVistas)
-  console.log(id);
 
 
-  
-}
 //Ingresar los ckecklist del BoxNotify
 let arrayCkeck = []
 const ingresarCheckList = (id) =>{
@@ -279,12 +301,14 @@ const ingresarCheckList = (id) =>{
 }
 
 
-
 function renderNotifyCuantity(arrayNotiRenderBox) {
   
   if(notifyMapedNot != ""){
     console.log('cantidad de notify que fueron mapeadas y debo guardar en LCS: ', notifyMapedNot)
+    localStorage.setItem("notifyRealtime", JSON.stringify(notifyMapedNot));
   }
+  guardarLCS(notifyMapedNot)
+  
 
   if (arrayNotiRenderBox == null) {arrayNotiRenderBox = notifyCuantity
     notifyCuantityUS = JSON.parse(localStorage.getItem("notifyNoVistas"))
@@ -292,6 +316,7 @@ function renderNotifyCuantity(arrayNotiRenderBox) {
     if (notifyCuantityUS.length == 0) {
     
       renderNoTengoNotification();
+
     
     }else{
       const notifyCuantityNumber = notifyCuantityUS.length
@@ -311,7 +336,7 @@ function renderNotifyCuantity(arrayNotiRenderBox) {
 
   $('.notifyCuantity').html(`<span id="notifyCuantity" class="text-center"> ${notifyCuantity}</span>`)
   
-
+  
 }
   
   
@@ -368,3 +393,5 @@ function renderNotifyList(notify) {
     })
 };
   
+
+
