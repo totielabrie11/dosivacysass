@@ -463,7 +463,49 @@ function settingsTools(){
   })
 
 
-}
+  $.ajax({
+    method: "GET",
+    url: "../JSON/manual.json",
+  }).done(function(manual) {
+    
+      console.log(manual)
+      renderManuals(manual);
+    
+    }).always(function() {
+      console.log('termino de cargar los manuales')
+    }).fail(function() {
+      console.log('no pude leer la lista de manuals')
+    })
 
+    function renderManuals(manual){
+
+      manual.forEach((elemento)=> {
+        const {  linea, id, img, manualRoot } =
+        elemento;
+
+        $("#manualsList").append(
+          `
+
+        
+        <tr>
+            <td>${linea}</td>
+            <td><img src='${img}' width='100%'></img></td>
+            <td>manual operativo</td>
+            <td onclick="descargarManual('${id}')"><a href="${manualRoot}" download> Descargar</a></td>
+        </tr>
+        
+        
+        `
+        );
+      });
+    }
+    
+    
+  }
+  
+  function descargarManual  (id) {
+    console.log(id)
+    
+  }
 
 

@@ -121,7 +121,7 @@
       
     </div>
     <div class="card-footer d-flex">
-      <h4 class="card-text" id="totalNotify">notificaciones sin revisar: </h4>
+      <h4 class="card-text" id="totalNotify"></h4>
     </div>
   </div>
 
@@ -129,11 +129,27 @@
     <div class="card-header text-center ">
       <h4>Paquete de herramientas</h4>
     </div>
-    <div class="card-body">
-      <h4 class="btn btn-success btn-efect">Descargar Manuales de productos</h4>
-      <h4 class="btn btn-danger btn-efect">Otras herramientas que estarán disponibes</h4>
+    <div class="card-body" >
+      <h3>LISTA DE MANUALES OPERACIONALES</h3>
+      <table class="fl-table">
+        <thead>
+          <tr>
+              <th>Linea</th>
+              <th>Foto</th>
+              <th>Disponible</th>
+              <th>Enlace</th>
+          </tr>
+        </thead>>
+        <tbody id="manualsList">
+
+        </tbody>
+
+      </table>
     </div>
-    <div class="card-footer"></div>
+    <div class="card-footer d-flex">
+      <h4 class="btn btn-success btn-efect">Descargar Manuales de productos</h4>
+      <h4 class="btn btn-danger btn-efect">Otras herramientas</h4>
+    </div>
   </div>
 
   <div id="loader" class="loader">Loading...</div>

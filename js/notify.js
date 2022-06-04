@@ -297,7 +297,17 @@ const ingresarCheckList = (id) =>{
 
   console.log('cantidad de notify listadas',arrayCkeck);
   
+  
+  $('#totalNotify').html("")
+  if(arrayCkeck.length != 1){
+    
+    $('#totalNotify').prepend("<span class='btn btn-danger'>Eliminar Seleccion</span>")
 
+  }else{
+    $('#totalNotify').html("")
+  } 
+    
+  
 }
 
 

@@ -1,0 +1,149 @@
+[
+    {
+        "linea": "Milenio",
+        "id": "milenio",
+        "img": "./img/bombas/mielnio-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/pochi.jpg"
+    },
+    {
+        "linea": "EMD",
+        "id": "emd",
+        "img": "./img/bombas/emd-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "Mi-EMD",
+        "id": "mi-emd",
+        "img": "./img/bombas/miemd-bg-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "EMD-PLUS",
+        "id": "emd-plus",
+        "img": "./img/bombas/EMD-PLUS-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DDI",
+        "id": "ddi",
+        "img": "./img/bombas/DDI-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DECI",
+        "id": "deci",
+        "img": "./img/bombas/DECI-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DE",
+        "id": "de",
+        "img": "./img/bombas/DE-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DE-AP",
+        "id": "deap",
+        "img": "./img/bombas/DE-AP-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DES",
+        "id": "des",
+        "img": "./img/bombas/DES-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DEPP",
+        "id": "depp",
+        "img": "./img/bombas/DEPP.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DVR",
+        "id": "dvr",
+        "img": "./img/bombas/DVR6-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DVR2",
+        "id": "dvr2",
+        "img": "./img/bombas/DVR2-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "SUPERVAC/VP1",
+        "id": "supervacvp1",
+        "img": "./img/bombas/Supervac-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DVR BLUE",
+        "id": "dvrblue",
+        "img": "./img/bombas/DVR6-removebg-preview (1).png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DVL",
+        "id": "dvl",
+        "img": "./img/bombas/DVL-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DSHC",
+        "id": "dshc",
+        "img": "./img/bombas/DSHC todas.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "DS/DSV",
+        "id": "ds",
+        "img": "./img/bombas/DS-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "MDF",
+        "id": "mdf",
+        "img": "./img/bombas/mdf-captura.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "Divisor de caudal",
+        "id": "divisor",
+        "img": "./img/bombas/divisor-background.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "Control Total",
+        "id": "control total",
+        "img": "./img/bombas/ct-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    },
+    {
+        "linea": "Aquealine",
+        "id": "aqualine",
+        "img": "./img/bombas/Equipos.Aqualine.2018-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": ""
+    }
+]
