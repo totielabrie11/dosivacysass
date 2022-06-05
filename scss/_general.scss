@@ -12,31 +12,35 @@ html {
     /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body.claro {
         transition: 1s ease all;
-       /*  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
+        /*  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
         background-size: 100%; */
         color: white;
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
-        
+
         /* background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
         background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal; */
 
-        background: #000000;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #000000;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #434343, #000000);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #434343, #000000);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
     body.oscuro {
         transition: 1s ease all;
-       /*  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
+        /*  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
         color: white; */
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
-        background-image: url(https://img.freepik.com/foto-gratis/pared-moderna-verde-claro-elegante-agradable-espacio-brillante-salpicaduras_114160-574.jpg)
-
+        background-image: url(https://img.freepik.com/vector-gratis/curva-azul-ombre-sobre-fondo-azul-claro_53876-113099.jpg?w=2000);
+        background-repeat: no-repeat !important;
+        background-size: cover;
     }
 
     main {
@@ -54,7 +58,7 @@ nav {
     text-transform: uppercase;
     background: #202020;
 
-    
+
     body.claro & {
         #hamburguesita {
             background-color: #0b2caf;
@@ -88,7 +92,7 @@ nav {
         }
 
         body.oscuro & .dropdown-menu {
-            background-color: #014995 !important;
+            background-color: #B9D4E2 !important;
         }
 
         li {
@@ -104,6 +108,7 @@ nav {
 
                     color: rgb(190, 185, 185) !important;
                     text-shadow: 2px 2px 3px rgb(1, 1, 1);
+
                     &:hover {
                         color: #fff !important;
                     }
@@ -136,11 +141,18 @@ nav {
         } 
     }
 } */
+.hero {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 .hero img {
     box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+
 
 footer {
 

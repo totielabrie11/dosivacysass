@@ -41,7 +41,9 @@ html body.oscuro {
         color: white; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(https://img.freepik.com/foto-gratis/pared-moderna-verde-claro-elegante-agradable-espacio-brillante-salpicaduras_114160-574.jpg);
+  background-image: url(https://img.freepik.com/vector-gratis/curva-azul-ombre-sobre-fondo-azul-claro_53876-113099.jpg?w=2000);
+  background-repeat: no-repeat !important;
+  background-size: cover;
 }
 
 html main {
@@ -98,7 +100,7 @@ body.claro nav ul .dropdown-menu {
 }
 
 body.oscuro nav ul .dropdown-menu {
-  background-color: #014995 !important;
+  background-color: #B9D4E2 !important;
 }
 
 nav ul li {
@@ -143,6 +145,11 @@ body.oscuro nav ul li a:hover {
         } 
     }
 } */
+.hero {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .hero img {
   -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
           box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
@@ -1213,31 +1220,37 @@ body.oscuro .notifyCuantity {
   color: #fff;
 }
 
-#btnSetter, .active1 {
+#btnSetter,
+.active1 {
   font-size: 30px;
   margin-left: 10px;
   cursor: pointer;
 }
 
-#btnSetter.active1, .active1.active1 {
+#btnSetter.active1,
+.active1.active1 {
   color: yellowgreen;
 }
 
-#btnTools, .active1 {
+#btnTools,
+.active1 {
   font-size: 30px;
   margin-left: 10px;
   cursor: pointer;
 }
 
-#btnTools.active1, .active1.active1 {
+#btnTools.active1,
+.active1.active1 {
   color: yellowgreen;
 }
 
 .toolsBox {
+  width: 60%;
+  max-width: 60%;
   background-color: white;
-  max-height: 100%;
+  max-height: 90%;
   color: black;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 65px;
   border-radius: 10px;
@@ -1260,9 +1273,10 @@ body.oscuro .toolsBox .card-header {
 
 .toolsBox .card-body {
   width: 100%;
-  padding: 5%;
+  padding: 10%;
   background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
   overflow-y: scroll;
+  overflow-X: hidden;
 }
 
 .toolsBox .card-footer {
@@ -1273,6 +1287,7 @@ body.oscuro .toolsBox .card-footer {
   background-color: white !important;
 }
 
+/* manejo de estilos de mi caja de notificaciones */
 .card-body h4 {
   text-transform: uppercase;
   font-weight: bold;
@@ -1288,7 +1303,7 @@ body.oscuro .toolsBox .card-footer {
   background-color: white;
   max-height: 100%;
   color: black;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 65px;
   border-radius: 10px;
@@ -2152,153 +2167,9 @@ div.rueda section {
   left: 5em;
 }
 
-.hero h2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 35vh;
-  font-size: 36px;
-  text-transform: uppercase;
-}
-
-.container-1 {
-  width: 90%;
-  max-width: 1200px;
-  margin: 100px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-}
-
-.container-1 .posision-iconito {
-  position: relative;
-}
-
-.container-1 h2,
-.container-1 h3 {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.952);
-}
-
-.container-1 .iconito {
-  width: 80px;
-  height: 60px;
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  z-index: 1;
-}
-
-.container-1::after {
-  content: "";
-  width: 2px;
-  height: 100%;
-  background: #1b3231;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 1px);
-  z-index: 1;
-}
-
-.evento {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 200px;
-  position: relative;
-}
-
-.evento::after {
-  content: "";
-  display: block;
-  width: 14px;
-  height: 14px;
-  border-radius: 100px;
-  background: #DCDFD9;
-  border: 2px solid #1b3231;
-  position: absolute;
-  z-index: 2;
-  top: calc(50% - 9px);
-  left: calc(50% - 9px);
-}
-
-.fecha {
-  margin-top: auto;
-  width: calc(42% + 20px);
-  font-size: 25px;
-  font-weight: normal;
-  text-align: justify;
-}
-
-.foto {
-  width: 46%;
-  margin-left: 5%;
-  margin-right: 5%;
-  border: 5px solid #fff;
-  position: relative;
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.foto::after {
-  content: "";
-  display: block;
-  border: 20px solid transparent;
-  border-left: 20px solid #fff;
-  position: absolute;
-  right: -40px;
-  top: calc(50% - 20px);
-}
-
-.foto img {
-  width: 100%;
-  vertical-align: top;
-}
-
-.evento:nth-child(even) {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-.evento:nth-child(even) .fecha {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.evento:nth-child(even) .foto::after {
-  content: "";
-  border: 20px solid transparent;
-  border-right: 20px solid #fff;
-  right: initial;
-  left: -40px;
-}
-
 .contact-form {
   --form-ok-color: #4caf50;
-  --form-error-color: #f44336;
+  --form-error-color: #FA782E;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -2335,7 +2206,7 @@ body.oscuro .contact-form legend, body.oscuro
 
 .contact-form input[type="submit"] {
   width: 50%;
-  background-color: #f44336;
+  background-color: #FA782E;
   font-weight: bold;
   cursor: pointer;
 }
@@ -2457,6 +2328,10 @@ body.oscuro .contact-form input[type="submit"] {
           transform: rotate(0deg) translate(4px, 4px) scale(1);
   -webkit-box-shadow: 0px 0px 0px;
           box-shadow: 0px 0px 0px;
+}
+
+.image-contact {
+  opacity: 10%;
 }
 
 .gallery {

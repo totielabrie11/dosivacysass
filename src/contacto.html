@@ -31,8 +31,6 @@
                 <li><a class="dropdown-item" href="../src/empresa/mision.html">MISION</a></li>
                 <li><a class="dropdown-item" href="../src/empresa/vision.html">VISION</a></li>
                 <li><a class="dropdown-item" href="../src/empresa/sustentabilidad.html">SUSTENTABILIDAD</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="../src/contacto.html">Formar Parte</a></li>
               </ul>
             </li>
           </li>
@@ -45,7 +43,6 @@
                 Contacto
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="../src/contacto.html">Nuestro Equipo</a></li>
                 <li><a class="dropdown-item" href="../src/distribuidores.html">Distribuidores</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="../src/contacto.html">Ingresar Consulta</a></li>
@@ -88,8 +85,8 @@
   <div class="hero">
     <h2>CONTACTO</h2>
   </div>
-  <div>
-    <button id="btnMostrarContactos" class="btn btn-dark btn-efect">VER CONTACTOS DE INTERES</button>
+  <div class="text-center mb-4">
+    <span id="btnMostrarContactos" class="btn btn-dark btn-efect text-center">VER CONTACTOS DE INTERES</span>
   </div>
   <div class="contactoContainer d-none" id="contactoContainer">
     <div class="container d-flex flex-wrap">
@@ -127,29 +124,35 @@
     </div>
   </div>
 
-  <section class="container-fluid">
-    <form target="_blank" action="https://formsubmit.co/martinezcarlosmanuel.1@gmail.com" method="POST" class="contact-form">
-      <legend>Envianos tus comentarios</legend>
-      <input type="text" name="nombre" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
-      <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto, debe incluír al menos @ y .com" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
-      <input type="text" name="asunto" placeholder="Asunto a tratar" title="El asunto es requerido" required>
-      <input type="text" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida" required>
-      <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido" required>
-        <option value="">---Eliga Destinatario---</option>
-        <option value="reparaciones">REPARACIONES</option>
-        <option value="cotizaciones">COTIZACIONES</option>
-        <option value="dosificacion">REFRIGERACION - DOSIFICACION</option>
-        <option value="sopladores">SOPLADORES Y CENTRALES DE VACIO</option>
-      </select>
-      <textarea name="comentarios" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 carcateres" data-pattern="^.{1,255}$" required></textarea>
-      <input type="submit" class="" value="Enviar">
-      <div class="contact-form-loader none">
-          <img src="assets/puff.svg" alt="cargando">
-      </div>
-      <div class="contact-form-response none">
-          <p>Los datos han sido enviados</p>
-      </div>
-    </form>
+  <section class="container-fluid row">
+    <div class="col-md-4 col-12 mt-4">
+      <img src="../img/logom-removebg-preview.png" width="25%" alt="">
+      <img src="../img/facu.jpg" width="100%"  class="image-contact" alt="">
+    </div>
+    <div class="col-md-8 col-12">
+      <form target="_blank" action="https://formsubmit.co/martinezcarlosmanuel.1@gmail.com" method="POST" class="contact-form">
+        <legend>Envianos tus comentarios</legend>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+        <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto, debe incluír al menos @ y .com" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        <input type="text" name="asunto" placeholder="Asunto a tratar" title="El asunto es requerido" required>
+        <input type="text" name="localidad" placeholder="Provincia o Localidad" title="La provincia o localidad es requerida" required>
+        <select class="text-center" name="" id="" title="El destino al que llegará la consulta es requerido" required>
+          <option value="">---Eliga Destinatario---</option>
+          <option value="reparaciones">REPARACIONES</option>
+          <option value="cotizaciones">COTIZACIONES</option>
+          <option value="dosificacion">REFRIGERACION - DOSIFICACION</option>
+          <option value="sopladores">SOPLADORES Y CENTRALES DE VACIO</option>
+        </select>
+        <textarea name="comentarios" cols="50" rows="5" placeholder="Escribe tus comentarios" title="Tu comentario no debe exceder los 255 carcateres" data-pattern="^.{1,255}$" required></textarea>
+        <input type="submit" class="" value="Enviar">
+        <div class="contact-form-loader none">
+            <img src="assets/puff.svg" alt="cargando">
+        </div>
+        <div class="contact-form-response none">
+            <p>Los datos han sido enviados</p>
+        </div>
+      </form>
+    </div>
   </section>
 
 </main>

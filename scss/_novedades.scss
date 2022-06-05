@@ -1,3 +1,5 @@
+/* manejo de estilos de mi caja de notificaciones */
+
 .card-body {
 
 
@@ -19,7 +21,7 @@
     background-color: white;
     max-height: 100%;
     color: black;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 65px;
     border-radius: 10px;
@@ -148,38 +150,50 @@
     background-color: black !important;
 }
 
-#notyListControl{
+#notyListControl {
     img {
         max-width: 100px;
-    };
-    .pinchito{
+    }
+
+    ;
+
+    .pinchito {
         position: absolute;
         width: 20px;
         left: 50%;
         top: -20%;
-    };
+    }
+
+    ;
+
     .active2 {
 
         &.active2 {
-    
+
             background-color: rgba(0, 0, 0, 0.719);
-    
+
             button.btn-primary {
                 color: black;
-    
+
                 cursor: not-allowed;
                 background-color: rgb(229, 229, 229) !important;
             }
-    
+
             button>* {
                 pointer-events: none;
             }
         }
-    
+
         img {
             opacity: 25%;
-        };
-    
-    
-    };
-};
+        }
+
+        ;
+
+
+    }
+
+    ;
+}
+
+;

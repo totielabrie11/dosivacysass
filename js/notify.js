@@ -158,7 +158,8 @@ function notifyWebNotification(){
 
 ///////////////////////////////////RENDER///////////////////////////////////////
 function renderNoTengoNotification() {
-    
+  $('#btn-selectAll').addClass("d-none")
+
   $('.notifyCuantityContainer').html("")
   
   $("#notyListControl").append("<div class='tucked-corners-top '><div id='acceder' class='tucked-corners-bottom'><h4 class='mt-4 text-center'>No tienes notificaciones pendientes</h4><div class='container d-flex'><div class='pinchito' style='width: 50%' height: '50%'><img src='../img/pinche-removebg-preview.png' width='30%'></div><img src='https://us.123rf.com/450wm/grublee/grublee0907/grublee090700075/5232176-bot%C3%B3n-verde-brillante-con-un-dedo-pulgar-hacia-arriba.jpg' width='50px'></img><div style='width: 100%' height: '50%' class='me-2'><div class='text-md-center text-wrap w-100'><a href='src/novedades.html'><span class='text-center btn btn-warning btn-efect'>ir a mis eventos</span></a></div><div class='controlsNotify d-flex'></div></div></div></div>");
@@ -193,7 +194,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
               <div class="text-md-center text-wrap">
                 <span >${tema}</span>
               </div>
-              <div class="controlsNotify d-flex">
+              <div class="controlsNotify d-flex" id="formElement">
                 <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
                
                 <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
@@ -296,21 +297,51 @@ const ingresarCheckList = (id) =>{
     arrayCkeck.push(notifys);
 
   console.log('cantidad de notify listadas',arrayCkeck);
+
   
   
   $('#totalNotify').html("")
   if(arrayCkeck.length != 1){
-    
+    $('#btn-unselectAll').removeClass('d-none')
     $('#totalNotify').prepend("<span class='btn btn-danger'>Eliminar Seleccion</span>")
 
   }else{
     $('#totalNotify').html("")
   } 
-    
+  
   
 }
 
+function checkAll() {
 
+  console.log('estoy ejecutando el cheked all')
+  document.querySelectorAll('#formElement input[type=checkbox]').forEach(function(checkElement) {
+      checkElement.checked = true;
+      $('#btn-unselectAll').removeClass('d-none')
+
+      if( $('#formElement input[type=checkbox]').prop('checked') ) {
+        console.log('Seleccionado');
+    }
+
+    $( '#formElement input[type=checkbox]' ).on( 'change', function() {
+      if( $(this).is(':checked') ){
+          // Hacer algo si el checkbox ha sido seleccionado
+          console.log("El checkbox con valor " + $(this).val() + " ha sido seleccionado");
+      } else {
+          // Hacer algo si el checkbox ha sido deseleccionado
+          console.log("El checkbox con valor " + $(this).val() + " ha sido deseleccionado");
+      }
+  });
+    
+  });
+}
+
+function uncheckAll() {
+  document.querySelectorAll('#formElement input[type=checkbox]').forEach(function(checkElement) {
+      checkElement.checked = false;
+      $('#btn-unselectAll').addClass('d-none')
+  });
+}
 function renderNotifyCuantity(arrayNotiRenderBox) {
   
   if(notifyMapedNot != ""){

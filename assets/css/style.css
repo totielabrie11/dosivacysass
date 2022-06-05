@@ -47,6 +47,10 @@ h6 {
 	font-weight: 700;
 }
 
+h3 {
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+}
 
 p {
 	padding: 0;
@@ -263,6 +267,11 @@ input {
 
 .fondo3 {
 	background: url(https://365psd.com/images/istock/previews/8666/86668571-abstract-future-technology-vision-design-innovation-concept-background.jpg) center top;
+	background-repeat: no-repeat;
+}
+
+.fondo4 {
+	background: url(https://www.dosivac.com/wp-content/uploads/2017/11/6.jpg) center top;
 	background-repeat: no-repeat;
 }
 

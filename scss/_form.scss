@@ -1,6 +1,6 @@
 .contact-form {
     --form-ok-color: #4caf50;
-    --form-error-color: #f44336;
+    --form-error-color: #FA782E;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -41,7 +41,7 @@ textarea {
     }
 
     width: 50%;
-    background-color: #f44336;
+    background-color: #FA782E;
     font-weight: bold;
     cursor: pointer;
 }
@@ -127,4 +127,8 @@ textarea {
         transform: rotate(0deg) translate(4px, 4px) scale(1);
         box-shadow: 0px 0px 0px
     }
+}
+
+.image-contact {
+    opacity: 10%;
 }

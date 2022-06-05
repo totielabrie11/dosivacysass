@@ -501,11 +501,20 @@ function settingsTools(){
     }
     
     
-  }
+}
   
-  function descargarManual  (id) {
+function descargarManual  (id) {
     console.log(id)
     
-  }
+}
 
 
+
+  
+
+
+
+
+
+
+  
