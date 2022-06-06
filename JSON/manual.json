@@ -123,14 +123,14 @@
         "id": "supervacvp1",
         "img": "./img/bombas/Supervac-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/Supervac/file-1649937644206.pdf"
     },
     {
         "linea": "DVR BLUE",
         "id": "dvrblue",
         "img": "./img/bombas/DVR6-removebg-preview (1).png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DVR BLUE/file-1650906879313.pdf"
     },
     {
         "linea": "RECUPERADORA",

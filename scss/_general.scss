@@ -85,7 +85,7 @@ nav {
     ul {
 
         display: flex;
-
+        gap: 20px;
         body.claro & .dropdown-menu {
             background-color: #FA782E !important;
 
@@ -105,9 +105,8 @@ nav {
                 margin-right: 10px;
 
                 body.claro & {
-
-                    color: rgb(190, 185, 185) !important;
-                    text-shadow: 2px 2px 3px rgb(1, 1, 1);
+                    color: rgb(168, 168, 168) !important;
+                    text-shadow: 1px 1px 1px rgb(255, 255, 255);
 
                     &:hover {
                         color: #fff !important;
@@ -116,11 +115,11 @@ nav {
 
                 body.oscuro & {
                     color: rgb(31, 31, 31) !important;
-                    text-shadow: 2px 2px 3px white;
+                    text-shadow: 2px 2px 2px white;
                     font-weight: bold;
 
                     &:hover {
-                        color: black !important;
+                        color: black;
                     }
                 }
 
@@ -146,7 +145,7 @@ nav {
     margin-bottom: 50px;
 }
 
-.hero img {
+.home img {
     box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 20px;

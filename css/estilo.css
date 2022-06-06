@@ -93,6 +93,7 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 20px;
 }
 
 body.claro nav ul .dropdown-menu {
@@ -115,8 +116,8 @@ nav ul li a {
 }
 
 body.claro nav ul li a {
-  color: #beb9b9 !important;
-  text-shadow: 2px 2px 3px #010101;
+  color: #a8a8a8 !important;
+  text-shadow: 1px 1px 1px white;
 }
 
 body.claro nav ul li a:hover {
@@ -125,12 +126,12 @@ body.claro nav ul li a:hover {
 
 body.oscuro nav ul li a {
   color: #1f1f1f !important;
-  text-shadow: 2px 2px 3px white;
+  text-shadow: 2px 2px 2px white;
   font-weight: bold;
 }
 
 body.oscuro nav ul li a:hover {
-  color: black !important;
+  color: black;
 }
 
 /* main {
@@ -150,7 +151,7 @@ body.oscuro nav ul li a:hover {
   margin-bottom: 50px;
 }
 
-.hero img {
+.home img {
   -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
           box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
