@@ -484,16 +484,13 @@ function settingsTools(){
         elemento;
 
         $("#manualsList").append(
-          `
-
-        
+          `        
         <tr>
             <td>${linea}</td>
             <td><img src='${img}' width='100%'></img></td>
             <td>manual operativo</td>
             <td onclick="descargarManual('${id}')"><a href="${manualRoot}" download> Descargar</a></td>
         </tr>
-        
         
         `
         );

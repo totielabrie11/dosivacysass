@@ -4,14 +4,14 @@
         "id": "milenio",
         "img": "./img/bombas/mielnio-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": "./docs/manuales/pochi.jpg"
+        "manualRoot": "./docs/manuales/Milenio/41001.pdf"
     },
     {
         "linea": "EMD",
         "id": "emd",
         "img": "./img/bombas/emd-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/EMD/31001 - Manual EMD.pdf"
     },
     {
         "linea": "Mi-EMD",
@@ -25,63 +25,98 @@
         "id": "emd-plus",
         "img": "./img/bombas/EMD-PLUS-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/EMD-PLUS/Manual EMD Plus - Junio17.pdf"
+    },
+    {
+        "linea": "DD",
+        "id": "dd",
+        "img": "./img/bombas/DD-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/DD/Manual DD10-30-60_DIC_2015.pdf"
     },
     {
         "linea": "DDI",
         "id": "ddi",
         "img": "./img/bombas/DDI-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DDI/Manual DDI_Oct2018.pdf"
+    },
+    {
+        "linea": "DEC",
+        "id": "dec",
+        "img": "./img/bombas/dec-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/DEC/Manual DEC(web) Julio 2019.pdf"
     },
     {
         "linea": "DECI",
         "id": "deci",
         "img": "./img/bombas/DECI-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DECI/Manual DECI Octubre 2018.pdf"
     },
     {
         "linea": "DE",
         "id": "de",
         "img": "./img/bombas/DE-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DE/Manual DE Octubre 2018.pdf"
     },
     {
         "linea": "DE-AP",
         "id": "deap",
         "img": "./img/bombas/DE-AP-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DE-AP/Manual DE-AP Octubre 2018.pdf"
     },
     {
         "linea": "DES",
         "id": "des",
         "img": "./img/bombas/DES-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DES/Manual DES Rev0.pdf"
     },
     {
         "linea": "DEPP",
         "id": "depp",
         "img": "./img/bombas/DEPP.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DEPP/Manual DEPP_Oct2018.pdf"
+    },
+    {
+        "linea": "DEN",
+        "id": "den",
+        "img": "./img/bombas/DEN-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/DEN/Manual DEN Octubre 2018.pdf"
+    },
+    {
+        "linea": "DENG",
+        "id": "deng",
+        "img": "./img/bombas/DENG-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/DENG/Manual DEN-G Octubre 2018.pdf"
+    },
+    {
+        "linea": "DEON",
+        "id": "deon",
+        "img": "./img/bombas/DEON-DEON-AP-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/DEON/Manual DEON_Rev Oct2018.pdf"
     },
     {
         "linea": "DVR",
         "id": "dvr",
         "img": "./img/bombas/DVR6-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DVR/57001.pdf"
     },
     {
-        "linea": "DVR2",
+        "linea": "DVRII",
         "id": "dvr2",
         "img": "./img/bombas/DVR2-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DVP-DVRII/59002.pdf"
     },
     {
         "linea": "SUPERVAC/VP1",
@@ -98,52 +133,59 @@
         "manualRoot": ""
     },
     {
+        "linea": "RECUPERADORA",
+        "id": "recuperadora",
+        "img": "./img/bombas/recuperadora-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/Recuperadora/71001.pdf"
+    },
+    {
         "linea": "DVL",
         "id": "dvl",
         "img": "./img/bombas/DVL-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DVL/59501.pdf"
     },
     {
         "linea": "DSHC",
         "id": "dshc",
         "img": "./img/bombas/DSHC todas.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DSHC/Manual DSHC_Oct2018.pdf"
     },
     {
         "linea": "DS/DSV",
         "id": "ds",
         "img": "./img/bombas/DS-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/DS-DSV/PS001.pdf"
     },
     {
         "linea": "MDF",
         "id": "mdf",
         "img": "./img/bombas/mdf-captura.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/MDF/Manual Monitor MDF.pdf"
+    },
+    {
+        "linea": "MDI",
+        "id": "mdi",
+        "img": "./img/bombas/mdi-removebg-preview.png",
+        "tipo": "Manual operativo",
+        "manualRoot": "./docs/manuales/MDI/A19292001.pdf"
     },
     {
         "linea": "Divisor de caudal",
         "id": "divisor",
         "img": "./img/bombas/divisor-background.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/Divisor de caudal/CE1222001.pdf"
     },
     {
         "linea": "Control Total",
         "id": "control total",
         "img": "./img/bombas/ct-removebg-preview.png",
         "tipo": "Manual operativo",
-        "manualRoot": ""
-    },
-    {
-        "linea": "Aquealine",
-        "id": "aqualine",
-        "img": "./img/bombas/Equipos.Aqualine.2018-removebg-preview.png",
-        "tipo": "Manual operativo",
-        "manualRoot": ""
+        "manualRoot": "./docs/manuales/Control total/Cexx90xx01.pdf"
     }
 ]
