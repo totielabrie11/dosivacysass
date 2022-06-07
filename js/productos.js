@@ -17,7 +17,9 @@ $('.modalDesc').hide();
 
 
 function abrirModal(idModal){
-
+  if(!idModal){
+    idModal = ""
+  }
   idModal = idModal.slice(1)
   
   console.log(idModal);
