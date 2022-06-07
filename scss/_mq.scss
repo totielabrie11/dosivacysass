@@ -174,3 +174,36 @@
         display: none;
     }
 }
+
+//mediaquerys para mis boxTools y mis NotifyBox
+@media screen and (max-width: 991px) {
+    #notifyBox, #toolsBox{
+        
+        top: 31%;
+        
+    }
+}
+@media screen and (max-width: 810px) {
+
+    #notifyBox, #toolsBox{
+        
+        top: 31%;
+        
+    }
+    .tucked-corners-top{
+        .pinchito{
+            top: 10% !important;
+        }
+        .container {
+            flex-wrap: wrap !important;
+            
+        }
+    }
+}
+@media screen and (max-width: 290px) {
+    #notifyBox, #toolsBox{
+        
+        top: 33.5%;
+        
+    }
+}

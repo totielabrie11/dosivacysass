@@ -41,9 +41,8 @@ html body.oscuro {
         color: white; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(https://img.freepik.com/vector-gratis/curva-azul-ombre-sobre-fondo-azul-claro_53876-113099.jpg?w=2000);
-  background-repeat: no-repeat !important;
-  background-size: cover;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/570/698/non_2x/vector-blue-geometric-background.jpg);
+  /* background-repeat: no-repeat !important; */
 }
 
 html main {
@@ -538,6 +537,31 @@ a span {
   .prev,
   .next {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #notifyBox, #toolsBox {
+    top: 31%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  #notifyBox, #toolsBox {
+    top: 31%;
+  }
+  .tucked-corners-top .pinchito {
+    top: 10% !important;
+  }
+  .tucked-corners-top .container {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  #notifyBox, #toolsBox {
+    top: 33.5%;
   }
 }
 
@@ -1246,10 +1270,8 @@ body.oscuro .notifyCuantity {
 }
 
 .toolsBox {
-  width: 60%;
-  max-width: 60%;
   background-color: white;
-  max-height: 90%;
+  max-height: 100%;
   color: black;
   position: fixed;
   right: 0;
@@ -1273,11 +1295,10 @@ body.oscuro .toolsBox .card-header {
 }
 
 .toolsBox .card-body {
-  width: 100%;
-  padding: 10%;
+  min-width: 100%;
+  padding: 5%;
   background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
   overflow-y: scroll;
-  overflow-X: hidden;
 }
 
 .toolsBox .card-footer {
@@ -1346,7 +1367,7 @@ body.oscuro .notifyBox .card-footer {
 
 .tucked-corners-top {
   position: relative;
-  width: 500px;
+  width: 90%;
   min-height: 100px;
   margin: 20px auto;
   padding: 20px;

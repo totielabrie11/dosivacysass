@@ -200,10 +200,8 @@
 
 ///////////////////////////Estilos de mi BoxTools////////////////////
 .toolsBox {
-    width: 60%;
-    max-width: 60%;
     background-color: white;
-    max-height: 90%;
+    max-height: 100%;
     color: black;
     position: fixed;
     right: 0;
@@ -226,11 +224,12 @@
     }
 
     .card-body {
-        width: 100%;
-        padding: 10%;
+        min-width: 100%;
+        padding: 5%;
         background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
         overflow-y: scroll;
-        overflow-X: hidden;
+
+        
 
     }
 

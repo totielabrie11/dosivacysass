@@ -120,6 +120,7 @@ $.ajax({
           return;
         };
         if ($selectPorTipoProduct === "petrolera") {
+          console.log('estoy entrando en busqueda petrolera')
           Busqueda = distribuidors.filter((distribuidor) =>
             distribuidor.tipo.petroleo.toLowerCase().includes($selectPorTipoProduct)
           );
@@ -158,6 +159,7 @@ $.ajax({
       if($selectPorTipoProduct != ''){
 
         administrarFilter($selectPorTipoProduct);
+
 
       };
       if ($selectPorProvincia != ''){
