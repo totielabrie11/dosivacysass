@@ -544,6 +544,9 @@ a span {
   #notifyBox, #toolsBox {
     top: 31%;
   }
+  #notifyBox thead p, #notifyBox tbody p, #toolsBox thead p, #toolsBox tbody p {
+    font-size: 15px !important;
+  }
 }
 
 @media screen and (max-width: 810px) {
@@ -552,10 +555,6 @@ a span {
   }
   .tucked-corners-top .pinchito {
     top: 10% !important;
-  }
-  .tucked-corners-top .container {
-    -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
   }
 }
 
@@ -2327,6 +2326,11 @@ body.oscuro .contact-form input[type="submit"] {
   margin-bottom: 20px;
 }
 
+.contactoContainer .container {
+  gap: 40px;
+  margin: auto;
+}
+
 .contactoContainer .btnModal {
   width: 35px;
   position: static;
@@ -2595,5 +2599,68 @@ body.oscuro .contact-form input[type="submit"] {
     -webkit-box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5), -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
             box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5), -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.containerSlider {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.container-slider {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0 10px #fff, -25px 20px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 0 10px #fff, -25px 20px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500%;
+  height: 400px;
+  margin-left: -100%;
+}
+
+.slider__section {
+  width: 100%;
+}
+
+.slider__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /*  object-fit: cover; */
+}
+
+.slider__btn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider__btn:hover {
+  background: #fff;
+}
+
+.slider__btn--left {
+  left: 0;
+}
+
+.slider__btn--right {
+  right: 0;
 }
 /*# sourceMappingURL=estilo.css.map */

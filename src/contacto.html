@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Dosivac/Contacto</title>
 </head>
-<body class="claro">    
+<body class="claro" onload="settingSlider()">    
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -125,13 +125,32 @@
   </div>
 
   <section class="container-fluid row">
-    <div class="col-md-4 col-12 mt-4">
-      <img src="../img/logom-removebg-preview.png" width="25%" alt="">
-      <img src="../img/facu.jpg" width="100%"  class="image-contact" alt="">
+    <div class="col-md-4 col-12 containerSlider">
+      <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="./../img/galeria de fotos/1.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="./../img/galeria de fotos/2.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="./../img/galeria de fotos/3.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="./../img/galeria de fotos/4.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+              <img src="./../img/galeria de fotos/5.jpg" alt="" class="slider__img">
+          </div>
+        </div>
+        <span class="slider__btn slider__btn--right" id="btnRight" >&#62;</span>
+        <span class="slider__btn slider__btn--left"  id="btnLeft">&#60;</span>
+    </div> 
     </div>
     <div class="col-md-8 col-12">
       <form target="_blank" action="https://formsubmit.co/martinezcarlosmanuel.1@gmail.com" method="POST" class="contact-form">
-        <legend>Envianos tus comentarios</legend>
+        <legend>Envianos tu consulta</legend>
         <input type="text" name="nombre" placeholder="Escribe tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
         <input type="email" name="email" placeholder="Escribe tu email" title="Email incorrecto, debe incluír al menos @ y .com" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
         <input type="text" name="asunto" placeholder="Asunto a tratar" title="El asunto es requerido" required>

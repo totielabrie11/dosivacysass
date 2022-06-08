@@ -105,7 +105,10 @@ textarea {
     box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
     margin-bottom: 20px;
-
+    .container{
+        gap: 40px;
+        margin: auto;
+    }
 }
 
 .contactoContainer .btnModal {
