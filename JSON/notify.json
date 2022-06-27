@@ -1,16 +1,5 @@
 [
   {
-    "titulo": "Nuevo Producto Refrigersacions",
-    "tema": "Nuevo lanzamiento DVR",
-    "fechaCreacion": "22/04/22",
-    "fechaEvento": "01/05/22",
-    "horaEvento": "10:00",
-    "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite (se puede transportar acostada).<br> ✔Motor sin chispa que permite trabajo con todos los gases incluidos los explosivos. <br> ✔Bomba de aceite incorporada que garantiza la lubricación incluso a mala calidad de vacío. <br>✔sistema de paletas radiales con resortes.<br> ✔válvula solenoide en boca de aspiración impide reflujo de aceite al circuito ante corte eléctrico.<br> ✔Nueva tecnología que da alimentación eléctrica alterna posibilitando al motor más eficiencia y potencia con menor peso y consumo.<br> ✔Fabricación DOSIVAC que asegura un año de cobertura repuestos y reparación con garantía oficial!",
-    "img": "../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg",
-    "clase": "",
-    "id": "1"
-  },
-  {
     "titulo": "Pagina Web nueva",
     "tema": "visualizando la pagina web con Meli",
     "fechaCreacion": "11/04/22",
@@ -73,5 +62,40 @@
     "img": "https://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/censo_digital_2022.jpg?itok=zhIah5gI",
     "clase": "",
     "id": "7"
+  },
+  {
+    "titulo": "Nuevo Producto Refrigersacions",
+    "tema": "Nuevo lanzamiento DVR",
+    "fechaCreacion": "22/04/22",
+    "fechaEvento": "01/05/22",
+    "horaEvento": "10:00",
+    "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite (se puede transportar acostada).<br> ✔Motor sin chispa que permite trabajo con todos los gases incluidos los explosivos. <br> ✔Bomba de aceite incorporada que garantiza la lubricación incluso a mala calidad de vacío. <br>✔sistema de paletas radiales con resortes.<br> ✔válvula solenoide en boca de aspiración impide reflujo de aceite al circuito ante corte eléctrico.<br> ✔Nueva tecnología que da alimentación eléctrica alterna posibilitando al motor más eficiencia y potencia con menor peso y consumo.<br> ✔Fabricación DOSIVAC que asegura un año de cobertura repuestos y reparación con garantía oficial!",
+    "img": "../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg",
+    "clase": "",
+    "id": "1"
+  },
+  {
+    "titulo": "BENEFICIOS DE LA DVR",
+    "tema": "Charla con nuestro amigo Jorge Mendiondo y el Ing. Oriana, sobre los beneficios de la nueva Dosivac DVR",
+    "fechaCreacion": "24/06/22",
+    "fechaEvento": "21/06/22",
+    "horaEvento": "10:00",
+    "descripcion": " ✔ Te explicamos conceptos basicos sobre vacío.<br> ✔ Por que es fundamental en la indusria de Refrigeración hacer vacío preivo <br>✔ Le hicimos una prueba en vivo de funcionamiento a la nueva DVR<br> ✔ Mirá los valores reales de vacío que da nuestra bomba.<br> ✔ Rompemos varios mitos no te lo pierdas.",
+    "youtube": "<iframe width='100%' height='200' src='https://www.youtube.com/embed/ANon0J2bKy0' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "img": "./../img/notify/charla-dvr.JPG",
+    "clase": "",
+    "id": "8"
+  },
+  {
+    "titulo": "BENEFICIOS DE LA DVR",
+    "tema": "Charla con nuestro amigo Jorge Mendiondo y el Ing. Oriana, sobre los beneficios de la nueva Dosivac DVR",
+    "fechaCreacion": "24/06/22",
+    "fechaEvento": "21/06/22",
+    "horaEvento": "10:00",
+    "descripcion": " ✔ Te explicamos conceptos basicos sobre vacío.<br> ✔ Por que es fundamental en la indusria de Refrigeración hacer vacío preivo <br>✔ Le hicimos una prueba en vivo de funcionamiento a la nueva DVR<br> ✔ Mirá los valores reales de vacío que da nuestra bomba.<br> ✔ Rompemos varios mitos no te lo pierdas.",
+    "youtube": "<iframe width='100%' height='200' src='https://www.youtube.com/embed/ANon0J2bKy0' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "img": "./../img/notify/charla-dvr.JPG",
+    "clase": "",
+    "id": "8"
   }
 ]

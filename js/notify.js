@@ -394,7 +394,7 @@ function renderNotifyList(notify) {
   notify.reverse();
 
   notify.forEach((elemento) => {
-    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion } =
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, youtube } =
     elemento;
     
     
@@ -411,6 +411,7 @@ function renderNotifyList(notify) {
           <p>
            ${descripcion}
           </p>
+          ${youtube}
           
       </div>
       <div class="card-footer">
