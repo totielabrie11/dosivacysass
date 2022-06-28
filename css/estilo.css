@@ -25,13 +25,11 @@ html body.claro {
   font-family: 'Readex Pro', sans-serif;
   /* background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
         background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal; */
-  background: #000000;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#434343), to(#000000));
-  background: linear-gradient(to right, #434343, #000000);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
+  font-family: 'Readex Pro', sans-serif;
+  background-image: url(../img/dosi.jpg);
+  background-size: 100%;
+  background-size: cover;
 }
 
 html body.oscuro {
@@ -41,8 +39,9 @@ html body.oscuro {
         color: white; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/000/570/698/non_2x/vector-blue-geometric-background.jpg);
-  /* background-repeat: no-repeat !important; */
+  background-image: url(../img/liquido.jpg);
+  background-size: 100%;
+  background-size: cover;
 }
 
 html main {
@@ -96,11 +95,11 @@ nav ul {
 }
 
 body.claro nav ul .dropdown-menu {
-  background-color: #FA782E !important;
+  background-color: #010B44 !important;
 }
 
 body.oscuro nav ul .dropdown-menu {
-  background-color: #B9D4E2 !important;
+  background-color: #80AFCB !important;
 }
 
 nav ul li {
@@ -542,7 +541,7 @@ a span {
 
 @media screen and (max-width: 991px) {
   #notifyBox, #toolsBox {
-    top: 31%;
+    top: 68%;
   }
   #notifyBox thead p, #notifyBox tbody p, #toolsBox thead p, #toolsBox tbody p {
     font-size: 15px !important;
@@ -551,7 +550,7 @@ a span {
 
 @media screen and (max-width: 810px) {
   #notifyBox, #toolsBox {
-    top: 31%;
+    top: 68%;
   }
   .tucked-corners-top .pinchito {
     top: 10% !important;
@@ -687,54 +686,6 @@ a span {
 .productP-title b {
   font-weight: 900;
   letter-spacing: 0px;
-}
-
-.inStock {
-  position: relative;
-  font-size: 15px;
-  font-weight: 300;
-  color: #fff;
-  background: #11e95b;
-  padding: 2px 5px;
-  border-radius: 4px;
-  top: -2px;
-  margin-left: 5px;
-}
-
-.noStock {
-  position: relative;
-  font-size: 15px;
-  font-weight: 300;
-  color: #fff;
-  background: #e91111;
-  padding: 2px 5px;
-  border-radius: 4px;
-  top: -2px;
-  margin-left: 5px;
-}
-
-.inStock {
-  position: relative;
-  font-size: 15px;
-  font-weight: 300;
-  color: #fff;
-  background: #11e95b;
-  padding: 2px 5px;
-  border-radius: 4px;
-  top: -2px;
-  margin-left: 5px;
-}
-
-.midStock {
-  position: relative;
-  font-size: 15px;
-  font-weight: 300;
-  color: #fff;
-  background: #faa640;
-  padding: 2px 5px;
-  border-radius: 4px;
-  top: -2px;
-  margin-left: 5px;
 }
 
 .productP-caption {
@@ -1341,7 +1292,7 @@ body.oscuro .notifyBox .card-header {
 }
 
 .notifyBox .card-header h3 {
-  color: #014995 !important;
+  color: #80AFCB !important;
   text-align: center;
 }
 
