@@ -541,7 +541,7 @@ a span {
 
 @media screen and (max-width: 991px) {
   #notifyBox, #toolsBox {
-    top: 68%;
+    top: 35%;
   }
   #notifyBox thead p, #notifyBox tbody p, #toolsBox thead p, #toolsBox tbody p {
     font-size: 15px !important;
@@ -550,7 +550,7 @@ a span {
 
 @media screen and (max-width: 810px) {
   #notifyBox, #toolsBox {
-    top: 68%;
+    top: 31%;
   }
   .tucked-corners-top .pinchito {
     top: 10% !important;
@@ -559,7 +559,7 @@ a span {
 
 @media screen and (max-width: 290px) {
   #notifyBox, #toolsBox {
-    top: 33.5%;
+    top: 31%;
   }
 }
 
