@@ -2,7 +2,7 @@
     {
         "linea": "Milenio",
         "modelo": "015",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.15 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.15 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "015",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -11,7 +11,7 @@
     {
         "linea": "Milenio",
         "modelo": "033",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.3 lts/h</li><li>0.33 lts/h</li><li>5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.3 lts/h</li><li>0.33 lts/h</li><li>5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "033",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -20,7 +20,7 @@
     {
         "linea": "Milenio",
         "modelo": "035",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.5 lts/h</li><li>0.35 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.5 lts/h</li><li>0.35 lts/h</li><li>10 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "035",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -29,7 +29,7 @@
     {
         "linea": "Milenio",
         "modelo": "070",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>7 lts/h</li><li>0.15 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>7 lts/h</li><li>0.15 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "070",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -38,7 +38,7 @@
     {
         "linea": "Milenio",
         "modelo": "130",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>13 lts/h</li><li>1.3 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>13 lts/h</li><li>1.3 lts/h</li><li>7 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "130",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -47,7 +47,7 @@
     {
         "linea": "Milenio",
         "modelo": "300",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>3 lts/h</li><li>1.5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>3 lts/h</li><li>1.5 kg/cm2</li><li>Polipropileno</li></ul></div></div>",
         "id": "300",
         "idRender": "renderMilenioCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -56,35 +56,35 @@
     {
         "linea": "Mi-Emd",
         "modelo": "Mi-01515",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.2 lts/h</li><li>0.015 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.2 lts/h</li><li>0.015 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi01515",
         "idRender": "renderMiEmdCar"
     },
     {
         "linea": "Mi-Emd",
         "modelo": "Mi-03210",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi03210",
         "idRender": "renderMiEmdCar"
     },
     {
         "linea": "Mi-Emd",
         "modelo": "Mi-10005",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.090 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.090 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi10005",
         "idRender": "renderMiEmdCar"
     },
     {
         "linea": "Mi-Emd",
         "modelo": "Mi-16003",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "Mi16003",
         "idRender": "renderMiEmdCar"
     },
     {
         "linea": "EMD",
         "modelo": "01515",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "01515",
         "idRender": "renderEmdCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -93,7 +93,7 @@
     {
         "linea": "EMD",
         "modelo": "03210",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "03210",
         "idRender": "renderEmdCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -102,7 +102,7 @@
     {
         "linea": "EMD",
         "modelo": "05010",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "05010",
         "idRender": "renderEmdCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -111,7 +111,7 @@
     {
         "linea": "EMD",
         "modelo": "10005",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "10005",
         "idRender": "renderEmdCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -120,7 +120,7 @@
     {
         "linea": "EMD",
         "modelo": "16003",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "16003",
         "idRender": "renderEmdCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -129,7 +129,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "00707P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.7 lts/h</li><li>0.007 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.7 lts/h</li><li>0.007 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS1",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -138,7 +138,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "01515P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.5 lts/h</li><li>0.015 lts/h</li><li>15 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS2",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -147,7 +147,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "03210P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.2 lts/h</li><li>0.032 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS3",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -156,7 +156,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "05010P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5 lts/h</li><li>0.05 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS4",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -165,7 +165,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "10005P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>9 lts/h</li><li>0.09 lts/h</li><li>7 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS5",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -174,7 +174,7 @@
     {
         "linea": "EMD PLUS",
         "modelo": "16003P",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>16 lts/h</li><li>0.16 lts/h</li><li>3 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "PLUS6",
         "idRender": "renderEmdPCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -183,7 +183,7 @@
     {
         "linea": "DDI",
         "modelo": "10",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10 lts/h</li><li>2 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D10",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -192,7 +192,7 @@
     {
         "linea": "DDI",
         "modelo": "30",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>6 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>30 lts/h</li><li>6 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D30",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -201,7 +201,7 @@
     {
         "linea": "DDI",
         "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>60 lts/h</li><li>12 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>60 lts/h</li><li>12 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D60",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -210,7 +210,7 @@
     {
         "linea": "DDI",
         "modelo": "80",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>80 lts/h</li><li>16 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>80 lts/h</li><li>16 lts/h</li><li>10 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D80",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -219,7 +219,7 @@
     {
         "linea": "DDI",
         "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>150 lts/h</li><li>30 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>150 lts/h</li><li>30 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D150",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -228,7 +228,7 @@
     {
         "linea": "DDI",
         "modelo": "300",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>300 lts/h</li><li>60 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>300 lts/h</li><li>60 lts/h</li><li>6 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D300",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -237,7 +237,7 @@
     {
         "linea": "DDI",
         "modelo": "600",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>600 lts/h</li><li>120 lts/h</li><li>4 kg/cm2</li><li>Kynar PVDF</li></ul></div></div>",
         "id": "D600",
         "idRender": "renderDdiCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -246,182 +246,182 @@
     {
         "linea": "DECI",
         "modelo": "7/25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.30 lts/h</li><br><li>0.030 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.30 lts/h</li><br><li>0.030 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
         "id": "DECI1",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DECI",
         "modelo": "10/25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.66 lts/h</li><br><li>0.066 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.66 lts/h</li><br><li>0.066 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
         "id": "DECI2",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DECI",
         "modelo": "10/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.85 lts/h</li><br><li>0.185 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.85 lts/h</li><br><li>0.185 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
         "id": "DECI3",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DECI",
         "modelo": "15/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.1 lts/h</li><br><li>0.41 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.1 lts/h</li><br><li>0.41 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
         "id": "DECI4",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DECI",
         "modelo": "10/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo </li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo </li></ul></div></div>",
         "id": "DECI5",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DECI",
         "modelo": "15/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>8 lts/h</li><br><li>0.8 lts/h</li><br><li>120 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div></div>",
         "id": "DECI6",
         "idRender": "renderDeciCar"
     },
     {
         "linea": "DE",
         "modelo": "10/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>6 lts/h</li><br><li>0.6 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>6 lts/h</li><br><li>0.6 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
         "id": "DE1",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "15/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>90 kg/cm2</li><br><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>90 kg/cm2</li><br><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>15 lts/h</li><br><li>1.5 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE2",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "17/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>100 kg/cm2</li><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>20 lts/h</li><br><li>2 lts/h</li><br><li>100 kg/cm2</li><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE3",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "20/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE4",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "25/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>47 lts/h</li><br><li>4.7 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE5",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "10/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>12 lts/h</li><br><li>1.2 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>12 lts/h</li><br><li>1.2 lts/h</li><br><li>200 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>DE E</span><ul><li>---</li><br><li>---</li><br><li>---</li><br><li>---</li></ul></div>",
         "id": "DE6",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "15/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>90 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>90 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>30 lts/h</li><br><li>3 lts/h</li><br><li>130 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE7",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "17/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>100 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>40 lts/h</li><br><li>4 lts/h</li><br><li>100 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE8",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "20/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>50 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>60 lts/h</li><br><li>6 lts/h</li><br><li>70 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE9",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DE",
         "modelo": "25/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor DE S</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>32 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div><div><span>Valor DE E</span><ul><li>95 lts/h</li><br><li>9.5 lts/h</li><br><li>45 kg/cm2</li><br><li>Embolo Buzo Ceramico Macizo</li></ul></div>",
         "id": "DE10",
         "idRender": "renderDeCar"
     },
     {
         "linea": "DEAP",
         "modelo": "6/25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.79 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>0.79 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP1",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "9/25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.76 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>1.76 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP2",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "13/25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.7 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>3.7 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP3",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "6/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.4 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>2.4 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP4",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "9/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5.2 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>5.2 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP5",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "13/70",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>11.2 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>11.2 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP6",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "6/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.7 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>4.7 lts/h</li><br><li>--</li><br><li>650 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP7",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "9/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10.4 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>10.4 lts/h</li><br><li>--</li><br><li>300 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP8",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DEAP",
         "modelo": "13/140",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>21.1 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><br><li>Cabezal Std</li></ul></div><div><span>Valor</span><ul><li>21.1 lts/h</li><br><li>--</li><br><li>170 kg/cm2</li><br><br><li>Cabezal en acero inoxidable AISI 316</li></ul></div>",
         "id": "DEAP9",
         "idRender": "renderDEAPCar"
     },
     {
         "linea": "DES",
         "modelo": "07",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>1.38 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>1.38 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>2.76</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES1",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -430,7 +430,7 @@
     {
         "linea": "DES",
         "modelo": "10",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>3 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>6 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>3 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>6 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES2",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -439,7 +439,7 @@
     {
         "linea": "DES",
         "modelo": "15",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>6.5 lts/h</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>2.76</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>6.5 lts/h</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>2.76</li><br><li>----</li><br><li>120 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES3",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -448,7 +448,7 @@
     {
         "linea": "DES",
         "modelo": "AQ-17",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>8.3 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>16.6 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>8.3 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>16.6 lts/h</li><br><li>----</li><br><li>90 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES4",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -457,7 +457,7 @@
     {
         "linea": "DES",
         "modelo": "AQ-20",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>11.5 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>23 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>11.5 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>23 lts/h</li><br><li>----</li><br><li>60 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES5",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -466,7 +466,7 @@
     {
         "linea": "DES",
         "modelo": "AQ-25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>DES SIMPLE</span><ul><br><li>17.9 lts/h</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>DES DUPLEX</span><ul><br><li>35.80</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>17.9 lts/h</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>35.80</li><br><li>----</li><br><li>35 kg/cm2</li><br><li>Acero Inoxidable</li><li>1/2 FNPT</li></ul></div>",
         "id": "DES6",
         "idRender": "renderDesCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -475,21 +475,21 @@
     {
         "linea": "DEPP",
         "modelo": "10",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>30 lts/dia</li><li>1.5 lts/dia</li><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>30 lts/dia</li><li>1.5 lts/dia</li><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
         "id": "DEPP1",
         "idRender": "renderDEPPCar"
     },
     {
         "linea": "DEPP",
         "modelo": "15",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>70 lts/dia</li><li>3.5 lts/dia</li><li>100 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><li>Tipo de conector</li></ul></div><div><span>Valor</span><ul><li>70 lts/dia</li><li>3.5 lts/dia</li><li>100 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 NPT</li></ul></div>",
         "id": "DEPP2",
         "idRender": "renderDEPPCar"
     },
     {
         "linea": "DVR",
         "modelo": "DVR6",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR1",
         "idRender": "renderDvrCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -498,7 +498,7 @@
     {
         "linea": "DVR",
         "modelo": "DVR12",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>240 lts/m</li><li>240 lts/m</li><li>30micrones</li><li>Brida Semi Elastico</li></ul></div></div>",
         "id": "DVR2",
         "idRender": "renderDvrCar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -507,7 +507,7 @@
     {
         "linea": "DVRII",
         "modelo": "1A",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "1A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -518,7 +518,7 @@
     {
         "linea": "DVRII",
         "modelo": "2A",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "2A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -529,7 +529,7 @@
     {
         "linea": "DVRII",
         "modelo": "3A",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "3A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -540,7 +540,7 @@
     {
         "linea": "DVRII",
         "modelo": "4A",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "4A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/youtube-removebg-preview.png",
@@ -551,21 +551,21 @@
     {
         "linea": "SUPERVAC",
         "modelo": "VP1",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>58 lts/m</li><li>10 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>58 lts/m</li><li>10 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
         "id": "VP1",
         "idRender": "renderSupervacCar"
     },
     {
         "linea": "SUPERVAC",
         "modelo": "VP2",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>114 lts/m</li><li>30 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>114 lts/m</li><li>30 lts/m</li><li>45micrones</li><li>Directo Incrustado</li></ul></div></div>",
         "id": "VP2",
         "idRender": "renderSupervacCar"
     },
     {
         "linea": "DVR",
         "modelo": "DVR6 BLUE",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
         "id": "DVR6Pre",
         "idRender": "renderDvr6Car",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -574,70 +574,70 @@
     {
         "linea": "DVL",
         "modelo": "100",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>100 lts/m</li><li>1 lts/m</li><li>45micrones</li><li>semi elastico manchon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>100 lts/m</li><li>1 lts/m</li><li>45micrones</li><li>semi elastico manchon</li></ul></div></div>",
         "id": "DVL100",
         "idRender": "renderDvlCar"
     },
     {
         "linea": "DVL",
         "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>1 lts/m</li><li>35micrones</li><li>semi elastico manchon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>1 lts/m</li><li>35micrones</li><li>semi elastico manchon</li></ul></div></div>",
         "id": "DVL150",
         "idRender": "renderDvlCar"
     },
     {
         "linea": "DSHC",
         "modelo": "400",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>400 lts/m</li><li>15 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Compacta</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>400 lts/m</li><li>15 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Compacta</li></ul></div></div>",
         "id": "400",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "800",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 lts/m</li><li>30 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 lts/m</li><li>30 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
         "id": "800",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "1250",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1250 lts/m</li><li>40 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1250 lts/m</li><li>40 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
         "id": "1250",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "1810",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1810 lts/m</li><li>50 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1810 lts/m</li><li>50 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
         "id": "1810",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "2500",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>2500 lts/m</li><li>80 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>si</li><li>2500 lts/m</li><li>80 lts/m</li><li>30 mmHg</li><li>Integral</li></ul></div></div>",
         "id": "2500",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "3000",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3000 lts/m</li><li>100 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3000 lts/m</li><li>100 lts/m</li><li>30 mmHg</li><li>Integral</li><li>Acero Inoxidable</li></ul></div></div>",
         "id": "3000",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "4500",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><br><li>Opcional</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4500 lts/m</li><li>150 lts/m</li><li>30 mmHg</li><li>Integral/acople directo</li><li>Acero Inoxidable</li><li>Compacta/Caballete</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><br><li>Opcional</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4500 lts/m</li><li>150 lts/m</li><li>30 mmHg</li><li>Integral/acople directo</li><li>Acero Inoxidable</li><li>Compacta/Caballete</li></ul></div></div>",
         "id": "4500",
         "idRender": "renderDshcCar"
     },
     {
         "linea": "DSHC",
         "modelo": "6300",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6300 lts/m</li><li>200 lts/m</li><li>30 mmHg</li><li>Acop Directo</li><li>Caballete</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><li>Forma Constructiva</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6300 lts/m</li><li>200 lts/m</li><li>30 mmHg</li><li>Acop Directo</li><li>Caballete</li></ul></div></div>",
         "id": "6300",
         "idRender": "renderDshcCar",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -646,7 +646,7 @@
     {
         "linea": "DS",
         "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA1",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -655,7 +655,7 @@
     {
         "linea": "DS",
         "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>175 m/3</li><li>59 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>175 m/3</li><li>59 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA2",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -664,7 +664,7 @@
     {
         "linea": "DS",
         "modelo": "300",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>124 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>124 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA3",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -673,7 +673,7 @@
     {
         "linea": "DS",
         "modelo": "500",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>518 m/3</li><li>194 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>518 m/3</li><li>194 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA4",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -682,7 +682,7 @@
     {
         "linea": "DS",
         "modelo": "700",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>802 m/3</li><li>348 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>802 m/3</li><li>348 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA5",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -691,7 +691,7 @@
     {
         "linea": "DS",
         "modelo": "1000",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>400 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>400 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA6",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -700,7 +700,7 @@
     {
         "linea": "DS",
         "modelo": "1300",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1480 m/3</li><li>617 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1480 m/3</li><li>617 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA7",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -709,7 +709,7 @@
     {
         "linea": "DS",
         "modelo": "1800",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1910 m/3</li><li>799 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1910 m/3</li><li>799 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA8",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -718,7 +718,7 @@
     {
         "linea": "DS",
         "modelo": "2800",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3062 m/3</li><li>1021 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3062 m/3</li><li>1021 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA9",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -727,7 +727,7 @@
     {
         "linea": "DS",
         "modelo": "4500",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4782 m/3</li><li>1663 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4782 m/3</li><li>1663 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA10",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -736,7 +736,7 @@
     {
         "linea": "DS",
         "modelo": "6200",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6450 m/3</li><li>1850 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6450 m/3</li><li>1850 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA11",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -745,7 +745,7 @@
     {
         "linea": "DS",
         "modelo": "9000",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3536 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3536 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "SOPLA12",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -754,7 +754,7 @@
     {
         "linea": "DSV",
         "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "DSV1",
         "idRender": "renderDsvCard",
         "instagram": "../img/redes/instagram-removebg-preview.png",
@@ -763,7 +763,7 @@
     {
         "linea": "MDF",
         "modelo": "M5",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>10 lts/h</li><li>0.06 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF1",
         "idRender": "renderMDFCar",
         "instagram": "../img/bombas/mdf-panel.png",
@@ -772,7 +772,7 @@
     {
         "linea": "MDF",
         "modelo": "M6",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>30 lts/h</li><li>0.5 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>30 lts/h</li><li>0.5 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF2",
         "idRender": "renderMDFCar",
         "instagram": "../img/bombas/mdf-panel.png",
@@ -781,7 +781,7 @@
     {
         "linea": "MDF",
         "modelo": "M9",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>120 lts/h</li><li>6 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>120 lts/h</li><li>6 lts/h</li><li>Acero Inoxidable</li><li>1/4</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF3",
         "idRender": "renderMDFCar",
         "instagram": "../img/bombas/mdf-panel.png",
@@ -790,7 +790,7 @@
     {
         "linea": "MDF",
         "modelo": "M12",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>300 lts/h</li><li>18 lts/h</li><li>Acero Inoxidable</li><li>1/2</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>300 lts/h</li><li>18 lts/h</li><li>Acero Inoxidable</li><li>1/2</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF4",
         "idRender": "renderMDFCar",
         "instagram": "../img/bombas/mdf-panel.png",
@@ -799,7 +799,7 @@
     {
         "linea": "MDF",
         "modelo": "M25",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1500 lts/h</li><li>30 lts/h</li><li>Acero Inoxidable</li><li>1''</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Material</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1500 lts/h</li><li>30 lts/h</li><li>Acero Inoxidable</li><li>1''</li><li>24v</li><li>Modbus RS-485<br>Analógico (4-20 mA)<br>Salida Rele:3 Amp.@ 24 VDC</li></ul></div></div>",
         "id": "MDF5",
         "idRender": "renderMDFCar",
         "instagram": "../img/bombas/mdf-panel.png",
@@ -808,49 +808,49 @@
     {
         "linea": "DIVISOR",
         "modelo": "220-380",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Memorias</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>indeterminado</li><li>indeterminado</li><li>5</li><li>Riel DIM</li><li>380v-220v</li><li>Salida Rele cc</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Memorias</li><li>Acople</li><li>Tension</li><li>salida señal</li></ul></div><div><span>Valor</span><ul><li>si</li><li>indeterminado</li><li>indeterminado</li><li>5</li><li>Riel DIM</li><li>380v-220v</li><li>Salida Rele cc</li></ul></div></div>",
         "id": "DIV1",
         "idRender": "renderDIVCar"
     },
     {
         "linea": "CONTROL TOTAL",
         "modelo": "CT-M",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>220v</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>220v</li></ul></div></div>",
         "id": "CONTROL1",
         "idRender": "renderControlCard"
     },
     {
         "linea": "CONTROL TOTAL",
         "modelo": "CT-T",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>380v</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>380v</li></ul></div></div>",
         "id": "CONTROL2",
         "idRender": "renderControlCard"
     },
     {
         "linea": "CONTROL TOTAL",
         "modelo": "CT-C",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>110v</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Entrada de señal</li><br><li>Salida señal</li><li>memorias</li><li>acople</li><li>Tension</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Analógica: 4 a 20 mA <br> Digital: Pulsos</li><li>Relé</li><li>5</li><li>Riel DIM</li><li>110v</li></ul></div></div>",
         "id": "CONTROL3",
         "idRender": "renderControlCard"
     },
     {
         "linea": "AQUALINE",
         "modelo": "25 lts",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>25 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>25 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
         "id": "AQUALINE1",
         "idRender": "renderAqualineCard"
     },
     {
         "linea": "AQUALINE",
         "modelo": "50 lts",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>50 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>50 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
         "id": "AQUALINE2",
         "idRender": "renderAqualineCard"
     },
     {
         "linea": "AQUALINE",
         "modelo": "90 lts",
-        "caracteristicas": "<div><span>Caracteristica</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
         "id": "AQUALINE3",
         "idRender": "renderAqualineCard"
     }

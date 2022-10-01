@@ -25,7 +25,7 @@ function abrirModal(idModal){
   console.log(idModal);
 
     $('#' + `${idModal}`).fadeIn(1000).animate({
-      bottom: '120px',
+      bottom: '60px',
     });
     
 }
@@ -67,6 +67,20 @@ $("li").click(function() {
 
   pintarSelector(id);
 });
+
+//Manejo del Btn para avanzar de producto descriptions
+$(".btn-next").click(function(){
+  $('#secondDisplay').removeClass('d-none');
+  $('#firstDisplay').addClass('d-none');
+
+
+})
+$(".btn-prev").click(function(){
+  $('#secondDisplay').addClass('d-none');
+  $('#firstDisplay').removeClass('d-none');
+  
+
+})
 
 //FUNCION RENDER DE LA CARACTERISTISCA DE LOS PRODUCTOS//
 $.ajax({
@@ -121,8 +135,10 @@ function filterCaracteristicas( producto ){
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
-              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><br><span class="me-2 p-2">Producto con contenido en youtube</span></a></div>
-              <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><br><span class="me-2 p-2">Publicado en instragram</span></a></div></a></div>
+              <div>
+                <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></span></a>
+                </div>
+                <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><span>Más informacón en <bold>INSTAGRAM</bold></span></a></div></a></div>
               `
 
               $('#' + `${idRender}`).html("" + html);
@@ -136,7 +152,7 @@ function filterCaracteristicas( producto ){
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
-              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><br><span class="me-2 p-2">Producto con contenido en youtube</span></a></div></a></div>
+              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a></div></a></div>
               `
 
               $('#' + `${idRender}`).html("" + html);
@@ -163,7 +179,7 @@ function filterCaracteristicas( producto ){
           <div class="d-flex justify-content-between">
           ${caracteristicas}
           </div>
-          <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><br><span class="me-2 p-2">Publicado en instragram</span></a></div></a></div>
+          <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><br><span>Más informacón en <bold>INSTAGRAM</bold></span></a></div></a></div>
           `
 
           $('#' + `${idRender}`).html("" + html); 
