@@ -69,13 +69,13 @@ $("li").click(function() {
 });
 
 //Manejo del Btn para avanzar de producto descriptions
-$(".btn-next").click(function(){
+$("#btn-next").click(function(){
   $('#secondDisplay').removeClass('d-none');
   $('#firstDisplay').addClass('d-none');
 
 
 })
-$(".btn-prev").click(function(){
+$("#btn-prev").click(function(){
   $('#secondDisplay').addClass('d-none');
   $('#firstDisplay').removeClass('d-none');
   

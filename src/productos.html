@@ -1202,15 +1202,21 @@
             <div class="productP-properties">
               <span class="productP-size">
                       <h4>Modelos</h4>
+                      <btn id="btn-prev" class="btn-prev"><</btn>
+                      <btn id="btn-next" class="btn-next">></btn>
                       <ul class="ul-size" id="DSHC">
-                        <li class="active" id="400">400</li>
-                        <li id="800">800</li>
-                        <li id="1250">1250</li>
-                        <li id="1810">1810</li>
-                        <li id="2500">2500</li>
-                        <li id="3000">3000</li>
-                        <li id="4500">4500</li>
-                        <li id="6300">6300</li>
+                        <div id="firstDisplay" class="">
+                          <li class="active" id="400">400</li>
+                          <li id="800">800</li>
+                          <li id="1250">1250</li>
+                          <li id="1810">1810</li>
+                          <li id="2500">2500</li>
+                          <li id="3000">3000</li>
+                      </div>
+                        <div id="secondDisplay" class="d-none">
+                          <li id="4500">4500</li>
+                          <li id="6300">6300</li>
+                        </div>
                       </ul>
               </span>
              <!--  <span class="productP-color">
@@ -1257,9 +1263,9 @@
             <div class="productP-properties">
               <span class="productP-size">
                       <h4>Modelos</h4>
+                      <btn id="btn-prev" class="btn-prev"><</btn>
+                      <btn id="btn-next" class="btn-next">></btn>
                       <ul class="ul-size" id="DSV">
-                        <btn class="btn-prev"><</btn>
-                        <btn class="btn-next">></btn>
                         <div id="firstDisplay" class="">
                           <li class="active" id="DSV1">60</li>
                           <li id="DSV2">150</li>
