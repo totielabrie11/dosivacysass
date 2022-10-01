@@ -157,221 +157,105 @@ body.oscuro nav ul li a:hover {
 }
 
 footer {
-  background-color: #202020;
-  color: #fff;
-  height: 100%;
-  padding-top: 40px;
+  background-color: #222C65;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-footer .container-footer-all {
-  max-width: 1400px;
-  padding: 10px 5%;
-  margin-bottom: 10px;
+footer .parteiz {
+  width: 50%;
 }
 
-footer .container-footer-body {
+footer .parteiz span {
+  font-size: 25px;
+  width: 100%;
+  letter-spacing: 0.7pt;
+  word-spacing: 4pt;
+}
+
+footer .parteiz .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer .parteiz .containerRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-footer .column1 {
-  max-width: 400px;
-  height: 100%;
-}
-
-footer .column1 h3 {
-  font-size: 22px;
-  text-align: center;
-}
-
-footer .column1 p {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #c7c7c7;
-}
-
-footer .column2 {
-  min-width: 400px;
-  text-align: center;
-  height: 100%;
-}
-
-footer .column2 h3 {
-  font-size: 22px;
-}
-
-footer .column2 .row {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .row1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-}
-
-footer img {
-  width: 35px;
-  height: 36px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-footer .row1 a {
-  text-decoration: none;
-}
-
-footer label {
   margin-top: 10px;
-  margin-left: 20px;
-  color: #c7c7c7;
-  cursor: pointer;
 }
 
-footer .column3 {
-  min-width: 400px;
-  height: 100%;
+footer .parteiz .contenedorRedesImg {
+  width: 50px;
+  height: 50px;
 }
 
-footer .column3 h3 {
-  font-size: 22px;
-  text-align: center;
+footer .parteiz .logo40Containter {
+  margin-top: 40px;
+  width: 50%;
 }
 
-footer .row2 {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (max-width: 800px) {
+  footer .parteiz {
+    width: 100% !important;
+  }
+  footer .parteiz span {
+    font-size: 22px !important;
+  }
+  footer .parteiz .containerRedes {
+    width: 100% !important;
+  }
+  footer .parteiz .logo40Containter {
+    width: 100% !important;
+  }
 }
 
-footer .row2 i {
-  width: 36px;
-  height: 36px;
-  font-size: 36px;
+footer .parteder {
+  padding: 10px;
 }
 
-footer .row2-map i {
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 36px;
-  height: 36px;
-  font-size: 36px;
-}
-
-footer .row2 label {
-  margin-left: 20px;
-  max-width: 140px;
-}
-
-footer .container-footer {
-  width: 100%;
-  background: #101010;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 20px;
-}
-
-footer .copyright {
-  color: #c7c7c7;
-}
-
-footer a {
-  font-weight: bold;
-}
-
-footer .information {
-  margin-right: 200px;
-}
-
-footer .information a {
-  color: #c7c7c7;
-}
-
-/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
-#search__contenedor {
-  margin-right: 2%;
-  margin-left: 2%;
-}
-
-#search__input {
-  border: 0;
-  color: black;
-  outline: none;
-}
-
-#search__button {
-  color: grey;
-}
-
-h1 {
-  width: 100%;
-  margin-left: 12px;
-  margin-top: 10px;
-  font-family: 'B612', sans-serif;
+footer .parteder i {
   font-size: 40px;
+  margin-top: 15px;
 }
 
-h2 {
-  /* width: 100%;
-    margin-left: 12px;
+footer .parteder span {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+footer .parteder .maps {
+  width: 800px;
+  height: 250px;
+}
+
+@media (max-width: 1606px) {
+  footer .parteder span {
+    font-size: 15px !important;
+  }
+  footer .parteder i {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1235px) {
+  footer .parteder .containerInfo {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  footer .parteder .maps {
+    width: 100% !important;
+  }
+  footer .parteder h3 {
     margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    //text-shadow: 5px 6px 2px black;
-    font-size: 40px; */
-  text-align: center;
-  padding: 2.5rem 0;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #e7dac2;
-          text-decoration-color: #e7dac2;
-  font-size: 2.4rem;
-  font-family: sans-serif;
-  text-shadow: 3px 3px 2px black;
-}
-
-body.oscuro h2 {
-  color: black;
-  text-shadow: 3px 3px 2px white;
-}
-
-h3 {
-  margin-left: 10px;
-  margin-top: 10px;
-  font-family: 'B612', sans-serif;
-  text-shadow: 3px 3px 2px black;
-  color: white;
-  height: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
-a span {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 1100px) {

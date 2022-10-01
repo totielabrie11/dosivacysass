@@ -25,7 +25,7 @@ html {
 
         background-image: url(../img/dosi.jpg);
         background-size: 100%;
-        
+
         background-size: cover;
     }
 
@@ -38,7 +38,7 @@ html {
 
         background-image: url(../img/liquido.jpg);
         background-size: 100%;
-        
+
         background-size: cover;
     }
 
@@ -85,13 +85,14 @@ nav {
 
         display: flex;
         gap: 20px;
+
         body.claro & .dropdown-menu {
             background-color: #010B44 !important;
 
         }
 
         body.oscuro & .dropdown-menu {
-            background-color:#80AFCB !important;
+            background-color: #80AFCB !important;
         }
 
         li {
@@ -153,208 +154,102 @@ nav {
 
 
 footer {
+    background-color: #222C65;
 
-    .container-footer-all {
-        max-width: 1400px;
-        padding: 10px 5%;
-        margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .parteiz {
+        width: 50%;
+
+        span {
+            font-size: 25px;
+            width: 100%;
+            letter-spacing: 0.7pt;
+            word-spacing: 4pt;
+        }
+
+        .footer-container {
+            display: flex;
+        }
+
+        .containerRedes {
+            display: flex;
+            width: 50%;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .contenedorRedesImg {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        .logo40Containter {
+            margin-top: 40px;
+            width: 50%;
+        }
+
+        @media(max-width: 800px) {
+            width: 100% !important;
+
+            span {
+                font-size: 22px !important;
+            }
+
+            .containerRedes {
+                width: 100% !important;
+            }
+
+            .logo40Containter {
+                width: 100% !important;
+            }
+        }
     }
 
-    .container-footer-body {
-        display: flex;
-        justify-content: space-between;
-    }
+    .parteder {
+        padding: 10px;
 
-    .column1 {
-        max-width: 400px;
-        height: 100%;
-    }
+        i {
+            font-size: 40px;
+            margin-top: 15px;
+        }
 
-    .column1 h3 {
-        font-size: 22px;
-        text-align: center;
-    }
+        span {
+            font-size: 20px;
+            margin-top: 15px;
+        }
 
-    .column1 p {
-        margin-top: 20px;
-        font-size: 14px;
-        color: #c7c7c7;
-    }
+        .maps {
+            width: 800px;
+            height: 250px;
+        }
 
-    .column2 {
-        min-width: 400px;
-        text-align: center;
-        height: 100%;
-    }
+        @media(max-width: 1606px) {
+            span {
+                font-size: 15px !important;
+            }
 
-    .column2 h3 {
-        font-size: 22px;
-    }
+            i {
+                font-size: 20px !important;
+            }
+        }
 
-    .column2 .row {
-        margin-top: 20px;
-        display: flex;
+        @media(max-width: 1235px) {
+            .containerInfo {
+                flex-direction: column !important;
+            }
 
-    }
+            .maps {
+                width: 100% !important;
+            }
 
-    .row1 {
-        display: flex;
-        margin-top: 20px;
-    }
+            h3 {
+                margin-top: 10px;
+            }
 
-    img {
-        width: 35px;
-        height: 36px;
-        justify-content: flex-start;
-    }
+        }
 
-    .row1 a {
-        text-decoration: none;
-    }
-
-    label {
-        margin-top: 10px;
-        margin-left: 20px;
-        color: #c7c7c7;
-        cursor: pointer;
-
-    }
-
-    .column3 {
-        min-width: 400px;
-        height: 100%;
-
-    }
-
-    .column3 h3 {
-        font-size: 22px;
-        text-align: center;
-    }
-
-    .row2 {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-
-    }
-
-    .row2 i {
-        width: 36px;
-        height: 36px;
-        font-size: 36px;
-    }
-
-    .row2-map i {
-        margin-top: 20px;
-        display: flex;
-        width: 36px;
-        height: 36px;
-        font-size: 36px;
-    }
-
-    .row2 label {
-        margin-left: 20px;
-        max-width: 140px;
-    }
-
-    .container-footer {
-        width: 100%;
-        background: #101010;
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-
-    .copyright {
-        color: #c7c7c7;
-    }
-
-    a {
-        font-weight: bold;
-    }
-
-    .information {
-        margin-right: 200px;
-    }
-
-    .information a {
-        color: #c7c7c7;
-    }
-
-    background-color: #202020;
-    color: #fff;
-    height: 100%;
-    padding-top: 40px;
-}
-
-/* Estilos Navbar complementarios / se intentaba con esta consigna que no se parezca al que viene por defecto con botstrap, pero me costo poder administrar estos recursos*/
-#search__contenedor {
-    margin-right: 2%;
-    margin-left: 2%;
-}
-
-#search__input {
-    border: 0;
-
-    color: black;
-    outline: none;
-}
-
-#search__button {
-    color: grey;
-}
-
-
-h1 {
-    width: 100%;
-    margin-left: 12px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    //text-shadow: 5px 6px 2px black;
-    font-size: 40px;
-}
-
-h2 {
-    /* width: 100%;
-    margin-left: 12px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    //text-shadow: 5px 6px 2px black;
-    font-size: 40px; */
-
-    text-align: center;
-    padding: 2.5rem 0;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-decoration: underline;
-    text-decoration-color: #e7dac2;
-    font-size: 2.4rem;
-    font-family: sans-serif;
-    text-shadow: 3px 3px 2px black;
-
-    body.oscuro & {
-        color: black;
-        text-shadow: 3px 3px 2px white;
-    }
-}
-
-
-h3 {
-    margin-left: 10px;
-    margin-top: 10px;
-    font-family: 'B612', sans-serif;
-    text-shadow: 3px 3px 2px black;
-    color: white;
-    height: 100%;
-}
-
-a {
-    text-decoration: none;
-
-    span {
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: bold;
     }
 }
