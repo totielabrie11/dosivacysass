@@ -59,7 +59,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   text-transform: uppercase;
-  background: #202020;
+  background: #222C65;
 }
 
 body.claro nav #hamburguesita {

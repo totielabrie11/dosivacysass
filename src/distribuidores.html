@@ -16,40 +16,34 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./../index.html"><img src="./../img/Logo_Dosivac-removebg-preview.png" alt="" width="200px"></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/Logo_Dosivac-removebg-preview.png" alt="" width="200px"></a>
         <button class="navbar-toggler" id="hamburguesita" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <li class= "nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./../#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Empresa</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./../src/empresa/historia.html">HISTORIA</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="./.././src/empresa/mision.html">MISION</a></li>
-                <li><a class="dropdown-item" href="./.././src/empresa/vision.html">VISION</a></li>
-                <li><a class="dropdown-item" href="./.././src/empresa/sustentabilidad.html">SUSTENTABILIDAD</a></li>              
-              </ul>
-            </li>
+            <a class="nav-link active" href="../src/empresa.html" tabindex="-1">empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../src/sustentabilidad.html" tabindex="-1">sustentabilidad</a>
           </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./../src/productos.html" tabindex="-1">Productos</a>
+              <a class="nav-link active" href="../src/productos.html" tabindex="-1">Productos</a>
             </li>
               
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./../#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contacto
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./../src/distribuidores.html">Distribuidores</a></li>
+                <li><a class="dropdown-item" href="../src/distribuidores.html">Distribuidores</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="./../src/contacto.html">Ingresar Consulta</a></li>
+                <li><a class="dropdown-item" href="../src/contacto.html">Ingresar Consulta</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./../src/novedades.html" tabindex="-1">Novedades</a>
+              <a class="nav-link active" href="../src/novedades.html" tabindex="-1">Novedades</a>
             </li>
           </ul>
           <div class="switchContainer">
@@ -63,6 +57,9 @@
               <span><i class="fas fa-sun"></i></span>
               <span><i class="fas fa-moon"></i></span>
             </button>
+            <btn id="btnToolsContainer" class="ms-2">
+              <i id="btnTools" class="fas fa-download"></i>
+            </btn>
           </div>
           <!-- <form class="d-flex" id="search__contenedor">
             <input class="form-control m-1" type="search" placeholder="buscar aqui" aria-label="Search" id="search__input">
