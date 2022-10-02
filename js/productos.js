@@ -69,18 +69,33 @@ $("li").click(function() {
 });
 
 //Manejo del Btn para avanzar de producto descriptions
-$("#btn-next").click(function(){
-  $('#secondDisplay').removeClass('d-none');
-  $('#firstDisplay').addClass('d-none');
+$("*#btn-next, *#btn-prev").click(function() {
+  var id = $(this).attr("id");
+  var name = $(this).parent().children('ul').data('id',id)[0]
+  var nameId = name.id
+  //console.log(id)
+  //console.log(name)
+  //console.log(nameId)
+  //pintarSelector(id);
+  cambiarDisplay(id, nameId)
+});
 
+function cambiarDisplay(id, nameId){
+  console.log(id)
+  console.log(nameId)
 
-})
-$("#btn-prev").click(function(){
-  $('#secondDisplay').addClass('d-none');
-  $('#firstDisplay').removeClass('d-none');
-  
+  if (id === 'btn-next') {
+    
+    $('#' + `${nameId}`+'secondDisplay').removeClass('d-none');
+    $('#' + `${nameId}`+'firstDisplay').addClass('d-none');
+    
+  }
 
-})
+  if (id === 'btn-prev'){
+    $('#' + `${nameId}`+'secondDisplay').addClass('d-none');
+    $('#' + `${nameId}`+'firstDisplay').removeClass('d-none');
+  }
+}
 
 //FUNCION RENDER DE LA CARACTERISTISCA DE LOS PRODUCTOS//
 $.ajax({
