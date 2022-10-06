@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); 
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ html {
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
-        background-image: url(../img/dosi.jpg);
+        background-image: url(../img/FACHADA6.jpg);
         background-size: 100%;
 
         background-size: cover;
@@ -45,6 +46,16 @@ html {
     main {
         padding: 10px 2%;
     }
+    .legend h2 {
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');    
+        font-family: Oswald ;
+        text-transform: uppercase;
+        font-size: 100px;
+        margin: 100px 100px 100px;
+        
+      
+    }
 }
 
 
@@ -60,15 +71,12 @@ nav {
 
     body.claro & {
         #hamburguesita {
-            background-color: #0b2caf;
+            background-color: #ffff;
         }
     }
 
     body.oscuro & {
-        #hamburguesita {
-            background-color: white;
-        }
-
+        
         background-color: rgb(219, 218, 228);
     }
 
@@ -140,37 +148,31 @@ nav {
         } 
     }
 } */
-.hero {
-    margin-top: 100px;
-    margin-bottom: 50px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-
-.home img {
-    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-
-
 footer {
     background-color: #222C65;
 
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: auto;
+    padding: 10px;
 
     .parteiz {
         width: 50%;
 
         span {
-            font-size: 25px;
+            font-size: 20px;
+            font-family: Oswald ;
             width: 100%;
-            letter-spacing: 0.7pt;
-            word-spacing: 4pt;
-        }
+            letter-spacing: 1.2pt;
+            word-spacing: 4.5pt;
+            }
 
         .footer-container {
             display: flex;
+            height: 100%;
         }
 
         .containerRedes {
@@ -187,7 +189,7 @@ footer {
         }
 
         .logo40Containter {
-            margin-top: 40px;
+            margin-top: 10%;
             width: 50%;
         }
 
@@ -222,8 +224,8 @@ footer {
         }
 
         .maps {
-            width: 800px;
-            height: 250px;
+            width: 1200px;
+            height: 220px;
         }
 
         @media(max-width: 1606px) {

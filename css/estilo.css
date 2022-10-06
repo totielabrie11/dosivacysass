@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap");
 * {
@@ -27,7 +29,7 @@ html body.claro {
         background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(../img/dosi.jpg);
+  background-image: url(../img/FACHADA6.jpg);
   background-size: 100%;
   background-size: cover;
 }
@@ -48,6 +50,13 @@ html main {
   padding: 10px 2%;
 }
 
+html .legend h2 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin: 100px 100px 100px;
+}
+
 nav {
   position: fixed !important;
   width: 100% !important;
@@ -63,15 +72,11 @@ nav {
 }
 
 body.claro nav #hamburguesita {
-  background-color: #0b2caf;
+  background-color: #ffff;
 }
 
 body.oscuro nav {
   background-color: #dbdae4;
-}
-
-body.oscuro nav #hamburguesita {
-  background-color: white;
 }
 
 nav .switchContainer {
@@ -144,22 +149,21 @@ body.oscuro nav ul li a:hover {
         } 
     }
 } */
-.hero {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-.home img {
-  -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-          box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  margin-bottom: 20px;
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
 }
 
 footer {
   background-color: #222C65;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: auto;
+  padding: 10px;
 }
 
 footer .parteiz {
@@ -167,16 +171,18 @@ footer .parteiz {
 }
 
 footer .parteiz span {
-  font-size: 25px;
+  font-size: 20px;
+  font-family: Oswald;
   width: 100%;
-  letter-spacing: 0.7pt;
-  word-spacing: 4pt;
+  letter-spacing: 1.2pt;
+  word-spacing: 4.5pt;
 }
 
 footer .parteiz .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
 }
 
 footer .parteiz .containerRedes {
@@ -196,7 +202,7 @@ footer .parteiz .contenedorRedesImg {
 }
 
 footer .parteiz .logo40Containter {
-  margin-top: 40px;
+  margin-top: 10%;
   width: 50%;
 }
 
@@ -230,8 +236,8 @@ footer .parteder span {
 }
 
 footer .parteder .maps {
-  width: 800px;
-  height: 250px;
+  width: 1200px;
+  height: 220px;
 }
 
 @media (max-width: 1606px) {
@@ -444,6 +450,33 @@ footer .parteder .maps {
 @media screen and (max-width: 290px) {
   #notifyBox, #toolsBox {
     top: 31%;
+  }
+}
+
+@media (max-width: 1400px) {
+  ul {
+    gap: 2px !important;
+  }
+  ul li a {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1335px) {
+  ul {
+    gap: 2px !important;
+  }
+  ul li a {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 1129px) {
+  ul {
+    gap: 1.8px !important;
+  }
+  ul li a {
+    font-size: 12px !important;
   }
 }
 
@@ -840,6 +873,11 @@ body.oscuro .btn-efect {
   background-color: #F7931D;
 }
 
+.hero {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
 .btn-prev {
   position: absolute;
   left: 5px;
@@ -1145,9 +1183,14 @@ body.oscuro .notifyBox .card-header {
   background-color: white !important;
 }
 
+body.oscuro .notifyBox .card-header h3 {
+  color: black;
+}
+
 .notifyBox .card-header h3 {
-  color: #80AFCB !important;
   text-align: center;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .notifyBox .card-body {

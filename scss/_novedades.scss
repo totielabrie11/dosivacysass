@@ -33,11 +33,15 @@
 
         body.oscuro & {
             background-color: white !important;
+            h3{
+                color: black;
+            }
         }
 
         h3 {
-            color: #80AFCB !important;
             text-align: center;
+            text-transform: uppercase;
+            color: #fff;
         }
     }
 
