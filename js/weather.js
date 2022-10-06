@@ -48,9 +48,10 @@ window.addEventListener('load', ()=> {
             
                 if (valorATraducir === "broken clouds") {valorATraducir = "muy nublado"}
                 if (valorATraducir === "light rain") {valorATraducir = "algunas llovisnas"}
+                if (valorATraducir === "moderate rain") {valorATraducir = "lluvia moderada"}
 
 
-                temperaturaDescripcion.textContent = valorATraducir.toUpperCase()
+                temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   
                 ubicacion.textContent = data.name 
                 
                 vientoVelocidad.textContent = `${data.wind.speed} m/s`

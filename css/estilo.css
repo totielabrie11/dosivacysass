@@ -199,6 +199,7 @@ footer .parteiz .containerRedes {
 footer .parteiz .contenedorRedesImg {
   width: 50px;
   height: 50px;
+  cursor: pointer;
 }
 
 footer .parteiz .logo40Containter {
@@ -2038,7 +2039,7 @@ div.rueda section {
 
 .contact-form {
   --form-ok-color: #4caf50;
-  --form-error-color: #FA782E;
+  --form-error-color: #F7931D;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -2046,7 +2047,6 @@ div.rueda section {
 
 .contact-form > * {
   padding: 0.5rem;
-  margin: 1rem auto;
   display: block;
   width: 100%;
 }
@@ -2057,7 +2057,7 @@ textarea {
 
 .contact-form legend,
 .contact-form-response {
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
@@ -2074,8 +2074,8 @@ body.oscuro .contact-form legend, body.oscuro
 }
 
 .contact-form input[type="submit"] {
-  width: 50%;
-  background-color: #FA782E;
+  width: 100%;
+  background-color: #F7931D;
   font-weight: bold;
   cursor: pointer;
 }
@@ -2162,50 +2162,17 @@ body.oscuro .contact-form input[type="submit"] {
   background-color: #f44336;
 }
 
-.contactoContainer {
-  width: 80%;
-  background-color: grey;
-  margin: auto;
-  margin-bottom: 40px;
-  padding: 10px;
-  -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-          box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-  margin-top: 20px;
-  margin-bottom: 20px;
+.mapsContainer, .consultaContainer {
+  background-color: #f44336;
 }
 
-.contactoContainer .container {
-  gap: 40px;
-  margin: auto;
+form :nth-child(n) {
+  margin-top: 10px;
+  background-color: var;
 }
 
-.contactoContainer .btnModal {
-  width: 35px;
-  position: static;
-  left: 20px;
-  border-radius: 50%;
-  background-color: #242424;
+form legend {
   text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  color: white;
-  -webkit-box-shadow: 4px 4px 0px #181818;
-          box-shadow: 4px 4px 0px #181818;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.contactoContainer .btnModal:hover {
-  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
-          transform: rotate(0deg) translate(4px, 4px) scale(1);
-  -webkit-box-shadow: 0px 0px 0px;
-          box-shadow: 0px 0px 0px;
-}
-
-.image-contact {
-  opacity: 10%;
 }
 
 .gallery {

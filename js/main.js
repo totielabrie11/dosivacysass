@@ -24,19 +24,6 @@ if (localStorage.getItem('dark-mode') === 'true') {
 }
 
 
-//////////////////////BTN DE CONTACTO//////////////////////
-$("#btnMostrarContactos").click( "click", function() {
-    
-  $('#contactoContainer').toggle().removeClass('d-none');
-
-});
-
-$("#BtnModalDeContacto").click( "click", function() {
-   
-  $('#contactoContainer').toggle().removeClass('d-none');
-
-});
-
 //////////////////////////// GALERIA 3D ///////////////////////
 var carousel = $(".carousel"),
     currdeg  = 0;

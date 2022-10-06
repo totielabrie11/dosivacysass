@@ -1,6 +1,6 @@
 .contact-form {
     --form-ok-color: #4caf50;
-    --form-error-color: #FA782E;
+    --form-error-color: #F7931D;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -8,7 +8,6 @@
 
 .contact-form>* {
     padding: 0.5rem;
-    margin: 1rem auto;
     display: block;
     width: 100%;
 }
@@ -19,9 +18,10 @@ textarea {
 
 .contact-form legend,
 .contact-form-response {
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
+
 
     body.oscuro & {
         color: black;
@@ -40,8 +40,8 @@ textarea {
 
     }
 
-    width: 50%;
-    background-color: #FA782E;
+    width: 100%;
+    background-color:#F7931D;
     font-weight: bold;
     cursor: pointer;
 }
@@ -95,43 +95,16 @@ textarea {
 .tito {
     background-color: #f44336;
 }
-
-.contactoContainer {
-    width: 80%;
-    background-color: grey;
-    margin: auto;
-    margin-bottom: 40px;
-    padding: 10px;
-    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    .container{
-        gap: 40px;
-        margin: auto;
-    }
+.mapsContainer, .consultaContainer{
+    background-color: #f44336;
 }
-
-.contactoContainer .btnModal {
-    width: 35px;
-    position: static;
-    left: 20px;
-    border-radius: 50%;
-    background-color: #242424;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    color: white;
-    box-shadow: 4px 4px 0px (rgb(24, 24, 24));
-    transition: all 0.5s ease;
-
-    &:hover {
-        transform: rotate(0deg) translate(4px, 4px) scale(1);
-        box-shadow: 0px 0px 0px
+form{
+    :nth-child(n) {
+    margin-top: 10px;
+    background-color: var;
     }
-}
-
-.image-contact {
-    opacity: 10%;
+    legend  {
+        text-transform: uppercase;
+        
+    }
 }
