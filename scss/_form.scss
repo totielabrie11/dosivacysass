@@ -34,28 +34,30 @@ textarea {
     font-family: sans-serif;
 }
 
-.contact-form input[type="submit"] {
-    body.oscuro & {
-        background-color: var(--form-ok-color);
+.contact-form {
+   
+    input[type="submit"] {
+        body.oscuro & {
+            background-color: var(--form-ok-color);
 
+        }
+
+        width: 100%;
+        background-color:#F7931D;
+        font-weight: bold;
+        cursor: pointer;
     }
-
-    width: 100%;
-    background-color:#F7931D;
-    font-weight: bold;
-    cursor: pointer;
 }
-
-.contact-form *::placeholder {
-    color: black;
+input {
+    background-color: rgba(255, 255, 255, 0.308) ;
 }
 
 .contact-form [required]:valid {
-    border: thick solid var(--form-ok-color);
+    border: 2px solid white;
 }
 
 .contact-form [required]:invalid {
-    border: thick solid var(--form-error-color);
+    border: 2px solid white;
 }
 
 .contact-form-error {
@@ -92,19 +94,20 @@ textarea {
     }
 }
 
-.tito {
-    background-color: #f44336;
-}
-.mapsContainer, .consultaContainer{
-    background-color: #f44336;
-}
+
 form{
+    ::placeholder{
+        background-color: rgba(255,255,255,0.5); 
+        
+    }
     :nth-child(n) {
     margin-top: 10px;
-    background-color: var;
+    border: 2px solid white;
     }
     legend  {
         text-transform: uppercase;
+        background-color:#F7931D; 
+        border: 2px solid white;
         
     }
 }
