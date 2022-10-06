@@ -44,8 +44,13 @@ window.addEventListener('load', ()=> {
                 temperaturaValor.textContent = `${temp} ° C`
 
                 //console.log(data.weather[0].description)
-                let desc = data.weather[0].description
-                temperaturaDescripcion.textContent = desc.toUpperCase()
+                valorATraducir = data.weather[0].description
+            
+                if (valorATraducir === "broken clouds") {valorATraducir = "muy nublado"}
+                if (valorATraducir === "light rain") {valorATraducir = "algunas llovisnas"}
+
+
+                temperaturaDescripcion.textContent = valorATraducir.toUpperCase()
                 ubicacion.textContent = data.name 
                 
                 vientoVelocidad.textContent = `${data.wind.speed} m/s`
