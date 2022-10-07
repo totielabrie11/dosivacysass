@@ -50,6 +50,8 @@ window.addEventListener('load', ()=> {
                 if (valorATraducir === "light rain") {valorATraducir = "algunas llovisnas"}
                 if (valorATraducir === "moderate rain") {valorATraducir = "lluvia moderada"}
                 if (valorATraducir === "few clouds") {valorATraducir = "algunas nubes"}
+                if (valorATraducir === "clear sky") {valorATraducir = "cielo despejado"}
+                if (valorATraducir === "overcast clouds") {valorATraducir = "cubierto de nubes"}
 
                 temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   
                 ubicacion.textContent = data.name 

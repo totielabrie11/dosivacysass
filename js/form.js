@@ -100,3 +100,17 @@ function contactFormValidations(){
 
 }
 
+document.getElementById('textareaConsulta').addEventListener('click', function(e) {
+    
+    $textArea = document.getElementById('textareaConsulta')
+      
+      $textArea.classList.add('textareaColorBlanco')
+     
+});
+
+$('input').click(function(e){
+   const ID = ($(this).attr('id')) 
+   
+   $('#' + `${ID}`).addClass('textareaColorBlanco')
+   
+})

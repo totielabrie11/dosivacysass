@@ -1,5 +1,5 @@
 .contact-form {
-    --form-ok-color: #4caf50;
+    --form-ok-color: #34A853;
     --form-error-color: #F7931D;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +14,7 @@
 
 textarea {
     resize: none;
+
 }
 
 .contact-form legend,
@@ -35,7 +36,7 @@ textarea {
 }
 
 .contact-form {
-   
+
     input[type="submit"] {
         body.oscuro & {
             background-color: var(--form-ok-color);
@@ -46,14 +47,45 @@ textarea {
         background-color:#F7931D;
         font-weight: bold;
         cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
     }
 }
-input {
-    background-color: rgba(255, 255, 255, 0.308) ;
+
+input,
+textarea {
+    background-color: rgba(255, 255, 255, 0.308);
+
+    font-size: 15pt !important;
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+
 }
 
+.textareaColorBlanco {
+    background-color: #fff !important;
+}
+
+select {
+    background-color: #F7931D;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+
+
 .contact-form [required]:valid {
-    border: 2px solid white;
+    border: 2px solid var(--form-ok-color);
 }
 
 .contact-form [required]:invalid {
@@ -95,19 +127,24 @@ input {
 }
 
 
-form{
-    ::placeholder{
-        background-color: rgba(255,255,255,0.5); 
-        
-    }
-    :nth-child(n) {
-    margin-top: 10px;
-    border: 2px solid white;
-    }
-    legend  {
+form {
+    ::placeholder {
         text-transform: uppercase;
-        background-color:#F7931D; 
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+
+    }
+
+    :nth-child(n) {
+        margin-top: 10px;
         border: 2px solid white;
-        
+    }
+
+    legend {
+        text-transform: uppercase;
+        background-color: #F7931D;
+        border: 2px solid white;
+
     }
 }
