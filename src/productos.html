@@ -86,15 +86,15 @@
   <div class="d-flex align-items-center justify-content-center flex-wrap">
     <div class="btn btn-dark d-none btn-efect"  id="btn-volver"><i class="fa-solid fa-rotate-left"></i></div>
     <select name="products" id="productsSelector" class="d-flex text-center p-2 my-4 w-50 btn-danger" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
-      <option>---Seleccione por catergoria---</option>
+      <option>Seleccione por catergoria</option>
       <option value="todos">Todos Nuestros Productos</option>
       <option value="vacio">Vacío en Refrigeracion</option>
       <option value="vacio">Vacío en Laboratorio</option>
-      <option value="vacio">Vacío Industrial - Sopladores</option>
+      <option value="vacio">Vacío Industrial</option>
       <option value="dosificacion">Dosificacion bombas electricas</option>
       <option value="dosificacion">Dosificacion bombas neumaticas</option>
       <option value="dosificacion">Bombas de energías sustentable</option>
-      <option value="soplante">Transporte Neumatico</option>
+      <option value="soplante">Transporte Neumatico - sopladores</option>
       <option value="accesorios">Accesorios</option>
       <option value="equipos">Equipos especiales</option>
       <option value="equipos">Equipos SKID</option>
@@ -168,6 +168,17 @@
           <img src="../img/bombas/DSHC BRIDA-removebg-preview.png" alt="Shoe" class="productP-img" width="65%">
           <div class="productP-detail">
             <h3>EQUIPOS DE VACIO PARA APLICACION INDUSTRIAL</h3> 
+            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="containerP" id="productListSelector" onclick="muestroProductosSoplante()"> 
+      <div class="cardP">
+        <div class="cardP-head">
+          <img src="../img/bombas/DS-removebg-preview.png" alt="Shoe" class="productP-img" width="65%">
+          <div class="productP-detail">
+            <h3>EQUIPOS PARA TRANSPORTE NEUMATICO</h3> 
             <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
           </div>
         </div>
@@ -1052,7 +1063,7 @@
           </div>
         </div>
       </div>
-      <div class="containerP" id="Ind">
+      <div class="containerP" id="Sop">
         <div class="cardP">
           <div class="cardP-head">
 
@@ -1117,7 +1128,7 @@
           </div>
         </div>
       </div>
-      <div class="containerP" id="Ind">
+      <div class="containerP" id="Sop">
         <div class="cardP">
           <div class="cardP-head">
 

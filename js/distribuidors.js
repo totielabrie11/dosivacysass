@@ -24,12 +24,12 @@ $.ajax({
       htmlVacio = ""
       html = 
       `
-      <div class="card">
+      <div class="cardDis">
         <div class="card-image">
             ${img}
         </div>
         <div class="card-body">
-            <span class="date">${nombre}</span>
+            <span class="nombreDis">${nombre}</span>
             <h4>${provincia}</h4>
             <h5>${localidad}</h5>
             <p>
@@ -40,7 +40,7 @@ $.ajax({
             </p>
             ${maps}
         </div>
-        <div class="card-footer">
+        <div class="card-footer d-none">
             <div class="info">
                 <div class="value">VENDE</div>
                 <div class="type">${tipo.dosificacionMenor}</div>
@@ -84,7 +84,8 @@ $.ajax({
     
     $("#btnSearch").click(function (e) {
       
-      $('#distribuidores').removeClass('d-none')
+      $('#distribuidores').removeClass('d-none');
+      $('#form-distribuidores').addClass('d-none');
 
       const buscarPorProvincia = ($selectPorProvincia) => {
         Busqueda = distribuidors.filter((distribuidor) =>
@@ -241,4 +242,17 @@ $formDist.submit(e =>{
   
   e.preventDefault();
 
+})
+// funcion para pintar el input en blanco
+$('input').click(function(e){
+  const ID = ($(this).attr('id')) 
+  
+  $('#' + `${ID}`).addClass('textareaColorBlanco')
+  
+})
+$('select').click(function(e){
+  const ID = ($(this).attr('id')) 
+  
+  $('#' + `${ID}`).addClass('textareaColorBlanco')
+  
 })

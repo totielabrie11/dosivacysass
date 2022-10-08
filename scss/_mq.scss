@@ -38,7 +38,7 @@
         }
     }
 
-    span.date {
+    span.nombreDis {
         margin: auto !important;
         font-size: 20px !important;
     }
@@ -50,7 +50,7 @@
         font-size: 25px !important;
     }
 
-    span.date {
+    span.nombreDis {
         margin: auto !important;
         font-size: 18px !important;
     }
@@ -96,9 +96,10 @@
         font-size: 25px !important;
     }
 
-    span.date {
+    span.nombreDis {
         margin: auto !important;
         font-size: 18px !important;
+        color: black;
     }
 
     p,
@@ -126,7 +127,7 @@
         justify-content: center;
         align-items: center;
 
-        span.date {
+        span.nombreDis {
             font-size: 15px !important;
         }
 
@@ -177,58 +178,73 @@
 
 //mediaquerys para mis boxTools y mis NotifyBox
 @media screen and (max-width: 991px) {
-    #notifyBox, #toolsBox{
-        
+
+    #notifyBox,
+    #toolsBox {
+
         top: 35%;
-        
-        thead, tbody{
-             p{
-            font-size: 15px !important;
+
+        thead,
+        tbody {
+            p {
+                font-size: 15px !important;
             }
         }
     }
 }
+
 @media screen and (max-width: 810px) {
 
-    #notifyBox, #toolsBox{
-        
+    #notifyBox,
+    #toolsBox {
+
         top: 31%;
-        
-        
+
+
     }
-    .tucked-corners-top{
-        .pinchito{
+
+    .tucked-corners-top {
+        .pinchito {
             top: 10% !important;
         }
     }
 }
+
 @media screen and (max-width: 290px) {
-    #notifyBox, #toolsBox{
-        
-        top:31% ;
-        
+
+    #notifyBox,
+    #toolsBox {
+
+        top: 31%;
+
     }
 }
+
 ///////////////////////////////Media Q de nav bar////////////////////////
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
     ul {
         gap: 2px !important;
+
         li a {
             font-size: 20px !important;
         }
     }
 }
-@media (max-width: 1335px){
+
+@media (max-width: 1335px) {
     ul {
         gap: 2px !important;
+
         li a {
             font-size: 15px !important;
         }
     }
 }
-@media (max-width: 1129px){
+
+@media (max-width: 1129px) {
     ul {
         gap: 1.8px !important;
+
         li a {
             font-size: 12px !important;
         }

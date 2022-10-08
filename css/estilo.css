@@ -301,7 +301,7 @@ footer .parteder .maps {
   .card h4 {
     font-size: 20px !important;
   }
-  span.date {
+  span.nombreDis {
     margin: auto !important;
     font-size: 20px !important;
   }
@@ -312,7 +312,7 @@ footer .parteder .maps {
     margin: auto !important;
     font-size: 25px !important;
   }
-  span.date {
+  span.nombreDis {
     margin: auto !important;
     font-size: 18px !important;
   }
@@ -357,9 +357,10 @@ footer .parteder .maps {
     margin: auto !important;
     font-size: 25px !important;
   }
-  span.date {
+  span.nombreDis {
     margin: auto !important;
     font-size: 18px !important;
+    color: black;
   }
   p,
   h4,
@@ -392,7 +393,7 @@ footer .parteder .maps {
     justify-content: center;
     align-items: center;
   }
-  .card span.date {
+  .card span.nombreDis {
     font-size: 15px !important;
   }
   .card h4 {
@@ -431,16 +432,21 @@ footer .parteder .maps {
 }
 
 @media screen and (max-width: 991px) {
-  #notifyBox, #toolsBox {
+  #notifyBox,
+  #toolsBox {
     top: 35%;
   }
-  #notifyBox thead p, #notifyBox tbody p, #toolsBox thead p, #toolsBox tbody p {
+  #notifyBox thead p,
+  #notifyBox tbody p,
+  #toolsBox thead p,
+  #toolsBox tbody p {
     font-size: 15px !important;
   }
 }
 
 @media screen and (max-width: 810px) {
-  #notifyBox, #toolsBox {
+  #notifyBox,
+  #toolsBox {
     top: 31%;
   }
   .tucked-corners-top .pinchito {
@@ -449,7 +455,8 @@ footer .parteder .maps {
 }
 
 @media screen and (max-width: 290px) {
-  #notifyBox, #toolsBox {
+  #notifyBox,
+  #toolsBox {
     top: 31%;
   }
 }
@@ -560,7 +567,7 @@ footer .parteder .maps {
   padding-top: 20px;
   font-size: 30px;
   font-weight: 800;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   padding-bottom: 10px;
   text-transform: uppercase;
 }
@@ -1350,15 +1357,16 @@ body.oscuro .notifyBox .card-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: auto;
 }
 
-.card {
+.cardDis {
   max-width: 325px;
   max-height: 920px;
-  border-radius: 18px;
   background: #fff;
   -webkit-box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4);
+  border: 4px solid white;
   overflow: hidden;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s;
@@ -1377,13 +1385,13 @@ body.oscuro .notifyBox .card-footer {
 .card-image {
   display: block;
   position: relative;
-  height: 200px;
+  height: 180px;
   min-width: 100%;
 }
 
 .card-image img {
-  max-height: 100%;
   width: 100%;
+  height: 100%;
   background-size: cover;
 }
 
@@ -1392,9 +1400,10 @@ body.oscuro .notifyBox .card-footer {
   min-height: 150px;
 }
 
-.card-body .date {
+.card-body .nombreDis {
   font-weight: bolder;
   font-size: 1.2em;
+  color: black;
 }
 
 .card-body h4 {
@@ -1402,7 +1411,7 @@ body.oscuro .notifyBox .card-footer {
   color: black;
 }
 
-h5 {
+.card-body h5 {
   color: black;
   font-size: 0.9em;
 }
@@ -1414,7 +1423,7 @@ h5 {
   text-align: center;
 }
 
-.card-footer {
+.card-body .card-footer {
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -1439,240 +1448,240 @@ h5 {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.card-footer .info:last-child {
-  border: none;
+/* .card-footer .info:last-child {
+    border: none;
 }
 
 .card-footer .info .type {
-  text-transform: uppercase;
-  margin-top: 2px;
-  font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: 2px;
+    font-size: 0.8em;
 }
 
 .card:nth-child(1) .card-footer {
-  background: #ff0c71;
+    background: #ff0c71;
 }
 
 .card:nth-child(1) .date {
-  color: #ff0c71;
+    color: #ff0c71;
 }
 
 .card:nth-child(2) .card-footer {
-  background: #ff510c;
+    background: #ff510c;
 }
 
 .card:nth-child(2) .date {
-  color: #ff510c;
+    color: #ff510c;
 }
 
 .card:nth-child(3) .card-footer {
-  background: #03b43e;
+    background: #03b43e;
 }
 
 .card:nth-child(3) .date {
-  color: #03b43e;
+    color: #03b43e;
 }
 
 .card:nth-child(4) .card-footer {
-  background: #ccbf09;
+    background: #ccbf09;
 }
 
 .card:nth-child(4) .date {
-  color: #ccbf09;
+    color: #ccbf09;
 }
 
 .card:nth-child(5) .card-footer {
-  background: #09cca2;
+    background: #09cca2;
 }
 
 .card:nth-child(5) .date {
-  color: #09cca2;
+    color: #09cca2;
 }
 
 .card:nth-child(6) .card-footer {
-  background: #75f122;
+    background: #75f122;
 }
 
 .card:nth-child(6) .date {
-  color: #75f122;
+    color: #75f122;
 }
 
 .card:nth-child(7) .card-footer {
-  background: #fff126;
+    background: #fff126;
 }
 
 .card:nth-child(7) .date {
-  color: #fff126;
+    color: #fff126;
 }
 
 .card:nth-child(8) .card-footer {
-  background: #c2c2c2;
+    background: #c2c2c2;
 }
 
 .card:nth-child(8) .date {
-  color: #c2c2c2;
+    color: #c2c2c2;
 }
 
 .card:nth-child(9) .card-footer {
-  background: #ff0c71;
+    background: #ff0c71;
 }
 
 .card:nth-child(9) .date {
-  color: #ff0c71;
+    color: #ff0c71;
 }
 
 .card:nth-child(10) .card-footer {
-  background: #ff510c;
+    background: #ff510c;
 }
 
 .card:nth-child(10) .date {
-  color: #ff510c;
+    color: #ff510c;
 }
 
 .card:nth-child(11) .card-footer {
-  background: #03b43e;
+    background: #03b43e;
 }
 
 .card:nth-child(11) .date {
-  color: #03b43e;
+    color: #03b43e;
 }
 
 .card:nth-child(12) .card-footer {
-  background: #ccbf09;
+    background: #ccbf09;
 }
 
 .card:nth-child(12) .date {
-  color: #ccbf09;
+    color: #ccbf09;
 }
 
 .card:nth-child(13) .card-footer {
-  background: #09cca2;
+    background: #09cca2;
 }
 
 .card:nth-child(13) .date {
-  color: #09cca2;
+    color: #09cca2;
 }
 
 .card:nth-child(14) .card-footer {
-  background: #75f122;
+    background: #75f122;
 }
 
 .card:nth-child(14) .date {
-  color: #75f122;
+    color: #75f122;
 }
 
 .card:nth-child(15) .card-footer {
-  background: #fff126;
+    background: #fff126;
 }
 
 .card:nth-child(15) .date {
-  color: #fff126;
+    color: #fff126;
 }
 
 .card:nth-child(16) .card-footer {
-  background: #09cca2;
+    background: #09cca2;
 }
 
 .card:nth-child(16) .date {
-  color: #09cca2;
+    color: #09cca2;
 }
 
 .card:nth-child(17) .card-footer {
-  background: #75f122;
+    background: #75f122;
 }
 
 .card:nth-child(17) .date {
-  color: #75f122;
+    color: #75f122;
 }
 
 .card:nth-child(18) .card-footer {
-  background: #ff510c;
+    background: #ff510c;
+
 }
 
 .card:nth-child(18) .date {
-  color: #ff510c;
+    color: #ff510c;
 }
 
 .card:nth-child(19) .card-footer {
-  background: #03b43e;
+    background: #03b43e;
 }
 
 .card:nth-child(19) .date {
-  color: #03b43e;
+    color: #03b43e;
 }
 
 .card:nth-child(20) .card-footer {
-  background: #ccbf09;
+    background: #ccbf09;
 }
 
 .card:nth-child(20) .date {
-  color: #ccbf09;
+    color: #ccbf09;
 }
 
 .card:nth-child(23) .card-footer {
-  background: #c2c2c2;
+    background: #c2c2c2;
 }
 
 .card:nth-child(21) .date {
-  color: #c2c2c2;
+    color: #c2c2c2;
 }
 
 .card:nth-child(22) .card-footer {
-  background: #ff0c71;
+    background: #ff0c71;
 }
 
 .card:nth-child(22) .date {
-  color: #ff0c71;
+    color: #ff0c71;
 }
 
 .card:nth-child(23) .card-footer {
-  background: #ff510c;
+    background: #ff510c;
 }
 
 .card:nth-child(23) .date {
-  color: #ff510c;
+    color: #ff510c;
 }
 
 .card:nth-child(24) .card-footer {
-  background: #03b43e;
+    background: #03b43e;
 }
 
 .card:nth-child(24) .date {
-  color: #03b43e;
+    color: #03b43e;
 }
 
 .card:nth-child(25) .card-footer {
-  background: #fff126;
+    background: #fff126;
 }
 
 .card:nth-child(25) .date {
-  color: #fff126;
+    color: #fff126;
 }
 
 .card:nth-child(26) .card-footer {
-  background: #75F122;
+    background: #75F122;
 }
 
 .card:nth-child(26) .date {
-  color: #75F122;
+    color: #75F122;
 }
 
 .card:nth-child(27) .card-footer {
-  background: #09CCA2;
+    background: #09CCA2;
 }
 
 .card:nth-child(27) .date {
-  color: #09CCA2;
+    color: #09CCA2;
 }
 
 .card:nth-child(28) .card-footer {
-  background: #FF510C;
+    background: #FF510C;
 }
 
 .card:nth-child(28) .date {
-  color: #FF510C;
-}
-
+    color: #FF510C;
+} */
 .leyenda {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2133,6 +2142,44 @@ body.oscuro .contact-form legend, body.oscuro
 
 body.oscuro .contact-form input[type="submit"] {
   background-color: var(--form-ok-color);
+}
+
+#form-distribuidores {
+  width: 40%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  letter-spacing: 5px;
+}
+
+#form-distribuidores input[Type="submit"] {
+  letter-spacing: 5px;
+}
+
+#form-distribuidores select {
+  background-color: rgba(255, 255, 255, 0.308);
+  color: black;
+}
+
+#form-distribuidores ::-webkit-input-placeholder {
+  text-align: center;
+}
+
+#form-distribuidores :-ms-input-placeholder {
+  text-align: center;
+}
+
+#form-distribuidores ::-ms-input-placeholder {
+  text-align: center;
+}
+
+#form-distribuidores ::placeholder {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #form-distribuidores {
+    width: 80%;
+  }
 }
 
 input,
