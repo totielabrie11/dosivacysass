@@ -282,6 +282,8 @@ function renderizarJSON(productosJSON) {
 
     let input = $("#search").val() 
     $("#search").reset(input);
+
+    $('#distribuidores').removeClass('d-none')
   });
 }
 

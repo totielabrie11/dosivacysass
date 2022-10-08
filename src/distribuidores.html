@@ -82,16 +82,16 @@
 
 <main>
   <div class="hero">
-    <h2>DISTRIBUIDORES</h2>
+    <h2 class="d-none">DISTRIBUIDORES</h2>
   </div>
   <div class="d-flex align-item-center justify-content-around flex-wrap">
-    <div class="card" id="mapaA"><img src="https://www.etapainfantil.com/wp-content/uploads/2021/06/Mapa-politico-Argentina.jpg" width="60%" alt=""></div>
-    <div class="card" id="mapaI"><img src="https://www.seekpng.com/png/small/8-80491_mapa-de-america-png-world-map.png" alt=""></div>
+    <div class="distNacContainer" id="mapaA"><span>red nacional<h3>distribuidores</h3></span></div>
+    <div class="distNacContainer" id="mapaI"><span>red internacional<h3>distribuidores</h3></span></div>
   </div>  
   
   <div class="d-none" id="distribuidoresInter">
   <button tton class="btn btn-dark mt-4 btn-efect" id="btn-back-i">VOLVER</button>
-  <div class="distribuidoresInter">
+  <div class="distribuidoresInterList">
     <div class="container">
       <table class="fl-table">
         <thead>
@@ -267,110 +267,55 @@
         </div>
       </form>
     </div>
-    <button class="btn btn-dark mb-4 btn-efect" id="btn-back">VOLVER</button>
-    <div class="card-list" id="distribuidores">
+    <button class="btn btn-dark mb-4 btn-efect d-none" id="btn-back">VOLVER</button>
+    <div class="card-list d-none" id="distribuidores">
       <!-- <input type="name" id="search limpiar" placeholder="buscar distribuidor local" class="input float-start mt-2 p-1 w-100"title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
       <input type="button" id="btnSearch" value="Buscar" class="input btn btn-dark mt-2">  -->
       
     </div>
-    <button class="btn btn-dark mt-4 btn-efect" id="btn-back">VOLVER</button>
+    <button class="btn btn-dark mt-4 btn-efect d-none" id="btn-back">VOLVER</button>
   </section>
   <div id="volverLista">
 
   </div>
 </main>
 <footer>
-  <div class="container-footer-all">
-    <div class="container-footer-body">
-      <div class="column1">
-        <h3>Mas informacion de la compania</h3>
-        <p>Dosivac es una empresa familiar, que cumple 40 años de historia duarnte este año "2022", dedicandose a suministrar equipamiento industrial esencial para el desarrollo de la actividad petrolera, tratameinto de aguas y sistemas de vacío. Acompañanado la defensa de la industria nacioanl y reafirmando el compromiso de seguir invirtiendo en nuestro País. 
-        </p>
-        <div>
-          <img src="https://www.casarosada.gob.ar/images/banderaargentina.png" alt=""  style="min-height: 8rem; width: 48%;">
-          <img src="../img/logo-40-removebg-preview.png" alt="" style="min-height: 8rem; width: 48%;">
-        </div>
+  <div class="container-fluid row d-flex">
+    <div class="parteiz col-12 col-md-5 ms-2">
+      <div class="w-50">
+        <span>SIGUENOS EN NUESTRAS REDES</span>
       </div>
-      <div class="column2">
-        <h3>Redes Sociales</h3>
-        
-        <div class="row1">
-            <a href="https://es-la.facebook.com/DosivacSA/" target="_eblank">
-              <img src=".././img/redes/facebook-removebg-preview.png" alt="">
-              <label>Siguenos en Facebook</label>
-            </a>
-        </div>
-
-        <div class="row1">
-            <a href="https://www.instagram.com/dosivac.arg" target="_eblank">
-              <img src=".././img/redes/instagram-removebg-preview.png" alt="">
-              <label>Siguenos en Instragram</label>
-            </a>
-        </div>
-        
-        <div class="row1">
-          <a href="https://www.youtube.com/channel/UC5vUHDRwLRG3d5INmSljEmQ" target="_eblank">
-            <img src=".././img/redes/youtube-removebg-preview.png" alt="">
-            <label>Siguenos en Youtube</label>
-          </a>
-        </div>
-
-        <div class="row1">
-          <a href="https://ar.linkedin.com/company/dosivac-s-a-" target="_eblank">
-            <img src=".././img/redes/link.png" alt="">
-            <label>Siguenos en Linkedin</label>
-          </a>
-        </div>
-        
-        <div class="row1">
-          <a href="https://twitter.com/dosivac" target="_eblank">
-            <img src=".././img/redes/twiter.png" alt="">
-            <label>Siguenos en Twiter</label>
-          </a>
-        </div>
+      <div class="containerRedes">
+        <div class="contenedorRedesImg"><img src="../img/redes/FB.png" alt="" width="100%"></div>
+        <div class="contenedorRedesImg"><img src="../img/redes/IG.png" alt="" width="100%"></div>
+        <div class="contenedorRedesImg"><img src="../img/redes/YT.png" alt="" width="100%"></div>
+        <div class="contenedorRedesImg"><img src="../img/redes/IN.png" alt="" width="100%"></div>
+        <div class="contenedorRedesImg"><img src="../img/redes/TW.png" alt="" width="100%"></div>
       </div>
-      <div class="column3">
-        <h3>Informacion Contactos</h3>
-          <div class="row2-map">
-            <div class="d-flex">
-              <i class="material-icons">
-              factory
-              </i>
-              <label>Diagonal Rivadavía Nº 5945 <br> Loma Hermosa, San Martín</label>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.712213471098!2d-58.59476538507077!3d-34.56084126273712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9871b493521%3A0x92ad2ec4b160c495!2sDosivac!5e0!3m2!1ses!2sar!4v1649096070571!5m2!1ses!2sar" width="300" height="200" style="border:50;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-
-          <div class="row2">
-              <i class="material-icons">
-                  phone_android
-              </i>
-              <i class="material-icons">
-                whatsapp
-              </i>
-              <label>+54-9-11-6679-7941</label>
-          </div>
-
-          <div class="row2">
-              <i class="material-icons">
-                  mail_outline
-              </i>
-              <label>cotizaciones@dosivac.com</label>
-          </div>
-        </div>
+      <div class="logo40Containter">
+        <img src="../img/Logo40.png" alt="" width="100%">
+      </div>
     </div>
-  </div> 
-  <div class="container-footer">
-      <div class="copyright">
-          © 2022 Todos los derechos Reservados | <a href="#">charcode</a>
-      </div>
-
-      <div class="information">
-          <a href="">Informacion Compania</a> | <a href="">Privacidad y Politica</a> | <a href="">Terminos y Condiciones</a>
-      </div>
-  </div>
   
-</footer>      
+    
+  
+    <div class="parteder col-md-5 col-12 ms-2">
+      <div class="containerInfo d-flex">
+        <div class="maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13142.848152745706!2d-58.5925767!3d-34.5608457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92ad2ec4b160c495!2sDosivac!5e0!3m2!1ses-419!2sar!4v1664638122801!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info ms-2">
+          <h3>CONTACTOS</h3>
+          <span>Diagonal 154 (Rivadavia) Nº 5945 B1657COX - Loma Hermosa (San Martín) Buenos Aires - Argentina</span><br>
+          <i class="fas fa-mobile"></i><span class="ms-2">+54 9 11 6679 7941</span><br>
+          <i class="fas fa-envelope"></i><span class="ms-2">bombas@dosivac.com</span>
+          <i></i>
+        </div>
+      </div>
+    </div>
+
+</div>
+</footer>     
               
             
           <script src="../node_modules/jquery/dist/jquery.js"></script>

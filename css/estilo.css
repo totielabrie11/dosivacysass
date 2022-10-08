@@ -203,7 +203,7 @@ footer .parteiz .contenedorRedesImg {
 }
 
 footer .parteiz .logo40Containter {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 50%;
 }
 
@@ -1697,7 +1697,53 @@ h5 {
   font-size: 20px;
 }
 
+.distNacContainer,
 .distribuidoresInter {
+  width: 600px;
+  height: 150px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  background-color: #f7911d72;
+  border: 4px solid white;
+  cursor: pointer;
+  margin-top: 25%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.distNacContainer:hover,
+.distribuidoresInter:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.distNacContainer span,
+.distribuidoresInter span {
+  font-size: 25px;
+  font-weight: 800px;
+  letter-spacing: 6px;
+}
+
+.distNacContainer span h3,
+.distribuidoresInter span h3 {
+  font-size: 40px;
+}
+
+.distribuidoresInterList {
   width: 80%;
   background-color: grey;
   margin: auto;
@@ -1707,7 +1753,7 @@ h5 {
           box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
 }
 
-.distribuidoresInter .container {
+.distribuidoresInterList .container {
   overflow: scroll;
 }
 

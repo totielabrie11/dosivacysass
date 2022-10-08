@@ -83,10 +83,14 @@ $.ajax({
     })
     
     $("#btnSearch").click(function (e) {
+      
+      $('#distribuidores').removeClass('d-none')
+
       const buscarPorProvincia = ($selectPorProvincia) => {
         Busqueda = distribuidors.filter((distribuidor) =>
           distribuidor.provincia.toLowerCase().includes($selectPorProvincia)
           //distribuidor.localidad.toLowerCase().includes($localidadDis)
+
         );
       }
 
