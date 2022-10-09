@@ -24,6 +24,10 @@
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.4s;
+
+    .nombreDis {
+        font-size: 20px !important;
+    }
 }
 
 .card:hover {
@@ -54,27 +58,28 @@
 .card-body {
 
     .nombreDis {
+        width: 100%;
         font-weight: bolder;
         font-size: 1.2em;
         color: black;
+        text-transform: uppercase;
     }
 
-    h4 {
-        font-size: 1em;
+    span {
+        width: 100%;
         color: black;
-
-    }
-
-    h5 {
-        color: black;
-        font-size: 0.9em;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: start;
+        text-transform: uppercase;
     }
 
     p {
+        width: 100%;
+        text-align: start;
         color: gray;
         font-size: 1.1em;
-        line-height: 22px;
-        text-align: center;
+        font-weight: bold;
     }
 }
 
@@ -457,7 +462,7 @@ th:last-child {
 
 tr {
     border-top: 1px solid #C1C3D1;
-    border-bottom-: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
     color: #666B85;
     font-size: 16px;
     font-weight: normal;

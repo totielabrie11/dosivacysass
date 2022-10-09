@@ -29,15 +29,10 @@ $.ajax({
             ${img}
         </div>
         <div class="card-body">
-            <span class="nombreDis">${nombre}</span>
-            <h4>${provincia}</h4>
-            <h5>${localidad}</h5>
-            <p>
-              ${direccion}
-            </p>
-            <p>
-              ${contacto}
-            </p>
+            <h4 class="nombreDis">${nombre}</h4>
+            <span>${provincia} - ${localidad}</span><br>
+            <span >${direccion}</span  >
+            <p>${contacto}</p>
             ${maps}
         </div>
         <div class="card-footer d-none">

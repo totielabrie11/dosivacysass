@@ -162,7 +162,7 @@ function renderNoTengoNotification() {
 
   $('.notifyCuantityContainer').html("")
   
-  $("#notyListControl").append("<div class='tucked-corners-top '><div id='acceder' class='tucked-corners-bottom'><h4 class='mt-4 text-center'>No tienes notificaciones pendientes</h4><div class='container d-flex'><div class='pinchito' style='width: 50%' height: '50%'><img src='../img/pinche-removebg-preview.png' width='30%'></div><img src='https://us.123rf.com/450wm/grublee/grublee0907/grublee090700075/5232176-bot%C3%B3n-verde-brillante-con-un-dedo-pulgar-hacia-arriba.jpg' width='50px'></img><div style='width: 100%' height: '50%' class='me-2'><div class='text-md-center text-wrap w-100'><a href='src/novedades.html'><span class='text-center btn btn-warning btn-efect'>ir a mis eventos</span></a></div><div class='controlsNotify d-flex'></div></div></div></div>");
+  $("#notyListControl").append("<div class='tucked-corners-top '><div id='acceder' class='tucked-corners-bottom'><h4 class='mt-4 text-center'>No tienes notificaciones pendientes</h4><div class='container d-flex'><div class='pinchito' style='width: 30%' height: '50%'><img src='../img/pinche-removebg-preview.png' width='30%'></div><img src='https://us.123rf.com/450wm/grublee/grublee0907/grublee090700075/5232176-bot%C3%B3n-verde-brillante-con-un-dedo-pulgar-hacia-arriba.jpg' width='50px'></img><div style='width: 100%' height: '50%' class='me-2'><div class='text-md-center text-wrap w-100'><a href='src/novedades.html'><span class='text-center btn btn-warning btn-efect'>ir a mis eventos</span></a></div><div class='controlsNotify d-flex'></div></div></div></div>");
   
 };
 
@@ -185,7 +185,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
           <div id="acceder" class="tucked-corners-bottom ${clase}">
             <h4>${titulo}</h4>
             <div class="container d-flex">
-              <div class="pinchito" style="width: 50%" height: "50%">
+              <div class="pinchito" style="width: 30%" height: "50%">
                 <img src="../img/pinche-removebg-preview.png" width="30%">
               </div>
               <div style="width: 50%" height: "50%" class="me-2">
