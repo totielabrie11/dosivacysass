@@ -11,13 +11,19 @@ html {
     max-width: 100% !important;
     overflow-x: hidden !important;
 
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
     /* descubrí este reseteo para que no se me vea un espacio a la derecha en vista mobile cuando algun elemento se desborda. Intente haciendo overflow:hidden y quitar el scroll x , pero se seguia moviendo de todas formas */
     body.claro {
         transition: 1s ease all;
         /*  background-image: url(https://www.comunicare.es/wp-content/uploads/2020/11/electronicass.jpg);
         background-size: 100%; */
         color: white;
-        overflow: hidden;
+
         font-family: 'Readex Pro', sans-serif;
 
         /* background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
@@ -42,6 +48,13 @@ html {
         background-size: 100%;
 
         background-size: cover;
+    }
+
+    body.sustentabilidad {
+        background-color: #ffff !important;
+        color: white;
+        overflow: hidden;
+        font-family: 'Readex Pro', sans-serif;
     }
 
     main {
@@ -77,6 +90,12 @@ nav {
         }
     }
 
+    body.sustentabilidad & {
+        #hamburguesita {
+            background-color: #ffff;
+        }
+    }
+
     body.oscuro & {
 
         background-color: rgb(219, 218, 228);
@@ -96,6 +115,11 @@ nav {
         display: flex;
         gap: 20px;
 
+        body.sustentabilidad & .dropdown-menu {
+            background-color: #010B44 !important;
+
+        }
+
         body.claro & .dropdown-menu {
             background-color: #010B44 !important;
 
@@ -113,6 +137,15 @@ nav {
                 text-decoration: none;
                 font-size: 22px;
                 margin-right: 10px;
+
+                body.sustentabilidad & {
+                    color: rgb(168, 168, 168) !important;
+                    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+                    &:hover {
+                        color: #fff !important;
+                    }
+                }
 
                 body.claro & {
                     color: rgb(168, 168, 168) !important;
