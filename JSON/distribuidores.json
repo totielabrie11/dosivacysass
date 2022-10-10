@@ -23,8 +23,8 @@
         "localidad": "VILLA URQUIZA",
         "direccion": "Venta de productos Online",
         "contacto": "116886-6225 <br> dosiquim@gmail.com",
-        "maps": "<img src='../img/redes/mercadolibre-removebg-preview.png' alt='venta online'>",
-        "img": "",
+        "maps": "<a href='https://www.mercadolibre.com.ar/perfil/DOSIQUIM' target='_blank'><img src='../img/redes/mercadolibre-removebg-preview.png' alt='venta online'></a>",
+        "img": "<img src='../img/contacto/distribuidores/dosiquim.jpeg'>",
         "tipo": {
             "dosificacionMenor": "<abbr title='vende dosificadores compactos para tratamiento de agua y prod. quimicos'><img src='https://cdn.shopify.com/s/files/1/0710/6487/articles/Correct_pump_install_Yamatho_16a9ef3d-d906-4c2d-be42-033d7231f84a_1000x.jpg?v=1455195156' width='100%' alt='dosificacion'></abbr>",
             "dosificacionMayor": "<abbr title='vende dosificadores para tratamiento de agua y prod. quimicos de gran porte'><img src='../img/bombas/ddiblanco.JPG' width='100%' alt='dosificacion'></abbr>",

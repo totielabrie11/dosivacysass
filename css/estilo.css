@@ -56,13 +56,6 @@ html body.oscuro {
   background-size: cover;
 }
 
-html body.sustentabilidad {
-  background-color: #ffff !important;
-  color: white;
-  overflow: hidden;
-  font-family: 'Readex Pro', sans-serif;
-}
-
 html main {
   padding: 10px 2%;
 }
@@ -92,10 +85,6 @@ body.claro nav #hamburguesita {
   background-color: #ffff;
 }
 
-body.sustentabilidad nav #hamburguesita {
-  background-color: #ffff;
-}
-
 body.oscuro nav {
   background-color: #dbdae4;
 }
@@ -120,10 +109,6 @@ nav ul {
   gap: 20px;
 }
 
-body.sustentabilidad nav ul .dropdown-menu {
-  background-color: #010B44 !important;
-}
-
 body.claro nav ul .dropdown-menu {
   background-color: #010B44 !important;
 }
@@ -141,15 +126,6 @@ nav ul li a {
   text-decoration: none;
   font-size: 22px;
   margin-right: 10px;
-}
-
-body.sustentabilidad nav ul li a {
-  color: #a8a8a8 !important;
-  text-shadow: 1px 1px 1px white;
-}
-
-body.sustentabilidad nav ul li a:hover {
-  color: #fff !important;
 }
 
 body.claro nav ul li a {
@@ -1349,6 +1325,7 @@ body.oscuro .notifyBox .card-footer {
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
+  color: black;
 }
 
 .cardDis .nombreDis {
@@ -1686,6 +1663,22 @@ body.oscuro .notifyBox .card-footer {
 
 .leyenda h3 {
   font-size: 20px;
+}
+
+.cardDis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 50%vh;
+}
+
+.cardDis .card-footer {
+  margin-top: auto;
+  width: 100%;
 }
 
 .distNacContainer,
@@ -2567,7 +2560,7 @@ form legend {
 
 .fondo-celeste-sus {
   background-color: #4586C6;
-  width: 66%;
+  width: 66.6%;
   padding: 50px;
 }
 

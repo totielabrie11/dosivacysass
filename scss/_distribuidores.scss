@@ -25,6 +25,8 @@
     cursor: pointer;
     transition: transform 0.4s;
 
+    color: black;
+
     .nombreDis {
         font-size: 20px !important;
     }
@@ -353,6 +355,17 @@
     align-items: flex-end;
 
 
+}
+
+.cardDis {
+    display: flex;
+    flex-direction: column;
+    min-height: 50%vh;
+
+    .card-footer {
+        margin-top: auto;
+        width: 100%;
+    }
 }
 
 //////////////////////////////SELECT DISTRIBUDORES//////////////////////////////

@@ -394,44 +394,68 @@ function renderNotifyList(notify) {
   notify.reverse();
 
   notify.forEach((elemento) => {
-    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, youtube } =
+    const { titulo, tema, descripcion, img, id, fechaEvento, fechaCreacion, youtube, instagram, link} =
     elemento;
     
+
+    if (elemento.instagram) {
+      $("#renderTodasLasNotify").append(
+        `
+        <div class="cardDis">
+        <div class="card-image">
+            <img src="${img}">
+        </div>
+        <div class="card-body">
+            <span class="date"></span>
+            <h4 class="text-center">${titulo}</h4>
+            <h5>${tema}</h5>
+            <p>
+             ${descripcion}
+            </p>
+            <a href="${link}" target="_blank"><img src="${instagram}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+            
+        </div>
+        <div class="card-footer d-flex">
+            <div><span>creado el - </span>${fechaCreacion}</div>
+            <div><span>finaliza el - </span>${fechaEvento}</div>
+        </div>
+           
+        </div>
+      </div>  
+      </div>
+        `
+        )
+      }
     
-    $("#renderTodasLasNotify").append(
-      `
-      <div class="card">
-      <div class="card-image">
-          <img src="${img}">
+    if (!elemento.instagram){
+
+      $("#renderTodasLasNotify").append(
+        `
+        <div class="cardDis">
+        <div class="card-image">
+            <img src="${img}">
+        </div>
+        <div class="card-body">
+            <span class="date"></span>
+            <h4 class="text-center">${titulo}</h4>
+            <h5>${tema}</h5>
+            <p>
+             ${descripcion}
+            </p>
+            ${youtube}
+            
+        </div>
+        <div class="card-footer d-flex">
+            <div><span>creado el - </span>${fechaCreacion}</div>
+            <div><span>finaliza el - </span>${fechaEvento}</div>
+        </div>
+           
+        </div>
+      </div>  
       </div>
-      <div class="card-body">
-          <span class="date"></span>
-          <h4 class="text-center">${titulo}</h4>
-          <h5>${tema}</h5>
-          <p>
-           ${descripcion}
-          </p>
-          ${youtube}
-          
-      </div>
-      <div class="card-footer">
-          <div class="info">
-              <div class="value">PUBLICADO</div>
-              <div class="type">${fechaCreacion}</div>
-          </div>
-          <div class="info">
-              <div class="value">FECHA</div>
-              <div class="type">${fechaEvento}</div>
-          </div>
-          <div class="info">
-              <div class="value">ACTIVO</div>
-              <div class="type"></div>
-          </div>
-      </div>
-    </div>  
-    </div>
-      `
-      )
+        `
+        )
+    }
     })
 };
   

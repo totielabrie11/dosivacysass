@@ -1,34 +1,16 @@
 [
   {
-    "titulo": "Pagina Web nueva",
-    "tema": "visualizando la pagina web con Meli",
-    "fechaCreacion": "11/04/22",
-    "fechaEvento": "12/04/22",
-    "horaEvento": "15:00",
-    "descripcion": "espero que me de opiniones con respecto a la visual y a la funcionalidad",
-    "img": "https://thumbs.dreamstime.com/z/mujer-de-negocios-en-el-escritorio-oficina-personaje-vectorial-directora-femenina-habla-y-est%C3%A1-sentada-158529934.jpg",
-    "clase": "",
-    "id": "1"
-  },
-  {
     "titulo": "Charla Refrisgeracion",
     "tema": "vacio en procesos de refrigeracion",
     "fechaCreacion": "10/09/21",
     "fechaEvento": "21/10/21",
     "descripcion": "charla en vivo del ingeniero Oriana sobre procesos de refrigeracion",
+    "youtube": "",
+    "instagram": "../img/redes/IG.png",
+    "link": "https://www.instagram.com/tv/CUIfmQ2g63S/",
     "img": "../img/notify/charla-ref.png",
     "clase": "",
     "id": "2"
-  },
-  {
-    "titulo": "despedimos el añoss",
-    "tema": "Te deseamos unas felices fiestas",
-    "fechaCreacion": "10/09/21",
-    "fechaEvento": "24/12/21",
-    "descripcion": "Queremos desearte una feliz Navidad y dejarte los mejores deseos para el 2022",
-    "img": "https://www.love4musicals.com/wp-content/uploads/2017/12/image-8.jpeg",
-    "clase": "",
-    "id": "3"
   },
   {
     "titulo": "Pagina WEB Dosivac joyas",
@@ -37,6 +19,7 @@
     "fechaEvento": "24/12/21",
     "horaEvento": "10:00 am",
     "descripcion": "iremos recorriendo los distintos temas, y funcionalidades de la pagina. colores, resuelve de forma rapida las consulta del US",
+    "youtube": "",
     "img": "../img/notify/web.jpg",
     "clase": "",
     "id": "4"
@@ -44,43 +27,36 @@
   {
     "titulo": "Fin de año",
     "tema": "Despedimos el año juntos",
-    "fechaCreacion": "12/23/21",
+    "fechaCreacion": "30/12/21",
     "fechaEvento": "31/12/21",
     "horaEvento": "24:00",
     "descripcion": "Te invitamos a reflexionar sobre el año pasado para recibir el año nuevo, apostando a una Argenitna mejor, una Argenitna Industrial, tus amigos de Dosivac",
+    "youtube": "",
     "img": "https://1.bp.blogspot.com/-gdcyCjib_9U/YDRnCtJFBFI/AAAAAAAG90I/oP73Uo4v3PQAIdEK1SkdPmfl6ajGltb0gCLcBGAsYHQ/s16000/calendarios-del-ano-2022-para-imprimir.jpg",
     "clase": "",
     "id": "5"
   },
   {
-    "titulo": "CENSO NACIONAL",
-    "tema": "Dosivac permanece cerrado por CENSO 2022",
-    "fechaCreacion": "18/05/22",
-    "fechaEvento": "19/05/22",
-    "horaEvento": "15:00",
-    "descripcion": "Te recomendamos tomar las medidas precautorias necesarias y tener impreso el número de ID para facilitar la operatoria",
-    "img": "https://www.agenciapacourondo.com.ar/sites/www.agenciapacourondo.com.ar/files/styles/flexslider_full/public/censo_digital_2022.jpg?itok=zhIah5gI",
-    "clase": "",
-    "id": "6"
-  },
-  {
-    "titulo": "Nuevo Producto Refrigersacionssss",
+    "titulo": "Nuevo Producto Refrigersacion",
     "tema": "Nuevo lanzamiento DVR",
     "fechaCreacion": "22/04/22",
     "fechaEvento": "01/05/22",
     "horaEvento": "10:00",
-    "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite (se puede transportar acostada).<br> ✔Motor sin chispa que permite trabajo con todos los gases incluidos los explosivos. <br> ✔Bomba de aceite incorporada que garantiza la lubricación incluso a mala calidad de vacío. <br>✔sistema de paletas radiales con resortes.<br> ✔válvula solenoide en boca de aspiración impide reflujo de aceite al circuito ante corte eléctrico.<br> ✔Nueva tecnología que da alimentación eléctrica alterna posibilitando al motor más eficiencia y potencia con menor peso y consumo.<br> ✔Fabricación DOSIVAC que asegura un año de cobertura repuestos y reparación con garantía oficial!",
+    "descripcion": " ✔ Doble etapa <br> ✔Híper liviana para su transporte <br> ✔Sistema anti derrame de aceite <br> ✔Motor sin chispa brushless <br> ✔Bomba de aceite incorporada<br> ✔válvula solenoide en boca de aspiración <br> ✔Garantía Dosivac",
+    "youtube": "",
+    "link": "https://www.instagram.com/p/Ccp_T7eOfjg/",
+    "instagram": "../img/redes/IG.png",
     "img": "../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg",
     "clase": "",
     "id": "7"
   },
   {
     "titulo": "BENEFICIOS DE LA DVR6",
-    "tema": "Charla con nuestro amigo Jorge Mendiondo y el Ing. Oriana, sobre los beneficios de la nueva Dosivac DVR",
+    "tema": "Charla entre Jorge Mendiondo y el Ing. Oriana",
     "fechaCreacion": "24/06/22",
     "fechaEvento": "21/06/22",
     "horaEvento": "10:00",
-    "descripcion": " ✔ Te explicamos conceptos basicos sobre vacío.<br> ✔ Por que es fundamental en la indusria de Refrigeración hacer vacío preivo <br>✔ Le hicimos una prueba en vivo de funcionamiento a la nueva DVR<br> ✔ Mirá los valores reales de vacío que da nuestra bomba.<br> ✔ Rompemos varios mitos no te lo pierdas.",
+    "descripcion": " ✔ Te explicamos conceptos basicos sobre vacío.<br> ✔ Por que es fundamental hacer vacío preivo <br>✔ probamos la nueva DVR en vivo<br> ✔ Mirá los valores reales de vacío que da nuestra bomba.<br> ✔ Rompemos varios mitos no te lo pierdas.",
     "youtube": "<iframe width='100%' height='200' src='https://www.youtube.com/embed/ANon0J2bKy0' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
     "img": "./../img/notify/charla-dvr.JPG",
     "clase": "",

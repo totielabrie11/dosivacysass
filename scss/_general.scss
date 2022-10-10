@@ -50,13 +50,6 @@ html {
         background-size: cover;
     }
 
-    body.sustentabilidad {
-        background-color: #ffff !important;
-        color: white;
-        overflow: hidden;
-        font-family: 'Readex Pro', sans-serif;
-    }
-
     main {
         padding: 10px 2%;
     }
@@ -90,12 +83,6 @@ nav {
         }
     }
 
-    body.sustentabilidad & {
-        #hamburguesita {
-            background-color: #ffff;
-        }
-    }
-
     body.oscuro & {
 
         background-color: rgb(219, 218, 228);
@@ -115,10 +102,6 @@ nav {
         display: flex;
         gap: 20px;
 
-        body.sustentabilidad & .dropdown-menu {
-            background-color: #010B44 !important;
-
-        }
 
         body.claro & .dropdown-menu {
             background-color: #010B44 !important;
@@ -137,15 +120,6 @@ nav {
                 text-decoration: none;
                 font-size: 22px;
                 margin-right: 10px;
-
-                body.sustentabilidad & {
-                    color: rgb(168, 168, 168) !important;
-                    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-
-                    &:hover {
-                        color: #fff !important;
-                    }
-                }
 
                 body.claro & {
                     color: rgb(168, 168, 168) !important;
