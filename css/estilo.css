@@ -2594,6 +2594,31 @@ form legend {
   font-weight: bold;
 }
 
+.foto-grande {
+  position: relative;
+}
+
+.fondo-negro {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.625);
+}
+
+.fondo-negro h2 {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fondo-negro span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .fondo-naranja {
   width: 50%;
   background-color: #DA8F3F;
@@ -2637,5 +2662,44 @@ form legend {
 .fondo-gris2 span {
   font-size: 30px;
   font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+  .fondo-negro h2,
+  .fondo-naranja h2,
+  .fondo-celeste2 h2,
+  .fondo-gris2 h2 {
+    font-size: 45px !important;
+  }
+  .fondo-negro h3,
+  .fondo-naranja h3,
+  .fondo-celeste2 h3,
+  .fondo-gris2 h3 {
+    font-size: 45px !important;
+  }
+  .fondo-negro span,
+  .fondo-naranja span,
+  .fondo-celeste2 span,
+  .fondo-gris2 span {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fondo-negro,
+  .fondo-naranja,
+  .fondo-celeste2,
+  .fondo-gris2 {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+}
+
+@media (max-width: 490px) {
+  .fondo-negro {
+    height: auto !important;
+    position: -webkit-sticky;
+    position: sticky;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */

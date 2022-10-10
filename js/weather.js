@@ -52,6 +52,7 @@ window.addEventListener('load', ()=> {
                 if (valorATraducir === "few clouds") {valorATraducir = "algunas nubes"}
                 if (valorATraducir === "clear sky") {valorATraducir = "cielo despejado"}
                 if (valorATraducir === "overcast clouds") {valorATraducir = "cubierto de nubes"}
+                if (valorATraducir === "scattered clouds") {valorATraducir = "nubes dispersas"}
                 if (valorATraducir === "fog") {valorATraducir = "neblina"}
 
                 temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   

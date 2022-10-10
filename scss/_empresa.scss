@@ -1,9 +1,37 @@
-.fondo-naranja{
+.foto-grande {
+    position: relative;
+}
+
+.fondo-negro {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+
+    padding: 50px;
+
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.625);
+
+    h2 {
+        font-size: 100px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    span {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+
+.fondo-naranja {
     width: 50%;
     background-color: #DA8F3F;
 
     padding: 50px;
-    
+
     h3 {
         font-size: 80px;
     }
@@ -12,7 +40,7 @@
         font-size: 30px;
         font-weight: bold;
     }
-    
+
 }
 
 .fondo-celeste2 {
@@ -20,7 +48,7 @@
     background-color: #4586C6;
 
     padding: 50px;
-    
+
     h3 {
         font-size: 80px;
     }
@@ -32,12 +60,12 @@
 
 }
 
-.fondo-gris2{
+.fondo-gris2 {
     width: 75%;
     background-color: #3A7576;
 
     padding: 50px;
-    
+
     h3 {
         font-size: 80px;
     }
@@ -45,5 +73,45 @@
     span {
         font-size: 30px;
         font-weight: bold;
+    }
+}
+
+@media(max-width:1400px) {
+
+    .fondo-negro,
+    .fondo-naranja,
+    .fondo-celeste2,
+    .fondo-gris2 {
+
+        h2 {
+            font-size: 45px !important;
+        }
+
+        h3 {
+            font-size: 45px !important;
+        }
+
+        span {
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media(max-width:1200px) {
+
+    .fondo-negro,
+    .fondo-naranja,
+    .fondo-celeste2,
+    .fondo-gris2 {
+        width: 100% !important;
+        padding: 20px !important;
+
+    }
+}
+
+@media(max-width:490px) {
+    .fondo-negro {
+        height: auto !important;
+        position: sticky;
     }
 }
