@@ -63,7 +63,7 @@
         }
 
         span {
-            font-size: 10px !important;
+            font-size: 14px !important;
             font-weight: bold;
         }
     }
@@ -86,7 +86,22 @@
 
 
 }
+@media(max-width:1400px) {
 
+    .fondo-verde-sus,
+    .fondo-celeste-sus,
+    .fondo-gris-sus {
+      
+
+        h3 {
+            font-size: 45px !important;
+        }
+
+        span {
+            font-size: 20px !important;
+        }
+    }
+}
 @media(max-width:1200px) {
 
     .fondo-verde-sus,
@@ -95,13 +110,6 @@
         width: 100% !important;
         padding: 20px !important;
 
-        h3 {
-            font-size: 50px !important;
-        }
-
-        span {
-            font-size: 20px !important;
-        }
     }
 }
 

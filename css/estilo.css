@@ -2523,7 +2523,7 @@ form legend {
     font-size: 20px !important;
   }
   .letter-container span {
-    font-size: 10px !important;
+    font-size: 14px !important;
     font-weight: bold;
   }
 }
@@ -2543,22 +2543,25 @@ form legend {
   font-weight: bold;
 }
 
+@media (max-width: 1400px) {
+  .fondo-verde-sus h3,
+  .fondo-celeste-sus h3,
+  .fondo-gris-sus h3 {
+    font-size: 45px !important;
+  }
+  .fondo-verde-sus span,
+  .fondo-celeste-sus span,
+  .fondo-gris-sus span {
+    font-size: 20px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .fondo-verde-sus,
   .fondo-celeste-sus,
   .fondo-gris-sus {
     width: 100% !important;
     padding: 20px !important;
-  }
-  .fondo-verde-sus h3,
-  .fondo-celeste-sus h3,
-  .fondo-gris-sus h3 {
-    font-size: 50px !important;
-  }
-  .fondo-verde-sus span,
-  .fondo-celeste-sus span,
-  .fondo-gris-sus span {
-    font-size: 20px !important;
   }
 }
 
@@ -2587,6 +2590,51 @@ form legend {
 }
 
 .fondo-gris-sus span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fondo-naranja {
+  width: 50%;
+  background-color: #DA8F3F;
+  padding: 50px;
+}
+
+.fondo-naranja h3 {
+  font-size: 80px;
+}
+
+.fondo-naranja span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fondo-celeste2 {
+  width: 75%;
+  background-color: #4586C6;
+  padding: 50px;
+}
+
+.fondo-celeste2 h3 {
+  font-size: 80px;
+}
+
+.fondo-celeste2 span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fondo-gris2 {
+  width: 75%;
+  background-color: #3A7576;
+  padding: 50px;
+}
+
+.fondo-gris2 h3 {
+  font-size: 80px;
+}
+
+.fondo-gris2 span {
   font-size: 30px;
   font-weight: bold;
 }
