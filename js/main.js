@@ -362,7 +362,7 @@ function settingsTools(){
           `        
         <tr>
             <td><p>${linea}</p></td>
-            <td><img src='${img}' width='100%'></img></td>
+            <td><img src='${img}' width='50%'></img></td>
             <td><p>${tipo}</p></td>
             <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
         </tr>
@@ -382,7 +382,7 @@ function settingsTools(){
           `        
         <tr>
           <td><p>${linea}</p></td>
-          <td><img src='${img}' width='100%'></img></td>
+          <td><img src='${img}' width='50%'></img></td>
           <td><p>${tipo}</p></td>
           <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
         </tr>

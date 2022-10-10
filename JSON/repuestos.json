@@ -3,70 +3,70 @@
         "linea": "Milenio",
         "id": "milenio",
         "img": "./img/bombas/mielnio-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-MILENIO.pdf"
     },
     {
         "linea": "EMD",
         "id": "emd",
         "img": "./img/bombas/emd-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-EMD.pdf"
     },
     {
         "linea": "Mi-EMD",
         "id": "mi-emd",
         "img": "./img/bombas/miemd-bg-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": ""
     },
     {
         "linea": "EMD-PLUS",
         "id": "emd-plus",
         "img": "./img/bombas/EMD-PLUS-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-EMD.Plus_-1.pdf"
     },
     {
         "linea": "DDI",
         "id": "ddi",
         "img": "./img/bombas/DDI-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DDI.pdf"
     },
     {
         "linea": "DECI",
         "id": "deci",
         "img": "./img/bombas/DECI-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DECI.pdf"
     },
     {
         "linea": "DE",
         "id": "de",
         "img": "./img/bombas/DE-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DE.pdf"
     },
     {
         "linea": "DE-AP",
         "id": "deap",
         "img": "./img/bombas/DE-AP-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DE-AP.pdf"
     },
     {
         "linea": "DEN",
         "id": "den",
         "img": "./img/bombas/DEN-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DEN.pdf"
     },
     {
         "linea": "DENG",
         "id": "deng",
         "img": "./img/bombas/DENG-removebg-preview.png",
-        "tipo": "Brochure Repuestos",
+        "tipo": "Partes Repuestos",
         "repuestosRoot": "./docs/repuestos/Repuestos-DEN-G.pdf"
     }
 ]

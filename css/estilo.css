@@ -61,6 +61,10 @@ html main {
   min-height: 100vh;
 }
 
+html #repuestoList {
+  display: contents !important;
+}
+
 html .legend h2 {
   font-family: Oswald;
   text-transform: uppercase;
