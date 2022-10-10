@@ -358,7 +358,6 @@ function settingsTools(){
       manual.forEach((elemento)=> {
         const {  linea, id, img, tipo, manualRoot } =
         elemento;
-
         $("#manualsList").append(
           `        
         <tr>
@@ -382,14 +381,14 @@ function settingsTools(){
         $("#repuestoList").append(
           `        
         <tr>
-            <td><p>${linea}</p></td>
-            <td><img src='${img}' width='100%'></img></td>
-            <td><p>${tipo}</p></td>
-            <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
+          <td><p>${linea}</p></td>
+          <td><img src='${img}' width='100%'></img></td>
+          <td><p>${tipo}</p></td>
+          <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
         </tr>
         
         `
-        );
+        )
       });
     }
 
@@ -403,7 +402,7 @@ function settingsTools(){
       
     })
 }
-
+/* 
 function settingSlider(){
   
   const slider = document.querySelector("#slider");
@@ -450,7 +449,7 @@ function settingSlider(){
       next();
   }, 5000)
 }
-
+ */
 
 
   

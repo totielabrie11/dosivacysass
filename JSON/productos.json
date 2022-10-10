@@ -424,7 +424,7 @@
         "caracteristicas": "<div><span>Caracteristicas</span><ul><br><li>Dosificación Max</li><li>Dosificación Min</li><li>Contrapresión Max</li><li>Cabezal Std</li><br><li>Tipo de conector</li></ul></div><div><span>Des simple</span><ul><br><li>1.38 lts/h</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div><div><span>Des Duplex</span><ul><br><li>2.76</li><br><li>----</li><br><li>200 kg/cm2</li><li>Acero Inoxidable</li><li>1/4 FNPT</li></ul></div>",
         "id": "DES1",
         "idRender": "renderDesCar",
-        "instagram": "../img/redes/IG.png IG.png",
+        "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/p/CZt1J8UAlDD/"
     },
     {

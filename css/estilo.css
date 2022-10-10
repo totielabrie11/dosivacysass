@@ -58,6 +58,7 @@ html body.oscuro {
 
 html main {
   padding: 10px 2%;
+  min-height: 100vh;
 }
 
 html .legend h2 {
@@ -2180,7 +2181,7 @@ select {
 }
 
 .contact-form [required]:valid {
-  border: 2px solid var(--form-ok-color);
+  border: 4px solid var(--form-ok-color);
 }
 
 .contact-form [required]:invalid {
