@@ -137,10 +137,31 @@ function filterCaracteristicas( producto ){
     
       productoFinded.forEach((producto) => {
         
-        const { linea, modelo, caracteristicas, id, idRender, youtube, instagram, link, linki  } = producto;
+        const { linea, modelo, caracteristicas, id, idRender, youtube, instagram, link, link2, linki  } = producto;
         htmlClean = ""
         yotubeRedifined = producto.youtube 
         instagramRedifined = producto.instagram
+        link2Redifined = producto.link2
+
+        if(link2Redifined){
+          html = "" + `<h3 class="text-center my-2 p-1"> ${linea} ${modelo}</h3>
+          <div class="d-flex justify-content-between">
+          ${caracteristicas}
+          </div>
+            <div>
+              <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+            </div>
+            <div>
+            <a href="${link2}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+            </div> 
+          </div>
+          `
+
+          $('#' + `${idRender}`).html("" + html);
+
+          return
+        }
+
         if (yotubeRedifined || instagramRedifined == undefined) {
           
             if (yotubeRedifined && instagramRedifined) {

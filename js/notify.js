@@ -17,7 +17,10 @@ $.ajax({
 //////////////////SETTER DE BOTONES PARA LAS NOTIFY/////////////////////////
 //Elimina todo
 
-
+function closeModalNotify(){
+  let $boxNotifys = document.getElementById('notifyBox');
+  $boxNotifys.classList.toggle('d-none')
+}
 const btnCampanita = document.getElementById("notifyIcon");
 
   btnCampanita.addEventListener("click", function(){

@@ -391,7 +391,7 @@ footer .parteder .maps {
 @media screen and (max-width: 991px) {
   #notifyBox,
   #toolsBox {
-    top: 35%;
+    top: 0px !important;
   }
   #notifyBox thead p,
   #notifyBox tbody p,
@@ -401,13 +401,13 @@ footer .parteder .maps {
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 854px) {
   #notifyBox,
   #toolsBox {
-    top: 31%;
+    top: 70%;
   }
   .tucked-corners-top .pinchito {
-    top: 10% !important;
+    top: 0% !important;
   }
 }
 
@@ -696,13 +696,38 @@ footer .parteder .maps {
   margin-left: 20px;
 }
 
+.btnModalBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: calc(10% - 40px);
+  border-radius: 50%;
+  background-color: white;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-box-shadow: 4px 4px 0px #1e1e1e;
+          box-shadow: 4px 4px 0px #1e1e1e;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btnModalBox:hover {
+  -webkit-transform: rotate(0deg) translate(4px, 4px) scale(1);
+          transform: rotate(0deg) translate(4px, 4px) scale(1);
+  -webkit-box-shadow: 0px 0px 0px;
+          box-shadow: 0px 0px 0px;
+}
+
 .btnModal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   bottom: 10px;
-  left: calc((100% / 2) - 12px);
+  left: calc(50% - 10px);
   border-radius: 50%;
   background-color: white;
   color: #000;
@@ -1270,7 +1295,7 @@ body.oscuro .notifyBox .card-footer {
   position: absolute;
   width: 20px;
   left: 50%;
-  top: -20%;
+  top: -10%;
 }
 
 #notyListControl .active2.active2 {
@@ -2596,6 +2621,12 @@ form legend {
   position: relative;
 }
 
+@media (max-width: 489px) {
+  .foto-grande {
+    margin-top: 50px;
+  }
+}
+
 .fondo-negro {
   position: absolute;
   width: 50%;
@@ -2610,6 +2641,7 @@ form legend {
   font-size: 100px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 10%;
 }
 
 .fondo-negro span {

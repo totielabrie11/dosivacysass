@@ -106,7 +106,7 @@
     <div class="card-header d-flex align-items-center">
       <i class="material-icons my-2 me-2" id="notifyIcon">notifications</i>
       <h3 class="w-100 text-center">Notificaciones</h3> 
-      <div id="btn-selectAll" onclick="checkAll()">
+      <div id="btn-selectAll" class="d-none" onclick="checkAll()">
         <span class='btn btn-primary'>Seleccionar Todo</span>
       </div>
       <div class="ms-3 d-none" id="btn-unselectAll" onclick="uncheckAll()">
@@ -119,6 +119,9 @@
     </div>
     <div class="card-footer d-flex">
       <h4 class="card-text" id="totalNotify"></h4>
+      <div class="btnModalBox btn btn-dark" onclick="closeModalNotify()">
+        x
+      </div>
     </div>
   </div>
 
@@ -156,6 +159,11 @@
 
         </table>
         
+      </div>
+      <div class="card-footer d-flex">
+        <div class="btnModalBox btn btn-dark" onclick=" closeModalBox()">
+          x
+        </div>
       </div>
     </div>
   </div>

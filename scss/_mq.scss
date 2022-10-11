@@ -127,7 +127,7 @@
     #notifyBox,
     #toolsBox {
 
-        top: 35%;
+        top: 0px !important;
 
         thead,
         tbody {
@@ -138,19 +138,19 @@
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 854px) {
 
     #notifyBox,
     #toolsBox {
 
-        top: 31%;
+        top: 70%;
 
 
     }
 
     .tucked-corners-top {
         .pinchito {
-            top: 10% !important;
+            top: 0% !important;
         }
     }
 }

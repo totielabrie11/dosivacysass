@@ -313,6 +313,11 @@ function modalProductoDetail() {
 
 
 ///////////////////////////SETTINGS TOOLS////////////////////////
+function closeModalBox(){
+  let $boxTools = document.getElementById('toolsBox');
+  $boxTools.classList.toggle('d-none')
+}
+
 function settingsTools(){
   const $btnTools = document.querySelector('#btnToolsContainer');
   

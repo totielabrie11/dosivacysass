@@ -61,18 +61,5 @@
     "img": "./../img/notify/charla-dvr.JPG",
     "clase": "",
     "id": "8"
-  },
-  {
-    "titulo": "Charla con mi amigo Nazareno",
-    "tema": "implementar la nueva pagina web",
-    "fechaCreacion": "10/10/2022",
-    "fechaEvento": "12/10/22",
-    "descripcion": " ✔ vamos a ir viendo disntos contenidos <br> ✔ Estudiaremos matematicas <br>✔ Aprobaremos las materias",
-    "youtube": "",
-    "instagram": "",
-    "link": "",
-    "img": "../img/notify/naza.jpg",
-    "clase": "",
-    "id": "9"
   }
 ]

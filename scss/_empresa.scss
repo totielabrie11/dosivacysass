@@ -1,7 +1,11 @@
 .foto-grande {
     position: relative;
 }
-
+@media(max-width: 489px){
+    .foto-grande{
+       margin-top: 50px;
+    }
+}
 .fondo-negro {
     position: absolute;
     width: 50%;
@@ -17,6 +21,8 @@
         font-size: 100px;
         text-transform: uppercase;
         font-weight: bold;
+
+        margin-top: 10%;
     }
 
     span {
