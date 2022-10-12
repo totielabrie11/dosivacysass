@@ -696,6 +696,10 @@ footer .parteder .maps {
   margin-left: 20px;
 }
 
+.modalDesc .espacioRedes {
+  border: 3px solid black;
+}
+
 .btnModalBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1360,6 +1364,14 @@ body.oscuro .notifyBox .card-footer {
 
 .cardDis .nombreDis {
   font-size: 20px !important;
+}
+
+.cardDis a {
+  text-decoration: none;
+}
+
+.cardDis a {
+  border: 3px solid black;
 }
 
 .card:hover {

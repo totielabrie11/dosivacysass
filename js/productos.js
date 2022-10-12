@@ -152,7 +152,7 @@ function filterCaracteristicas( producto ){
               <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
             </div>
             <div>
-            <a href="${link2}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+              <a href="${link2}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
             </div> 
           </div>
           `
@@ -173,8 +173,10 @@ function filterCaracteristicas( producto ){
               </div>
               <div>
                 <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></span></a>
-                </div>
-                <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><span>Más informacón en <bold>INSTAGRAM</bold></span></a></div></a></div>
+              </div>
+              <div>
+                <a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><span>Más informacón en <bold>INSTAGRAM</bold></span></a></div></a>
+              </div>
               `
 
               $('#' + `${idRender}`).html("" + html);
@@ -188,7 +190,9 @@ function filterCaracteristicas( producto ){
               <div class="d-flex justify-content-between">
               ${caracteristicas}
               </div>
-              <div><a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a></div></a></div>
+              <div class="espacioRedes">
+                <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a></div></a>
+              </div>
               `
 
               $('#' + `${idRender}`).html("" + html);

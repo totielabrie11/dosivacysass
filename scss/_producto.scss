@@ -86,6 +86,9 @@
   height: 255px;
   background: #fff;
   color: black;
+
+
+
 }
 
 .productP-desc {
@@ -242,13 +245,18 @@
   img {
     margin-left: 20px;
   }
+
+  .espacioRedes {
+    border: 3px solid black
+  }
 }
+
 .btnModalBox {
   display: flex;
   position: absolute;
   top: 10px;
   right: calc(10% - 40px);
-  
+
   border-radius: 50%;
   background-color: white;
   color: #000;
@@ -263,6 +271,7 @@
     box-shadow: 0px 0px 0px
   }
 }
+
 .btnModal {
   display: flex;
   position: absolute;

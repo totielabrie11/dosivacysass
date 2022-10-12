@@ -415,7 +415,7 @@ function renderNotifyList(notify) {
             <p>
              ${descripcion}
             </p>
-            <a href="${link}" target="_blank"><img src="${instagram}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+            <a href="${link}" target="_blank"><img src="${instagram}" width="20%"><span> Más información en <bold>IG</bold></a>
             
         </div>
         <div class="card-footer d-flex">
