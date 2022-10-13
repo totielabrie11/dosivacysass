@@ -59,8 +59,9 @@ window.addEventListener('load', ()=> {
                 temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   
                 ubicacion.textContent = data.name 
                 
-                velocidadVientoMtsS = Math.floor(data.wind.speed)
-                velocidadKmH = velocidadVientoMtsS * 3.60
+                velocidadVientoMtsS = data.wind.speed
+                console.log("🚀 ~ file: weather.js ~ line 63 ~ window.addEventListener ~ velocidadVientoMtsS", velocidadVientoMtsS)
+                velocidadKmH = Math.round(velocidadVientoMtsS * 3.6) 
 
                 vientoVelocidad.textContent = `${velocidadKmH} km/h`
                 
