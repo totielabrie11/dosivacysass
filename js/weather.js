@@ -54,11 +54,15 @@ window.addEventListener('load', ()=> {
                 if (valorATraducir === "overcast clouds") {valorATraducir = "cubierto de nubes"}
                 if (valorATraducir === "scattered clouds") {valorATraducir = "nubes dispersas"}
                 if (valorATraducir === "fog") {valorATraducir = "neblina"}
+                if (valorATraducir === "smoke") {valorATraducir = "humareda"}
 
                 temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   
                 ubicacion.textContent = data.name 
                 
-                vientoVelocidad.textContent = `${data.wind.speed} m/s`
+                velocidadVientoMtsS = Math.floor(data.wind.speed)
+                velocidadKmH = velocidadVientoMtsS * 3.60
+
+                vientoVelocidad.textContent = `${velocidadKmH} km/h`
                 
                 //para iconos estáticos
                 //const urlIcon = `http://openweathermap.org/img/wn/${iconCode}.png`                     

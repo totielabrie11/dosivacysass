@@ -502,6 +502,13 @@ footer .parteder .maps {
   margin-left: 100px;
 }
 
+.productP-img-selector {
+  position: absolute;
+  left: 0;
+  margin-top: -20%;
+  margin-left: 25%;
+}
+
 .productP-detail {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1368,10 +1375,6 @@ body.oscuro .notifyBox .card-footer {
 
 .cardDis a {
   text-decoration: none;
-}
-
-.cardDis a {
-  border: 3px solid black;
 }
 
 .card:hover {
