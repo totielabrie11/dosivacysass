@@ -320,14 +320,16 @@ function closeModalBox(){
 
 function settingsTools(){
   const $btnTools = document.querySelector('#btnToolsContainer');
-  
+  const $btnModalBox = document.getElementById('btnModalBox')
   $btnTools.addEventListener('click', () =>{
     
     btnTools.classList.toggle('active1');
     toolsBox.classList.toggle('d-none');
 
   })
-
+  $btnModalBox.addEventListener('click', ()=>{
+    btnTools.classList.remove('active1')
+  })
 
   $.ajax({
     method: "GET",
