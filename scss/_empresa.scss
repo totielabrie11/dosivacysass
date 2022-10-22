@@ -37,7 +37,10 @@
 .fondo-verde,
 .fondo-azul2,
 .fondo-gris2,
-.fondo-naranja {
+.fondo-naranja,
+.fondo-verde-sus,
+.fondo-celeste-sus,
+.fondo-gris-sus {
     width: 75%;
     background-color: #6DB249;
 
@@ -68,13 +71,24 @@
     background-color: #D87331;
 }
 
+.fondo-celeste-sus {
+    background-color: #4586C6;
+}
+
+.fondo-gris-sus {
+    background-color: #6D7769;
+}
+
 @media(max-width:1400px) {
 
     .fondo-negro,
     .fondo-verde,
     .fondo-azul2,
     .fondo-naranja,
-    .fondo-gris2 {
+    .fondo-gris2,
+    .fondo-gris-sus,
+    .fondo-verde-sus,
+    .fondo-celeste-sus {
 
         h2 {
             font-size: 45px !important;
@@ -96,10 +110,23 @@
     .fondo-verde,
     .fondo-azul2,
     .fondo-naranja,
-    .fondo-gris2 {
+    .fondo-gris2,
+    .fondo-celeste-sus,
+    .fondo-gris-sus,
+    .fondo-verde-sus {
         width: 100% !important;
         padding: 20px !important;
 
+    }
+}
+
+@media(max-width:608px) {
+    .fondo-negro {
+
+        h2 {
+            margin: none !important;
+            font-size: 30px !important;
+        }
     }
 }
 
