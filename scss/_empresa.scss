@@ -1,11 +1,13 @@
 .foto-grande {
     position: relative;
 }
-@media(max-width: 489px){
-    .foto-grande{
-       margin-top: 50px;
+
+@media(max-width: 489px) {
+    .foto-grande {
+        margin-top: 50px;
     }
 }
+
 .fondo-negro {
     position: absolute;
     width: 50%;
@@ -32,26 +34,12 @@
 }
 
 
+.fondo-verde,
+.fondo-azul2,
+.fondo-gris2,
 .fondo-naranja {
-    width: 50%;
-    background-color: #DA8F3F;
-
-    padding: 50px;
-
-    h3 {
-        font-size: 80px;
-    }
-
-    span {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-}
-
-.fondo-celeste2 {
     width: 75%;
-    background-color: #4586C6;
+    background-color: #6DB249;
 
     padding: 50px;
 
@@ -65,28 +53,27 @@
     }
 
 }
+
+.fondo-azul2 {
+    background-color: #1B3863;
+}
+
 
 .fondo-gris2 {
-    width: 75%;
+
     background-color: #3A7576;
+}
 
-    padding: 50px;
-
-    h3 {
-        font-size: 80px;
-    }
-
-    span {
-        font-size: 30px;
-        font-weight: bold;
-    }
+.fondo-naranja {
+    background-color: #D87331;
 }
 
 @media(max-width:1400px) {
 
     .fondo-negro,
+    .fondo-verde,
+    .fondo-azul2,
     .fondo-naranja,
-    .fondo-celeste2,
     .fondo-gris2 {
 
         h2 {
@@ -106,8 +93,9 @@
 @media(max-width:1200px) {
 
     .fondo-negro,
+    .fondo-verde,
+    .fondo-azul2,
     .fondo-naranja,
-    .fondo-celeste2,
     .fondo-gris2 {
         width: 100% !important;
         padding: 20px !important;
