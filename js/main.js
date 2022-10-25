@@ -458,12 +458,18 @@ function settingSlider(){
 }
  */
 
+function arrancoEmpresa(){
+  $(document).ready(function(){
+    $('#equipo__solar-img').fadeOut(5000, function(){
+      $('#equipo__solar-img').attr('src', '../img/multimedia/EQUIPO.3b.jpg');
 
-  
+      $('#equipo__solar-img').fadeIn(5000, function(){
+        $('#equipo__solar-img').attr('src', '../img/multimedia/EQUIPO.3b.jpg');
+        
+      })
+    });
+    
+      
 
-
-
-
-
-
-  
+  })
+};
