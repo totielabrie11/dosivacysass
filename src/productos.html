@@ -105,31 +105,55 @@
 
 
 <!-- LISTA DE CATEGORIAS QUE CONTIENE LOS PRODUCTOS -->
-<section class="d-flex productoPorCategory" id="productoPorCategory">
+<section class="productoPorCategory" id="productoPorCategory">
+
+  <div class="container-hexagonos">
+
+    <div class="hexagonArea firt">
+      <div class="hexagon">
+        <img src="../img/bombas/DVR2-removebg-preview.png" alt=" ">
+        <h3>vacio</h3>
+      </div>
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>dosificacion</h3>
+      </div>
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>equipos</h3>
+      </div>
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>refrigeracion</h3>
+      </div>
+    </div>
+    
+    <div class="hexagonArea last">
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>especiales</h3>
+      </div>
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>soplantes</h3>
+      </div>
+      <div class="hexagon">
+        <img src="" alt="">
+        <h3>laboratorio</h3>
+      </div>
+    </div>
+
+  </div>
+  
   <div class="container__products">
-    <div class="containerP" id="productListSelector" onclick="muestroProductosNeumaticos()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DENG-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="60%">
-          <div class="productP-detail">
-            <h3>BOMBAS DOSIFICADORAS NEUMATICAS</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
+
+    <div class="containerPentagono d-none" id="productListSelector" onclick="muestroProductosNeumaticos()">
+      
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosDosificacionElectrica()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/emd-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="60%">
-          <div class="productP-detail">
-            <h3>BOMBAS DOSIFICADORAS ELECTRICAS</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
+    <div class="containerPentagono d-none" id="productListSelector" onclick="muestroProductosDosificacionElectrica()">
+      
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosSustentables()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosSustentables()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/DES-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="40%">
@@ -140,7 +164,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosRefrigeracion()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosRefrigeracion()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/DVR2-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="70%">
@@ -151,7 +175,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosLaboratorio()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosLaboratorio()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/DVL-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="70%">
@@ -162,7 +186,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosVacioIndustrial()"> 
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosVacioIndustrial()"> 
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/DSHC BRIDA-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="65%">
@@ -173,7 +197,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosSoplante()"> 
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosSoplante()"> 
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/DS-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="65%">
@@ -184,7 +208,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosEspeciales()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosEspeciales()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/equipo-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="45%">
@@ -194,7 +218,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosEquipos()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosEquipos()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/eq1000.PNG" alt="Shoe" class="productP-img-selector" width="50%">
@@ -204,7 +228,7 @@
         </div>
       </div>
     </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosAccesorios()">
+    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosAccesorios()">
       <div class="cardP">
         <div class="cardP-head">
           <img src="../img/bombas/P_D011_XX_00400P-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="50%">

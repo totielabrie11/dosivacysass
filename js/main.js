@@ -459,7 +459,7 @@ function settingSlider(){
  */
 
 function arrancoEmpresa(){
-  $(document).ready(function(){
+ /*  $(document).ready(function(){
     $('#equipo__solar-img').fadeOut(5000, function(){
       $('#equipo__solar-img').attr('src', '../img/multimedia/EQUIPO.3b.jpg');
 
@@ -471,5 +471,34 @@ function arrancoEmpresa(){
     
       
 
-  })
+  }) */
+  let imageScroll = document.querySelectorAll('.contenedorScroll');
+  
+  function detectarScroll() {
+    let scrollTop = document.documentElement.scrollTop;
+    let scrolDividido = scrollTop/6
+    for (let i=0; i<imageScroll.length; i++){
+      let alturaCajaScroll = imageScroll[i].offsetTop - 150;
+      /* if (alturaCajaScroll - 150 < scrollTop) {
+        $('#equipo__solar-img').fadeOut(3000, function(){
+          $('#equipo__solar-img').attr('src', '../img/multimedia/EQUIPO.3b.jpg');
+    
+          $('#equipo__solar-img').fadeIn(3000, function(){
+            $('#equipo__solar-img').attr('src', '../img/multimedia/EQUIPO.3b.jpg');
+            
+          })
+        });
+      } */
+
+    
+      if ( (alturaCajaScroll < scrollTop) && (scrolDividido = alturaCajaScroll )  ) {
+        console.log('estoy corriendo scroll')
+      }
+    }
+  }
+
+  window.addEventListener('scroll', detectarScroll);
+
+
+
 };
