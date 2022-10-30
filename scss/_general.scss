@@ -172,13 +172,30 @@ body {
 footer {
     background-color: #222C65;
 
+    body.oscuro & {
+
+        background-color: rgb(219, 218, 228);
+
+        span,
+        h3,
+        i {
+            color: black;
+        }
+    }
+
     margin-top: auto;
     padding: 10px;
 
     .parteiz {
         width: 50%;
 
+        .textoRedes {
+            text-align: left;
+            width: 50%;
+        }
+
         span {
+
             font-size: 20px;
             font-family: Oswald;
             width: 100%;
@@ -209,10 +226,32 @@ footer {
             width: 50%;
         }
 
+        @media(max-width: 1318px) {
+
+            .textoRedes,
+            .containerRedes,
+            .logo40Containter {
+                width: 80% !important;
+            }
+        }
+
+        @media(max-width: 865px) {
+            span {
+                font-size: 115% !important;
+            }
+        }
+
         @media(max-width: 800px) {
             width: 100% !important;
 
+            .textoRedes {
+                text-align: center;
+                width: 100% !important;
+                margin-bottom: 20px;
+            }
+
             span {
+                width: 100% !important;
                 font-size: 22px !important;
             }
 
@@ -227,6 +266,11 @@ footer {
     }
 
     .parteder {
+        .info {
+            width: 50%;
+            height: 250x;
+        }
+
         padding: 10px;
 
         i {
@@ -240,26 +284,48 @@ footer {
         }
 
         .maps {
-            width: 1200px;
-            height: 220px;
+            width: 50%;
+            height: 250px;
         }
 
-        @media(max-width: 1606px) {
-            span {
-                font-size: 15px !important;
-            }
+        @media(max-width: 1648px) {
 
+            h3,
+            span,
             i {
-                font-size: 20px !important;
+                font-size: 150% !important;
+            }
+        }
+
+        @media(max-width: 1489px) {
+
+            h3,
+            span,
+            i {
+                font-size: 130% !important;
+            }
+        }
+
+        @media(max-width: 1262px) {
+
+            h3,
+            span,
+            i {
+                font-size: 125% !important;
             }
         }
 
         @media(max-width: 1235px) {
             .containerInfo {
                 flex-direction: column !important;
+
             }
 
             .maps {
+                width: 100% !important;
+            }
+
+            .info {
                 width: 100% !important;
             }
 

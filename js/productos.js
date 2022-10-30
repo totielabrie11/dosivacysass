@@ -31,7 +31,7 @@ function abrirModal(idModal){
 }
 
 /* FUNCION QUE CIERRA EL MODAL , todos los .modalDesc*/
-$('.btnModal').click(function(){
+$('.btnModalProducts').click(function(){
 
   $(".modalDesc").animate({
     bottom: '0px',

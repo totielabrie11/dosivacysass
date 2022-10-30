@@ -31,6 +31,9 @@
 
 .cardP-head {
 
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 3, 27, 1) 35%, rgba(0, 134, 204, 1) 100%);
+
   h2,
   h3 {
     font-size: 20px;
@@ -41,17 +44,27 @@
 
 }
 
-.productP-img {
-  position: absolute;
-  left: 0;
-  margin-top: -26px;
-  margin-left: 100px;
+.fotoProdcutContainer {
+  width: 100px;
+  height: 100px;
 }
+
+.productP-img {
+  width: 80%;
+  height: 65%;
+
+
+  position: absolute;
+  left: 135px;
+  top: 50px;
+
+}
+
 .productP-img-selector {
   position: absolute;
   left: 0;
   margin-top: -20%;
-  margin-left:25%;
+  margin-left: 25%;
 }
 
 .productP-detail {
@@ -69,9 +82,14 @@
 }
 
 .productP-detail {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+
   h3 {
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     letter-spacing: 1px;
     padding-bottom: 10px;
@@ -79,6 +97,7 @@
   }
 
   span {
+    padding-top: 10% !important;
     text-transform: uppercase;
     padding-top: 15px;
     font-size: 15px;
@@ -203,6 +222,7 @@
 //Modal de producto
 
 .modalDesc {
+  position: relative;
 
   width: 120%;
   height: 35rem;
@@ -295,6 +315,27 @@
     box-shadow: 0px 0px 0px
   }
 }
+
+.btnModalProducts {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 20px);
+
+  border-radius: 50%;
+  background-color: white;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  box-shadow: 4px 4px 0px (rgb(30, 30, 30));
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(0deg) translate(4px, 4px) scale(1);
+    box-shadow: 0px 0px 0px
+  }
+}
+
 
 .btn-efect {
   text-transform: uppercase;
@@ -426,49 +467,96 @@
   cursor: pointer;
 }
 
+.slectorContainer {
+  width: 85%;
+  max-width: 1200px;
+  height: auto;
+  position: relative;
 
-.container-hexagonos{
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction:row;
-  flex-wrap: wrap;
-  
+  margin-left: auto;
+  margin-right: auto;
 
-  .hexagonArea{
-    img{
-     width: 150px;
-     
-    }
-    :hover{
-      background:#F7931D  !important;
-      transform: scale(0.8);
-    }
-    display: flex;
-    .hexagon{
-      position: relative;
-      width: 200px;
-      height: 250px;
-      margin: 0 10px;
-      clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75% );
-      background: deeppink;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      cursor: pointer;
-      transition: .5s;
+  img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 50%;
+    top: 50%;
+    object-fit: cover;
 
-      background: rgb(2, 0, 36);
-      background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 3, 27, 1) 35%, rgba(0, 134, 204, 1) 100%);
-    
-
-      
-    }
-    
+    cursor: pointer;
   }
-  .last{
-    transform: translateY(-45px);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 133px);
+  grid-auto-rows: 200px;
+  justify-content: center;
+  gap: 1rem;
+
+  .gallery__item {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 3, 27, 1) 35%, rgba(0, 134, 204, 1) 100%);
+
+    grid-column: span 2;
+    height: 281px;
+
+    //transition: 0.5s filter;
+  }
+
+  /* .gallery__item:hover {
+    filter: brightness(0.3);
+  } */
+
+  .gallery__item:first-of-type {
+    grid-column: 2 / span 2;
+  }
+}
+
+/* MEDIA QUERYE */
+@media screen and(max-width:504px) {
+  .gallery__item:first-of-type {
+    grid-column: 1 / span 2 !important;
+  }
+
+  .slectorContainer {
+    grid-auto-rows: 281px;
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 685px) {
+  .gallery__item:nth-of-type(odd) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 686px) and (max-width: 863px) {
+  .gallery__item:nth-of-type(3n + 1) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 863px) and (max-width: 1038px) {
+  .gallery__item:nth-of-type(4n + 1) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 1039px) and (max-width: 1215px) {
+  .gallery__item:nth-of-type(5n + 1) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 1216) and (max-width: 1391px) {
+  .gallery__item:nth-of-type(6n + 1) {
+    grid-column: 2 / span 2;
+  }
+}
+
+@media screen and (min-width: 1392px) {
+  .gallery__item:nth-of-type(7n + 1) {
+    grid-column: 2 / span 2;
   }
 }

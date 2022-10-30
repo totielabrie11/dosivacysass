@@ -440,7 +440,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "link2":"https://www.youtube.com/watch?v=fvWxAIfhSrc",
+        "link2": "https://www.youtube.com/watch?v=fvWxAIfhSrc",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
@@ -452,7 +452,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "link2":"https://www.youtube.com/watch?v=fvWxAIfhSrc",
+        "link2": "https://www.youtube.com/watch?v=fvWxAIfhSrc",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
@@ -464,7 +464,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "link2":"https://www.youtube.com/watch?v=fvWxAIfhSrc",
+        "link2": "https://www.youtube.com/watch?v=fvWxAIfhSrc",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
@@ -476,7 +476,7 @@
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
         "link": "https://www.youtube.com/watch?v=V45RPkriji8",
-        "link2":"https://www.youtube.com/watch?v=fvWxAIfhSrc",
+        "link2": "https://www.youtube.com/watch?v=fvWxAIfhSrc",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/tv/CUIfmQ2g63S/?utm_source=ig_web_copy_link"
     },
@@ -502,6 +502,13 @@
         "idRender": "renderDvr6Car",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/p/Ccp_T7eOfjg/?utm_source=ig_web_copy_link"
+    },
+    {
+        "linea": "RECUPERADORA",
+        "modelo": "1/2 HP",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "id": "15HP",
+        "idRender": "renderRecuperadoraCar"
     },
     {
         "linea": "DVL",
