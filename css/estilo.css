@@ -2648,6 +2648,10 @@ form legend {
   background-color: rgba(0, 0, 0, 0.625);
 }
 
+.fondo-negro img {
+  min-height: 100%;
+}
+
 .fondo-negro h2 {
   font-size: 100px;
   text-transform: uppercase;

@@ -61,5 +61,17 @@
     "img": "./../img/notify/charla-dvr.JPG",
     "clase": "",
     "id": "8"
+  },
+  {
+    "titulo": "Charlando con martino",
+    "tema": "Charla entre Jorge Mendiondo y el Ing. Oriana",
+    "fechaCreacion": "24/06/22",
+    "fechaEvento": "21/06/22",
+    "horaEvento": "10:00",
+    "descripcion": " ✔ Te explicamos conceptos basicos sobre vacío.<br> ✔ Por que es fundamental hacer vacío preivo <br>✔ probamos la nueva DVR en vivo<br> ✔ Mirá los valores reales de vacío que da nuestra bomba.<br> ✔ Rompemos varios mitos no te lo pierdas.",
+    "youtube": "<iframe width='100%' height='' src='https://www.youtube.com/embed/ANon0J2bKy0' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+    "img": "./../img/notify/charla-dvr.JPG",
+    "clase": "",
+    "id": "8"
   }
 ]

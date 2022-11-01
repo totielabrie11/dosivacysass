@@ -2,6 +2,7 @@
     position: relative;
 }
 
+
 @media(max-width: 489px) {
     .foto-grande {
         margin-top: 50px;
@@ -15,6 +16,9 @@
     }
 }
 .fondo-negro {
+    img{
+        min-height: 100%;
+    }
     position: absolute;
     width: 50%;
     height: 100%;
