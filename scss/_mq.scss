@@ -96,7 +96,7 @@
 }
 
 /////////////////MQ de tarjeta products///////////
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 992px) {
 
     .containerP {
         margin: auto !important;
@@ -106,11 +106,10 @@
 
     //////////MQ DE CAROUSEL///////
     .container3d {
-        width: 150px;
-        height: 150px;
+       
 
         .item {
-            width: calc(290px - 25%);
+            width: calc(250px - 25%);
             height: calc(250px - 25%);
         }
     }

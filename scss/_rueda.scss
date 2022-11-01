@@ -81,7 +81,7 @@ div.rueda section {
 
 .a {
   transform: rotateY(0deg) translateZ(250px);
-  background: url(../img/dosivacfondo.JPG);
+  background: url(https://i.mkt.lu/cont/84013/280/240/dosivac-05.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -92,7 +92,7 @@ div.rueda section {
 
 .b {
   transform: rotateY(60deg) translateZ(250px);
-  background: url(https://www.autycom.com/wp-content/uploads/2019/06/para-que-sirven-los-equipos-de-automatizacion-industrial.jpg);
+  background: url(https://medac.es/sites/default/files/styles/img_blog_big_retina/public/blog/destacadas/material-de-laboratorio.jpg?itok=A9MCQ4tJ);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -101,7 +101,7 @@ div.rueda section {
 
 .c {
   transform: rotateY(120deg) translateZ(250px);
-  background: url(https://grupoacura.com/wp/wp-content/uploads/2021/04/sistemas-de-tratamiento-de-aguas-1.jpg);
+  background: url(https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -111,7 +111,7 @@ div.rueda section {
 
 .d {
   transform: rotateY(180deg) translateZ(250px);
-  background: url(https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2017/12/aguas-grises.jpg);
+  background: url(http://bricolaje-casa.com/wp-content/uploads/2011/09/Toma-de-corriente.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -136,30 +136,43 @@ div.rueda section {
   background-size: cover;
 }
 
+
 .next,
 .prev {
   color: #444;
   position: absolute;
-  bottom: calc(0px - 60%);
+  top: 50%;
   padding: 1em 2em;
+  
   cursor: pointer;
   background: #CCC;
   border-radius: 5px;
   border-top: 1px solid #FFF;
   box-shadow: 0 5px 0 #999;
   transition: box-shadow 0.1s, top 0.1s;
+
+  border-radius: 10px;
+  background-color: white;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  box-shadow: 4px 4px 0px (rgb(30, 30, 30));
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: rotate(0deg) translate(4px, 4px) scale(1);
+    box-shadow: 0px 0px 0px
+  }
 }
+
 
 .next:hover,
 .prev:hover {
   color: #000;
 }
 
-.next:active,
-.prev:active {
-  bottom: calc(0px - 60%);
-  box-shadow: 0 1px 0 #999;
-}
+  
 
 .next {
   right: 5em;
