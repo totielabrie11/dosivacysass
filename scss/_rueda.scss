@@ -34,7 +34,7 @@ div.rueda section {
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateX(calc(var(--i) * 45deg)) translateZ(250px);
+  transform: rotateX(calc(var(--i) * 45deg)) translateZ(450px);
 }
 
 .box span img {
@@ -49,7 +49,7 @@ div.rueda section {
 /////////////////////////// GALERIA 3D ///////////////////////////////
 .container3d {
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 150px;
   margin-bottom: 40px;
   width: 250px;
   height: 250px;
@@ -76,12 +76,12 @@ div.rueda section {
   text-align: center;
   color: #FFF;
   opacity: 0.95;
-  border-radius: 10px;
+  box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
 }
 
 .a {
-  transform: rotateY(0deg) translateZ(250px);
-  background: url(https://i.mkt.lu/cont/84013/280/240/dosivac-05.jpg);
+  transform: rotateY(0deg) translateZ(450px);
+  background: url(https://www.elaireacondicionado.com/sites/elaireacondicionado.com/files/styles/articulos_-_imagen/public/images/articulos/hacer-vacio-aire-acondicionado.jpg?itok=yMqF6Q4s);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -91,7 +91,7 @@ div.rueda section {
 }
 
 .b {
-  transform: rotateY(60deg) translateZ(250px);
+  transform: rotateY(36deg) translateZ(450px);
   background: url(https://medac.es/sites/default/files/styles/img_blog_big_retina/public/blog/destacadas/material-de-laboratorio.jpg?itok=A9MCQ4tJ);
   background-repeat: no-repeat;
   background-position: center;
@@ -100,7 +100,7 @@ div.rueda section {
 }
 
 .c {
-  transform: rotateY(120deg) translateZ(250px);
+  transform: rotateY(72deg) translateZ(450px);
   background: url(https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -110,7 +110,7 @@ div.rueda section {
 }
 
 .d {
-  transform: rotateY(180deg) translateZ(250px);
+  transform: rotateY(108deg) translateZ(450px);
   background: url(http://bricolaje-casa.com/wp-content/uploads/2011/09/Toma-de-corriente.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -119,7 +119,7 @@ div.rueda section {
 }
 
 .e {
-  transform: rotateY(240deg) translateZ(250px);
+  transform: rotateY(144deg) translateZ(450px);
   background: url(https://www.todofotovoltaica.com/wp-content/uploads/2021/01/image-5.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -128,20 +128,55 @@ div.rueda section {
 }
 
 .f {
-  transform: rotateY(300deg) translateZ(250px);
-  background: url(https://lu17.com/wp-content/uploads/2016/01/petroleo2-e1585408145792.jpg);
+  transform: rotateY(180deg) translateZ(450px);
+  background: url(../img/productsSelect/neumatica.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
   background-size: cover;
 }
 
+.g {
+  transform: rotateY(216deg) translateZ(450px);
+  background: url(../img/productsSelect/sopladores.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.h {
+  transform: rotateY(252deg) translateZ(450px);
+  background: url(../img/productsSelect/skid.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.i {
+  transform: rotateY(288deg) translateZ(450px);
+  background: url(../img/productsSelect/especiales.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
+
+.j {
+  transform: rotateY(324deg) translateZ(450px);
+  background: url(https://www.transelec.com.ar/post/tableros-electricos-big.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+}
 
 .next,
 .prev {
   color: #444;
   position: absolute;
-  top: 50%;
+  bottom: -50%;
   padding: 1em 2em;
   
   cursor: pointer;
@@ -175,9 +210,9 @@ div.rueda section {
   
 
 .next {
-  right: 5em;
+  right: -350px;
 }
 
 .prev {
-  left: 5em;
+  left: -350px;
 }

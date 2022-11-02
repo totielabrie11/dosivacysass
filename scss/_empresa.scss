@@ -1,5 +1,7 @@
 .foto-grande {
     position: relative;
+    min-height: 100%;
+    margin-top: 35px;
 }
 
 
@@ -16,9 +18,7 @@
     }
 }
 .fondo-negro {
-    img{
-        min-height: 100%;
-    }
+ 
     position: absolute;
     width: 50%;
     height: 100%;
