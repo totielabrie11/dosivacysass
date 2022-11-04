@@ -81,149 +81,56 @@
   </header>
 <main>
   
-<div class="hero d-none">
-  <h2 class="d-none">Productos</h2>
-  <div class="d-flex align-items-center justify-content-center flex-wrap">
-    <div class="btn btn-dark d-none btn-efect"  id="btn-volver"><i class="fa-solid fa-rotate-left"></i></div>
-    <select name="products" id="productsSelector" class="d-flex text-center p-2 my-4 w-50 btn-danger" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
-      <option>Seleccione por catergoria</option>
-      <option value="todos">Todos Nuestros Productos</option>
-      <option value="vacio">Vacío en Refrigeracion</option>
-      <option value="vacio">Vacío en Laboratorio</option>
-      <option value="vacio">Vacío Industrial</option>
-      <option value="dosificacion">Dosificacion bombas electricas</option>
-      <option value="dosificacion">Bombas de energías sustentable</option>
-      <option value="dosificacion">Dosificacion bombas neumaticas</option>
-      <option value="soplante">Transporte Neumatico - sopladores</option>
-      <option value="equipos">Equipos SKID</option>
-      <option value="equipos">Equipos especiales</option>
-      <option value="accesorios">Accesorios</option>
-    </select>
+  <div class="hero d-none">
+    <h2 class="d-none">Productos</h2>
+    <div class="d-flex align-items-center justify-content-center flex-wrap">
+      <div class="btn btn-dark d-none btn-efect"  id="btn-volver"><i class="fa-solid fa-rotate-left"></i></div>
+      <select name="products" id="productsSelector" class="d-flex text-center p-2 my-4 w-50 btn-danger" style="margin: auto; cursor: pointer;" onchange="ShowSelected()">
+        <option>Seleccione por catergoria</option>
+        <option value="todos">Todos Nuestros Productos</option>
+        <option value="vacio">Vacío en Refrigeracion</option>
+        <option value="vacio">Vacío en Laboratorio</option>
+        <option value="vacio">Vacío Industrial</option>
+        <option value="dosificacion">Dosificacion bombas electricas</option>
+        <option value="dosificacion">Bombas de energías sustentable</option>
+        <option value="dosificacion">Dosificacion bombas neumaticas</option>
+        <option value="soplante">Transporte Neumatico - sopladores</option>
+        <option value="equipos">Equipos SKID</option>
+        <option value="equipos">Equipos especiales</option>
+        <option value="accesorios">Accesorios</option>
+      </select>
+    </div>
   </div>
-</div>
 
 
 <!-- LISTA DE SELECTIONS PARA OPTAR PRODUCTO -->
-<div class="container3d">
-  <div class="carousel">
-    <div class="item a"></div>
-    <div class="item b"></div>
-    <div class="item c"></div>
-    <div class="item d"></div>
-    <div class="item e"></div>
-    <div class="item f"></div>
-    <div class="item g"></div>
-    <div class="item h"></div>
-    <div class="item i"></div>
-    <div class="item j"></div>
+  <div class="container3d">
+    <div class="carousel">
+      <div class="item a" id="1"></div>
+      <div class="item c" id="2"></div>
+      <div class="item b" id="3"></div>
+      <div class="item d" id="4"></div>
+      <div class="item e" id="5"></div>
+      <div class="item f" id="6"></div>
+      <div class="item g" id="7"></div>
+      <div class="item h" id="8"></div>
+      <div class="item i" id="9"></div>
+      <div class="item j" id="10"></div>
+    </div>
+    <div class="incrementar boton next">Siguiente</div>
+    <div class="disminuir boton prev">Anterior</div>
   </div>
-  <div class="next">Siguiente</div>
-  <div class="prev">Anterior</div>
-</div>
 
-<!-- LISTA DE CATEGORIAS QUE CONTIENE LOS PRODUCTOS -->
-<section class="productoPorCategory d-none" id="productoPorCategory">
-  
-  <div class="container__products">
-
-    <div class="containerPentagono d-none" id="productListSelector" onclick="muestroProductosNeumaticos()">
-      
-    </div>
-    <div class="containerPentagono d-none" id="productListSelector" onclick="muestroProductosDosificacionElectrica()">
-      
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosSustentables()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DES-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="40%">
-          <div class="productP-detail">
-            <h3>BOMBAS DOSIFICADORAS ENERGIA RENOVABLE</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP" id="productListSelector" onclick="muestroProductosRefrigeracion()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DVR2-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="70%">
-          <div class="productP-detail">
-            <h3>BOMBAS INDUSTRIA REFRIGERACION</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosLaboratorio()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DVL-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="70%">
-          <div class="productP-detail">
-            <h3>BOMBAS DE VACIO PARA USO EN LABORATORIOS</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosVacioIndustrial()"> 
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DSHC BRIDA-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="65%">
-          <div class="productP-detail">
-            <h3>EQUIPOS DE VACIO PARA APLICACION INDUSTRIAL</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosSoplante()"> 
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/DS-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="65%">
-          <div class="productP-detail">
-            <h3>EQUIPOS PARA TRANSPORTE NEUMATICO</h3> 
-            <span class="d-none"> Electro bomba de alta performance Milenio, desplazamiento positivo a Diafragma</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosEspeciales()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/equipo-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="45%">
-          <div class="productP-detail">
-            <h3>EQUIPOS DESARROLLADOS A MEDIDA</h3> 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosEquipos()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/eq1000.PNG" alt="Shoe" class="productP-img-selector" width="50%">
-          <div class="productP-detail">
-            <h3>SKID DE DOSIFICACION</h3> 
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="containerP d-none" id="productListSelector" onclick="muestroProductosAccesorios()">
-      <div class="cardP">
-        <div class="cardP-head">
-          <img src="../img/bombas/P_D011_XX_00400P-removebg-preview.png" alt="Shoe" class="productP-img-selector" width="50%">
-          <div class="productP-detail">
-            <h3>ACCESORIOS PARA AUTOMATIZAR Y CONTROLAR PROCESOS INDUSTRIALES</h3> 
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="informeProduct" id="informe">
     
   </div>
 
-</section>
+
 
 <!-- LISTA DE TODOS LOS PRODUCTOS -->
+<div class="btn btn-dark d-none btn-efect" id="btn-volver"><i class="fa-solid fa-rotate-left"></i></div>
   <section class="d-flex">
+    
     <div class="container__products">
       
       <div class="containerP" id="Dos">

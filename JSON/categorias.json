@@ -1,0 +1,53 @@
+[
+    {
+        "nombre": "Refrigeración",
+        "funcion":"muestroProductosRefrigeracion()",
+        "id": 1 
+        
+    },
+    {
+        "nombre": "Vacío en Laboratorio",
+        "funcion":"muestroProductosLaboratorio()",
+        "id": 2
+    },
+    {
+        "nombre": "Vacío para grandes industrias",
+        "funcion":"muestroProductosVacioIndustrial()",
+        "id": 3
+    },
+    {
+        "nombre": "Dosificación a energía electrica",
+        "funcion":"muestroProductosDosificacionElectrica()",
+        "id": 4
+    },
+    {
+        "nombre": "Dosificacion con energía renovable",
+        "funcion":"muestroProductosSustentables()",
+        "id": 5
+    },
+    {
+        "nombre": "Dosificacion de accionamiento Neumatico",
+        "funcion":"muestroProductosNeumaticos()",
+        "id": 6
+    },
+    {
+        "nombre": "Equipos soplantes",
+        "funcion":"muestroProductosSoplante()",
+        "id": 7
+    },
+    {
+        "nombre": "Skid para el campo",
+        "funcion":"muestroProductosEquipos()",
+        "id": 8
+    },
+    {
+        "nombre": "Equipos hechos a medida",
+        "funcion":"muestroProductosEspeciales()",
+        "id": 9
+    }, 
+    {
+        "nombre": "Accesorios de control",
+        "funcion":"muestroProductosAccesorios()",
+        "id": 10
+    }   
+]

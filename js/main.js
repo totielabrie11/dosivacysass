@@ -31,7 +31,7 @@ var carousel = $(".carousel"),
 $(".next").on("click", { d: "n" }, rotate);
 $(".prev").on("click", { d: "p" }, rotate);
 
-$('.carousel').on("click", {d: "n"}, rotate)
+//$('.carousel').on("click", {d: "n"}, rotate)
 
 function rotate(e){
   if(e.data.d=="n"){
@@ -502,3 +502,90 @@ function arrancoEmpresa(){
 
 
 };
+
+//MANEJADOR DE LOS SELECT DE PRODUCTO//
+
+var contadorId = 1;
+
+const botones = document.querySelectorAll('.boton')
+
+botones.forEach(boton => {
+  boton.addEventListener ('click', function(e){
+
+    const estilos = e.currentTarget.classList;
+    
+    if(estilos.contains('disminuir')){
+      contadorId--;
+      if (contadorId < 1) {
+        contadorId = 10
+      }
+    }
+    else if(estilos.contains('incrementar')){
+      if (contadorId < 10) {
+      
+        contadorId++;
+      }else{
+        contadorId = 1
+      } 
+        
+    }
+    
+    pintar(contadorId)
+  })
+})
+
+$.ajax({
+  method: "GET",
+  url: "../../JSON/categorias.json",
+  }).done(function(category) {
+
+    localStorage.setItem("selects", JSON.stringify([...category]))
+
+    category = category.find(prod => prod.id === contadorId);
+
+    pintar(category);
+    
+  
+  }).always(function() {
+    // Por ejemplo removemos la imagen "cargando..."
+  }).fail(function() {
+    console.log('no se pudo cargar el recurso')
+  })
+
+  function pintar(category){
+    console.log(category)
+    
+    let arregloCategory = JSON.parse(localStorage.getItem("selects"));
+    console.log(arregloCategory)
+    category = arregloCategory.find(prod => prod.id === category)
+    
+    if (!category) {
+      category = 
+                  {
+                  nombre: 'carlos', 
+                  funcion: 'muestroProductosRefrigeracion()',
+                  id: 1
+                  }
+                  
+    }
+    //category = category.find(prod => prod.id === contadorId);
+    
+   
+      const { nombre, funcion, id } = category;
+
+      html = "" + `
+      <div class="header">
+        <h3 class="text-center">categoria de producto</h3>
+      </div>
+      <div class="card-body">
+        <div>
+          <h4 class="mt-2">${nombre}</h4>
+        </div>
+        <div class="btn btn-primary mt-4" onclick="${funcion}">INGRESAR</div>
+      </div>
+
+      `
+      $('#informe').html("" + html);
+
+    
+  }

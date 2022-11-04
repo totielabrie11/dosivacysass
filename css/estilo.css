@@ -849,6 +849,7 @@ footer .parteder .maps {
 }
 
 .btn-efect {
+  margin-top: 100px;
   text-transform: uppercase;
   font-weight: bold;
   background-color: white;
@@ -994,6 +995,22 @@ body.oscuro .btn-efect {
   right: 5px;
   font-weight: 800;
   cursor: pointer;
+}
+
+.informeProduct {
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  height: 200px;
+  background-color: #f7911d8d;
+}
+
+.informeProduct h3 {
+  text-transform: uppercase;
+}
+
+.informeProduct h4 {
+  font-size: 20px !important;
 }
 
 .ocultar__form {
@@ -2121,7 +2138,7 @@ div.rueda section {
 .a {
   -webkit-transform: rotateY(0deg) translateZ(450px);
           transform: rotateY(0deg) translateZ(450px);
-  background: url(https://www.elaireacondicionado.com/sites/elaireacondicionado.com/files/styles/articulos_-_imagen/public/images/articulos/hacer-vacio-aire-acondicionado.jpg?itok=yMqF6Q4s);
+  background: url(../img/productsSelect/refrigeracion.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2131,7 +2148,7 @@ div.rueda section {
 .b {
   -webkit-transform: rotateY(36deg) translateZ(450px);
           transform: rotateY(36deg) translateZ(450px);
-  background: url(https://medac.es/sites/default/files/styles/img_blog_big_retina/public/blog/destacadas/material-de-laboratorio.jpg?itok=A9MCQ4tJ);
+  background: url(../img/productsSelect/laboratorio.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2151,7 +2168,7 @@ div.rueda section {
 .d {
   -webkit-transform: rotateY(108deg) translateZ(450px);
           transform: rotateY(108deg) translateZ(450px);
-  background: url(http://bricolaje-casa.com/wp-content/uploads/2011/09/Toma-de-corriente.jpg);
+  background: url(../img/productsSelect/elelctrica.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2191,7 +2208,7 @@ div.rueda section {
 .h {
   -webkit-transform: rotateY(252deg) translateZ(450px);
           transform: rotateY(252deg) translateZ(450px);
-  background: url(../img/productsSelect/skid.jpeg);
+  background: url(../img/productsSelect/equipos.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
