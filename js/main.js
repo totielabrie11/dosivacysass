@@ -562,7 +562,7 @@ $.ajax({
     if (!category) {
       category = 
                   {
-                  nombre: 'carlos', 
+                  nombre: 'Refrigeración', 
                   funcion: 'muestroProductosRefrigeracion()',
                   id: 1
                   }
