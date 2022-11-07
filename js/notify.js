@@ -27,7 +27,9 @@ const btnCampanita = document.getElementById("notifyIcon");
 
     let $boxNotifys = document.getElementById('notifyBox');
     
-    $boxNotifys.classList.toggle('d-none')
+    $boxNotifys.classList.toggle('d-none')  
+
+    
    
   });
 

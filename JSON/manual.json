@@ -31,7 +31,6 @@
         "linea": "DD",
         "id": "dd",
         "img": "./img/bombas/DD-removebg-preview.png",
-        "tipo": "Manual operativo",
         "manualRoot": "./docs/manuales/DD/Manual DD10-30-60_DIC_2015.pdf"
     },
     {

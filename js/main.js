@@ -359,37 +359,40 @@ function settingsTools(){
         console.log('no pude leer la lista de repuestos')
       })
   
-
-    function renderManuals(manual){
-
+      function renderManuals(manual){
+  
       manual.forEach((elemento)=> {
         const {  linea, id, img, tipo, manualRoot } =
         elemento;
+      
         $("#manualsList").append(
           `        
         <tr>
             <td><p>${linea}</p></td>
-            <td><img src='${img}' width='50%'></img></td>
+            <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
             <td><p>${tipo}</p></td>
             <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
         </tr>
         
         `
+      
         );
       });
     }
     
+
+
     function renderRepuestos(repuestos){
 
       repuestos.forEach((elemento)=> {
         const {  linea, id, img, tipo,  repuestosRoot } =
         elemento;
-
+        
         $("#repuestoList").append(
           `        
         <tr>
           <td><p>${linea}</p></td>
-          <td><img src='${img}' width='50%'></img></td>
+          <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
           <td><p>${tipo}</p></td>
           <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
         </tr>
@@ -408,6 +411,23 @@ function settingsTools(){
       $('.repuestos-text').toggle().removeClass('d-none');
       
     })
+}
+
+function imgError(img) {
+
+  imagenString = img.src
+  console.log("🚀 ~ file: main.js ~ line 419 ~ imgError ~ imagenString", imagenString)
+  console.log(imagenString)
+  imgCut = imagenString.slice(34);
+  imgRutCorrection = '..' + imgCut
+    console.log("como queda recortada la imagen", imgRutCorrection)
+    
+
+  img.onerror = "";
+  img.src = imgRutCorrection;
+ 
+  return true;
+
 }
 /* 
 function settingSlider(){

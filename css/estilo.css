@@ -51,7 +51,7 @@ html body.oscuro {
         color: white; */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(../img/liquido.jpg);
+  background-image: url(../img/fondoclaro.jpeg);
   background-size: 100%;
   background-size: cover;
 }
@@ -70,6 +70,22 @@ html .legend h2 {
   text-transform: uppercase;
   font-size: 100px;
   margin: 100px 100px 100px;
+}
+
+@media (max-width: 800px) {
+  html .legend h2 {
+    font-size: 400% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  html .legend h2 {
+    font-size: 250% !important;
+  }
+}
+
+body.oscuro .legend {
+  color: black;
 }
 
 nav {
@@ -1000,7 +1016,8 @@ body.oscuro .btn-efect {
 .informeProduct {
   margin: auto;
   padding: 20px;
-  width: 50%;
+  border: solid 3px white;
+  width: 650px;
   height: 200px;
   background-color: #f7911d8d;
 }
@@ -2160,7 +2177,7 @@ div.rueda section {
 .c {
   -webkit-transform: rotateY(72deg) translateZ(450px);
           transform: rotateY(72deg) translateZ(450px);
-  background: url(https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg);
+  background: url(../img/productsSelect/vacioIndustrial.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2190,7 +2207,7 @@ div.rueda section {
 .f {
   -webkit-transform: rotateY(180deg) translateZ(450px);
           transform: rotateY(180deg) translateZ(450px);
-  background: url(../img/productsSelect/neumatica.JPG);
+  background: url(../img/productsSelect/neumatica1.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2230,7 +2247,7 @@ div.rueda section {
 .j {
   -webkit-transform: rotateY(324deg) translateZ(450px);
           transform: rotateY(324deg) translateZ(450px);
-  background: url(https://cdn.shopify.com/s/files/1/0552/7361/9543/t/7/assets/Siemens-PLC_2nd.jpg?v=1645844036);
+  background: url(../img/productsSelect/accesorio.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2261,6 +2278,11 @@ div.rueda section {
           box-shadow: 4px 4px 0px #1e1e1e;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+body.oscuro .prev {
+  background-color: #000 !important;
+  color: white;
 }
 
 .prev:hover {
@@ -2296,6 +2318,11 @@ div.rueda section {
   transition: all 0.5s ease;
 }
 
+body.oscuro .next {
+  background-color: #000 !important;
+  color: white;
+}
+
 .next:hover {
   -webkit-transform: rotate(0deg) translate(12px, 0px) scale(1);
           transform: rotate(0deg) translate(12px, 0px) scale(1);
@@ -2309,11 +2336,11 @@ div.rueda section {
 }
 
 .next {
-  right: -350px;
+  right: calc(-150%);
 }
 
 .prev {
-  left: -350px;
+  left: -150%;
 }
 
 .contact-form {

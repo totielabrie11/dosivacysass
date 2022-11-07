@@ -103,7 +103,7 @@ div.rueda section {
 
 .c {
   transform: rotateY(72deg) translateZ(450px);
-  background: url(https://marpavacuum.com/wp-content/uploads/como-funciona-bomba-de-vacio-e1614290841356.jpeg);
+  background: url(../img/productsSelect/vacioIndustrial.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -131,7 +131,7 @@ div.rueda section {
 
 .f {
   transform: rotateY(180deg) translateZ(450px);
-  background: url(../img/productsSelect/neumatica.JPG);
+  background: url(../img/productsSelect/neumatica1.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -167,7 +167,7 @@ div.rueda section {
 
 .j {
   transform: rotateY(324deg) translateZ(450px);
-  background: url(https://cdn.shopify.com/s/files/1/0552/7361/9543/t/7/assets/Siemens-PLC_2nd.jpg?v=1645844036);
+  background: url(../img/productsSelect/accesorio.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -187,6 +187,10 @@ div.rueda section {
 
   clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
   
+  body.oscuro & {
+    background-color: #000 !important;
+    color: white;
+  }
   background-color: white;
   color: #000;
   text-transform: uppercase;
@@ -215,7 +219,11 @@ div.rueda section {
 
   clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 
-
+  body.oscuro & {
+    background-color: #000 !important;
+    color: white;
+  }
+  
   background-color: white;
   color: #000;
   text-transform: uppercase;
@@ -239,9 +247,9 @@ div.rueda section {
   
 
 .next {
-  right: -350px;
+  right: calc(-150% ) ;
 }
 
 .prev {
-  left: -350px;
+  left: -150%;
 }

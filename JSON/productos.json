@@ -435,7 +435,7 @@
     {
         "linea": "DVRII",
         "modelo": "1A",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>60 lts/m</li><li>60 lts/m</li><li>15micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "1A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
@@ -447,7 +447,7 @@
     {
         "linea": "DVRII",
         "modelo": "2A",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>120 lts/m</li><li>120 lts/m</li><li>15micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "2A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
@@ -459,7 +459,7 @@
     {
         "linea": "DVRII",
         "modelo": "3A",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>15micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "3A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
@@ -471,7 +471,7 @@
     {
         "linea": "DVRII",
         "modelo": "4A",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>35micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Despla Max</li><li>Despla Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>280 lts/m</li><li>280 lts/m</li><li>15micrones</li><li>Directo Semi Elastico</li></ul></div></div>",
         "id": "4A",
         "idRender": "renderDvrIICar",
         "youtube": "../img/redes/YT.png",
@@ -497,7 +497,7 @@
     {
         "linea": "DVR",
         "modelo": "DVR6 BLUE",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li><br><li>Bomba de aceite interna</li><li>Valvula selenoide en la salida</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li><li>Si</li><br><li>Si</li></ul></div></div>",
         "id": "DVR6Pre",
         "idRender": "renderDvr6Car",
         "instagram": "../img/redes/IG.png",
@@ -506,7 +506,7 @@
     {
         "linea": "RECUPERADORA",
         "modelo": "1/2 HP",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>2</li><li>170 lts/m</li><li>170 lts/m</li><li>30micrones</li><li>Tipo Brushless sin carbon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Motor</li><br><li>Alimentación</li><li>Presión max</li><li></li><li>Protector de sobrepresión</li><li>Protector de encendido sin presión</li><li>Compatibildiad</li></ul></div><div><span>Valor</span><ul><li>1/2HP<b> Sin aceite</b></li><li>220V cc</li><li>800 PSI</li><br><li>Si</li><br><br><li>Si</li><br<br><li>gases de 3º 4º y 5º Generación</li></ul></div></div>",
         "id": "15HP",
         "idRender": "renderRecuperadoraCar"
     },
@@ -520,7 +520,7 @@
     {
         "linea": "DVL",
         "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>1 lts/m</li><li>35micrones</li><li>semi elastico manchon</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Etapas</li><li>Desp Max</li><li>Desp Min</li><li>Vacío Max</li><li>Motor acople</li></ul></div><div><span>Valor</span><ul><li>1</li><li>150 lts/m</li><li>1 lts/m</li><li>15micrones</li><li>semi elastico manchon</li></ul></div></div>",
         "id": "DVL150",
         "idRender": "renderDvlCar"
     },
@@ -693,8 +693,107 @@
     {
         "linea": "DSV",
         "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>-400(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
         "id": "DSV1",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "150",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>160 m/3</li><li>79 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV2",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "300",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>130 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV3",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "500",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>510 m/3</li><li>230 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV4",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "700",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 m/3</li><li>350 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV5",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "1000",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>520 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV6",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "1300",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1400 m/3</li><li>650 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV7",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "1800",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1900 m/3</li><li>799 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV8",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "2800",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>3000 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV9",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "4500",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4700 m/3</li><li>1663 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id":"DSV10",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo": "6200",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6500 m/3</li><li>1800 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id":"DSV11",
+        "idRender": "renderDsvCard",
+        "instagram": "../img/redes/IG.png",
+        "linki": ""
+    },
+    {
+        "linea": "DSV",
+        "modelo":"9000",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3500 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "id": "DSV12",
         "idRender": "renderDsvCard",
         "instagram": "../img/redes/IG.png",
         "linki": ""

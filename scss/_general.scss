@@ -44,7 +44,7 @@ html {
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
-        background-image: url(../img/liquido.jpg);
+        background-image: url(../img/fondoclaro.jpeg);
         background-size: 100%;
 
         background-size: cover;
@@ -68,10 +68,23 @@ html {
         font-size: 100px;
         margin: 100px 100px 100px;
 
+        @media(max-width: 800px){
+            font-size: 400% !important;
+        };
+        @media(max-width: 420px){
+            font-size: 250% !important;
+        }
+       
 
     }
-}
+   
 
+}
+body.oscuro  {
+    .legend {
+        color: black;   
+    }
+}
 
 nav {
     position: fixed !important;
