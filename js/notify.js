@@ -186,7 +186,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
         $("#notyListControl").append(
     
         `
-        <div class="tucked-corners-top ">
+        <div class="tucked-corners-top id="${id}" onclick="eliminarCuantity('${id}') ">
           <div id="acceder" class="tucked-corners-bottom ${clase}">
             <h4>${titulo}</h4>
             <div class="container d-flex">
@@ -200,9 +200,7 @@ function renderNotifyListControl(arrayNotiRenderBox) {
                 <span >${tema}</span>
               </div>
               <div class="controlsNotify d-flex" id="formElement">
-                <button class="btn btn-primary w-50 ms-1 me-2 my-4" id="${id}" onclick="eliminarCuantity('${id}')"><i class="fas fa-eye"></i></button>
-               
-                <input type="checkbox" id="checkbox" class="form-check-input ms-4 my-auto p-2" onclick="ingresarCheckList('${id}')">
+                
               </div>
             </div>
           </div>

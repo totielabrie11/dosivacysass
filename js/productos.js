@@ -304,6 +304,8 @@ function muestroProductosRefrigeracion(){
    $('*#Dos, *#Lab, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi, *#Sop').addClass('novisible');
    $('*#btn-volver').removeClass('d-none')
 
+  $('body').css('background-image', 'url(https://img.freepik.com/fotos-premium/fondo-hielo-picado_88281-3898.jpg?w=2000)');
+  
   
 }
 
@@ -313,7 +315,7 @@ function muestroProductosLaboratorio(){
    $('*#Dos, *#Ref, *#Ind, *#Acc, *#Neu, *#Esp, *#Reno, *#Equi, *#Sop').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
-  
+  $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
 }
 
 function muestroProductosVacioIndustrial(){
@@ -322,7 +324,7 @@ function muestroProductosVacioIndustrial(){
    $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno, *#Equi, *#Sop').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
    
-  
+   $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
 }
 
 function muestroProductosDosificacionElectrica(){
@@ -331,7 +333,7 @@ function muestroProductosDosificacionElectrica(){
    $('*#Ref, *#Lab, *#Ind, *#Acc, *#Esp, *#Reno, *#Neu, *#Equi, *#Sop').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
 
-
+  $('body').css('background-image', 'url(../img/fondos/Fondo.Agua.jpg)');
 }
 
 function muestroProductosSoplante(){
@@ -342,6 +344,7 @@ function muestroProductosSoplante(){
    $('*#Dos, *#Ref, *#Lab, #Acc, *#Neu, *#Esp, *#Reno, *#Equi, *#Ind').addClass('novisible')
    $('*#btn-volver').removeClass('d-none')
   
+   $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
 }
 
 function muestroProductosAccesorios(){
@@ -351,7 +354,7 @@ function muestroProductosAccesorios(){
 
    $('*#btn-volver').removeClass('d-none')
 
-  
+   $('body').css('background-image', 'url(https://wallpapercave.com/wp/wp7446651.jpg');
 }
 
 function muestroProductosNeumaticos(){
@@ -361,7 +364,7 @@ function muestroProductosNeumaticos(){
 
    $('*#btn-volver').removeClass('d-none')
 
-   
+   $('body').css('background-image', 'url(../img/fondos/Fondo.PETROLEO.jpg');
   
 }
 
@@ -372,6 +375,7 @@ function muestroProductosEspeciales(){
 
    $('*#btn-volver').removeClass('d-none')
 
+   $('body').css('background-image', 'url(https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2021/03/1600993945916-1-810x475.jpg');
 }
 
 function muestroProductosEquipos(){
@@ -380,6 +384,8 @@ function muestroProductosEquipos(){
    $('*#Ref, *#Lab, *#Ind, *#Dos, *#Neu, *#Acc, *#Reno, *#Esp, *#Sop').addClass('novisible')
 
    $('*#btn-volver').removeClass('d-none')
+
+   $('body').css('background-image', 'url(https://www.elpais.com.co/files/article_main/uploads/2018/10/28/5bd67541516ab.jpeg');
 }
 
 function muestroProductosSustentables(){
@@ -389,6 +395,7 @@ function muestroProductosSustentables(){
 
    $('*#btn-volver').removeClass('d-none')
 
+   $('body').css('background-image', 'url(../img/multimedia/EQUIPO.2b.jpg');
 }
 
 
@@ -403,8 +410,21 @@ function volverALista(){
 
 }
 ///////////////////////////BTN VOLVER A LISTA///////////////////////////
-$('*#btn-volver').on('click', function(){volverALista(), irArriba()})
+$('*#btn-volver').on('click', function(){volverALista(), irArriba(), borrarFondo()})
 
+/////ELIMINA LOS FONDOS DE PRODUCTO ESPECIFICO////
+function borrarFondo(){
+  fondoClaro = $('body').hasClass('claro')
+  
+  if (fondoClaro) {
+    $('body').css('background-image', 'url(../img/FACHADA6.jpg)');
+    console.log('fondo claro')
+  }else{
+    $('body').css('background-image', 'url(../img/fondoclaro.jpeg)');
+    
+    console.log('fondo oscuro');
+  }
+}
 
 
 ///////////////CONTROL PARA IR A LA PARTE SUPERIOR DE LA PAGINA////////////////
@@ -420,5 +440,5 @@ function irArriba() {
 $('.container3d').on('click', function()
   {
     irArriba();
-    console.log('estoy haciendo algo')
+    
   })

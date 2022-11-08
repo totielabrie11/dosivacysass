@@ -470,6 +470,12 @@
 }
 
 .informeProduct{
+  body.oscuro & {
+    background-color:rgba(103, 235, 26, 0.681);
+    h3, h4{
+      color: #000;
+    }
+  }
   margin: auto;
   padding: 20px;
 
@@ -484,4 +490,4 @@
   h4{
     font-size: 20px !important;
   }
-}
+};

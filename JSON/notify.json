@@ -10,7 +10,7 @@
     "link": "https://www.instagram.com/tv/CUIfmQ2g63S/",
     "img": "../img/notify/charla-ref.png",
     "clase": "",
-    "id": "2"
+    "id": "1"
   },
   {
     "titulo": "Pagina WEB Dosivac joyas",
@@ -22,7 +22,7 @@
     "youtube": "",
     "img": "../img/notify/web.jpg",
     "clase": "",
-    "id": "4"
+    "id": "2"
   },
   {
     "titulo": "Fin de año",
@@ -34,7 +34,7 @@
     "youtube": "",
     "img": "https://1.bp.blogspot.com/-gdcyCjib_9U/YDRnCtJFBFI/AAAAAAAG90I/oP73Uo4v3PQAIdEK1SkdPmfl6ajGltb0gCLcBGAsYHQ/s16000/calendarios-del-ano-2022-para-imprimir.jpg",
     "clase": "",
-    "id": "5"
+    "id": "3"
   },
   {
     "titulo": "Nuevo Producto Refrigersacion",
@@ -48,7 +48,7 @@
     "instagram": "../img/redes/IG.png",
     "img": "../img/notify/WhatsApp Image 2022-04-22 at 12.41.44 PM.jpeg",
     "clase": "",
-    "id": "7"
+    "id": "4"
   },
   {
     "titulo": "BENEFICIOS DE LA DVR6",
@@ -60,6 +60,18 @@
     "youtube": "<iframe width='100%' height='' src='https://www.youtube.com/embed/ANon0J2bKy0' title='YouTube video player' frameborder='0' allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
     "img": "./../img/notify/charla-dvr.JPG",
     "clase": "",
-    "id": "8"
+    "id": "5"
+  },
+  {
+    "titulo": "NUEVA CERTIFICACION",
+    "tema": "Ahora certificados por la norma ISO 14001",
+    "fechaCreacion": "01/10/22",
+    "fechaEvento": "01/10/23",
+    "horaEvento": "10:00",
+    "descripcion": " ✔ Mucho trabajo se venía realizando internamnete en La Fabrica Dosivac, desde el lado de, toma de conciencia a los tiempos modernos, como cambios operatorios relativos al menajeo de materiales clasificados, para su correcto proceso y tratamiento, nos coloca hoy, en el más alto escalón de la certificación medio ambiental. ",
+    "youtube": "",
+    "img": "https://3ppglobal.com/wp-content/uploads/2021/04/Sello-ISO-14001.png",
+    "clase": "",
+    "id": "6"
   }
 ]

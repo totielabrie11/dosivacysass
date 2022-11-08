@@ -48,12 +48,13 @@ html body.oscuro {
   -webkit-transition: 1s ease all;
   transition: 1s ease all;
   /*  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
-        color: white; */
+         */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
   background-image: url(../img/fondoclaro.jpeg);
   background-size: 100%;
   background-size: cover;
+  color: white;
 }
 
 html main {
@@ -1020,6 +1021,14 @@ body.oscuro .btn-efect {
   width: 650px;
   height: 200px;
   background-color: #f7911d8d;
+}
+
+body.oscuro .informeProduct {
+  background-color: rgba(103, 235, 26, 0.681);
+}
+
+body.oscuro .informeProduct h3, body.oscuro .informeProduct h4 {
+  color: #000;
 }
 
 .informeProduct h3 {
@@ -2257,7 +2266,7 @@ div.rueda section {
 .prev {
   color: #444;
   position: absolute;
-  bottom: -50%;
+  bottom: -65%;
   padding: 1em 2em;
   cursor: pointer;
   background: #CCC;
@@ -2295,7 +2304,7 @@ body.oscuro .prev {
 .next {
   color: #444;
   position: absolute;
-  bottom: -50%;
+  bottom: -65%;
   padding: 1em 2em;
   cursor: pointer;
   background: #CCC;

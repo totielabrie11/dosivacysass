@@ -3,13 +3,16 @@ const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
 	let valorDiaNoche = d.body.classList.toggle('oscuro');
+  
 	 btnSwitch.classList.toggle('active');
 	
 	//Guardamos en LCS
 	if (d.body.classList.contains('oscuro')) {
 		localStorage.setItem('dark-mode', 'true')
+    d.body.classList.remove('claro');
 	}else{
 		localStorage.setItem('dark-mode', 'false')
+    d.body.classList.add('claro');
 	}
 
 });
@@ -20,6 +23,7 @@ if (localStorage.getItem('dark-mode') === 'true') {
 	btnSwitch.classList.add('active');
 }else{
 	d.body.classList.remove('oscuro');
+  d.body.classList.add('claro')
 	btnSwitch.classList.remove('active');
 }
 

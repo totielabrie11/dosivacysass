@@ -40,7 +40,7 @@ html {
     body.oscuro {
         transition: 1s ease all;
         /*  background-image: url(https://img.freepik.com/foto-gratis/resumen-superficie-agua-piscina-fondo-reflejo-luz-sol_74190-8510.jpg?w=2000);
-        color: white; */
+         */
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
@@ -48,6 +48,8 @@ html {
         background-size: 100%;
 
         background-size: cover;
+
+        color: white;
     }
 
     main {
