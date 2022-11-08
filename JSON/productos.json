@@ -886,5 +886,26 @@
         "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
         "id": "AQUALINE3",
         "idRender": "renderAqualineCard"
+    },
+    {
+        "linea": "SKID",
+        "modelo": "200 lts",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>200 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "id": "SKID1",
+        "idRender": "renderSKIDCard"
+    },
+    {
+        "linea": "SKID",
+        "modelo": "400 lts",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>400 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "id": "SKID2",
+        "idRender": "renderSKIDCard"
+    },
+    {
+        "linea": "SKID",
+        "modelo": "1000 lts",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>1000 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "id": "SKID3",
+        "idRender": "renderSKIDCard"
     }
 ]
