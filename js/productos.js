@@ -137,7 +137,7 @@ function filterCaracteristicas( producto ){
     
       productoFinded.forEach((producto) => {
         
-        const { linea, modelo, caracteristicas, id, idRender, youtube, instagram, link, link2, linki  } = producto;
+        const { linea, modelo, caracteristicas, id, idRender, youtube, instagram, link, link2, linki, foto, foto2  } = producto;
         htmlClean = ""
         yotubeRedifined = producto.youtube 
         instagramRedifined = producto.instagram
@@ -148,11 +148,11 @@ function filterCaracteristicas( producto ){
           <div class="d-flex justify-content-between">
           ${caracteristicas}
           </div>
-            <div>
+            <div class="container-fluid row">
               <a href="${link}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
-            </div>
-            <div>
+            
               <a href="${link2}" target="_blank"><img src="${youtube}" width="20%"><span>Más información en <bold>YOUTUBE</bold></a>
+              
             </div> 
           </div>
           `
@@ -219,7 +219,6 @@ function filterCaracteristicas( producto ){
           <div class="d-flex justify-content-between">
           ${caracteristicas}
           </div>
-          <div><a href="${linki}" target="_blank"><img src="${instagram}" width="20%"><br><span>Más informacón en <bold>INSTAGRAM</bold></span></a></div></a></div>
           `
 
           $('#' + `${idRender}`).html("" + html); 
@@ -316,6 +315,8 @@ function muestroProductosLaboratorio(){
    $('*#btn-volver').removeClass('d-none')
 
   $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
+  $('*.containerP').css('margin', 'auto');
+  $('*.containerP').css('margin-top', '30px');
 }
 
 function muestroProductosVacioIndustrial(){
@@ -325,6 +326,8 @@ function muestroProductosVacioIndustrial(){
    $('*#btn-volver').removeClass('d-none')
    
    $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
+   $('*.containerP').css('margin', 'auto');
+   $('*.containerP').css('margin-top', '30px');
 }
 
 function muestroProductosDosificacionElectrica(){
@@ -345,6 +348,8 @@ function muestroProductosSoplante(){
    $('*#btn-volver').removeClass('d-none')
   
    $('body').css('background-image', 'url(../img/fondos/Fondo.METAL.jpg)');
+   $('*.containerP').css('margin', 'auto');
+   $('*.containerP').css('margin-top', '30px');
 }
 
 function muestroProductosAccesorios(){
@@ -410,8 +415,14 @@ function volverALista(){
 
 }
 ///////////////////////////BTN VOLVER A LISTA///////////////////////////
-$('*#btn-volver').on('click', function(){volverALista(), irArriba(), borrarFondo()})
+$('*#btn-volver').on('click', function(){volverALista(), irArriba(), borrarFondo(), borrarMarginAuto()})
 
+
+/////ELIMINA EL MARGIN AUTO//////
+function borrarMarginAuto(){
+  $('*.containerP').css('margin', '');
+  $('*.containerP').css('margin-top', '');
+}
 /////ELIMINA LOS FONDOS DE PRODUCTO ESPECIFICO////
 function borrarFondo(){
   fondoClaro = $('body').hasClass('claro')

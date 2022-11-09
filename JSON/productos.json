@@ -583,220 +583,13 @@
         "linki": "https://www.instagram.com/p/CPiazqmB0MP/?utm_source=ig_web_copy_link"
     },
     {
-        "linea": "DS",
-        "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
+        "linea": "DS-DSV",
+        "modelo": "",
+        "caracteristicas": "<div class='container row'><div class='col-md-4 col-12'><span>Caracteristicas</span><ul><li><b>Trilobular</b>: brindando mayor rápidez de rotores, disminuye las vibraciones y los esfuerzos sobre la instalacion en comparación con un soplador bilobular. Además del diseo de descarga horizontal que baja aún más el nivel de ruido</li><br><li>Sistema de sello que garantiza aire libre de aceite</li></div><div class='col-md-4 col-12'><span>Algunas Aplicaciones</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div><div class='col-md-4 col-12'><span>Utilizados en industria</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>600(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div></div></div>",
         "id": "SOPLA1",
         "idRender": "renderSopCard",
         "instagram": "../img/redes/IG.png",
         "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>175 m/3</li><li>59 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA2",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "300",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>124 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA3",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "500",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>518 m/3</li><li>194 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA4",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "700",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>802 m/3</li><li>348 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA5",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "1000",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>400 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA6",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "1300",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1480 m/3</li><li>617 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA7",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "1800",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1910 m/3</li><li>799 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA8",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "2800",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>3062 m/3</li><li>1021 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA9",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "4500",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4782 m/3</li><li>1663 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA10",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "6200",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6450 m/3</li><li>1850 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA11",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DS",
-        "modelo": "9000",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Presion Max</li><li>Presion Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3536 m/3</li><li>800(mbar)</li><li>100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "SOPLA12",
-        "idRender": "renderSopCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": "https://www.instagram.com/p/CQqfdMkBaEt/"
-    },
-    {
-        "linea": "DSV",
-        "modelo": "60",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>32 m/3</li><li>-400(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV1",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "150",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>160 m/3</li><li>79 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV2",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "300",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>310 m/3</li><li>130 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV3",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "500",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>510 m/3</li><li>230 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV4",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "700",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>800 m/3</li><li>350 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV5",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "1000",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1100 m/3</li><li>520 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV6",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "1300",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1400 m/3</li><li>650 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV7",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "1800",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>1900 m/3</li><li>799 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV8",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "2800",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>63 m/3</li><li>3000 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV9",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "4500",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>4700 m/3</li><li>1663 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id":"DSV10",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo": "6200",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>6500 m/3</li><li>1800 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id":"DSV11",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
-    },
-    {
-        "linea": "DSV",
-        "modelo":"9000",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Caudal Max</li><li>Caudal Min</li><li>Vacío Max</li><li>Vacío Min</li><li>Transmision</li><li>Opcional</li></ul></div><div><span>Valor</span><ul><li>si</li><li>9540 m/3</li><li>3500 m/3</li><li>-500(mbar)</li><li>-100(mbar)</li><li>Poleas y correas</li><li>Cabina de insonorizacion</li></ul></div></div>",
-        "id": "DSV12",
-        "idRender": "renderDsvCard",
-        "instagram": "../img/redes/IG.png",
-        "linki": ""
     },
     {
         "linea": "MDF",
@@ -869,42 +662,42 @@
     {
         "linea": "AQUALINE",
         "modelo": "25 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>25 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>25 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>✔liviano</li><li>✔practico</li><li>✔seguro</li></ul></div></div>",
         "id": "AQUALINE1",
         "idRender": "renderAqualineCard"
     },
     {
         "linea": "AQUALINE",
         "modelo": "50 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>50 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>50 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>✔liviano</li><li>✔practico</li><li>✔seguro</li></ul></div></div>",
         "id": "AQUALINE2",
         "idRender": "renderAqualineCard"
     },
     {
         "linea": "AQUALINE",
         "modelo": "90 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>liviano</li><li>practico</li><li>seguro</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad tanque</li><li>Juego de manifull</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>si</li><li>Polipropileno</li><li>90 lts</li><li>Opcional</li><li>Milenio By EMD<li>EMD</li><li>✔liviano</li><li>✔practico</li><li>✔seguro</li></ul></div></div>",
         "id": "AQUALINE3",
         "idRender": "renderAqualineCard"
     },
     {
         "linea": "SKID",
         "modelo": "200 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>200 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>200 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>✔Resistencia Climatica</li><li>✔Tecnología en comunicación</li><li>✔Adaptables todo terreno</li></ul></div></div>",
         "id": "SKID1",
         "idRender": "renderSKIDCard"
     },
     {
         "linea": "SKID",
         "modelo": "400 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>400 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>400 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>✔Resistencia Climatica</li><li>✔Tecnología en comunicación</li><li>✔Adaptables todo terreno</li></ul></div></div>",
         "id": "SKID2",
         "idRender": "renderSKIDCard"
     },
     {
         "linea": "SKID",
         "modelo": "1000 lts",
-        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>1000 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>Robustez</li><li>Todo Clima</li><li>Anti Bandalico</li></ul></div></div>",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>1000 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>✔Resistencia Climatica</li><li>✔Tecnología en comunicación</li><li>✔Adaptables todo terreno</li></ul></div></div>",
         "id": "SKID3",
         "idRender": "renderSKIDCard"
     }
