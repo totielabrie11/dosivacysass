@@ -47,7 +47,7 @@ window.addEventListener('load', ()=> {
                 valorATraducir = data.weather[0].description
             
                 if (valorATraducir === "broken clouds") {valorATraducir = "muy nublado"}
-                if (valorATraducir === "light rain") {valorATraducir = "algunas llovisnas"}
+                if (valorATraducir === "light rain") {valorATraducir = "algunas lloviznas"}
                 if (valorATraducir === "moderate rain") {valorATraducir = "lluvia moderada"}
                 if (valorATraducir === "few clouds") {valorATraducir = "algunas nubes"}
                 if (valorATraducir === "clear sky") {valorATraducir = "cielo despejado"}
@@ -55,6 +55,7 @@ window.addEventListener('load', ()=> {
                 if (valorATraducir === "scattered clouds") {valorATraducir = "nubes dispersas"}
                 if (valorATraducir === "fog") {valorATraducir = "neblina"}
                 if (valorATraducir === "smoke") {valorATraducir = "humareda"}
+                if (valorATraducir === "light intensity drizzle") {valorATraducir = "llovizna ligera"}
 
                 temperaturaDescripcion.textContent = valorATraducir.toUpperCase()   
                 ubicacion.textContent = data.name 

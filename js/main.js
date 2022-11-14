@@ -321,7 +321,10 @@ function closeModalBox(){
   let $boxTools = document.getElementById('toolsBox');
   $boxTools.classList.toggle('d-none')
 }
-
+function cambiarSetter(){
+  localStorage.setItem('setter-rep', 'false')
+  localStorage.setItem('setter-man', 'false')
+}
 function settingsTools(){
   const $btnTools = document.querySelector('#btnToolsContainer');
   const $btnModalBox = document.getElementById('btnModalBox')
@@ -366,21 +369,40 @@ function settingsTools(){
       function renderManuals(manual){
   
       manual.forEach((elemento)=> {
-        const {  linea, id, img, tipo, manualRoot } =
+        var {  linea, id, img, tipo, manualRoot } =
         elemento;
-      
-        $("#manualsList").append(
-          `        
-        <tr>
-            <td><p>${linea}</p></td>
-            <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
-            <td><p>${tipo}</p></td>
-            <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
-        </tr>
-        
-        `
-      
-        );
+
+        if (localStorage.getItem('setter-man') === 'true') {
+
+          urlManualCorrection = '.'+`${manualRoot}`
+    
+          imgCorrection = '.'+`${img}`
+          console.log("🚀 ~ file: main.js ~ line 381 ~ manual.forEach ~ imgCorrection", imgCorrection)
+          $("#manualsList").append(
+            `        
+          <tr>
+              <td><p>${linea}</p></td>
+              <td><img src='${imgCorrection}' onerror="imgError(this)" width='50%'></img></td>
+              <td><p>${tipo}</p></td>
+              <td><p><a href="${urlManualCorrection}" download> Descargar</a></p></td>
+          </tr>
+          
+          `
+          )
+        }else{
+
+          $("#manualsList").append(
+            `        
+          <tr>
+              <td><p>${linea}</p></td>
+              <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
+              <td><p>${tipo}</p></td>
+              <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
+          </tr>
+          
+          `
+          )
+        }; 
       });
     }
     
@@ -391,18 +413,40 @@ function settingsTools(){
       repuestos.forEach((elemento)=> {
         const {  linea, id, img, tipo,  repuestosRoot } =
         elemento;
-        
-        $("#repuestoList").append(
-          `        
-        <tr>
-          <td><p>${linea}</p></td>
-          <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
-          <td><p>${tipo}</p></td>
-          <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
-        </tr>
-        
-        `
-        )
+
+        if (localStorage.getItem('setter-rep') === 'true') {
+          
+          urlRepuestosCorrection = '.'+`${repuestosRoot}`
+          console.log("🚀 ~ file: main.js ~ line 421 ~ repuestos.forEach ~ urlRepuestosCorrection", urlRepuestosCorrection)
+
+          imgCorrection = '.'+`${img}`
+          
+          $("#repuestoList").append(
+            `        
+          <tr>
+            <td><p>${linea}</p></td>
+            <td><img src='${imgCorrection}' onerror="imgError(this)" width='50%'></img></td>
+            <td><p>${tipo}</p></td>
+            <td><p><a href="${urlRepuestosCorrection}" download> Descargar</a></p></td>
+          </tr>
+          
+          `
+          );
+      
+        }else{
+
+          $("#repuestoList").append(
+            `        
+          <tr>
+            <td><p>${linea}</p></td>
+            <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
+            <td><p>${tipo}</p></td>
+            <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
+          </tr>
+          
+          `
+          );
+        }
       });
     }
 
@@ -418,18 +462,12 @@ function settingsTools(){
 }
 
 function imgError(img) {
+  localStorage.setItem('setter-rep', 'true')
+  localStorage.setItem('setter-man', 'true')
 
-  imagenString = img.src
-  console.log("🚀 ~ file: main.js ~ line 419 ~ imgError ~ imagenString", imagenString)
-  console.log(imagenString)
-  imgCut = imagenString.slice(34);
-  imgRutCorrection = '..' + imgCut
-    console.log("como queda recortada la imagen", imgRutCorrection)
-    
-
+  
   img.onerror = "";
-  img.src = imgRutCorrection;
- 
+  
   return true;
 
 }

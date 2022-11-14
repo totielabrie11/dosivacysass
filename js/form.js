@@ -1,5 +1,16 @@
 const doc = document
 
+const todosInputs = document.querySelectorAll('inputs')
+
+
+todosInputs.forEach = () =>{
+   addEventListener.e = (e) =>{
+    todosInputs.value
+   }
+    
+    
+} 
+
 doc.addEventListener('DOMContentLoader', (e) =>
 
     contactFormValidations()
