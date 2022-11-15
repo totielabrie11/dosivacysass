@@ -235,7 +235,7 @@
   z-index: 1;
 
   h3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     text-transform: uppercase;
 
@@ -276,10 +276,9 @@
   }
 }
 .modalDescAmpliada {
-  position: relative;
+  display: block;
 
   width: 1200px;
-  height: auto;
   padding: 10%;
   position: absolute;
   left: -170%;

@@ -44,7 +44,7 @@ html {
         overflow: hidden;
         font-family: 'Readex Pro', sans-serif;
 
-        background-image: url(../img/fondoclaro.jpeg);
+        background-image: url(https://wallpaperstock.net/blanco-y-azul-de-carbono-wallpapers_21784_1680x1050.jpg);
         background-size: 100%;
 
         background-size: cover;
@@ -106,7 +106,7 @@ nav {
 
     body.oscuro & {
 
-        background-color: rgb(219, 218, 228);
+        background-color:#808080;
     }
 
     .switchContainer {
@@ -130,7 +130,7 @@ nav {
         }
 
         body.oscuro & .dropdown-menu {
-            background-color: #80AFCB !important;
+            background-color:#1C3FBD !important;
         }
 
         li {
@@ -189,8 +189,7 @@ footer {
 
     body.oscuro & {
 
-        background-color: rgb(219, 218, 228);
-
+        background-color: #808080;
         span,
         h3,
         i {

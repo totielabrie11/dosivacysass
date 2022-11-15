@@ -459,6 +459,16 @@ function settingsTools(){
       $('.repuestos-text').toggle().removeClass('d-none');
       
     })
+
+    $('.btnPrevTools').click('click', function(){
+      
+      $('.manuales-text').toggle('d-none');
+      $('.repuestos-text').toggle().removeClass('d-none');
+
+      $('#manualsList').toggle('d-none');
+      $('#repuestoList').toggle().removeClass('d-none');
+
+    })
 }
 
 function imgError(img) {

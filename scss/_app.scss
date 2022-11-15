@@ -210,14 +210,16 @@
     border-radius: 10px;
     z-index: 1;
     overflow: auto;
-
+    
     .card-header {
         background-color: rgb(75, 72, 72) !important;
 
         body.oscuro & {
             background-color: white !important;
         }
-
+        body.claro & {
+            color: white;
+        }
         h3 {
             color: #014995 !important;
             text-align: center;
@@ -227,10 +229,12 @@
     .card-body {
         min-width: 100%;
         padding: 5%;
-        background: url(https://definicion.de/wp-content/uploads/2010/06/herramienta-1.jpg);
+        background: url(https://watermark.lovepik.com/photo/20211119/large/lovepik-wood-grain-background-of-labor-tools-in-labor-day-picture_500321975.jpg);
         overflow-y: scroll;
 
-
+        body.claro & {
+            color: white;
+        }
 
     }
 
