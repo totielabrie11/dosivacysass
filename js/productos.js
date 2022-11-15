@@ -431,7 +431,7 @@ function borrarFondo(){
     $('body').css('background-image', 'url(../img/FACHADA6.jpg)');
     console.log('fondo claro')
   }else{
-    $('body').css('background-image', 'url(../img/fondoclaro.jpeg)');
+    $('body').css('background-image', 'url(https://wallpaperstock.net/blanco-y-azul-de-carbono-wallpapers_21784_1680x1050.jpg)');
     
     console.log('fondo oscuro');
   }
