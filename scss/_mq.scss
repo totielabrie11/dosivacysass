@@ -104,16 +104,6 @@
         margin-top: 20px !important;
     }
 
-    //////////MQ DE CAROUSEL///////
-    .container3d {
-       
-
-        .item {
-            width: calc(250px - 25%);
-            height: calc(250px - 25%);
-        }
-    }
-
     .prev,
     .next {
         display: none;
@@ -191,6 +181,13 @@
 
         li a {
             font-size: 12px !important;
+        }
+    }
+}
+@media (max-width: 991px) {
+    ul {
+        li a {
+            font-size: 20px !important;
         }
     }
 }

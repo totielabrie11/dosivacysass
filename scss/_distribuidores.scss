@@ -378,7 +378,9 @@
 
     font-family: Oswald;
     text-transform: uppercase;
-
+    body.oscuro &{
+        background-color:rgba(103, 235, 26, 0.681);
+    }
     background-color: #f7911d72;
     border: 4px solid white;
 

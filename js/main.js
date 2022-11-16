@@ -52,7 +52,47 @@ function rotate(e){
   });
 }
 
-///////////////////////////SWEET ALERTS/////////////////////
+$(window).resize(function(){
+  
+  anchoPantalla = $('body').width();
+  localStorage.setItem("anchoScreen", JSON.stringify(anchoPantalla));
+
+})
+
+var mouseX;
+
+carousel.click(function(){
+  anchoPantalla = JSON.parse(localStorage.getItem("anchoScreen"));
+  $(document).mousemove(function(e) {
+    mouseX = e.pageX;
+  }).mouseover();
+
+  mitadDeLaPantalla = anchoPantalla / 2
+
+  if (mouseX <= mitadDeLaPantalla) { 
+    currdeg = currdeg + 36;
+    contadorId--
+    if (contadorId == 0) {
+      contadorId = 10
+    }
+    pintar(contadorId)
+  }else{
+    currdeg = currdeg - 36;
+    contadorId++
+    if (contadorId == 10) {
+      contadorId = 1
+    }
+    pintar(contadorId)
+  }carousel.css({
+    "-webkit-transform": "rotateY("+currdeg+"deg)",
+    "-moz-transform": "rotateY("+currdeg+"deg)",
+    "-o-transform": "rotateY("+currdeg+"deg)",
+    "transform": "rotateY("+currdeg+"deg)"
+  });
+
+})
+
+/////////////)//////////////SWEET ALERTS/////////////////////
 function settingsModals(){
 
   const $btnSelectorSetting = document.querySelector('#btnSelectorSetting');
@@ -580,6 +620,7 @@ function arrancoEmpresa(){
 var contadorId = 1;
 
 const botones = document.querySelectorAll('.boton')
+const cartaSelector = document.querySelectorAll('.item')
 
 botones.forEach(boton => {
   boton.addEventListener ('click', function(e){
