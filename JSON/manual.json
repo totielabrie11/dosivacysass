@@ -186,5 +186,19 @@
         "img": "./img/bombas/ct-removebg-preview.png",
         "tipo": "Manual operativo",
         "manualRoot": "./docs/manuales/Control total/Cexx90xx01.pdf"
+    },
+    {
+        "linea": "ISO9001",
+        "id": "ISO9001",
+        "img": "./img/multimedia/9001.png",
+        "tipo": "Certificación",
+        "manualRoot": "./docs/certificaciones/Certificado ISO-9001-2015 año 2022 Español.pdf"
+    },
+    {
+        "linea": "ISO14001",
+        "id": "ISO14001",
+        "img": "./img/multimedia/14001.png",
+        "tipo": "Certificación",
+        "manualRoot": "./docs/certificaciones/Certificado ISO-14001-2015 año 2022.pdf"
     }
 ]

@@ -392,103 +392,103 @@ function settingsTools(){
       console.log('no pude leer la lista de manuals')
     })
 
-    $.ajax({
-      method: "GET",
-      url: "../JSON/repuestos.json",
-    }).done(function(repuestos) {
-      
-        console.log(repuestos)
-        renderRepuestos(repuestos);
-      
-      }).always(function() {
-        console.log('termino de cargar los repuestos')
-      }).fail(function() {
-        console.log('no pude leer la lista de repuestos')
-      })
-  
-      function renderManuals(manual){
-  
-      manual.forEach((elemento)=> {
-        var {  linea, id, img, tipo, manualRoot } =
-        elemento;
-
-        if (localStorage.getItem('setter-man') === 'true') {
-
-          urlManualCorrection = '.'+`${manualRoot}`
+  $.ajax({
+    method: "GET",
+    url: "../JSON/repuestos.json",
+  }).done(function(repuestos) {
     
-          imgCorrection = '.'+`${img}`
-          console.log("🚀 ~ file: main.js ~ line 381 ~ manual.forEach ~ imgCorrection", imgCorrection)
-          $("#manualsList").append(
-            `        
-          <tr>
-              <td><p>${linea}</p></td>
-              <td><img src='${imgCorrection}' onerror="imgError(this)" width='50%'></img></td>
-              <td><p>${tipo}</p></td>
-              <td><p><a href="${urlManualCorrection}" download> Descargar</a></p></td>
-          </tr>
-          
-          `
-          )
-        }else{
-
-          $("#manualsList").append(
-            `        
-          <tr>
-              <td><p>${linea}</p></td>
-              <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
-              <td><p>${tipo}</p></td>
-              <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
-          </tr>
-          
-          `
-          )
-        }; 
-      });
-    }
+      console.log(repuestos)
+      renderRepuestos(repuestos);
     
+    }).always(function() {
+      console.log('termino de cargar los repuestos')
+    }).fail(function() {
+      console.log('no pude leer la lista de repuestos')
+    })
+  
+    function renderManuals(manual){
 
+    manual.forEach((elemento)=> {
+      var {  linea, id, img, tipo, manualRoot } =
+      elemento;
 
-    function renderRepuestos(repuestos){
+      if (localStorage.getItem('setter-man') === 'true') {
 
-      repuestos.forEach((elemento)=> {
-        const {  linea, id, img, tipo,  repuestosRoot } =
-        elemento;
-
-        if (localStorage.getItem('setter-rep') === 'true') {
-          
-          urlRepuestosCorrection = '.'+`${repuestosRoot}`
-          console.log("🚀 ~ file: main.js ~ line 421 ~ repuestos.forEach ~ urlRepuestosCorrection", urlRepuestosCorrection)
-
-          imgCorrection = '.'+`${img}`
-          
-          $("#repuestoList").append(
-            `        
-          <tr>
+        urlManualCorrection = '.'+`${manualRoot}`
+  
+        imgCorrection = '.'+`${img}`
+        console.log("🚀 ~ file: main.js ~ line 381 ~ manual.forEach ~ imgCorrection", imgCorrection)
+        $("#manualsList").append(
+          `        
+        <tr>
             <td><p>${linea}</p></td>
             <td><img src='${imgCorrection}' onerror="imgError(this)" width='50%'></img></td>
             <td><p>${tipo}</p></td>
-            <td><p><a href="${urlRepuestosCorrection}" download> Descargar</a></p></td>
-          </tr>
-          
-          `
-          );
-      
-        }else{
+            <td><p><a href="${urlManualCorrection}" download> Descargar</a></p></td>
+        </tr>
+        
+        `
+        )
+      }else{
 
-          $("#repuestoList").append(
-            `        
-          <tr>
+        $("#manualsList").append(
+          `        
+        <tr>
             <td><p>${linea}</p></td>
             <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
             <td><p>${tipo}</p></td>
-            <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
-          </tr>
-          
-          `
-          );
-        }
-      });
-    }
+            <td><p><a href="${manualRoot}" download> Descargar</a></p></td>
+        </tr>
+        
+        `
+        )
+      }; 
+    });
+  }
+  
+
+
+  function renderRepuestos(repuestos){
+
+    repuestos.forEach((elemento)=> {
+      const {  linea, id, img, tipo,  repuestosRoot } =
+      elemento;
+
+      if (localStorage.getItem('setter-rep') === 'true') {
+        
+        urlRepuestosCorrection = '.'+`${repuestosRoot}`
+        console.log("🚀 ~ file: main.js ~ line 421 ~ repuestos.forEach ~ urlRepuestosCorrection", urlRepuestosCorrection)
+
+        imgCorrection = '.'+`${img}`
+        
+        $("#repuestoList").append(
+          `        
+        <tr>
+          <td><p>${linea}</p></td>
+          <td><img src='${imgCorrection}' onerror="imgError(this)" width='50%'></img></td>
+          <td><p>${tipo}</p></td>
+          <td><p><a href="${urlRepuestosCorrection}" download> Descargar</a></p></td>
+        </tr>
+        
+        `
+        );
+    
+      }else{
+
+        $("#repuestoList").append(
+          `        
+        <tr>
+          <td><p>${linea}</p></td>
+          <td><img src='${img}' onerror="imgError(this)" width='50%'></img></td>
+          <td><p>${tipo}</p></td>
+          <td><p><a href="${repuestosRoot}" download> Descargar</a></p></td>
+        </tr>
+        
+        `
+        );
+      }
+    });
+  }
 
     $('.btnNextTools').click('click', function(){
       

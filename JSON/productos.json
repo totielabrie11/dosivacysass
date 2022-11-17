@@ -700,5 +700,33 @@
         "caracteristicas": "<div><span>Caracteristicas</span><ul><li>Industrial</li><li>Material Constructivo</li><li>Capacidad de tanque</li><li>Batea antiderrame</li><li>Tipo de bomba</li><br><li>Destacable</li></ul></div><div><span>Valor</span><ul><li>Si</li><li>Estructura Metálica y PP</li><br><li>1000 lts</li><br><li>Si</li><li>Neumatica y Electricas</li><li>✔Resistencia Climatica</li><li>✔Tecnología en comunicación</li><li>✔Adaptables todo terreno</li></ul></div></div>",
         "id": "SKID3",
         "idRender": "renderSKIDCard"
+    },
+    {
+        "linea": "DEON",
+        "modelo": "",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>✔Fácil instalación y mantenimiento en campo</li><li>✔Simple remplazo del embolo y su empaquetadura</li><li>✔El oscilador fácilmente reparable en campo</li><li>✔Acepta suministro de gas o aire desde 15 a 150 PSI</li><li>✔Posee doble control de volumen inyectado, con ajuste de frecuencia de bombeo mediante el regulador del oscilador y con ajuste de embolada mediante el sistema de regulación de carrera del embolo</li><li>✔Sistema de cabezal orientable 360º para configurar la posición de la inyección de acuerdo a las necesidades</li></ul></div></div>",
+        "id": "DEON1",
+        "idRender": "renderDeonCard"
+    },
+    {
+        "linea": "DAN",
+        "modelo": "",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>✔Fácil instalación y mantenimiento en campo.</li><li>✔Simple reemplazo del diafragma en caso de rotura.</li><li>✔El oscilador fácilmente reparable en campo.</li><li>✔Acepta suministro de gas o aire desde 40 a 100 PSI sin necesidad de regulador.</li><li>✔Control de volumen inyectado por ajuste de frecuencia de bombeo mediante el regulador del oscilador.</li></ul></div></div>",
+        "id": "DAN1",
+        "idRender": "renderDanCard"
+    },
+    {
+        "linea": "DEN",
+        "modelo": "",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>✔<b>Antiexplosividad:</b> Esto permite la instalación en zonas de atmósfera contaminada con gases combustibles.</li><li>✔Mejor respuesta a bajos caudales.</li><li>✔Capacidad de inyección contra altas presiones.</li><li>✔Especial para zonas desérticas: Donde no se cuenta con energía eléctrica ni frecuente mantenimiento.</li><li>✔<b>Seguridad ante bloqueos en la línea de impulsión:</b> Estas bombas cuentan con válvula de alivio ante excesiva presión de gas actuando sobre el diafragma.</li><li>✔Aptitud para operar a la intemperie en zonas de inclemencias climáticas</li></ul></div></div>",
+        "id":"DEN1",
+        "idRender": "renderDenCard"
+    },
+    {
+        "linea": "DEN-G",
+        "modelo": "",
+        "caracteristicas": "<div><span>Caracteristicas</span><ul><li>✔Cabezal en acero inoxidable AISI 316.</li><li>✔Doble válvula de succión e inyección.</li><li>✔Grifo de purga incorporado al cabezal.</li><li>✔Válvulas cerámicas/asientos inox.</li><li>✔Embolo buzo cerámico.</li><li>✔Conexiones de succión e inyección 1/4' FNPT</li><li>Engrasador manual de empaquetadura</li><li>✔Servo válvula de accionamiento con regulación de frecuencia manual</li><li>Válvula de seguridad sobre el diafragma</li><li>Regulador de presión con manómetro indicador de entrada de gas al distribuidor</li><li>Empaquetadura multi vee 'Hard Type' Opción VITON ó PTFE)</li></ul></div></div>",
+        "id":"DENG1",
+        "idRender": "renderDengCard"
     }
 ]

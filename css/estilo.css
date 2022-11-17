@@ -132,7 +132,7 @@ body.claro nav ul .dropdown-menu {
 }
 
 body.oscuro nav ul .dropdown-menu {
-  background-color: #a4abc2 !important;
+  background-color: #77797e !important;
 }
 
 nav ul li {
@@ -675,7 +675,7 @@ footer .parteder .maps {
   text-decoration: none;
   font-size: 20px;
   font-weight: 400px;
-  width: 40px;
+  width: auto;
   height: 40px;
   border-radius: 100%;
   text-align: center;
@@ -687,7 +687,7 @@ footer .parteder .maps {
 .ul-size li.active {
   background: #F7941D;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 10px;
   cursor: pointer;
 }
 
