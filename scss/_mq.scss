@@ -184,6 +184,14 @@
         }
     }
 }
+@media (max-width: 1366px) {
+    body.oscuro & ul {
+        li a {
+            font-size: 19px !important;
+        }
+    }
+}
+
 @media (max-width: 991px) {
     ul {
         li a {

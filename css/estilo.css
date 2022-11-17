@@ -51,7 +51,7 @@ html body.oscuro {
          */
   overflow: hidden;
   font-family: 'Readex Pro', sans-serif;
-  background-image: url(https://wallpaperstock.net/blanco-y-azul-de-carbono-wallpapers_21784_1680x1050.jpg);
+  background-image: url(../img/fondos/imagenOscura.png);
   background-size: 100%;
   background-size: cover;
   color: white;
@@ -83,10 +83,6 @@ html .legend h2 {
   html .legend h2 {
     font-size: 250% !important;
   }
-}
-
-body.oscuro .legend {
-  color: black;
 }
 
 nav {
@@ -136,7 +132,7 @@ body.claro nav ul .dropdown-menu {
 }
 
 body.oscuro nav ul .dropdown-menu {
-  background-color: #1C3FBD !important;
+  background-color: #a4abc2 !important;
 }
 
 nav ul li {
@@ -151,7 +147,7 @@ nav ul li a {
 }
 
 body.claro nav ul li a {
-  color: #a8a8a8 !important;
+  color: #eddfdf !important;
   text-shadow: 1px 1px 1px white;
 }
 
@@ -509,6 +505,12 @@ footer .parteder .maps {
   }
   ul li a {
     font-size: 12px !important;
+  }
+}
+
+@media (max-width: 1366px) {
+  body.oscuro ul li a {
+    font-size: 19px !important;
   }
 }
 
@@ -2301,7 +2303,7 @@ div.rueda section {
 .f {
   -webkit-transform: rotateY(180deg) translateZ(450px);
           transform: rotateY(180deg) translateZ(450px);
-  background: url(../img/productsSelect/neumatica1.jpeg);
+  background: url(../img/productsSelect/neumatico.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -2375,7 +2377,7 @@ div.rueda section {
 }
 
 body.oscuro .prev {
-  background-color: #000 !important;
+  background-color: #FFD600 !important;
   color: white;
 }
 

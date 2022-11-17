@@ -131,7 +131,7 @@ div.rueda section {
 
 .f {
   transform: rotateY(180deg) translateZ(450px);
-  background: url(../img/productsSelect/neumatica1.jpeg);
+  background: url(../img/productsSelect/neumatico.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: contain;
@@ -188,7 +188,7 @@ div.rueda section {
   clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
   
   body.oscuro & {
-    background-color: #000 !important;
+    background-color: #FFD600!important;
     color: white;
   }
   background-color: white;

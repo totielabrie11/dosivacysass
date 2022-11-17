@@ -118,21 +118,21 @@
         "manualRoot": "./docs/manuales/DVP-DVRII/59002.pdf"
     },
     {
-        "linea": "SUPERVAC/VP1",
+        "linea": "VP1",
         "id": "supervacvp1",
         "img": "./img/bombas/Supervac-removebg-preview.png",
         "tipo": "Manual operativo",
         "manualRoot": "./docs/manuales/Supervac/file-1649937644206.pdf"
     },
     {
-        "linea": "DVR BLUE",
+        "linea": "DVR",
         "id": "dvrblue",
         "img": "./img/bombas/DVR6-removebg-preview (1).png",
         "tipo": "Manual operativo",
         "manualRoot": "./docs/manuales/DVR BLUE/file-1650906879313.pdf"
     },
     {
-        "linea": "RECUPERADORA",
+        "linea": "REC/GAS",
         "id": "recuperadora",
         "img": "./img/bombas/recuperadora-removebg-preview.png",
         "tipo": "Manual operativo",
@@ -174,14 +174,14 @@
         "manualRoot": "./docs/manuales/MDI/A19292001.pdf"
     },
     {
-        "linea": "Divisor de caudal",
+        "linea": "Divisor",
         "id": "divisor",
         "img": "./img/bombas/divisor-background.png",
         "tipo": "Manual operativo",
         "manualRoot": "./docs/manuales/Divisor de caudal/CE1222001.pdf"
     },
     {
-        "linea": "Control Total",
+        "linea": "Control",
         "id": "control total",
         "img": "./img/bombas/ct-removebg-preview.png",
         "tipo": "Manual operativo",

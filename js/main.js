@@ -18,12 +18,12 @@ btnSwitch.addEventListener('click', () => {
 });
 
 //obtenenmos el modo actual
-if (localStorage.getItem('dark-mode') === 'true') {
-	d.body.classList.add('oscuro');	
+if (localStorage.getItem('dark-mode') === 'false') {
+	d.body.classList.add('claro');	
 	btnSwitch.classList.add('active');
 }else{
-	d.body.classList.remove('oscuro');
-  d.body.classList.add('claro')
+	d.body.classList.remove('claro');
+  d.body.classList.add('oscuro')
 	btnSwitch.classList.remove('active');
 }
 
@@ -79,7 +79,7 @@ carousel.click(function(){
   }else{
     currdeg = currdeg - 36;
     contadorId++
-    if (contadorId == 10) {
+    if (contadorId > 10) {
       contadorId = 1
     }
     pintar(contadorId)
