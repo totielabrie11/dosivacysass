@@ -248,3 +248,31 @@
     }
 
 }
+/////////////////////Estilo de aviso de notify pendientes////////////////////
+.popupCerrado, .popup{
+    position: absolute;
+    right: -411px;
+    top: 70px;
+    
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+    background-color: grey;
+    transition: ease all 2s;
+
+    box-shadow: -11px 11px 1px rgba(0, 0, 0, 0.3);
+
+    cursor: pointer;
+
+    span{
+        font-size: 20px;
+    }
+    @media(max-width: 394px){
+        width: 100% !important;
+        margin: auto !important;
+    }
+}
+.popup{
+    right: 0px;
+}
+
