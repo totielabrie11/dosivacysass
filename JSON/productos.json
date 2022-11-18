@@ -728,5 +728,12 @@
         "caracteristicas": "<div><span>Caracteristicas</span><ul><li>✔Cabezal en acero inoxidable AISI 316.</li><li>✔Doble válvula de succión e inyección.</li><li>✔Grifo de purga incorporado al cabezal.</li><li>✔Válvulas cerámicas/asientos inox.</li><li>✔Embolo buzo cerámico.</li><li>✔Conexiones de succión e inyección 1/4' FNPT</li><li>Engrasador manual de empaquetadura</li><li>✔Servo válvula de accionamiento con regulación de frecuencia manual</li><li>Válvula de seguridad sobre el diafragma</li><li>Regulador de presión con manómetro indicador de entrada de gas al distribuidor</li><li>Empaquetadura multi vee 'Hard Type' Opción VITON ó PTFE)</li></ul></div></div>",
         "id":"DENG1",
         "idRender": "renderDengCard"
+    },
+    {
+        "linea": "ESPECIALES",
+        "modelo": "",
+        "caracteristicas": "<div><span>Equipos especiales a medida</span><ul><li>✔ Nuestro equipo de ingenieros desarrollan equipos especiales de dosificación adaptables para todo tipo de industria o campo petrolero</li><br><li>✔ Contamos con taller propio que incorpora laboratorio de ensayos para validar los desarrollos especiales</li><br><li>✔ Con instrumentación y accesorios configurables</li></div>",
+        "id":"EQUIPOESPECIAL1",
+        "idRender": "renderEspecialCard"
     }
 ]
