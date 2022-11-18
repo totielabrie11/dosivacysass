@@ -224,11 +224,12 @@
 
 .modalDesc {
   position: relative;
+  padding-bottom: 30px;
 
-  width: 120%;
-  height: 35rem;
+  width: 140%;
+  height: auto;
   position: absolute;
-  left: -30px;
+  left: -55px;
   bottom: 0;
   background: #F7941D;
   border: 5px solid white;
@@ -273,69 +274,6 @@
 
   .espacioRedes {
     border: 3px solid black
-  }
-}
-.modalDescAmpliada {
-  display: block;
-
-  width: 1200px;
-  padding: 10%;
-  position: absolute;
-  left: -170%;
-  bottom: 0;
-  background: #F7941D;
-  border: 5px solid white;
-  z-index: 1;
-
-  h3 {
-    font-size: 40px;
-    font-weight: 800;
-    text-transform: uppercase;
-
-    text-align: center;
-    justify-content: center;
-  }
-
-  span {
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 28px;
-
-  }
-
-  ul {
-    margin-top: 20px;
-    color: #000;
-
-
-    li {
-      list-style: none;
-      font-weight: 600;
-    }
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-
-  }
-
-  img {
-    margin-left: 20px;
-  }
-
-  .espacioRedes {
-    border: 3px solid black
-  }
-  img{
-    width: 20%;
-  }
-  .fotoDescription{
-    width: 50%;
-    height: 100%;
-    img{
-      width: 100%;
-    }
   }
 }
 
