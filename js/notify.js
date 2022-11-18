@@ -15,7 +15,17 @@ $.ajax({
 
 
 //////////////////SETTER DE BOTONES PARA LAS NOTIFY/////////////////////////
+function popupNotificaciones() {
+  btnPopup.addEventListener("click", function(){
 
+    let $boxNotifys = document.getElementById('notifyBox');
+    
+    $boxNotifys.classList.toggle('d-none')  
+
+    
+   
+  });
+}
 function closeModalNotify(){
   let $boxNotifys = document.getElementById('notifyBox');
   $boxNotifys.classList.toggle('d-none')
@@ -32,16 +42,7 @@ const btnPopup = document.getElementById("popup");
     
    
   });
-  btnPopup.addEventListener("click", function(){
-
-    let $boxNotifys = document.getElementById('notifyBox');
-    
-    $boxNotifys.classList.toggle('d-none')  
-
-    
-   
-  });
-
+ 
 
 let arrayNotiRenderBox = [];
 function nuevoEventToLCS(notify){
@@ -122,6 +123,7 @@ function notifyDetector(notify){
   if(result){
     console.log('no tengo nuevas notificaciones')
     renderNoTengoNotification()
+    renderSinPopup()
   }else{
       
     console.log('tengo nuevas notificaciones')
@@ -132,16 +134,23 @@ function notifyDetector(notify){
   
 }
   
-
+function renderSinPopup(){
+  $('#popup').addClass('d-none');
+}
   
 
 function renderPopup(){
-
+ 
   $('#popup').addClass('popup')
 
   setTimeout(function(){
     $('#popup').removeClass('popup')
+    
   }, 10000);
+  setTimeout(function(){
+    $('#popup').addClass('d-none')
+    
+  }, 12000);
 
   //verificar que el navegador soporte notificaciones
 
